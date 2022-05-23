@@ -1,0 +1,141 @@
+{
+  "layoutComponent": {
+    "layout-1": {
+      "componentKind": "layoutComponent",
+      "id": "layout-1",
+      "name": "レイアウトパーツ：1列",
+      "backgroundColor": "",
+      "layoutNum": 1,
+      "layoutType": "1",
+      "componentList": [[]]
+    },
+    "layout-2": {
+      "componentKind": "layoutComponent",
+      "id": "layout-2",
+      "name": "レイアウトパーツ：2列",
+      "backgroundColor": "",
+      "layoutNum": 2,
+      "layoutType": "1",
+      "componentList": [[], []]
+    },
+    "layout-3": {
+      "componentKind": "layoutComponent",
+      "id": "layout-3",
+      "name": "レイアウトパーツ：3列",
+      "backgroundColor": "",
+      "layoutNum": 3,
+      "layoutType": "1",
+      "componentList": [[], [], []]
+    }
+  },
+  "singleComponent": {
+    "heading1": {
+      "componentKind": "singleComponent",
+      "id": "heading1",
+      "color": "",
+      "name": "見出し1",
+      "context": "<特大見出し>を入力してください",
+      "align": "1",
+      "link": ""
+    },
+    "heading2": {
+      "componentKind": "singleComponent",
+      "id": "heading2",
+      "color": "",
+      "name": "見出し2",
+      "context": "<大見出し>を入力してください",
+      "align": "1",
+      "link": ""
+    },
+    "heading3": {
+      "componentKind": "singleComponent",
+      "id": "heading3",
+      "color": "",
+      "name": "見出し3",
+      "context": "<中見出し>を入力してください",
+      "align": "1",
+      "link": ""
+    },
+    "text": {
+      "componentKind": "singleComponent",
+      "id": "text",
+      "color": "",
+      "name": "テキスト",
+      "context": "<テキスト>を入力してください",
+      "align": "1",
+      "link": ""
+    },
+    "list": {
+      "componentKind": "singleComponent",
+      "id": "list",
+      "color": "",
+      "name": "リスト",
+      "context": "テキスト",
+      "symbolType": "1",
+      "list": [
+        {
+          "text": "<リスト項目>を入力してください",
+          "link": ""
+        }
+      ]
+    },
+    "annotation": {
+      "componentKind": "singleComponent",
+      "id": "annotation",
+      "name": "注釈",
+      "symbolType": "1",
+      "annotationList": [
+        {
+          "text": "<注釈>を入力してください",
+          "link": ""
+        }
+      ],
+      "spaceInfo": {
+        "spaceKind": "1",
+        "space": "1",
+        "topSpace": "1",
+        "bottomSpace": "1",
+        "leftSpace": "1",
+        "rightSpace": "1"
+      }
+    },
+    "image": {
+      "componentKind": "singleComponent",
+      "id": "image",
+      "name": "画像",
+      "image": "",
+      "imageName": "",
+      "align": "1",
+      "alternateText": "",
+      "width": "",
+      "height": "",
+      "link": ""
+    },
+    "button": {
+      "componentKind": "singleComponent",
+      "id": "button",
+      "name": "ボタン",
+      "kind": "2",
+      "width": "224",
+      "height": "56",
+      "align": "1",
+      "text": "テキストを入力",
+      "link": "",
+      "backgroundColor": "#9bdcf7",
+      "color": "#ffffff"
+    },
+    "separator": {
+      "componentKind": "singleComponent",
+      "id": "separator",
+      "name": "区切り線",
+      "color": "#1e1e1e",
+      "selectHeight": "1"
+    },
+    "space": {
+      "componentKind": "singleComponent",
+      "id": "space",
+      "name": "空白",
+      "selectHeight": "1"
+    }
+  }
+}

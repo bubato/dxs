@@ -1,0 +1,8 @@
+{
+  "result": 0,
+  "sendCountCheckFlag": false,
+  "sendCount": {
+    "totalCount": 100,
+    "ableCount": 15
+  }
+}

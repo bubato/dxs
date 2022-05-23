@@ -1,0 +1,324 @@
+{
+  "result": 0,
+  "editFormData": {
+    "formTitle": "フォームタイトル",
+    "formId": 1101,
+    "formSettings": {
+      "selectParts": [
+        {
+          "partsKind": "baseParts",
+          "id": "step",
+          "partsId": 111,
+          "name": "ステップ",
+          "tagId": "",
+          "partsData": {
+            "title": "ステップ",
+            "parts_attr": {
+              "input_scrn": "入力",
+              "confirm_scrn": "確認",
+              "complete_scrn": "完了"
+            }
+          }
+        },
+        {
+          "partsKind": "setParts",
+          "id": "address",
+          "partsId": 222,
+          "name": "住所",
+          "tagId": false,
+          "partsData": {
+            "title": "住所",
+            "required_flg": false,
+            "parts_id_attr": "1123",
+            "parts_class_attr": "parts_class",
+            "parts_attr": {
+              "annotation_pos": "1",
+              "annotation": "aaaa"
+            },
+            "postal_code_attr": {
+              "id_attr": "id",
+              "partsId": 1111,
+              "class_attr": "class",
+              "parts_attr": {
+                "label": "郵便番号",
+                "placeholder": "placeholder"
+              }
+            },
+            "auto_fill_btn_attr": {
+              "class_attr": "class",
+              "partsId": 2222,
+              "parts_attr": {
+                "label": "自動入力"
+              }
+            },
+            "prefecture_attr": {
+              "id_attr": "id",
+              "partsId": 3333,
+              "class_attr": "class",
+              "parts_attr": {
+                "label": "都道府県"
+              }
+            },
+            "city_attr": {
+              "id_attr": "id",
+              "partsId": 4444,
+              "class_attr": "class",
+              "parts_attr": {
+                "label": "市区町村",
+                "placeholder": "placeholder"
+              }
+            },
+            "street_address_attr": {
+              "id_attr": "id",
+              "partsId": 5555,
+              "class_attr": "class",
+              "parts_attr": {
+                "label": "番地",
+                "placeholder": "placeholder"
+              }
+            },
+            "building_name_attr": {
+              "id_attr": "id",
+              "partsId": 6666,
+              "class_attr": "class",
+              "parts_attr": {
+                "label": "建物名",
+                "placeholder": "placeholder"
+              }
+            }
+          }
+        }
+      ],
+      "inputScreenSendBtnName": "次へ",
+      "showConfirmScreen": "1",
+      "sendBtnName": "上記の内容で送信する",
+      "backBtnName": "戻る",
+      "showCompleteScreen": "1",
+      "completeScreenMessage": "完了画面に表示するメッセージを入力してください",
+      "completeScreenDownloadFileAttachmentFlag": "1",
+      "downloadFile": [
+        {
+          "fileTitle": "testA",
+          "classAttribute": "aaaaa",
+          "downloadFileId": 111,
+          "url": "https://www.tribeck.jp/"
+        }
+      ],
+      "showCompleteBtn": "1",
+      "completeBtnName": "トップページへ戻る",
+      "completeBtnUrl": "https://www.tribeck.jp",
+      "completeBtnRedirectUrl": "https://www.tribeck.jp"
+    },
+    "mailSettings": {
+      "sourceSettings": {
+        "subject": "【ザビエル】フォームから回答がありましたよ。",
+        "showName": "表示名",
+        "mailAddress": "送信元メールアドレス"
+      },
+      "sendSettings": {
+        "mailAddress": "test@exampe.jp",
+        "bodyText": "メール本文{@@cUrlAdminAnswerPage@@}"
+      },
+      "answerSettings": {
+        "autoReply": "1",
+        "subject": "件名",
+        "sourceShowName": "送信元表示名",
+        "sourceMailAddress": "test2@example.jp",
+        "bodyText": "メール本文{@@p111@@}{@@cFormTitle@@}"
+      }
+    },
+    "publishSettings": {
+      "releaseFlag": 0,
+      "receptionPeriodSettings": {
+        "receptionPeriod": "1",
+        "acceptedStartDate": "2021/03/02",
+        "acceptedStartHours": "4",
+        "acceptedStartMinutes": "12",
+        "acceptedEndDate": "2021/03/14",
+        "acceptedEndHours": "10",
+        "acceptedEndMinutes": "25",
+        "outsideTheReceptionPeriodeBeforeMessage": "受付期間前の表示メッセージ",
+        "outsideTheReceptionPeriodeAfterMessage": "受付期間後の表示メッセージ"
+      },
+      "capacitySettings": {
+        "limitAnswer": "1",
+        "capacity": "1",
+        "expiredMessage": "定員満了時のメッセージ"
+      },
+      "securitySettings": {
+        "antiSpamFunction": true,
+        "messageLanguage": "1"
+      },
+      "otherSettings": {
+        "statusManagement": "1",
+        "statusManagementTexts": ["ステータス管理テキスト"]
+      }
+    },
+    "otherSettings": {
+      "formTag": {
+        "formTag": "<script type=\"application/javascript\" src=\"https://form.xdata.jp/form.js?site_id=500507&form_id=405\" charset=\"UTF-8\" defer></script>",
+        "previewTag": "<script type=\"application/javascript\" src=\"https://form.xdata.jp/form.js?site_id=500507&form_id=406\" charset=\"UTF-8\" defer></script>"
+      },
+      "css": {
+        "editItemList": [
+          {
+            "id": "xhm-sex",
+            "css": "/* 性別ラジオボタン */\n.xhm-sex {\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-sex ul {\n  list-style: none;\n  padding: 0 1em;\n}\n\n.xhm-sex ul li {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n}\n\n.xhm-sex.xhm-radio-break ul li:not(:last-child) {\n  margin-bottom: 8px;\n}\n\n.xhm-sex.xhm-radio-break .xhm-grid {\n  display: block;\n}\n\n.xhm-sex.xhm-sex-no-break input[type='radio'] {\n  margin-left: 1em;\n}\n\n.xhm-sex.xhm-sex-no-break label {\n  margin-right: 1em;\n}\n\n/* layout */\n.xhm-sex .xhm-grid-cell {\n  -webkit-box-flex: initial;\n  -ms-flex: initial;\n  flex: initial;\n  width: 100%;\n  margin-bottom: 8px;\n}"
+          },
+          {
+            "id": "xhm-name",
+            "css": "/* お名前テキストフィールド */\n.xhm-name {\n  display: block;\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n/* layout */\n.xhm-name .xhm-grid-grow--4 {\n  -webkit-box-flex: initial;\n  -ms-flex: initial;\n  flex: initial;\n  width: 100%;\n}\n\n.xhm-name .xhm-grid-cell {\n  margin-bottom: 8px;\n}"
+          },
+          {
+            "id": "xhm-step",
+            "css": "/* ステップ */\n.xhm-step nav {\n  width: 100%;\n  margin: 1em auto;\n  overflow: hidden;\n}\n\n.xhm-step ul {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  position: relative;\n  list-style: none;\n  margin: 0 0 1em;\n  padding: 0;\n  text-align: center;\n  width: 100%;\n  overflow: hidden;\n}\n\n.xhm-step li {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  position: relative;\n  width: 33.333%;\n  -webkit-box-flex: 1;\n  -ms-flex: 1;\n  flex: 1;\n  height: 40px;\n  padding: 0 24px 0 8px;\n  color: #8d8d8d;\n  background-color: #ebeced;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\n.xhm-step li:first-child {\n  border-top-left-radius: 4px;\n  border-bottom-left-radius: 4px;\n}\n\n.xhm-step li:last-child {\n  border-top-right-radius: 4px;\n  border-bottom-right-radius: 4px;\n}\n\n.xhm-step li:before,\n.xhm-step li:after {\n  position: absolute;\n  left: -15px;\n  display: block;\n  content: '';\n  background-color: #ebeced;\n  border-left: 8px solid #fff;\n  width: 20px;\n  height: 20px;\n}\n\n.xhm-step li:before {\n  bottom: 0;\n  -webkit-transform: skew(-30deg);\n  -ms-transform: skew(-30deg);\n  transform: skew(-30deg);\n}\n\n.xhm-step li:after {\n  top: 0;\n  -webkit-transform: skew(30deg);\n  -ms-transform: skew(30deg);\n  transform: skew(30deg);\n}\n\n.xhm-step li:first-child:before,\n.xhm-step li:first-child:after {\n  display: none;\n}\n\n.xhm-step .current {\n  color: #fff;\n  background-color: #4f7df0;\n}\n\n.xhm-step.step-2 li {\n  width: 50%;\n}"
+          },
+          {
+            "id": "xhm-text",
+            "css": "/* テキスト */\n.xhm-text {\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-text p {\n  font-size: 15px;\n  line-height: 1.8;\n}"
+          },
+          {
+            "id": "xhm-label",
+            "css": "/* ラジオボタンとチェックボックスのラベル */\n.xhm-label {\n  font-weight: 500;\n}"
+          },
+          { "id": "xhm-other", "css": "/* その他 */\n.xhm-other{\n}" },
+          {
+            "id": "xhm-radio",
+            "css": "/* ラジオボタン */\n.xhm-radio {\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-radio ul {\n  list-style: none;\n  padding: 0 1em;\n}\n\n.xhm-radio ul li {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n}\n\n.xhm-radio.xhm-radio-break ul li:not(:last-child) {\n  margin-bottom: 8px;\n}\n\n.xhm-radio.xhm-radio-break .xhm-grid {\n  display: block;\n}\n\n.xhm-radio.xhm-radio-no-break label {\n  margin-right: 1em;\n  margin-left: 1em;\n}\n\n/* layout */\n.xhm-radio .xhm-grid-cell {\n  -webkit-box-flex: initial;\n  -ms-flex: initial;\n  flex: initial;\n  width: 100%;\n  margin-bottom: 8px;\n}"
+          },
+          {
+            "id": "xhm-style",
+            "css": "* {\n  font-family: Roboto, 'Noto Sans JP', '游ゴシック', YuGothic, 'Yu Gothic',\n    'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', Arial, 'メイリオ',\n    Meiryo, sans-serif;\n}\n\n.preview-area-card .card-body {\n  -webkit-transition: z-index 0ms 5.28455ms;\n  -o-transition: z-index 0ms 5.28455ms;\n  transition: z-index 0ms 5.28455ms;\n  color: #1e1e1e;\n  background: #fff;\n}\n\nsection {\n  margin-left: 12px !important;\n  margin-right: 12px !important;\n}\n\nselect {\n  height: 48px;\n  background: #f7f8f9;\n  border: 1px solid #e5e5e5;\n  border-radius: 4px;\n  color: #1e1e1e;\n  padding: 13px 40px 13px 16px;\n  outline: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  position: relative;\n}\n\nselect:focus {\n  -webkit-box-shadow: 0px 0px 3px 1px #007aff;\n  box-shadow: 0px 0px 3px 1px #007aff;\n  border: 1px solid #007aff;\n}\n\nselect option {\n  color: #1e1e1e;\n}\n\nselect::-ms-expand {\n  display: none;\n}\n\ninput[type='text'],\ninput[type='number'],\ninput[type='tel'],\ninput[type='password'] {\n  height: 48px;\n  background: #f7f8f9;\n  border: 1px solid #e5e5e5;\n  border-radius: 4px;\n  color: #1e1e1e;\n  padding: 13px 16px;\n  outline: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\ninput[type='text']::placeholder,\ninput[type='number']::placeholder,\ninput[type='tel']::placeholder,\ninput[type='password']::placeholder {\n  color: #d2d2d2;\n}\n\ninput[type='text']::-webkit-input-placeholder,\ninput[type='number']::-webkit-input-placeholder,\ninput[type='tel']::-webkit-input-placeholder,\ninput[type='password']::-webkit-input-placeholder {\n  color: #d2d2d2;\n}\n\ninput[type='text']::-moz-placeholder,\ninput[type='number']::-moz-placeholder,\ninput[type='tel']::-moz-placeholder,\ninput[type='password']::-moz-placeholder {\n  color: #d2d2d2;\n}\n\ninput[type='text']:-ms-input-placeholder,\ninput[type='number']:-ms-input-placeholder,\ninput[type='tel']:-ms-input-placeholder,\ninput[type='password']:-ms-input-placeholder {\n  color: #d2d2d2;\n}\n\ninput[type='text']::-ms-input-placeholder,\ninput[type='number']::-ms-input-placeholder,\ninput[type='tel']::-ms-input-placeholder,\ninput[type='password']::-ms-input-placeholder {\n  color: #d2d2d2;\n}\n\ninput[type='text']:not(:read-only):not(:disabled):focus,\ninput[type='number']:focus,\ninput[type='tel']:focus,\ninput[type='password']:focus {\n  -webkit-box-shadow: 0px 0px 3px 1px #007aff;\n  box-shadow: 0px 0px 3px 1px #007aff;\n  border: 1px solid #007aff;\n}\n\ninput[type='text']:read-only,\ninput[type='number']:read-only,\ninput[type='tel']:read-only,\ninput[type='password']:read-only,\ninput[type='text']:disabled,\ninput[type='number']:disabled,\ninput[type='tel']:disabled,\ninput[type='password']:disabled {\n  background: #cdced0;\n  pointer-events: none;\n}\n\ninput[type='radio'] {\n  width: 18px;\n  height: 18px;\n  display: none;\n}\n\ninput[type='radio'] + label {\n  padding-left: 28px;\n  position: relative;\n  cursor: pointer;\n}\n\ninput[type='radio'] + label::before {\n  background: #f7f8f9;\n  border: 1px solid #d3d3d3;\n  border-radius: 50%;\n  content: '';\n  display: block;\n  height: 18px;\n  left: 0;\n  position: absolute;\n  top: 50%;\n  -webkit-transform: translateY(-50%);\n  -ms-transform: translateY(-50%);\n  transform: translateY(-50%);\n  width: 18px;\n}\n\ninput[type='radio']:checked + label::before {\n  background: #fff;\n  border: 5px solid #007aff;\n  border-radius: 50%;\n}\n\ninput[type='checkbox'] {\n  display: none;\n}\n\ninput[type='checkbox'] + label {\n  padding-left: 30px;\n  position: relative;\n  cursor: pointer;\n}\n\ninput[type='checkbox'] + label::before {\n  content: '';\n  background: #f7f8f9;\n  border: #d3d3d3 1px solid;\n  border-radius: 4px;\n  display: block;\n  height: 18px;\n  top: 50%;\n  -webkit-transform: translateY(-50%);\n  -ms-transform: translateY(-50%);\n  transform: translateY(-50%);\n  left: 0;\n  position: absolute;\n  width: 18px;\n}\n\ninput[type='checkbox'] + label::after {\n  content: '';\n  border-bottom: 2px solid #fff;\n  border-left: 2px solid #fff;\n  display: block;\n  height: 7px;\n  left: 3px;\n  margin-top: -0.2em;\n  opacity: 0;\n  position: absolute;\n  top: 12px;\n  -webkit-transform: translateY(-50%) rotate(-45deg);\n  -ms-transform: translateY(-50%) rotate(-45deg);\n  transform: translateY(-50%) rotate(-45deg);\n  width: 11px;\n}\n\ninput[type='checkbox']:checked + label::before {\n  background: #007aff;\n  border: none;\n}\n\ninput[type='checkbox']:checked + label::after {\n  opacity: 1;\n}\n\ntextarea {\n  height: 100%;\n  border: 1px solid #e5e5e5;\n  background: #f7f8f9;\n  border-radius: 4px;\n  padding: 16px 0 0 16px;\n  outline: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\ntextarea::placeholder {\n  color: #d2d2d2;\n}\n\ntextarea::-webkit-input-placeholder {\n  color: #d2d2d2;\n}\n\ntextarea::-moz-placeholder {\n  color: #d2d2d2;\n}\n\ntextarea:-ms-input-placeholder {\n  color: #d2d2d2;\n}\n\ntextarea::-ms-input-placeholder {\n  color: #d2d2d2;\n}\n\ntextarea::placeholder {\n  color: #d2d2d2;\n}\n\ntextarea:not(:read-only):not(:disabled):focus {\n  -webkit-box-shadow: 0px 0px 3px 1px #007aff;\n  box-shadow: 0px 0px 3px 1px #007aff;\n  border: 1px solid #007aff;\n}\n\ntextarea:read-only,\ntextarea:disabled {\n  background: #cdced0;\n  pointer-events: none;\n}\n\n.preview-area .card-body input,\n.preview-area .card-body textarea,\n.preview-area .card-body button,\n.preview-area .card-body select {\n  font-size: 15px;\n  outline: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\n.container {\n  width: 100%;\n  margin: 0 auto;\n  padding: 0;\n}\n\n@media screen and (min-width: 560px) {\n  .container {\n    width: 100%;\n  }\n}\n\n@media screen and (min-width: 1024px) {\n  .container {\n    width: 1024px;\n  }\n}\n\n@media screen and (max-width: 767px) {\n  [class^='xhm-'] input,\n  [class^='xhm-'] textarea,\n  [class^='xhm-'] select {\n    font-size: 15px;\n  }\n}\n\n.xhm-grid {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n  -ms-flex-flow: row;\n  flex-flow: row;\n  -ms-flex-wrap: wrap;\n  flex-wrap: wrap;\n}\n\n.xhm-grid-cell {\n  -webkit-box-flex: 1;\n  -ms-flex: 1;\n  flex: 1;\n}\n\n@media screen and (max-width: 767px) {\n  .xhm-grid-clear {\n    display: block;\n  }\n}\n\n.xhm-grid-clear:after {\n  content: '';\n  display: block;\n  margin: 0 0 10px 0;\n}\n\n.xhm-grid--gutters {\n  margin-left: -1em;\n}\n\n.xhm-grid--gutters .xhm-grid-cell {\n  padding-left: 1em;\n}\n\n.xhm-grid--right {\n  -webkit-box-pack: end;\n  -ms-flex-pack: end;\n  justify-content: flex-end;\n}\n\n.xhm-grid--center {\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n}\n\n.xhm-grid--top {\n  -webkit-box-align: start;\n  -ms-flex-align: start;\n  align-items: flex-start;\n}\n\n.xhm-grid--bottom {\n  -webkit-box-align: end;\n  -ms-flex-align: end;\n  align-items: flex-end;\n}\n\n.xhm-grid--center {\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n}\n\n.xhm-grid-cell--top {\n  -ms-flex-item-align: start;\n  align-self: flex-start;\n}\n\n.xhm-grid-cell--bottom {\n  -ms-flex-item-align: end;\n  align-self: flex-end;\n}\n\n.xhm-grid-cell--center {\n  -ms-flex-item-align: center;\n  -ms-grid-row-align: center;\n  align-self: center;\n}\n\n.xhm-grid-grow--4 {\n  -webkit-box-flex: 4;\n  -ms-flex-positive: 4;\n  flex-grow: 4;\n}\n\n.xhm-grid--cols-2 > .xhm-grid-cell {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 100%;\n  flex: 0 0 100%;\n  margin: 0 0 1rem 0;\n}\n\n.xhm-grid--cols-3 > .xhm-grid-cell {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 100%;\n  flex: 0 0 100%;\n}\n\n.xhm-grid--cols-4 > .xhm-grid-cell {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 100%;\n  flex: 0 0 100%;\n}\n\n.xhm-grid--cols-6 > .xhm-grid-cell {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 calc(50% - 1em);\n  flex: 0 0 calc(50% - 1em);\n}\n\n.xhm-grid--cols-12 > .xhm-grid-cell {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 calc(33.3333% - 1em);\n  flex: 0 0 calc(33.3333% - 1em);\n}\n\n.xhm-grid--holly-grail .aside,\n.xhm-grid--holly-grail .main {\n  -webkit-box-flex: 1;\n  -ms-flex: 1 100%;\n  flex: 1 100%;\n}\n\n.xhm-grid--1of2 > .xhm-grid-cell,\n.xhm-grid--1of4 > .xhm-grid-cell:first-of-type,\n.xhm-grid--1of3 > .xhm-grid-cell:first-of-type {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 100%;\n  flex: 0 0 100%;\n}\n\n.xhm-grid--1of6 > .xhm-grid-cell:first-of-type {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 50%;\n  flex: 0 0 50%;\n}\n\n.xhm-grid--fit > .xhm-grid-cell {\n  -webkit-box-flex: 1;\n  -ms-flex: 1;\n  flex: 1;\n}\n\n.xhm-grid--full > .xhm-grid-cell {\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 100%;\n  flex: 0 0 100%;\n}\n\n@media (min-width: 30em) {\n  .xhm-grid--cols-4 > .xhm-grid-cell {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 calc(50% - 1em);\n    flex: 0 0 calc(50% - 1em);\n  }\n\n  .xhm-grid--cols-6 > .xhm-grid-cell {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 calc(33.3333% - 1em);\n    flex: 0 0 calc(33.3333% - 1em);\n  }\n\n  .xhm-grid--cols-12 > .xhm-grid-cell {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 calc(16.6666% - 1em);\n    flex: 0 0 calc(16.6666% - 1em);\n  }\n\n  .xhm-grid--holly-grail .aside {\n    -webkit-box-flex: 1;\n    -ms-flex: 1 calc(25% - 1em);\n    flex: 1 calc(25% - 1em);\n  }\n\n  .xhm-grid--1of2 > .xhm-grid-cell {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n  }\n\n  .xhm-grid--1of6 > .xhm-grid-cell:first-of-type {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 30%;\n    flex: 0 0 30%;\n  }\n\n  .xhm-grid--1of4 > .xhm-grid-cell:first-of-type {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n  }\n\n  .xhm-grid--1of4-reverse > .xhm-grid-cell:last-of-type {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 72%;\n    flex: 0 0 72%;\n  }\n\n  .xhm-grid--1of3 > .xhm-grid-cell:first-of-type {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n  }\n}\n\n@media (min-width: 48em) {\n  .xhm-grid--cols-2 > .xhm-grid-cell,\n  .xhm-grid--cols-3 > .xhm-grid-cell,\n  .xhm-grid--cols-4 > .xhm-grid-cell,\n  .xhm-grid--cols-6 > .xhm-grid-cell,\n  .xhm-grid--cols-12 > .xhm-grid-cell {\n    -webkit-box-flex: 1;\n    -ms-flex: 1;\n    flex: 1;\n  }\n\n  .xhm-grid--holly-grail .main {\n    -webkit-box-flex: 2;\n    -ms-flex: 2;\n    flex: 2;\n  }\n\n  .xhm-grid--holly-grail .aside {\n    -webkit-box-flex: 1;\n    -ms-flex: 1;\n    flex: 1;\n  }\n\n  .xhm-grid--holly-grail .aside-1 {\n    -webkit-box-ordinal-group: 2;\n    -ms-flex-order: 1;\n    order: 1;\n  }\n\n  .xhm-grid--holly-grail .main {\n    -webkit-box-ordinal-group: 3;\n    -ms-flex-order: 2;\n    order: 2;\n  }\n\n  .xhm-grid--holly-grail .aside-2 {\n    -webkit-box-ordinal-group: 4;\n    -ms-flex-order: 3;\n    order: 3;\n  }\n\n  .xhm-grid--1of2 > .xhm-grid-cell {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 50%;\n    flex: 0 0 50%;\n  }\n\n  .xhm-grid--1of6 > .xhm-grid-cell:first-of-type {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 16.6666%;\n    flex: 0 0 16.6666%;\n  }\n\n  .xhm-grid--1of4 > .xhm-grid-cell:first-of-type {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 25%;\n    flex: 0 0 25%;\n  }\n\n  .xhm-grid--1of3 > .xhm-grid-cell:first-of-type {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 30%;\n    flex: 0 0 30%;\n  }\n}\n\n.xhm-mt-1 {\n  margin-top: 1px;\n}\n\n.xhm-mr-1 {\n  margin-right: 1px;\n}\n\n.xhm-mb-1 {\n  margin-bottom: 1px;\n}\n\n.xhm-ml-1 {\n  margin-left: 1px;\n}\n\n.xhm-mt-2 {\n  margin-top: 2px;\n}\n\n.xhm-mr-2 {\n  margin-right: 2px;\n}\n\n.xhm-mb-2 {\n  margin-bottom: 2px;\n}\n\n.xhm-ml-2 {\n  margin-left: 2px;\n}\n\n.xhm-mt-3 {\n  margin-top: 3px;\n}\n\n.xhm-mr-3 {\n  margin-right: 3px;\n}\n\n.xhm-mb-3 {\n  margin-bottom: 3px;\n}\n\n.xhm-ml-3 {\n  margin-left: 3px;\n}\n\n.xhm-mt-4 {\n  margin-top: 4px;\n}\n\n.xhm-mr-4 {\n  margin-right: 4px;\n}\n\n.xhm-mb-4 {\n  margin-bottom: 4px;\n}\n\n.xhm-ml-4 {\n  margin-left: 4px;\n}\n\n.xhm-mt-5 {\n  margin-top: 5px;\n}\n\n.xhm-mr-5 {\n  margin-right: 5px;\n}\n\n.xhm-mb-5 {\n  margin-bottom: 5px;\n}\n\n.xhm-ml-5 {\n  margin-left: 5px;\n}\n\n.xhm-mt-6 {\n  margin-top: 6px;\n}\n\n.xhm-mr-6 {\n  margin-right: 6px;\n}\n\n.xhm-mb-6 {\n  margin-bottom: 6px;\n}\n\n.xhm-ml-6 {\n  margin-left: 6px;\n}\n\n.xhm-mt-7 {\n  margin-top: 7px;\n}\n\n.xhm-mr-7 {\n  margin-right: 7px;\n}\n\n.xhm-mb-7 {\n  margin-bottom: 7px;\n}\n\n.xhm-ml-7 {\n  margin-left: 7px;\n}\n\n.xhm-mt-8 {\n  margin-top: 8px;\n}\n\n.xhm-mr-8 {\n  margin-right: 8px;\n}\n\n.xhm-mb-8 {\n  margin-bottom: 8px;\n}\n\n.xhm-ml-8 {\n  margin-left: 8px;\n}\n\n.xhm-mt-9 {\n  margin-top: 9px;\n}\n\n.xhm-mr-9 {\n  margin-right: 9px;\n}\n\n.xhm-mb-9 {\n  margin-bottom: 9px;\n}\n\n.xhm-ml-9 {\n  margin-left: 9px;\n}\n\n.xhm-mt-10 {\n  margin-top: 10px;\n}\n\n.xhm-mr-10 {\n  margin-right: 10px;\n}\n\n.xhm-mb-10 {\n  margin-bottom: 10px;\n}\n\n.xhm-ml-10 {\n  margin-left: 10px;\n}\n\n.xhm-mt-11 {\n  margin-top: 11px;\n}\n\n.xhm-mr-11 {\n  margin-right: 11px;\n}\n\n.xhm-mb-11 {\n  margin-bottom: 11px;\n}\n\n.xhm-ml-11 {\n  margin-left: 11px;\n}\n\n.xhm-mt-12 {\n  margin-top: 12px;\n}\n\n.xhm-mr-12 {\n  margin-right: 12px;\n}\n\n.xhm-mb-12 {\n  margin-bottom: 12px;\n}\n\n.xhm-ml-12 {\n  margin-left: 12px;\n}\n\n.xhm-mt-13 {\n  margin-top: 13px;\n}\n\n.xhm-mr-13 {\n  margin-right: 13px;\n}\n\n.xhm-mb-13 {\n  margin-bottom: 13px;\n}\n\n.xhm-ml-13 {\n  margin-left: 13px;\n}\n\n.xhm-mt-14 {\n  margin-top: 14px;\n}\n\n.xhm-mr-14 {\n  margin-right: 14px;\n}\n\n.xhm-mb-14 {\n  margin-bottom: 14px;\n}\n\n.xhm-ml-14 {\n  margin-left: 14px;\n}\n\n.xhm-mt-15 {\n  margin-top: 15px;\n}\n\n.xhm-mr-15 {\n  margin-right: 15px;\n}\n\n.xhm-mb-15 {\n  margin-bottom: 15px;\n}\n\n.xhm-ml-15 {\n  margin-left: 15px;\n}\n\n.xhm-mt-16 {\n  margin-top: 16px;\n}\n\n.xhm-mr-16 {\n  margin-right: 16px;\n}\n\n.xhm-mb-16 {\n  margin-bottom: 16px;\n}\n\n.xhm-ml-16 {\n  margin-left: 16px;\n}\n\n.xhm-mt-17 {\n  margin-top: 17px;\n}\n\n.xhm-mr-17 {\n  margin-right: 17px;\n}\n\n.xhm-mb-17 {\n  margin-bottom: 17px;\n}\n\n.xhm-ml-17 {\n  margin-left: 17px;\n}\n\n.xhm-mt-18 {\n  margin-top: 18px;\n}\n\n.xhm-mr-18 {\n  margin-right: 18px;\n}\n\n.xhm-mb-18 {\n  margin-bottom: 18px;\n}\n\n.xhm-ml-18 {\n  margin-left: 18px;\n}\n\n.xhm-mt-19 {\n  margin-top: 19px;\n}\n\n.xhm-mr-19 {\n  margin-right: 19px;\n}\n\n.xhm-mb-19 {\n  margin-bottom: 19px;\n}\n\n.xhm-ml-19 {\n  margin-left: 19px;\n}\n\n.xhm-mt-20 {\n  margin-top: 20px;\n}\n\n.xhm-mr-20 {\n  margin-right: 20px;\n}\n\n.xhm-mb-20 {\n  margin-bottom: 20px;\n}\n\n.xhm-ml-20 {\n  margin-left: 20px;\n}\n\n.xhm-pt-1 {\n  padding-top: 1px;\n}\n\n.xhm-pr-1 {\n  padding-right: 1px;\n}\n\n.xhm-pb-1 {\n  padding-bottom: 1px;\n}\n\n.xhm-pl-1 {\n  padding-left: 1px;\n}\n\n.xhm-pt-2 {\n  padding-top: 2px;\n}\n\n.xhm-pr-2 {\n  padding-right: 2px;\n}\n\n.xhm-pb-2 {\n  padding-bottom: 2px;\n}\n\n.xhm-pl-2 {\n  padding-left: 2px;\n}\n\n.xhm-pt-3 {\n  padding-top: 3px;\n}\n\n.xhm-pr-3 {\n  padding-right: 3px;\n}\n\n.xhm-pb-3 {\n  padding-bottom: 3px;\n}\n\n.xhm-pl-3 {\n  padding-left: 3px;\n}\n\n.xhm-pt-4 {\n  padding-top: 4px;\n}\n\n.xhm-pr-4 {\n  padding-right: 4px;\n}\n\n.xhm-pb-4 {\n  padding-bottom: 4px;\n}\n\n.xhm-pl-4 {\n  padding-left: 4px;\n}\n\n.xhm-pt-5 {\n  padding-top: 5px;\n}\n\n.xhm-pr-5 {\n  padding-right: 5px;\n}\n\n.xhm-pb-5 {\n  padding-bottom: 5px;\n}\n\n.xhm-pl-5 {\n  padding-left: 5px;\n}\n\n.xhm-pt-6 {\n  padding-top: 6px;\n}\n\n.xhm-pr-6 {\n  padding-right: 6px;\n}\n\n.xhm-pb-6 {\n  padding-bottom: 6px;\n}\n\n.xhm-pl-6 {\n  padding-left: 6px;\n}\n\n.xhm-pt-7 {\n  padding-top: 7px;\n}\n\n.xhm-pr-7 {\n  padding-right: 7px;\n}\n\n.xhm-pb-7 {\n  padding-bottom: 7px;\n}\n\n.xhm-pl-7 {\n  padding-left: 7px;\n}\n\n.xhm-pt-8 {\n  padding-top: 8px;\n}\n\n.xhm-pr-8 {\n  padding-right: 8px;\n}\n\n.xhm-pb-8 {\n  padding-bottom: 8px;\n}\n\n.xhm-pl-8 {\n  padding-left: 8px;\n}\n\n.xhm-pt-9 {\n  padding-top: 9px;\n}\n\n.xhm-pr-9 {\n  padding-right: 9px;\n}\n\n.xhm-pb-9 {\n  padding-bottom: 9px;\n}\n\n.xhm-pl-9 {\n  padding-left: 9px;\n}\n\n.xhm-pt-10 {\n  padding-top: 10px;\n}\n\n.xhm-pr-10 {\n  padding-right: 10px;\n}\n\n.xhm-pb-10 {\n  padding-bottom: 10px;\n}\n\n.xhm-pl-10 {\n  padding-left: 10px;\n}\n\n.xhm-pt-11 {\n  padding-top: 11px;\n}\n\n.xhm-pr-11 {\n  padding-right: 11px;\n}\n\n.xhm-pb-11 {\n  padding-bottom: 11px;\n}\n\n.xhm-pl-11 {\n  padding-left: 11px;\n}\n\n.xhm-pt-12 {\n  padding-top: 12px;\n}\n\n.xhm-pr-12 {\n  padding-right: 12px;\n}\n\n.xhm-pb-12 {\n  padding-bottom: 12px;\n}\n\n.xhm-pl-12 {\n  padding-left: 12px;\n}\n\n.xhm-pt-13 {\n  padding-top: 13px;\n}\n\n.xhm-pr-13 {\n  padding-right: 13px;\n}\n\n.xhm-pb-13 {\n  padding-bottom: 13px;\n}\n\n.xhm-pl-13 {\n  padding-left: 13px;\n}\n\n.xhm-pt-14 {\n  padding-top: 14px;\n}\n\n.xhm-pr-14 {\n  padding-right: 14px;\n}\n\n.xhm-pb-14 {\n  padding-bottom: 14px;\n}\n\n.xhm-pl-14 {\n  padding-left: 14px;\n}\n\n.xhm-pt-15 {\n  padding-top: 15px;\n}\n\n.xhm-pr-15 {\n  padding-right: 15px;\n}\n\n.xhm-pb-15 {\n  padding-bottom: 15px;\n}\n\n.xhm-pl-15 {\n  padding-left: 15px;\n}\n\n.xhm-pt-16 {\n  padding-top: 16px;\n}\n\n.xhm-pr-16 {\n  padding-right: 16px;\n}\n\n.xhm-pb-16 {\n  padding-bottom: 16px;\n}\n\n.xhm-pl-16 {\n  padding-left: 16px;\n}\n\n.xhm-pt-17 {\n  padding-top: 17px;\n}\n\n.xhm-pr-17 {\n  padding-right: 17px;\n}\n\n.xhm-pb-17 {\n  padding-bottom: 17px;\n}\n\n.xhm-pl-17 {\n  padding-left: 17px;\n}\n\n.xhm-pt-18 {\n  padding-top: 18px;\n}\n\n.xhm-pr-18 {\n  padding-right: 18px;\n}\n\n.xhm-pb-18 {\n  padding-bottom: 18px;\n}\n\n.xhm-pl-18 {\n  padding-left: 18px;\n}\n\n.xhm-pt-19 {\n  padding-top: 19px;\n}\n\n.xhm-pr-19 {\n  padding-right: 19px;\n}\n\n.xhm-pb-19 {\n  padding-bottom: 19px;\n}\n\n.xhm-pl-19 {\n  padding-left: 19px;\n}\n\n.xhm-pt-20 {\n  padding-top: 20px;\n}\n\n.xhm-pr-20 {\n  padding-right: 20px;\n}\n\n.xhm-pb-20 {\n  padding-bottom: 20px;\n}\n\n.xhm-pl-20 {\n  padding-left: 20px;\n}"
+          },
+          {
+            "id": "xhm-terms",
+            "css": "/* 規約表示 */\n.xhm-terms {\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-terms.xhm-terms-no-break [type='checkbox'] + .xhm-terms-label {\n  margin-right: 1em;\n  margin-left: 1em;\n  -ms-flex-item-align: center;\n  -ms-grid-row-align: center;\n  align-self: center;\n}\n\n/* layout */\n.xhm-terms .xhm-grid-cell {\n  -webkit-box-flex: initial;\n  -ms-flex: initial;\n  flex: initial;\n  width: 100%;\n  margin-bottom: 8px;\n}"
+          },
+          {
+            "id": "xhm-title",
+            "css": "/* タイトル */\n.xhm-title {\n  margin: 0;\n  padding: 0;\n  font-size: 15px;\n  font-weight: 500;\n  color: #1e1e1e;\n  display: inline-flex;\n  flex-direction: row-reverse;\n}"
+          },
+          {
+            "id": "xhm-select",
+            "css": "/* セレクトボックス */\n.xhm-select {\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-select-box {\n  position: relative;\n}\n\n.xhm-select-box::after {\n  content: '';\n  display: block;\n  width: 8px;\n  height: 8px;\n  border-left: 2px solid #1e1e1e;\n  border-bottom: 2px solid #1e1e1e;\n  position: absolute;\n  top: 50%;\n  right: 16px;\n  -webkit-transform: translateY(-50%) rotate(-45deg);\n  -ms-transform: translateY(-50%) rotate(-45deg);\n  transform: translateY(-50%) rotate(-45deg);\n}\n\n.xhm-select select {\n  display: block;\n  width: 100%;\n}\n\n.xhm-select select::-ms-expand {\n  display: none;\n}\n\n/* layout */\n.xhm-select .xhm-grid-cell {\n  -webkit-box-flex: initial;\n  -ms-flex: initial;\n  flex: initial;\n  width: 100%;\n  margin-bottom: 8px;\n}"
+          },
+          {
+            "id": "xhm-address",
+            "css": "/* 住所 */\n.xhm-address {\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-address div {\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n}\n\n.xhm-address input {\n  width: 100%;\n}\n\n.xhm-address-select-box {\n  position: relative;\n}\n\n.xhm-address-select-box::after {\n  content: '';\n  display: block;\n  width: 8px;\n  height: 8px;\n  border-left: 2px solid #1e1e1e;\n  border-bottom: 2px solid #1e1e1e;\n  position: absolute;\n  top: 50%;\n  right: 16px;\n  -webkit-transform: translateY(-50%) rotate(-45deg);\n  -ms-transform: translateY(-50%) rotate(-45deg);\n  transform: translateY(-50%) rotate(-45deg);\n}\n\n.xhm-address-select-box select {\n  display: block;\n  width: 100%;\n}\n\n.xhm-address-select-box select::-ms-expand {\n  display: none;\n}\n\n/* layout */\n.xhm-address > .xhm-grid-cell {\n  -webkit-box-flex: initial;\n  -ms-flex: initial;\n  flex: initial;\n  width: 100%;\n  margin-bottom: 8px;\n}\n\n.xhm-address .xhm-grid--1of6 > .xhm-grid-cell {\n  -webkit-box-flex: initial;\n  -ms-flex: initial;\n  flex: initial;\n  width: 100%;\n  margin-bottom: 8px;\n}\n\n.xhm-address .xhm-grid--1of6 > .xhm-grid-cell + .xhm-grid-cell {\n  margin-bottom: 12px;\n}"
+          },
+          {
+            "id": "xhm-birthday",
+            "css": "/* 生年月日 */\n.xhm-birthday {\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-birthday-select {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  position: relative;\n  margin: 0 0 15px 0;\n}\n\n.xhm-birthday-select::after {\n  content: '';\n  display: block;\n  width: 8px;\n  height: 8px;\n  border-left: 2px solid #1e1e1e;\n  border-bottom: 2px solid #1e1e1e;\n  position: absolute;\n  top: 50%;\n  right: calc(1em + 26px);\n  -webkit-transform: translateY(-50%) rotate(-45deg);\n  -ms-transform: translateY(-50%) rotate(-45deg);\n  transform: translateY(-50%) rotate(-45deg);\n}\n\n.xhm-birthday-select select {\n  display: block;\n  width: 100%;\n}\n\n.xhm-birthday-select select::-ms-expand {\n  display: none;\n}\n\n.xhm-birthday-select .form-text {\n  margin: 0 0 0 10px;\n}\n\n/* layout */\n.xhm-birthday > .xhm-grid-cell {\n  -webkit-box-flex: initial;\n  -ms-flex: initial;\n  flex: initial;\n  width: 100%;\n  margin-bottom: 8px;\n}"
+          },
+          {
+            "id": "xhm-btn-prev",
+            "css": "/* 戻るボタン */\n.xhm-btn-prev {\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-btn-prev button {\n  position: relative;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  width: 180px;\n  min-width: 120px;\n  height: 48px;\n  background: #716c7e;\n  color: #fff;\n  font-size: 13px;\n  padding: 0 16px;\n  border-radius: 4px;\n  border: none;\n  cursor: pointer;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  outline: none;\n}\n\n.xhm-btn-back button:hover:not(:disabled) {\n  background: #505565;\n}\n\n.xhm-btn-back button:disabled {\n  pointer-events: none;\n  cursor: default;\n  opacity: 0.32;\n}"
+          },
+          {
+            "id": "xhm-calendar",
+            "css": "/* カレンダー */\n.xhm-calendar {\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-calendar-select {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  position: relative;\n}\n\n.xhm-calendar-select input {\n  min-width: 180px;\n}\n\n.xhm-calendar-select div.xhm-select {\n  margin: 0 0 0 15px;\n  position: relative;\n}\n\n.xhm-calendar-select div.xhm-select::after {\n  content: '';\n  display: block;\n  width: 8px;\n  height: 8px;\n  border-left: 2px solid #1e1e1e;\n  border-bottom: 2px solid #1e1e1e;\n  position: absolute;\n  top: 50%;\n  right: 16px;\n  -webkit-transform: translateY(-50%) rotate(-45deg);\n  -ms-transform: translateY(-50%) rotate(-45deg);\n  transform: translateY(-50%) rotate(-45deg);\n}\n\n.xhm-calendar-select div.xhm-select select {\n  min-width: 120px;\n}\n\n.xhm-calendar-select div.xhm-select select::-ms-expand {\n  display: none;\n}\n\n.xhm-calendar-select label {\n  position: relative;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n}\n\n.xhm-calendar-select input {\n  padding-right: 40px;\n}\n\n.xhm-datepicker {\n  display: block;\n  width: 24px;\n  height: 24px;\n  position: absolute;\n  top: 50%;\n  -webkit-transform: translateY(-50%);\n  -ms-transform: translateY(-50%);\n  transform: translateY(-50%);\n  right: 8px;\n}\n\n.xhm-calendar .xhm-select {\n  -webkit-box-flex: 1;\n  -ms-flex: 1;\n  flex: 1;\n}\n\n@media screen and (max-width: 767px) {\n  .xhm-calendar-select {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: block;\n    -ms-flex-wrap: wrap;\n    flex-wrap: wrap;\n    -webkit-box-align: center;\n    -ms-flex-align: center;\n    align-items: center;\n  }\n\n  .xhm-calendar-select input {\n    width: 100%;\n  }\n\n  .xhm-calendar-select div.xhm-select {\n    width: 100%;\n    margin: 15px 0 0 0;\n  }\n}\n\n/* layout */\n.xhm-calendar > .xhm-grid-cell {\n  -webkit-box-flex: initial;\n  -ms-flex: initial;\n  flex: initial;\n  width: 100%;\n  margin-bottom: 8px;\n}"
+          },
+          {
+            "id": "xhm-checkbox",
+            "css": "/* チェックボックス */\n.xhm-checkbox {\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-checkbox ul {\n  list-style: none;\n  padding: 0 1em;\n}\n\n.xhm-checkbox ul li {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n}\n\n.xhm-checkbox.xhm-checkbox-break ul li:not(:last-child) {\n  margin-bottom: 8px;\n}\n\n.xhm-checkbox.xhm-checkbox-break .xhm-grid {\n  display: block;\n}\n\n.xhm-checkbox.xhm-checkbox-no-break label {\n  margin-right: 1em;\n  margin-left: 1em;\n}\n\n/* layout */\n.xhm-checkbox .xhm-grid-cell {\n  -webkit-box-flex: initial;\n  -ms-flex: initial;\n  flex: initial;\n  width: 100%;\n  margin-bottom: 8px;\n}"
+          },
+          {
+            "id": "xhm-required",
+            "css": "/* 必須アイコン */\n.xhm-required {\n  display: inline-block;\n  width: 40px;\n  font-size: 12px;\n  line-height: 24px;\n  margin-left: 12px;\n  text-align: center;\n  background-color: #ff453a;\n  border: 1px solid #ff453a;\n  color: #fff;\n}\n\n/* 任意アイコン */\n.xhm-optional {\n  display: inline-block;\n  width: 40px;\n  font-size: 12px;\n  line-height: 24px;\n  margin-left: 12px;\n  text-align: center;\n  background-color: #fff;\n  border: 1px solid #ff453a;\n  color: #ff453a;\n}"
+          },
+          {
+            "id": "xhm-parameter",
+            "css": "/* パラメータ */\n.xhm-parameter {\n  display: block;\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-parameter input {\n  width: 100%;\n}\n\n@media screen and (min-width: 767px) {\n  .xhm-parameter {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n  }\n\n  .xhm-parameter input {\n    margin-top: 0;\n  }\n}"
+          },
+          {
+            "id": "xhm-separator",
+            "css": "/* 区切り線 */\n.xhm-separator {\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-separator hr {\n  height: 1px;\n  background-color: #d2d2d2;\n  border: none;\n}"
+          },
+          {
+            "id": "xhm-spacer-20",
+            "css": ".xhm-spacer-20 {\n  height: 20px;\n  vertical-align: top;\n}"
+          },
+          {
+            "id": "xhm-text-area",
+            "css": "/* テキストエリア */\n.xhm-text-area {\n  display: block;\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-text-area textarea {\n  height: 128px;\n}\n\n/* layout */\n.xhm-text-area .xhm-grid-cell {\n  -webkit-box-flex: initial;\n  -ms-flex: initial;\n  flex: initial;\n  width: 100%;\n  margin-bottom: 8px;\n}"
+          },
+          {
+            "id": "xhm-annotation",
+            "css": "/* 注釈 */\n.xhm-annotation {\n  font-size: 15px;\n  margin: 0 0 8px;\n  color: #1e1e1e;\n}\n\n* + .xhm-annotation {\n  margin-top: 8px;\n}"
+          },
+          {
+            "id": "xhm-btn-submit",
+            "css": "/* サブミットボタン */\n.xhm-btn-submit {\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-btn-submit button {\n  position: relative;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  width: 180px;\n  min-width: 120px;\n  height: 48px;\n  background: #716c7e;\n  color: #fff;\n  font-size: 13px;\n  padding: 0 16px;\n  border-radius: 4px;\n  border: none;\n  cursor: pointer;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  outline: none;\n}\n\n.xhm-btn-submit button:hover:not(:disabled) {\n  background: #505565;\n}\n\n.xhm-btn-submit button:disabled {\n  pointer-events: none;\n  cursor: default;\n  opacity: 0.32;\n}"
+          },
+          {
+            "id": "xhm-permission",
+            "css": "/* お知らせ許諾 */\n.xhm-permission {\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-permission ul li {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n}\n\n.xhm-permission.xhm-permission-break .xhm-grid {\n  display: block;\n}\n\n.xhm-permission.xhm-permission-break ul {\n  list-style: none;\n  padding: 0 1em;\n}\n\n.xhm-permission.xhm-permission-break ul li:not(:last-child) {\n  margin-bottom: 8px;\n}\n\n.xhm-permission.xhm-permission-no-break label {\n  margin-right: 1em;\n  margin-left: 1em;\n}\n\n/* layout */\n.xhm-permission .xhm-grid-cell {\n  -webkit-box-flex: initial;\n  -ms-flex: initial;\n  flex: initial;\n  width: 100%;\n  margin-bottom: 8px;\n}"
+          },
+          {
+            "id": "xhm-text-field",
+            "css": "/* テキストフィールド */\n.xhm-text-field {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n/* layout */\n.xhm-text-field .xhm-grid-cell {\n  -webkit-box-flex: initial;\n  -ms-flex: initial;\n  flex: initial;\n  width: 100%;\n  margin-bottom: 8px;\n}"
+          },
+          {
+            "id": "xhm-heading-sub",
+            "css": "/* 見出し２ */\n.xhm-heading-sub {\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-heading-sub h2 {\n  font-size: 22px;\n  font-weight: 500;\n}"
+          },
+          {
+            "id": "xhm-prefectures",
+            "css": "/* 都道府県セレクトボックス */\n.xhm-prefectures {\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-prefectures-box {\n  position: relative;\n}\n\n.xhm-prefectures-box::after {\n  content: '';\n  display: block;\n  width: 8px;\n  height: 8px;\n  border-left: 2px solid #1e1e1e;\n  border-bottom: 2px solid #1e1e1e;\n  position: absolute;\n  top: 50%;\n  right: 16px;\n  -webkit-transform: translateY(-50%) rotate(-45deg);\n  -ms-transform: translateY(-50%) rotate(-45deg);\n  transform: translateY(-50%) rotate(-45deg);\n}\n\n.xhm-prefectures select {\n  display: block;\n  width: 100%;\n}\n\n.xhm-prefectures select::-ms-expand {\n  display: none;\n}\n\n/* layout */\n.xhm-prefectures .xhm-grid-cell {\n  -webkit-box-flex: initial;\n  -ms-flex: initial;\n  flex: initial;\n  width: 100%;\n  margin-bottom: 8px;\n}"
+          },
+          {
+            "id": "xhm-heading-main",
+            "css": "/* 見出し１ */\n.xhm-heading-main {\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-heading-main h1 {\n  font-size: 28px;\n  font-weight: 500;\n}"
+          },
+          {
+            "id": "xhm-mail-address",
+            "css": "/* メールアドレステキストフィールド */\n.xhm-mail-address {\n  display: block;\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n/* layout */\n.xhm-mail-address .xhm-grid-cell {\n  margin-bottom: 8px;\n}\n\n.xhm-mail-address .xhm-grid--cols-2 .xhm-grid-cell {\n  margin-bottom: 12px;\n}"
+          },
+          {
+            "id": "xhm-system-error",
+            "css": ".xhm-system-error {\n  width: 100%;\n  margin-top: 20px;\n  margin-bottom: 30px;\n  border: 1px solid #e60012;\n  background-color: #fff2f4;\n  overflow: hidden;\n}\n\n.xhm-system-error p {\n  margin: 1em;\n}"
+          },
+          {
+            "id": "xhm-file-download",
+            "css": ".xhm-file-download {\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-file-download .dl-file-wrap {\n  list-style: none; /* デフォルトのアイコンを消す */\n  margin: 0; /* デフォルト指定上書き */\n  padding: 0; /* デフォルト指定上書き */\n}\n\n.xhm-file-download .dl-file:before {\n  content: ''; /* 空の要素作成 */\n  width: 32px; /* 幅指定 */\n  height: 32px; /* 高さ指定 */\n  display: inline-block; /* インラインブロックにする */\n  position: relative; /* アイコンの位置を調整 */\n  margin-right: 5px; /* 余白指定 */\n  background-image: url(/form/img/dl_file.png); /* アイコン指定 */\n  background-size: contain; /* アイコンの大きさ指定 */\n  background-repeat: no-repeat; /* アイコンをリピートしないようにする */\n  vertical-align: top; /* アイコンの位置を調整 */\n}\n\n.xhm-file-download .dl-file {\n  padding: 10px; /* 余白指定 */\n  margin-bottom: 5px; /* 要素と要素の間指定 */\n  font-size: 20px; /* 文字サイズ指定 */\n}\n\n.xhm-file-download .dl-file a {\n  font-size: 18px;\n  font-weight: 500;\n  color: #555;\n}\n\n.xhm-file-download .dl-file a:hover {\n  color: #00b0f0;\n}"
+          },
+          {
+            "id": "xhm-message-error",
+            "css": "/* エラーメッセージ */\n.xhm-message-error {\n  position: relative;\n  display: inline-block;\n  margin: 0 0 0.8rem 0;\n  padding: 8px;\n  min-width: 120px;\n  max-width: 100%;\n  color: #fff;\n  font-size: 12px;\n  background-color: #e60012;\n}\n\n.xhm-message-error + input,\n.xhm-message-error + select,\n.xhm-message-error + textarea {\n  border: 1px solid #e60012;\n  background-color: #fff2f4;\n}\n\n.xhm-message-error:before {\n  content: '';\n  position: absolute;\n  top: 100%;\n  left: 24px;\n  margin-left: -10px;\n  border: 8px solid transparent;\n  border-top: 8px solid #e60012;\n}"
+          },
+          {
+            "id": "xhm-attaching-file",
+            "css": "/* 添付 */\n.xhm-attaching-file {\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-attaching-file label {\n  width: 138px;\n  height: 36px;\n  border-radius: 4px;\n  font-size: 13px;\n  color: #4f7df0;\n  background: #ffffff;\n  border: #4f7df0 1px solid;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  border-radius: 4px;\n  cursor: pointer;\n}\n\n.xhm-attaching-file label:hover {\n  background: #edf2fd;\n}\n\n.xhm-attaching-file input[type='file'] {\n  display: none;\n}\n\n.size {\n  display: none;\n}\n\n/* layout */\n.xhm-attaching-file .xhm-grid-cell {\n  -webkit-box-flex: initial;\n  -ms-flex: initial;\n  flex: initial;\n  width: 100%;\n  margin-bottom: 8px;\n}"
+          },
+          {
+            "id": "xhm-year-and-month",
+            "css": "/* 年月 */\n.xhm-year-and-month {\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-year-and-month-select {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  position: relative;\n  margin: 0 0 15px 0;\n}\n\n.xhm-year-and-month-select::after {\n  content: '';\n  display: block;\n  width: 8px;\n  height: 8px;\n  border-left: 2px solid #1e1e1e;\n  border-bottom: 2px solid #1e1e1e;\n  position: absolute;\n  top: 50%;\n  right: calc(1em + 26px);\n  -webkit-transform: translateY(-50%) rotate(-45deg);\n  -ms-transform: translateY(-50%) rotate(-45deg);\n  transform: translateY(-50%) rotate(-45deg);\n}\n\n.xhm-year-and-month-select select {\n  display: block;\n  width: 100%;\n}\n\n.xhm-year-and-month-select select::-ms-expand {\n  display: none;\n}\n\n.xhm-year-and-month-select label {\n  margin: 0 0 0 10px;\n}\n\n/* layout */\n.xhm-year-and-month > .xhm-grid-cell {\n  -webkit-box-flex: initial;\n  -ms-flex: initial;\n  flex: initial;\n  width: 100%;\n  margin-bottom: 8px;\n}"
+          },
+          {
+            "id": "xhm-btn-post-search",
+            "css": "/* 郵便番号検索ボタン */\n.xhm-btn-post-search {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  border-radius: 4px;\n  border: none;\n  cursor: pointer;\n  min-width: 120px;\n  font-size: 13px;\n  height: 40px;\n  padding: 0 16px;\n  color: #4f7df0;\n  background: #fff;\n  border: #4f7df0 1px solid;\n}\n\n.xhm-btn-post-search:hover {\n  background: #edf2fd;\n}"
+          },
+          {
+            "id": "xhm-message-complete",
+            "css": ".xhm-message-complete {\n  width: 100%;\n  margin-top: 20px;\n  margin-bottom: 20px;\n  border: 1px solid #fff;\n  border-radius: 6px;\n  background-color: #fff;\n  overflow: hidden;\n}"
+          },
+          {
+            "id": "xhm-new-page-buttons",
+            "css": "/* 次へボタン */\n.xhm-btn-next {\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-btn-next button {\n  position: relative;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  width: 180px;\n  min-width: 120px;\n  height: 48px;\n  background: #3268ed;\n  color: #fff;\n  font-size: 13px;\n  padding: 0 16px;\n  border-radius: 4px;\n  border: none;\n  cursor: pointer;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  outline: none;\n}\n\n.xhm-btn-next button:hover:not(:disabled) {\n  background: #3268ed;\n}\n\n.xhm-btn-next button:disabled {\n  pointer-events: none;\n  cursor: default;\n  opacity: 0.32;\n}\n\n/* 戻るボタン */\n.xhm-btn-back {\n  margin-top: 20px;\n  margin-bottom: 30px;\n}\n\n.xhm-btn-back button {\n  position: relative;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  width: 180px;\n  min-width: 120px;\n  height: 48px;\n  background: #716c7e;\n  color: #fff;\n  font-size: 13px;\n  padding: 0 16px;\n  border-radius: 4px;\n  border: none;\n  cursor: pointer;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  outline: none;\n}\n\n.xhm-btn-back button:hover:not(:disabled) {\n  background: #505565;\n}\n\n.xhm-btn-back button:disabled {\n  pointer-events: none;\n  cursor: default;\n  opacity: 0.32;\n}\n\n/* layout */\n.xhm-grid-cell .xhm-btn-back button {\n  margin: 0 0 0 auto;\n}\n\n@media screen and (max-width: 767px) {\n  .xhm-grid-cell .xhm-btn-next button,\n  .xhm-grid-cell .xhm-btn-back button {\n    margin: 0 auto;\n  }\n}"
+          }
+        ]
+      },
+      "js": {
+        "code": "width: 500px;\nheight: 320px;",
+        "googleAnalytics": {
+          "presenceOrAbsenceOfMeasurement": "1",
+          "trackingId": "トラッキングID",
+          "confirmScreen": "確認画面",
+          "completeScreen": "完了画面"
+        }
+      }
+    },
+    "recordVersion": 12345,
+    "formPatternRecordVersion": 23456
+  }
+}

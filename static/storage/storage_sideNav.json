@@ -1,0 +1,29 @@
+{
+  "sideNaviItems": [
+    {
+      "name": "ストレージ",
+      "link": [
+        {
+          "name": "すべて",
+          "path": "/storage/home/"
+        },
+        {
+          "name": "最近使用",
+          "path": "/storage/recent/"
+        },
+        {
+          "name": "ピン留め",
+          "path": "/storage/pin/"
+        },
+        {
+          "name": "共有済",
+          "path": "/storage/share/"
+        },
+        {
+          "name": "削除",
+          "path": "/storage/delete/"
+        }
+      ]
+    }
+  ]
+}

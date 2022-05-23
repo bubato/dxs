@@ -1,0 +1,337 @@
+@mixin contentBorder($borderColor: #c6c6c6) {
+  .siteEditPage & {
+    position: relative;
+    &:before {
+      content: '';
+      background-image: linear-gradient(
+          to right,
+          $borderColor,
+          $borderColor 5px,
+          transparent 5px,
+          transparent 9px
+        ),
+        linear-gradient(
+          to right,
+          $borderColor,
+          $borderColor 5px,
+          transparent 5px,
+          transparent 9px
+        ),
+        linear-gradient(
+          to bottom,
+          $borderColor,
+          $borderColor 5px,
+          transparent 5px,
+          transparent 9px
+        ),
+        linear-gradient(
+          to bottom,
+          $borderColor,
+          $borderColor 5px,
+          transparent 5px,
+          transparent 9px
+        );
+      background-size: 9px 1px, 9px 1px, 1px 9px, 1px 9px;
+      background-position: left top, left bottom, left top, right top;
+      background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      pointer-events: none;
+    }
+    &.hover:before {
+      display: none;
+    }
+  }
+}
+
+.view-components {
+  height: 100%;
+  .component {
+    position: relative;
+    min-height: 50px;
+    &.clone {
+      width: 100%;
+      height: 12px;
+      background: #d6eaff;
+      @include contentBorder(#007aff);
+    }
+    &:not(:last-child) {
+      margin-bottom: 32px;
+    }
+    .layout-component {
+      .layout-column {
+        margin: 0 auto;
+        border: 1px dashed #c6c6c6;
+        min-height: 40px;
+        padding: 10px 0;
+        &:not(:first-child) {
+          margin-left: 16px;
+        }
+        &.layout-25 {
+          width: calc(100% / 4);
+        }
+        &.layout-33 {
+          width: calc(100% / 3);
+        }
+        &.layout-50 {
+          width: 50%;
+        }
+        &.layout-66 {
+          width: calc(100% / 3 * 2);
+        }
+        &.layout-100 {
+          width: 100%;
+        }
+        &:not(:last-child) {
+          margin-right: 0px;
+        }
+      }
+      &.hover {
+        .layout-column {
+          border: 1px solid #007aff;
+          box-shadow: 0 0 4px rgba(0, 122, 255, 0.72);
+        }
+      }
+    }
+    &.single-component {
+      @include contentBorder();
+      &.hover {
+        border: 1px solid #007aff;
+        box-shadow: 0 0 4px rgba(0, 122, 255, 0.72);
+      }
+    }
+
+    .component-name {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      min-width: 120px;
+      height: 28px;
+      padding: 0 10px;
+      color: #ffffff;
+      font-size: 12px;
+      background: #6c707e;
+    }
+    .buttons {
+      display: flex;
+      button {
+        &:not(:last-child) {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  .menu_buttons {
+    overflow: hidden;
+    position: absolute;
+    top: 4px;
+    right: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    button {
+      overflow: hidden;
+      background: #ffffff;
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+      position: relative;
+      fill: #3a435c;
+      padding: 4px;
+      &:not(:last-child):before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        content: '';
+        width: 1px;
+        background-color: #ffffff;
+      }
+      &:not(:last-child):after {
+        position: absolute;
+        top: 1px;
+        right: 0;
+        height: calc(100% - 2px);
+        content: '';
+        width: 1px;
+        background-color: #e5e5e5;
+      }
+      &.btn-disabled {
+        background: #cdced0;
+        fill: #b0b3be;
+      }
+    }
+  }
+}
+.view-components:not(.preview) .component a {
+  pointer-events: none;
+}
+
+.editor-area {
+  width: calc(100% - 332px);
+  margin-left: 12px;
+  border: 1px solid #e5e5e5;
+  .rootContainer {
+    width: 100%;
+    height: 100%;
+    padding: 32px 50px;
+    position: relative;
+    .view-components {
+      max-width: 600px;
+      margin: auto;
+      .component:not(.clone) {
+        border: 1px dashed #c6c6c6;
+        &:not(:first-child) {
+          margin-top: 20px;
+        }
+        &:hover {
+          > .hover-elements {
+            display: block;
+          }
+        }
+        .layout-component,
+        .single-component {
+          width: 100%;
+          padding: 32px;
+        }
+      }
+      .clone {
+        width: 100%;
+        height: 12px;
+        background: #d6eaff;
+        border: 1px dashed #007aff;
+      }
+      .layout-column-area {
+        padding: 10px 0;
+        .view-components {
+          padding: 16px;
+          .child-component {
+            padding: 32px 16px;
+            border: 1px dashed #c6c6c6;
+            position: relative;
+            &:not(:first-child) {
+              margin-top: 20px;
+            }
+            &:hover {
+              > .hover-elements {
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* シングルパーツ:見出し1,2,3 */
+.view-heading1,
+.view-heading2 .view-heading3 {
+  &.link {
+    color: #007aff;
+    &:not(:hover) {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* シングルパーツ:テキスト */
+.view-text {
+  &.link {
+    color: #007aff;
+    &:not(:hover) {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* シングルパーツ:リスト */
+.view-list {
+  li {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    span {
+      display: inline-block;
+      margin-right: 4px;
+    }
+  }
+}
+
+/* シングルパーツ:注釈 */
+.view-annotation {
+  li {
+    display: flex;
+    font-size: 13px;
+    .symbol {
+      display: inline-block;
+      margin-right: 4px;
+    }
+  }
+}
+
+/* シングルパーツ:画像 */
+.view-image {
+  max-width: 100%;
+  img {
+    width: 100% !important;
+    height: auto !important;
+    &.link {
+      cursor: pointer;
+    }
+  }
+}
+
+/* シングルパーツ:ボタン */
+.view-button {
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    cursor: pointer;
+  }
+}
+
+/* シングルパーツ:区切り線 */
+.view-separator {
+  overflow: hidden;
+  hr {
+    margin: 10px 0;
+  }
+}
+
+/* シングルパーツ:空白 */
+.view-space {
+  &.space-height {
+    &-20 {
+      height: 20px;
+    }
+    &-40 {
+      height: 40px;
+    }
+    &-60 {
+      height: 60px;
+    }
+    &-80 {
+      height: 80px;
+    }
+    &-100 {
+      height: 100px;
+    }
+  }
+}

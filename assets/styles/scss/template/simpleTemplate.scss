@@ -1,0 +1,20 @@
+.is-pc .view-area,
+.is-sp .view-area {
+  &.template {
+    &-simple {
+      @import './simpleTemplate_common.scss';
+
+      &.is-pc {
+        @media screen and (min-width: 769px) {
+          @import './simpleTemplate_pc.scss';
+        }
+      }
+
+      &.is-sp {
+        @media screen and (max-width: 768px) {
+          @import './simpleTemplate_sp.scss';
+        }
+      }
+    }
+  }
+}

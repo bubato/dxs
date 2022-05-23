@@ -1,0 +1,61 @@
+{
+    "result": 0,
+    "profile": {
+        "profileId": 12,
+        "basicSettings": {
+            "lastName": "渡来",
+            "firstName": "太郎",
+            "lastNameKana": "トライ",
+            "firstNameKana": "タロウ",
+            "tel": "0312345678",
+            "profileImage": ""
+        },
+        "selfIntroduction": {
+            "selfIntroduction": "自己紹介文です。自己紹介文です。自己紹介文です。自己紹介文です。自己紹介文です。自己紹介文です。自己紹介文です。自己紹介文です。 自己紹介文です。自己紹介文です。自己紹介文です。自己紹介文です。自己紹介文です。自己紹介文です。自己紹介文です。自己紹介文です。 自己紹介文です。自己紹介文です。自己紹介文です。自己紹介文です。自己紹介文です。自己紹介文です。自己紹介文です。自己紹介文です。 自己紹介文です。自己紹介文です。自己紹介文です。"
+        },
+        "workHistory": [
+            {
+                "position": "代表取締役、執行役員、事業統括部長など",
+                "company": "トライベック株式会社",
+                "employmentStatus": "1",
+                "hireDateStartYear": "2018",
+                "hireDateStartMonth": "01",
+                "hireDateEndYear": "",
+                "hireDateEndMonth": "",
+                "url": "https://www.tribeck.jp/"
+            }
+        ],
+        "educationalBackground": [
+            {
+                "schoolName": "東京大学",
+                "degree": "学士",
+                "underGraduate": "法学部法律学科法律専攻",
+                "graduationYear": "2018",
+                "graduationMonth": "06"
+            }
+        ],
+        "qualification": [
+            {
+                "name": "自動車免許",
+                "publicationYear": "2018",
+                "publicationMonth": "05",
+                "checkExpiration": false,
+                "expirationYear": "2020",
+                "expirationMonth": "11"
+            }
+        ],
+        "publication": [
+            {
+                "title": "DXで進める地方創生",
+                "publisher": "日経ビジネス",
+                "publisherUrl": "https://www.amazon.co.jp/%E5%9C%B0%E6%96%B9%E5%89%B5%E7%94%9F%E5%A4%A7%E5%85%A8%E6%9C%A8%E4%B8%8B-%E6%96%89/dp/4492212256/ref=sr_1_1?dchild=1&keywords=%E5%9C%B0%E6%96%B9%E5%89%B5%E7%94%9F&qid=1611882739&sr=8-1"
+            }
+        ],
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "instagramId": "https://instagram.com/"
+        },
+        "recordVersion": 12345
+    }
+}

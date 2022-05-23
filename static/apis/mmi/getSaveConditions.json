@@ -1,0 +1,39 @@
+{
+  "result": 0,
+  "dataList": [
+    {
+      "saveConditionId": 1,
+      "saveConditionName": "条件1",
+      "createdAt": "2021/09/01",
+      "saveConditions": {
+        "industryCodes": ["A01011", "A01012"],
+        "industryCategory": ["all", "農業"],
+        "industryCompareCodes": ["A01011", "A01012"],
+        "prefectureCodes": [],
+        "prefectureCategory": [],
+        "salesScaleCode": "2",
+        "salesScaleLower": 0,
+        "salesScaleUpper": 1000000,
+        "companyType": "0"
+      },
+      "recordVersion": 1
+    },
+    {
+      "saveConditionId": 2,
+      "saveConditionName": "条件2",
+      "createdAt": "2021/09/02",
+      "saveConditions": {
+        "industryCodes": ["A01011", "A01012", "A01013"],
+        "industryCategory": [],
+        "industryCompareCodes": ["B00000", "B03030"],
+        "prefectureCodes": ["02", "03", "04", "05", "06", "07"],
+        "prefectureCategory": ["東北"],
+        "salesScaleCode": "2",
+        "salesScaleLower": 0,
+        "salesScaleUpper": 1000000,
+        "companyType": "1"
+      },
+      "recordVersion": 1
+    }
+  ]
+}

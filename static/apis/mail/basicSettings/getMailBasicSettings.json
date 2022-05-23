@@ -1,0 +1,18 @@
+{
+  "result": 0,
+  "recordVersion": 1,
+  "basicSettings": {
+    "senderName": "表示名A",
+    "senderEmail": "testA@example.com",
+    "originalDomainCheckFlag": "0",
+    "originalDomainMailAddressString": "testB@example.com",
+    "originalDomain": "test.com",
+    "senderTestEmailList": [
+      "aaaa@example.com",
+      "bbb@example.com",
+      "cccc@example.com"
+    ],
+    "senderStopPageUrl": "http://www.tribeck.jp",
+    "senderStopTag": "タグA"
+  }
+}

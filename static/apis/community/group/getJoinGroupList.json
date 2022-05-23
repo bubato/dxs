@@ -1,0 +1,94 @@
+{
+  "result": 0,
+  "accountingFirmPostGroups": [
+    {
+      "postGroupId": 1,
+      "postGroupName": "会計事務所グループA",
+      "postGroupCoverImageUrl": ""
+    },
+    {
+      "postGroupId": 2,
+      "postGroupName": "会計事務所グループB",
+      "postGroupCoverImageUrl": ""
+    },
+    {
+      "postGroupId": 3,
+      "postGroupName": "会計事務所グループC",
+      "postGroupCoverImageUrl": ""
+    },
+    {
+      "postGroupId": 4,
+      "postGroupName": "会計事務所グループD",
+      "postGroupCoverImageUrl": ""
+    },
+    {
+      "postGroupId": 5,
+      "postGroupName": "会計事務所グループE",
+      "postGroupCoverImageUrl": ""
+    },
+    {
+      "postGroupId": 6,
+      "postGroupName": "会計事務所グループF",
+      "postGroupCoverImageUrl": ""
+    },
+    {
+      "postGroupId": 7,
+      "postGroupName": "会計事務所グループG",
+      "postGroupCoverImageUrl": ""
+    },
+    {
+      "postGroupId": 8,
+      "postGroupName": "会計事務所グループH",
+      "postGroupCoverImageUrl": ""
+    }
+  ],
+  "adminPostGroups": [
+    {
+      "postGroupId": 11,
+      "postGroupName": "管理グループA",
+      "postGroupCoverImageUrl": ""
+    },
+    {
+      "postGroupId": 22,
+      "postGroupName": "管理グループB",
+      "postGroupCoverImageUrl": ""
+    },
+    {
+      "postGroupId": 33,
+      "postGroupName": "管理グループC",
+      "postGroupCoverImageUrl": ""
+    },
+    {
+      "postGroupId": 44,
+      "postGroupName": "管理グループD",
+      "postGroupCoverImageUrl": ""
+    },
+    {
+      "postGroupId": 55,
+      "postGroupName": "管理グループE",
+      "postGroupCoverImageUrl": ""
+    }
+  ],
+  "participationPostGroups": [
+    {
+      "postGroupId": 111,
+      "postGroupName": "参加投稿グループA",
+      "postGroupCoverImageUrl": ""
+    },
+    {
+      "postGroupId": 222,
+      "postGroupName": "参加投稿グループB",
+      "postGroupCoverImageUrl": ""
+    },
+    {
+      "postGroupId": 333,
+      "postGroupName": "参加投稿グループC",
+      "postGroupCoverImageUrl": ""
+    },
+    {
+      "postGroupId": 444,
+      "postGroupName": "参加投稿グループD",
+      "postGroupCoverImageUrl": ""
+    }
+  ]
+}

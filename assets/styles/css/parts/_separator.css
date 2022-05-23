@@ -1,0 +1,11 @@
+/* 区切り線 */
+.xhm-separator {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.xhm-separator hr {
+  height: 1px;
+  background-color: #d2d2d2;
+  border: none;
+}

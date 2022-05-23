@@ -1,0 +1,480 @@
+[
+  {
+    "componentKind": "setComponent",
+    "id": "header",
+    "name": "ヘッダー",
+    "logo": ""
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "mainArea",
+    "name": "メインエリア",
+    "title": { "align": "1", "context": "DESIGN THE LIFE" },
+    "text": {
+      "align": "1",
+      "context": "帰りたくなる住まいをご提供しています。"
+    },
+    "textColor": "4",
+    "backgroundImage": "https://images.@@images-domain@@/web-assets/common/web/10/82837576_20220309.png",
+    "buttons": [{ "text": "", "link": "", "linkType": 1 }]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "oneLineNews",
+    "name": "ワンラインニュース",
+    "date": "2022/04/01",
+    "title": "Webサイトをリニューアルしました",
+    "label": "お知らせ",
+    "link": ""
+  },
+  {
+    "componentKind": "singleComponent",
+    "id": "heading2",
+    "name": "見出し2",
+    "context": "最新物件情報",
+    "align": "1",
+    "link": "",
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    }
+  },
+  {
+    "componentKind": "layoutComponent",
+    "id": "layout-3",
+    "name": "3列",
+    "checkSameHeader": false,
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    },
+    "layoutNum": 3,
+    "layoutType": "1",
+    "componentList": [
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "image",
+          "name": "画像",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/10/61002448_20220309.png",
+          "imageName": "",
+          "align": "1",
+          "alternateText": "",
+          "width": "",
+          "height": "",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "heading3",
+          "name": "見出し3",
+          "context": "物件タイトルを入力します。",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "物件概要を入力します。物件のアピールポイントや立地、スペック情報などを入力してください。",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "button",
+          "name": "ボタン",
+          "kind": "2",
+          "width": "224",
+          "height": "56",
+          "align": "1",
+          "text": "詳しくはこちら",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ],
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "image",
+          "name": "画像",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/10/61002448_20220309.png",
+          "imageName": "",
+          "align": "1",
+          "alternateText": "",
+          "width": "",
+          "height": "",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "heading3",
+          "name": "見出し3",
+          "context": "物件タイトルを入力します。",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "物件概要を入力します。物件のアピールポイントや立地、スペック情報などを入力してください。",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "button",
+          "name": "ボタン",
+          "kind": "2",
+          "width": "224",
+          "height": "56",
+          "align": "1",
+          "text": "詳しくはこちら",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ],
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "image",
+          "name": "画像",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/10/61002448_20220309.png",
+          "imageName": "",
+          "align": "1",
+          "alternateText": "",
+          "width": "",
+          "height": "",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "heading3",
+          "name": "見出し3",
+          "context": "物件タイトルを入力します。",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "物件概要を入力します。物件のアピールポイントや立地、スペック情報などを入力してください。",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "button",
+          "name": "ボタン",
+          "kind": "2",
+          "width": "224",
+          "height": "56",
+          "align": "1",
+          "text": "詳しくはこちら",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "textWithLeftAndRightImages",
+    "name": "左右画像付きテキスト",
+    "heading": "イチオシ物件情報",
+    "layoutType": "1",
+    "images": [
+      {
+        "title": "物件タイトルを入力します。",
+        "text": "物件概要を入力します。物件のアピールポイントや立地、スペック情報などを入力してください。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/10/9837728_20220309.png",
+        "imageName": "",
+        "imageAlign": "1",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "textWithTopImages",
+    "name": "上画像付きテキスト",
+    "heading": "〇〇〇は長年培ったネットワークと人材力でお客さまのご希望の物件をご提案します。",
+    "layoutType": "2",
+    "images": [
+      {
+        "title": "スタッフの教育に注力",
+        "text": "初めての方も安心してご相談いただけるよう信頼いただけるスタッフのみ配置しています。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/10/74175673_20220309.png",
+        "imageName": "",
+        "link": ""
+      },
+      {
+        "title": "バーチャル内覧にも対応",
+        "text": "ご多忙で物件の内覧が難しい方にもVR内覧をご提供しています。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/10/69750330_20220309.png",
+        "imageName": "",
+        "link": ""
+      },
+      {
+        "title": "都内23区以外の物件もご紹介可能",
+        "text": "パートナーと連携し23区以外の物件もご案内できます。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/10/76411212_20220309.png",
+        "imageName": "",
+        "link": "",
+        "linkType": "0"
+      }
+    ]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "customerVoice",
+    "name": "お客さまの声",
+    "heading": { "align": "1", "context": "お客様の声" },
+    "layoutDirection": "1",
+    "layoutType": "1",
+    "contents": [
+      {
+        "title": "お客様の声タイトルを入力します",
+        "text": "物件購入いただいたお客様の声を入力します。",
+        "image": "",
+        "link": ""
+      },
+      {
+        "title": "お客様の声タイトルを入力します",
+        "text": "物件購入いただいたお客様の声を入力します。",
+        "image": "",
+        "link": ""
+      },
+      {
+        "title": "お客様の声タイトルを入力します",
+        "text": "物件購入いただいたお客様の声を入力します。",
+        "image": "",
+        "link": ""
+      },
+      {
+        "title": "お客様の声タイトルを入力します",
+        "text": "物件購入いただいたお客様の声を入力します。",
+        "image": "",
+        "imageName": "",
+        "imageAlign": "1",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "componentKind": "singleComponent",
+    "id": "heading2",
+    "name": "見出し2",
+    "context": "お問い合わせ",
+    "align": "1",
+    "link": "",
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    }
+  },
+  {
+    "componentKind": "formComponent",
+    "id": "",
+    "name": "",
+    "previewSrc": ""
+  },
+  {
+    "componentKind": "singleComponent",
+    "id": "heading2",
+    "name": "見出し2",
+    "context": "私たちについて",
+    "align": "1",
+    "link": "",
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    }
+  },
+  {
+    "componentKind": "layoutComponent",
+    "id": "layout-2",
+    "name": "2列",
+    "checkSameHeader": false,
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    },
+    "layoutNum": 2,
+    "layoutType": "1",
+    "componentList": [
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "<iframe src=\\"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d51851.69908212983!2d139.78310180000003!3d35.6836203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1637540484748!5m2!1sja!2sjp\\" width=\\"500\\" height=\\"450\\" style=\\"border:0;\\" allowfullscreen=\\"\\" loading=\\"lazy\\"></iframe>",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ],
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "heading3",
+          "name": "見出し3",
+          "context": "企業情報",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "100-0000\\n東京都港区*************\\n\\n03-****-****\\ninfo@********.com",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "footer",
+    "name": "フッター"
+  }
+]

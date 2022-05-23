@@ -1,0 +1,103 @@
+$template-color: #ffffff;
+$bgcolor: 0a03ac;
+$subColor: #1e1e1e;
+
+$classList: black, gray, gold, lightBlue, darkBlue, lightGreen, orange, red, pink, purple;
+$siteColor: #1e1e1e, #a0a0a0, #bca820, #437cfd, #0a03ac, #47ce6a, #ff831a, #f03333, #ffa6c9, #6120f6;
+
+$mainAreaMargin: 56px;
+$mainAreaInnerPadding: calc(((100% + #{$mainAreaMargin} * 2) / 12) - #{$mainAreaMargin} - 12px);
+
+// メインエリア、コンバージョン以外
+.view-components.preview
+  .set-component
+  [class^="view-"]:not(.view-mainArea):not(.view-conversion):not(.view-breadcrumb):not(.view-oneLineNews):not(.view-header):not(.view-footer),
+.view-components.preview .layout-column-area,
+.view-components > .single-component .single_component_content ,
+.form-component .form_component_content{
+  padding-left: 16px;
+  padding-right: 16px;
+}
+// 背景の比率をSPに合わせ調整
+.preview {
+  background-size: 300% auto !important;
+}
+/* セットパーツ:メインエリア */
+.preview .view-mainArea {
+  margin: 16px 16px $mainAreaMargin 16px;
+  width: calc(100% - 32px) !important;
+  &.background {
+    padding-top: 52px !important;
+    padding-bottom: 52px;
+    .parts-contents {
+      padding: 32px 16px;
+    }
+  }
+}
+// コンバージョン背景調整
+.preview .view-conversion {
+  &.background {
+    padding: 40px 0px !important;
+    .contents-area {
+      padding: 32px;
+      .text {
+        margin-bottom: 43px;
+      }
+    }
+  }
+}
+
+
+/*========================================================
+　追加修正
+========================================================*/
+@import './templateHeader.scss';
+/* コンテンツエリア内パンくずリスト、ワンラインニュース */
+.view-oneLineNews,.view-breadcrumb{
+  margin-top: -10px;
+  box-shadow: none;
+  &:after{
+    display: none;
+  }
+}
+#{$afterHeadContents}{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+  width: 100% !important;
+  background-color: #fff !important;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-shadow: none !important;
+}
+#{$afterHeadContentsLastContent}{
+  margin-bottom: 56px !important;
+}
+#{$afterMainAreaContents}{
+  margin-bottom: 0 !important;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #fff !important;
+  box-shadow: none !important;
+}
+
+#{$afterMainAreaContentsLastContent}{
+  margin-bottom: 96px !important;
+  [class*="view-"]{
+  }
+  + .component [class*="view-"]{
+     &:after{
+      display: none;
+    }
+  }
+}
+#{$afterConversionContents}{
+  width: 100% !important;
+}
+
+.next-conversion-component.prev-footer-component{
+  width: 100% !important;
+}
+.prev-conversion-component .view-oneLineNews{
+  margin-bottom: 56px !important;
+}

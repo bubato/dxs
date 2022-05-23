@@ -1,0 +1,17 @@
+{
+  "sideNaviItems": [
+    {
+      "name": "メール",
+      "link": [
+        {
+          "name": "メール一覧",
+          "path": "/mail/list/"
+        },
+        {
+          "name": "基本設定",
+          "path": "/mail/settings/"
+        }
+      ]
+    }
+  ]
+}

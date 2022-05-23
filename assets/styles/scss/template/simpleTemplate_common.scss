@@ -1,0 +1,146 @@
+$classList: black, gray, gold, lightBlue, darkBlue, lightGreen, orange, red, pink, purple, darkGray, blueGreen, darkGreen, green, yellowGreen, darkPink, violet, paleBlue, palePurple, brown;
+$siteColor: #1e1e1e, #a0a0a0, #bca820, #437cfd, #0a03ac, #47ce6a, #ff831a, #f03333, #ffa6c9, #6120f6, #404040, #06cbdb, #005b3a, #009a22, #b2db11, #f45384, #830de8, #9Bdcf7, #cd9ef6, #561631;
+
+@mixin mainAreaInnerPadding() {
+  padding-left: calc(100% / 12);
+  padding-right: calc(100% / 12);
+}
+
+@each $class in $classList {
+  $index_key: index($classList, $class); //インデックスを取得
+  &.siteColor-#{$class} {
+    .view-components .btn {
+      background-color: nth($siteColor, $index_key);
+      &:hover:not(.btn-disabled) {
+        background: rgba(nth($siteColor, $index_key), 0.85);
+      }
+    }
+    /* セットパーツ:ワンラインニュース */
+    .view-oneLineNews .news .label {
+      background: nth($siteColor, $index_key);
+    }
+    // タイトル装飾
+    .view-listDisplay,
+    .view-oneLineNews,
+    .view-message,
+    .view-textWithTopImages,
+    .view-companyOverview,
+    .view-textWithLeftAndRightImages,
+    .view-map,
+    .view-step,
+    .view-customer-voice {
+      .heading::after {
+        background: nth($siteColor, $index_key);
+      }
+    }
+    /* セットパーツ:ステップ */
+    .view-step {
+      .step-contents {
+        .step-images {
+          background: nth($siteColor, $index_key);
+        }
+      }
+    }
+  }
+}
+.view-components.preview > .single-component.next-conversion-component .single_component_content,
+.view-components.preview > .single-component.next-mainArea-component .single_component_content,
+.view-components.preview > .next-mainArea-component.breadcrumbComponent + .single-component .single_component_content,
+.view-components.preview > .next-mainArea-component.oneLineNewsComponent + .single-component .single_component_content,
+.view-components.preview > .next-conversion-component.breadcrumbComponent + .single-component .single_component_content,
+.view-components.preview > .next-conversion-component.oneLineNewsComponent + .single-component .single_component_content {
+    padding-top: 0;
+    margin-top: 96px !important;
+}
+.view-components {
+  background-color: #fff;
+  .btn {
+    color: #ffffff;
+    &:hover:not(.btn-disabled) {
+      position: relative;
+      overflow: hidden;
+    }
+  }
+}
+// タイトル装飾
+.view-listDisplay,
+.view-oneLineNews,
+.view-message,
+.view-textWithTopImages,
+.view-companyOverview,
+.view-textWithLeftAndRightImages,
+.view-map,
+.view-step,
+.view-customer-voice {
+  .heading {
+    font-size: 34px;
+    line-height: 1.2;
+    text-align: center;
+    position: relative;
+    padding-bottom: 24px;
+    &::after {
+      content: "";
+      width: 48px;
+      position: absolute;
+      bottom: 0;
+      left: calc(50% - 24px);
+      height: 4px;
+    }
+  }
+}
+
+/* セットパーツ:メインエリア */
+.view-mainArea {
+  width: 100% !important;
+  .parts-contents {
+    .heading-text {
+      .heading {
+        font-size: 66px;
+      }
+    }
+  }
+}
+.preview .view-mainArea {
+  background-color: #fff;
+  .background.background-image {
+    padding-top: 0 !important;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+/* セットパーツ:メッセージ */
+.view-message {
+  .heading {
+    font-size: 45px;
+    font-weight: bold;
+  }
+}
+/* セットパーツ:コンバージョン */
+.preview .conversionComponent {
+  margin-top: 96px;
+}
+.preview .conversionComponent.next-oneLineNews-component,
+.preview .conversionComponent.next-breadcrumb-component{
+  margin-top: 0;
+}
+.preview .view-conversion {
+  margin-top: 0;
+}
+/* セットパーツ:パンくず・ワンラインニュース */
+.next-mainArea-component .view-breadcrumb,
+.next-header-component .view-breadcrumb,
+.prev-footer-component .view-breadcrumb,
+.next-mainArea-component .view-oneLineNews,
+.next-conversion-component .view-oneLineNews,
+.next-header-component .view-oneLineNews,
+.prev-footer-component .view-oneLineNews,
+.next-mainArea-component.oneLineNewsComponent + .breadcrumbComponent .view-breadcrumb,
+.next-mainArea-component.breadcrumbComponent + .oneLineNewsComponent .view-oneLineNews {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100% !important;
+}
+.next-header-component.breadcrumbComponent + .oneLineNewsComponent .view-oneLineNews{
+  margin-top: 0px !important;
+}

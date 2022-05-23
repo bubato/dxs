@@ -1,0 +1,29 @@
+/* エラーメッセージ */
+.xhm-message-error {
+  position: relative;
+  display: inline-block;
+  margin: 0 0 0.8rem 0;
+  padding: 8px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #fff;
+  font-size: 12px;
+  background-color: #e60012;
+}
+
+.xhm-message-error + input,
+.xhm-message-error + select,
+.xhm-message-error + textarea {
+  border: 1px solid #e60012;
+  background-color: #fff2f4;
+}
+
+.xhm-message-error:before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 24px;
+  margin-left: -10px;
+  border: 8px solid transparent;
+  border-top: 8px solid #e60012;
+}

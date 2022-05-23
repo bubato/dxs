@@ -1,0 +1,131 @@
+{
+  "setComponents": [
+    {
+      "id": "mainArea",
+      "name": "メインエリア"
+    },
+    {
+      "id": "breadcrumb",
+      "name": "パンくず"
+    },
+    {
+      "id": "oneLineNews",
+      "name": "ワンライン<br />ニュース"
+    },
+    {
+      "id": "message",
+      "name": "メッセージ"
+    },
+    {
+      "id": "textWithTopImages",
+      "name": "上画像付き<br />テキスト"
+    },
+    {
+      "id": "textWithLeftAndRightImages",
+      "name": "左右画像付き<br />テキスト"
+    },
+    {
+      "id": "listDisplay",
+      "name": "一覧表示"
+    },
+    {
+      "id": "companyOverview",
+      "name": "企業概要"
+    },
+    {
+      "id": "map",
+      "name": "地図"
+    },
+    {
+      "id": "conversion",
+      "name": "コンバージョン"
+    },
+    {
+      "id": "step",
+      "name": "ステップ"
+    },
+    {
+      "id": "customerVoice",
+      "name": "お客さまの声"
+    }
+  ],
+  "layoutComponents": [
+    {
+      "id": "layout-2",
+      "name": "2列"
+    },
+    {
+      "id": "layout-3",
+      "name": "3列"
+    },
+    {
+      "id": "layout-4",
+      "name": "4列"
+    }
+  ],
+  "singleComponents": [
+    {
+      "id": "heading1",
+      "name": "見出し1"
+    },
+    {
+      "id": "heading2",
+      "name": "見出し2"
+    },
+    {
+      "id": "heading3",
+      "name": "見出し3"
+    },
+    {
+      "id": "heading4",
+      "name": "見出し4"
+    },
+    {
+      "id": "text",
+      "name": "テキスト"
+    },
+    {
+      "id": "annotation",
+      "name": "注釈"
+    },
+    {
+      "id": "list",
+      "name": "リスト"
+    },
+    {
+      "id": "image",
+      "name": "画像"
+    },
+    {
+      "id": "movie",
+      "name": "動画"
+    },
+    {
+      "id": "table",
+      "name": "表組み",
+      "image": "/assets/images/component.png"
+    },
+    {
+      "id": "separator",
+      "name": "区切り線"
+    },
+    {
+      "id": "button",
+      "name": "ボタン"
+    },
+    {
+      "id": "space",
+      "name": "空白"
+    },
+    {
+      "id": "accordion",
+      "name": "アコーディオン"
+    }
+  ],
+  "formComponents": [
+    {
+      "id": "formName",
+      "name": "フォーム名"
+    }
+  ]
+}

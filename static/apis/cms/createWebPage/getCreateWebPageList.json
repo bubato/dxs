@@ -1,0 +1,91 @@
+{
+  "result": 0,
+  "topPagePath": "https://www.tribeck.jp",
+  "siteInfo": {
+    "recordVersion": 1123
+  },
+  "pageListData": {
+    "id": 1,
+    "name": "トップページ",
+    "pageStatus": 2,
+    "publishStatus": 0,
+    "recordVersion": 10,
+    "path": "/",
+    "underContents": [
+      {
+        "id": 11,
+        "name": "pageStatus:0編集中-publishStatus:なし",
+        "pageStatus": 0,
+        "publishStatus": 0,
+        "recordVersion": 21,
+        "path": "/test1/"
+      },
+      {
+        "id": 12,
+        "name": "pageStatus:1公開予約-publishStatus:なし",
+        "pageStatus": 1,
+        "publishStatus": 0,
+        "recordVersion": 22,
+        "path": "/test2/",
+        "underContents": [
+          {
+            "id": 121,
+            "name": "pageStatus:1公開予約-publishStatus:なし_",
+            "pageStatus": 2,
+            "publishStatus": 0,
+            "recordVersion": 221,
+            "path": "/test2/test1/"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "pageStatus:2公開中-publishStatus:なし",
+        "pageStatus": 2,
+        "publishStatus": 0,
+        "recordVersion": 23,
+        "path": "/test3/"
+      },
+      {
+        "id": 14,
+        "name": "pageStatus:3一時保存-publishStatus:なし",
+        "pageStatus": 3,
+        "publishStatus": 0,
+        "recordVersion": 24,
+        "path": "/test4/"
+      },
+      {
+        "id": 15,
+        "name": "pageStatus:4予約更新-publishStatus:なし",
+        "pageStatus": 4,
+        "publishStatus": 0,
+        "recordVersion": 25,
+        "path": "/test5/"
+      },
+      {
+        "id": 16,
+        "name": "pageStatus:9削除-publishStatus:なし",
+        "pageStatus": 9,
+        "publishStatus": 0,
+        "recordVersion": 26,
+        "path": "/test6/"
+      },
+      {
+        "id": 17,
+        "name": "pageStatus:4予約更新-publishStatus:処理中",
+        "pageStatus": 4,
+        "publishStatus": 1,
+        "recordVersion": 27,
+        "path": "/test7/"
+      },
+      {
+        "id": 18,
+        "name": "pageStatus:4予約更新-publishStatus:障害発生",
+        "pageStatus": 4,
+        "publishStatus": 9,
+        "recordVersion": 28,
+        "path": "/test8/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="93" height="66" viewBox="0 0 93 66">
+  <g id="グループ_28593" data-name="グループ 28593" transform="translate(-161 -612)">
+    <g id="長方形_3116" data-name="長方形 3116" transform="translate(161 612)" fill="#f7f8f9" stroke="#e5e5e5" stroke-width="1">
+      <rect width="93" height="66" stroke="none"/>
+      <rect x="0.5" y="0.5" width="92" height="65" fill="none"/>
+    </g>
+    <g id="table_chart-24px" transform="translate(191 627)">
+      <path id="パス_847" data-name="パス 847" d="M0,0H34V34H0Z" fill="none"/>
+      <path id="パス_848" data-name="パス 848" d="M27.136,3H5.84A2.849,2.849,0,0,0,3,5.841V25.73a2.849,2.849,0,0,0,2.84,2.841h21.3a2.849,2.849,0,0,0,2.84-2.841V5.841A2.849,2.849,0,0,0,27.136,3Zm0,2.841V10.1H5.84V5.841Zm-7.1,19.888h-7.1V12.944h7.1ZM5.84,12.944H10.1V25.73H5.84ZM22.877,25.73V12.944h4.259V25.73Z" transform="translate(1.215 1.215)" fill="#ccc"/>
+    </g>
+  </g>
+</svg>

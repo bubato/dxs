@@ -1,0 +1,61 @@
+{
+  "result": 0,
+  "profile": {
+    "coverImageCode": 1,
+    "coverImageURL": "https://www.atpress.ne.jp/releases/224044/img_224044_1.png",
+    "basicSettings": {
+      "name": "トライベック株式会社 （英文表記：Tribeck Inc.）",
+      "number": "12345",
+      "industry": "1",
+      "lastName": "渡来",
+      "firstName": "太郎",
+      "lastNameKana": "トライ",
+      "firstNameKana": "タロウ",
+      "tel": "0312345678",
+      "postCode": "2110004",
+      "addressState": "10",
+      "addressCity": "市区町村",
+      "addressLine1": "番地1",
+      "addressLine2": "番地2",
+      "website": "https://www.tribeck.jp/",
+      "image": "https://images.mdx-dev.com/web-assets/100001/logo/7e439de3f81e34019a4b4e7ecba8cde90f9eada93d76ca7c31c94588cf8c62cf.jpg?1"
+    },
+    "billingAddress": {
+      "checkBillingAddress": true
+    },
+    "detail": {
+      "foundedY": "2020",
+      "foundedM": "12",
+      "numberOfEmployees": "1",
+      "listingClassificationRadio": "0",
+      "listingClassificationSelect": "1",
+      "closingMonth": "12",
+      "capital": "1億500万円",
+      "sales": "12345",
+      "officer": [
+        {
+          "position": "取締役1",
+          "name": "田中太郎"
+        },
+        {
+          "position": "取締役2",
+          "name": "鈴木次郎"
+        }
+      ],
+      "businessContent": "事業内容"
+    },
+    "goodsAndServices": [
+      {
+        "name": "HIRAMEKI XD",
+        "image": "",
+        "context": "HIRAMEKI XD（ヒラメキクロスディー）は驚きのシンプルさ×低コストで ビジネス成果が出るまで使い倒すことができるマーケティングプラットフォームです。 多くのお客さまに成功を掴み取ってもらうために「まずはやってみよう」「成果が出るまで続けよう」を実現するためのツールです。"
+      },
+      {
+        "name": "HUMAN INSIGHT CX",
+        "image": "",
+        "context": "トライベックのコンサルティングはリアルな「人：ユーザー」と向き合い、ユーザーの想い（INSIGHT）を知ることから始まり、全てのPhaseにおいて常に顧客メリットを最優先に考えます。DIGITALで顧客体験を大きく変える最善の打ち手をご提案しプロジェクトを成功に導きます。ビジネス成果が出るまで使い倒すことができるマーケティングプラットフォームです。"
+      }
+    ],
+    "recordVersion": 12345
+  }
+}

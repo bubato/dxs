@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="93" height="66" viewBox="0 0 93 66">
+  <g id="グループ_6067" data-name="グループ 6067" transform="translate(-161 -78)">
+    <g id="長方形_4" data-name="長方形 4" transform="translate(161 78)" fill="#f7f8f9" stroke="#e5e5e5" stroke-width="1">
+      <rect width="93" height="66" stroke="none"/>
+      <rect x="0.5" y="0.5" width="92" height="65" fill="none"/>
+    </g>
+    <g id="グループ_2757" data-name="グループ 2757" transform="translate(5 -84)">
+      <rect id="長方形_2659" data-name="長方形 2659" width="77" height="50" transform="translate(165 170)" fill="#dedede"/>
+      <g id="グループ_2376" data-name="グループ 2376" transform="translate(170.859 179.835)">
+        <g id="グループ_11171" data-name="グループ 11171" transform="translate(0 4)">
+          <rect id="長方形_2659-2" data-name="長方形 2659" width="31" height="10" rx="5" transform="translate(34.141 0.166)" fill="#fff"/>
+          <rect id="長方形_8571" data-name="長方形 8571" width="31" height="10" rx="5" transform="translate(34.141 13.166)" fill="#fff"/>
+        </g>
+        <g id="グループ_11172" data-name="グループ 11172">
+          <rect id="長方形_2656" data-name="長方形 2656" width="30" height="8" transform="translate(0.141 0.166)" fill="#fff"/>
+          <rect id="長方形_2657" data-name="長方形 2657" width="30" height="4" transform="translate(0.141 12.166)" fill="#fff"/>
+          <rect id="長方形_2658" data-name="長方形 2658" width="30" height="4" transform="translate(0.141 19.166)" fill="#fff"/>
+          <rect id="長方形_8572" data-name="長方形 8572" width="30" height="4" transform="translate(0.141 26.166)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

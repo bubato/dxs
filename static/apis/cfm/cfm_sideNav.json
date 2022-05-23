@@ -1,0 +1,18 @@
+{
+  "result": 0,
+  "sideNaviItems": [
+    {
+      "name": "キャッシュフローマネジメント",
+      "link": [
+        {
+          "name": "顧問先一覧",
+          "path": "/cashFlowManagement/advisoryCompany/"
+        },
+        {
+          "name": "資金繰り予測レポート",
+          "path": "/cashFlowManagement/forecastReport/"
+        }
+      ]
+    }
+  ]
+}

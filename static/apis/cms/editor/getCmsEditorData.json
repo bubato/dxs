@@ -1,0 +1,555 @@
+{
+  "result": 0,
+  "templateImageId": "403",
+  "colorId": "8",
+  "pageStatus": 0,
+  "publishStatus": 0,
+  "industry": "2",
+  "topPagePath": "https://www.tribeck.jp/",
+  "breadcrumb": [
+    {
+      "name": "トップページ",
+      "path": "/"
+    },
+    {
+      "name": "サービス紹介",
+      "path": "/service"
+    },
+    {
+      "name": "サービス詳細",
+      "path": "/service/detail"
+    }
+  ],
+  "pageProperty": {
+    "pageKind": "1",
+    "showName": "表示名が入ります",
+    "showHeader": true,
+    "showFooter": false,
+    "title": "タイトル",
+    "context": "説明",
+    "afterHeadTag": "<script>test1</script>",
+    "beforeHeadTag": "<script>test2</script>",
+    "afterBodyTag": "<script>test3</script>",
+    "beforeBodyTag": "<script>test4</script>"
+  },
+  "headerItems": {
+    "logo": "data:image/png;base64,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",
+    "links": [
+      {
+        "name": "サービス詳細",
+        "path": "/service/detail"
+      },
+      {
+        "name": "事例詳細​",
+        "path": "/case/detail"
+      }
+    ]
+  },
+  "footerItems": {
+    "copyright": "Copyright© Tribeck Inc. All Rights Reserved.",
+    "links": [
+      {
+        "name": "事例詳細2​",
+        "path": "/case/detail2"
+      },
+      {
+        "name": "事例詳細3",
+        "path": "/case/detail3"
+      },
+      {
+        "name": "事例詳細4",
+        "path": "/case/detail4"
+      }
+    ]
+  },
+  "componentList": [
+    {
+      "componentKind": "setComponent",
+      "id": "header",
+      "name": "ヘッダー",
+      "logo": ""
+    },
+    {
+      "componentKind": "setComponent",
+      "id": "customerVoice",
+      "name": "お客さまの声",
+      "heading": {
+        "align": "1",
+        "context": "お客さまから寄せられた声"
+      },
+      "layoutDirection": "1",
+      "layoutType": "2",
+      "contents": [
+        {
+          "title": "<お客さまからの一言>を入力してください",
+          "text": "<お客さまからのコメント>を入力してください",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/1/49852048_20220309.png",
+          "link": ""
+        },
+        {
+          "title": "<お客さまからの一言>を入力してください",
+          "text": "<お客さまからのコメント>を入力してください",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/1/49852048_20220309.png",
+          "link": ""
+        },
+        {
+          "title": "<お客さまからの一言>を入力してください",
+          "text": "<お客さまからのコメント>を入力してください",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/1/49852048_20220309.png",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "componentKind": "setComponent",
+      "id": "mainArea",
+      "name": "メインエリア",
+      "title": {
+        "align": "1",
+        "context": "クライアントに寄り添い、<br>あたりまえのことをきちんと。"
+      },
+      "text": {
+        "align": "1",
+        "context": "お客さまが本来要求されている財務資料をご提供しサポートさせていただき、お客さまとともに、企業の未来を創造していきたいと考えております。"
+      },
+      "textColor": "4",
+      "backgroundImage": "https://images.@@images-domain@@/web-assets/common/web/1/49852048_20220309.png",
+      "buttons": [{ "text": "お問い合わせ", "link": "", "linkType": 1 }]
+    },
+    {
+      "componentKind": "setComponent",
+      "id": "oneLineNews",
+      "name": "ワンラインニュース",
+      "date": "2022/04/01",
+      "title": "Webサイトをリニューアルしました",
+      "label": "お知らせ",
+      "link": ""
+    },
+    {
+      "componentKind": "setComponent",
+      "id": "message",
+      "name": "メッセージ",
+      "title": {
+        "align": "1",
+        "context": "〇〇〇会計事務所はあたりまえのことをきちんとできる会計事務所です。"
+      },
+      "text": {
+        "align": "1",
+        "context": "我々の会計サポートスタイルは過去会計の充実、つまりタイムリーな試算表の提供です。過去会計を充実させるために、原則としてお客さまに帳簿を入力していただきます。それによりお客さまは、いつでも経営数値を見ることができるようになります。そしてそれを経営の意思決定に役立ててください。"
+      }
+    },
+    {
+      "componentKind": "setComponent",
+      "id": "textWithLeftAndRightImages",
+      "name": "上画像付きテキスト",
+      "heading": "事業内容",
+      "layoutType": "2",
+      "images": [
+        {
+          "title": "税務申告",
+          "text": "税務申告の具体的なサービス内容を入力します。",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/1/31430203_20220309.png",
+          "imageName": "",
+          "link": ""
+        },
+        {
+          "title": "税務相談",
+          "text": "税務相談の具体的なサービス内容を入力します。",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/1/61976571_20220309.png",
+          "imageName": "",
+          "link": ""
+        },
+        {
+          "title": "経営相談",
+          "text": "経営相談の具体的なサービス内容を入力します。",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/1/73934187_20220309.png",
+          "imageName": "",
+          "link": "",
+          "linkType": "0"
+        },
+        {
+          "title": "給与計算代行",
+          "text": "給与計算代行の具体的なサービス内容を入力します。",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/1/55938283_20220309.png",
+          "imageName": "",
+          "link": "",
+          "linkType": "0"
+        },
+        {
+          "title": "税務調査立会",
+          "text": "税務調査立会の具体的なサービス内容を入力します。",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/1/47748240_20220309.png",
+          "imageName": "",
+          "link": "",
+          "linkType": "0"
+        },
+        {
+          "title": "相続税の申告",
+          "text": "相続税の申告の具体的なサービス内容を入力します。",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/1/66008877_20220309.png",
+          "imageName": "",
+          "link": "",
+          "linkType": "0"
+        },
+        {
+          "title": "相続税の税務相談・節税相談",
+          "text": "相続税の税務相談・節税相談の具体的なサービス内容を入力します。",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/1/56398575_20220309.png",
+          "imageName": "",
+          "link": "",
+          "linkType": "0"
+        }
+      ]
+    },
+    {
+      "componentKind": "layoutComponent",
+      "id": "layout-4",
+      "name": "4列",
+      "checkSameHeader": false,
+      "spaceInfo": {
+        "spaceKind": "1",
+        "space": "1",
+        "topSpace": "1",
+        "bottomSpace": "1",
+        "leftSpace": "1",
+        "rightSpace": "1"
+      },
+      "layoutNum": 4,
+      "layoutType": "1",
+      "componentList": [
+        [
+          {
+            "componentKind": "singleComponent",
+            "id": "image",
+            "name": "画像",
+            "image": "",
+            "imageName": "",
+            "align": "1",
+            "alternateText": "",
+            "width": "",
+            "height": "",
+            "link": "",
+            "spaceInfo": {
+              "spaceKind": "1",
+              "space": "1",
+              "topSpace": "1",
+              "bottomSpace": "1",
+              "leftSpace": "1",
+              "rightSpace": "1"
+            }
+          },
+          {
+            "componentKind": "singleComponent",
+            "id": "text",
+            "name": "テキスト",
+            "context": "代表挨拶",
+            "align": "1",
+            "link": "",
+            "spaceInfo": {
+              "spaceKind": "1",
+              "space": "1",
+              "topSpace": "1",
+              "bottomSpace": "1",
+              "leftSpace": "1",
+              "rightSpace": "1"
+            }
+          }
+        ],
+        [
+          {
+            "componentKind": "singleComponent",
+            "id": "image",
+            "name": "画像",
+            "image": "",
+            "imageName": "",
+            "align": "1",
+            "alternateText": "",
+            "width": "",
+            "height": "",
+            "link": "",
+            "spaceInfo": {
+              "spaceKind": "1",
+              "space": "1",
+              "topSpace": "1",
+              "bottomSpace": "1",
+              "leftSpace": "1",
+              "rightSpace": "1"
+            }
+          },
+          {
+            "componentKind": "singleComponent",
+            "id": "text",
+            "name": "テキスト",
+            "context": "企業情報",
+            "align": "1",
+            "link": "",
+            "spaceInfo": {
+              "spaceKind": "1",
+              "space": "1",
+              "topSpace": "1",
+              "bottomSpace": "1",
+              "leftSpace": "1",
+              "rightSpace": "1"
+            }
+          }
+        ],
+        [
+          {
+            "componentKind": "singleComponent",
+            "id": "image",
+            "name": "画像",
+            "image": "",
+            "imageName": "",
+            "align": "1",
+            "alternateText": "",
+            "width": "",
+            "height": "",
+            "link": "",
+            "spaceInfo": {
+              "spaceKind": "1",
+              "space": "1",
+              "topSpace": "1",
+              "bottomSpace": "1",
+              "leftSpace": "1",
+              "rightSpace": "1"
+            }
+          },
+          {
+            "componentKind": "singleComponent",
+            "id": "text",
+            "name": "テキスト",
+            "context": "沿革",
+            "align": "1",
+            "link": "",
+            "spaceInfo": {
+              "spaceKind": "1",
+              "space": "1",
+              "topSpace": "1",
+              "bottomSpace": "1",
+              "leftSpace": "1",
+              "rightSpace": "1"
+            }
+          }
+        ],
+        [
+          {
+            "componentKind": "singleComponent",
+            "id": "image",
+            "name": "画像",
+            "image": "https://images.@@images-domain@@/web-assets/common/web/1/56398575_20220309.png",
+            "imageName": "",
+            "align": "1",
+            "alternateText": "",
+            "width": "",
+            "height": "",
+            "link": "",
+            "spaceInfo": {
+              "spaceKind": "1",
+              "space": "1",
+              "topSpace": "1",
+              "bottomSpace": "1",
+              "leftSpace": "1",
+              "rightSpace": "1"
+            }
+          },
+          {
+            "componentKind": "singleComponent",
+            "id": "text",
+            "name": "テキスト",
+            "context": "採用情報",
+            "align": "1",
+            "link": "",
+            "spaceInfo": {
+              "spaceKind": "1",
+              "space": "1",
+              "topSpace": "1",
+              "bottomSpace": "1",
+              "leftSpace": "1",
+              "rightSpace": "1"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "componentKind": "singleComponent",
+      "id": "image",
+      "name": "画像",
+      "image": "https://images.@@images-domain@@/web-assets/common/web/1/56398575_20220309.png",
+      "imageName": "",
+      "align": "1",
+      "alternateText": "",
+      "width": "",
+      "height": "",
+      "link": "",
+      "spaceInfo": {
+        "spaceKind": "1",
+        "space": "1",
+        "topSpace": "1",
+        "bottomSpace": "1",
+        "leftSpace": "1",
+        "rightSpace": "1"
+      }
+    },
+    {
+      "componentKind": "setComponent",
+      "id": "companyOverview",
+      "initFlag": true,
+      "name": "企業概要",
+      "companyName": "",
+      "representativeName": "",
+      "representativeNumber": "",
+      "headquartersPostalCode": "",
+      "headquartersLocation1": "",
+      "headquartersLocation2": "",
+      "headquartersLocation3": "",
+      "headquartersLocation4": "",
+      "officer": [
+        {
+          "position": "",
+          "name": ""
+        }
+      ],
+      "foundingDate": "",
+      "numberOfEmployees": "",
+      "capital": "",
+      "businessContent": ""
+    },
+    {
+      "componentKind": "setComponent",
+      "id": "conversion",
+      "name": "コンバージョン",
+      "title": { "align": "1", "context": "お問い合わせ" },
+      "text": { "align": "1", "context": "お気軽にお問い合わせください。" },
+      "textColor": "4",
+      "backgroundImage": "",
+      "buttons": [{ "text": "お問い合わせ", "link": "", "linkType": 1 }]
+    },
+    {
+      "componentKind": "setComponent",
+      "id": "footer",
+      "name": "フッター"
+    }
+  ],
+  "publishingSettings": {
+    "date": "2020/12/20",
+    "hour": "0",
+    "minutes": "0"
+  },
+  "pageListData": {
+    "id": 1,
+    "name": "トップページ",
+    "createDate": "2020/01/12",
+    "pageStatus": 1,
+    "publishStatus": 1,
+    "recordVersion": 12345,
+    "path": "/top",
+    "imageData": "",
+    "underContents": [
+      {
+        "id": 11,
+        "name": "サービス紹介",
+        "createDate": "2020/01/15",
+        "pageStatus": 2,
+        "publishStatus": 2,
+        "path": "/service",
+        "imageData": "",
+        "underContents": [
+          {
+            "id": 113,
+            "name": "サービス詳細",
+            "createDate": "2020/01/16",
+            "pageStatus": 1,
+            "publishStatus": 1,
+            "path": "/service/detail",
+            "imageData": ""
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "事例​",
+        "createDate": "2020/01/17",
+        "pageStatus": 1,
+        "publishStatus": 2,
+        "path": "/case",
+        "imageData": "",
+        "underContents": [
+          {
+            "id": 113,
+            "name": "事例詳細​",
+            "createDate": "2020/01/18",
+            "pageStatus": 1,
+            "publishStatus": 2,
+            "path": "/case/detail1",
+            "imageData": ""
+          },
+          {
+            "id": 123,
+            "name": "事例詳細2​",
+            "createDate": "2020/01/19",
+            "pageStatus": 1,
+            "publishStatus": 2,
+            "path": "/case/detail2",
+            "imageData": ""
+          },
+          {
+            "id": 143,
+            "name": "事例詳細3",
+            "createDate": "2020/01/20",
+            "pageStatus": 1,
+            "publishStatus": 2,
+            "path": "/case/detail3",
+            "imageData": ""
+          },
+          {
+            "id": 144,
+            "name": "事例詳細4​",
+            "createDate": "2020/01/21",
+            "pageStatus": 3,
+            "publishStatus": 2,
+            "path": "/case/detail4",
+            "imageData": ""
+          },
+          {
+            "id": 145,
+            "name": "事例詳細5",
+            "createDate": "2020/01/22",
+            "pageStatus": 2,
+            "publishStatus": 1,
+            "path": "/case/detail5",
+            "imageData": ""
+          },
+          {
+            "id": 146,
+            "name": "事例詳細6",
+            "createDate": "2020/01/23",
+            "pageStatus": 2,
+            "publishStatus": 1,
+            "path": "/case/detail6",
+            "imageData": ""
+          },
+          {
+            "id": 147,
+            "name": "事例詳細7",
+            "createDate": "2020/01/24",
+            "pageStatus": 2,
+            "publishStatus": 1,
+            "path": "/case/detial7",
+            "imageData": ""
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "てすと",
+        "pageStatus": 2,
+        "publishStatus": 1,
+        "path": "/test",
+        "imageData": "",
+        "underContents": []
+      }
+    ]
+  },
+  "recordVersion": 12345
+}

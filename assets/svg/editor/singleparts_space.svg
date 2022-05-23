@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="93" height="66" viewBox="0 0 93 66">
+  <g id="グループ_28593" data-name="グループ 28593" transform="translate(-161 -612)">
+    <g id="長方形_3116" data-name="長方形 3116" transform="translate(161 612)" fill="#f7f8f9" stroke="#e5e5e5" stroke-width="1">
+      <rect width="93" height="66" stroke="none"/>
+      <rect x="0.5" y="0.5" width="92" height="65" fill="none"/>
+    </g>
+    <path id="パス_82453" data-name="パス 82453" d="M15.6,7.918,20.178,12.5A1.857,1.857,0,1,0,22.8,9.874L16.9,3.952a1.854,1.854,0,0,0-2.626,0l-5.9,5.921A1.857,1.857,0,1,0,11,12.5Zm0,22.978-4.581-4.581a1.857,1.857,0,0,0-2.626,2.626l5.9,5.921a1.854,1.854,0,0,0,2.626,0l5.9-5.9A1.857,1.857,0,0,0,20.2,26.334Z" transform="translate(192.172 625.592)" fill="#c6c6c6"/>
+  </g>
+</svg>

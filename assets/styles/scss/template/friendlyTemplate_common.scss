@@ -1,0 +1,512 @@
+$innerRadius: 12px;
+$outerRadius: 20px;
+$boxShadow: 1px 0 15px -4px rgba(0, 0, 0, 0.04), 1px 0 15px -4px rgba(0, 0, 0, 0.04);
+// $boxShadow: 0px 3px 12px rgba(0, 0, 0, 0.04);
+$mainAreaMargin: 56px;
+$mainAreaInnerPadding: calc(((100% + #{$mainAreaMargin} * 2) / 12) - #{$mainAreaMargin} - 12px);
+
+/* -----------------------サイトカラー調整----------------------- */
+$classList: black, gray, gold, lightBlue, darkBlue, lightGreen, orange, red, pink, purple, darkGray, blueGreen, darkGreen, green, yellowGreen, darkPink, violet, paleBlue, palePurple, brown;
+$siteColor: #1e1e1e, #a0a0a0, #bca820, #437cfd, #0a03ac, #47ce6a, #ff831a, #f03333, #ffa6c9, #6120f6, #404040, #06cbdb, #005b3a, #009a22, #b2db11, #f45384, #830de8, #9Bdcf7, #cd9ef6, #561631;
+
+@each $class in $classList {
+  $index_key: index($classList, $class); //インデックスを取得
+  &.siteColor-#{$class} {
+    .view-components .btn {
+      background-color: nth($siteColor, $index_key);
+      &:hover:not(.btn-disabled) {
+        background: rgba(nth($siteColor, $index_key), 0.85);
+      }
+    }
+    /* セットパーツ:ワンラインニュース */
+    .view-oneLineNews .news .label {
+      background: nth($siteColor, $index_key);
+    }
+    .preview {
+      background: linear-gradient(
+        to right,
+        #fcfcfc 0%,
+        #fcfcfc 75%,
+        rgba(nth($siteColor, $index_key), 0.24) 75%,
+        rgba(nth($siteColor, $index_key), 0.24) 100%
+      );
+    }
+    /* セットパーツ:ステップ */
+    .view-step {
+      .step-contents {
+        .step-images {
+          background: nth($siteColor, $index_key);
+        }
+      }
+    }
+    // タイトル装飾
+    .view-listDisplay,
+    .view-oneLineNews,
+    .view-message,
+    .view-textWithTopImages,
+    .view-companyOverview,
+    .view-textWithLeftAndRightImages,
+    .view-map,
+    .view-step,
+    .view-customer-voice {
+       .heading::before {
+        background: rgba(nth($siteColor, $index_key), 0.2);
+       }
+     }
+  }
+}
+/* -----------------------/サイトカラー調整----------------------- */
+
+.view-components {
+  .btn {
+    color: #ffffff;
+    border-radius: 32px;
+    &:hover:not(.btn-disabled) {
+      position: relative;
+      overflow: hidden;
+    }
+  }
+}
+
+/* -----------------------基本レイアウト----------------------- */
+
+// boxshadow 背景隠し
+@mixin hiddenshadow() {
+  box-shadow: $boxShadow;
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: #ffffff;
+  }
+}
+.next-mainArea-component.oneLineNewsComponent .view-oneLineNews {
+  padding-top: 0 !important;
+  border-radius: 0 0 $outerRadius $outerRadius;
+}
+//コンバージョンに隣接するパンくずリスト、ワンラインニュースの直上のコンテンツ下にはマージンを設ける
+.secondPrev-conversion-component.prev-breadcrumb-component [class^="view"]:not(.view-header),
+.secondPrev-conversion-component.prev-oneLineNews-component [class^="view"]:not(.view-header) {
+  border-radius: 0 0 $outerRadius $outerRadius !important;
+}
+.next-mainArea-component .view-breadcrumb,
+.next-mainArea-component .view-listDisplay,
+.next-mainArea-component .view-message,
+.next-mainArea-component .view-textWithTopImages,
+.next-mainArea-component .view-companyOverview,
+.next-mainArea-component .view-textWithLeftAndRightImages,
+.next-mainArea-component .view-map,
+.next-mainArea-component .layout-column-area,
+.next-mainArea-component.single-component .single_component_content,
+.next-header-component .view-mainArea,
+.next-header-component .view-breadcrumb,
+.next-header-component .view-listDisplay,
+.next-header-component .view-oneLineNews,
+.next-header-component .view-message,
+.next-header-component .view-textWithTopImages,
+.next-header-component .view-companyOverview,
+.next-header-component .view-textWithLeftAndRightImages,
+.next-header-component .view-map,
+.next-header-component.single-component .single_component_content,
+.next-mainArea-component.oneLineNewsComponent
+  + .component:not(.single-component)
+  div[class^="view"]:not(.view-footer):not(.view-conversion):not(.view-header):not(.view-breadcrumb),
+.next-mainArea-component.breadcrumbComponent
+  + .component:not(.single-component)
+  div[class^="view"]:not(.view-footer):not(.view-conversion):not(.view-header):not(.view-breadcrumb),
+.next-mainArea-component.breadcrumbComponent + .component.single-component .single_component_content,
+.next-conversion-component.oneLineNewsComponent
+  + .component:not(.single-component)
+  div[class^="view"]:not(.view-footer):not(.view-conversion):not(.view-header):not(.view-breadcrumb),
+.next-header-component .layout-column-area,
+.next-conversion-component .layout-column-area,
+.next-conversion-component.component:not(.single-component)
+  [class^="view-"]:not(.view-footer):not(.view-conversion):not(.view-header):not(.view-breadcrumb),
+.next-conversion-component.single-component .single_component_content,
+.next-header-component.breadcrumbComponent
+  + .component
+  div[class^="view"]:not(.view-footer):not(.view-conversion):not(.view-header):not(.view-breadcrumb),
+.next-header-component.breadcrumbComponent + .single-component .single_component_content,
+.next-header-component.oneLineNewsComponent + .single-component .single_component_content,
+.next-header-component.single-component .single_component_content {
+  border-top-left-radius: $outerRadius;
+  border-top-right-radius: $outerRadius;
+  box-shadow: $boxShadow;
+  &:after {
+    display: none;
+  }
+}
+.preview {
+  //パンくず・ワンライン除く
+  .prev-conversion-component .view-conversion,
+  .prev-conversion-component .view-footer,
+  .prev-conversion-component .view-listDisplay,
+  .prev-conversion-component .view-message,
+  .prev-conversion-component .view-textWithTopImages,
+  .prev-conversion-component .view-companyOverview,
+  .prev-conversion-component .view-textWithLeftAndRightImages,
+  .prev-conversion-component .view-map,
+  .prev-conversion-component .layout-column-area,
+  .prev-conversion-component.single-component > .single_component_content,
+  .prev-footer-component .view-mainArea,
+  .prev-footer-component .view-footer,
+  .prev-footer-component .view-listDisplay,
+  .prev-footer-component .view-message,
+  .prev-footer-component .view-textWithTopImages,
+  .prev-footer-component .view-companyOverview,
+  .prev-footer-component .view-textWithLeftAndRightImages,
+  .prev-footer-component .view-map,
+  .prev-footer-component .layout-column-area,
+  .prev-mainArea-component.set-component
+    [class^="view-"]:not(.view-footer):not(.view-breadcrumb):not(.view-oneLineNews):not(.view-header),
+  .prev-mainArea-component.layout-component .layout-column-area,
+  .prev-mainArea-component.single-component .single_component_content ,
+  .form-component .form_component_content{
+    padding-bottom: 40px !important;
+    border-bottom-left-radius: $outerRadius;
+    border-bottom-right-radius: $outerRadius;
+    @include hiddenshadow();
+    >*{
+      position: relative;
+      z-index: 1;
+    }
+  }
+}
+.preview .next-conversion-component .view-breadcrumb,
+.preview .next-conversion-component .view-oneLineNews {
+  border-radius: 0;
+  box-shadow: none;
+}
+.mainAreaComponent.next-breadcrumb-component.prev-oneLineNews-component .view-mainArea {
+  border-radius: $outerRadius $outerRadius 0 0;
+}
+.view-mainArea {
+  border-radius: $outerRadius;
+}
+.view-companyOverview table,
+.view-image img {
+  border-radius: $innerRadius;
+}
+.view-textWithLeftAndRightImages .images .image-left,
+.view-textWithTopImages .contents .images .images-block {
+  border-radius: $innerRadius;
+  overflow: hidden;
+}
+// tableの角丸
+.view-companyOverview table,
+.view-table table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.view-companyOverview table tr:first-child th:first-child,
+.view-table table tr:first-child *:first-child {
+  border-top-left-radius: $innerRadius;
+}
+.view-table table thead + tbody tr:first-child *:first-child {
+  border-top-left-radius: 0;
+}
+.view-companyOverview table tr:first-child td:last-child,
+.view-table table tr:first-child *:last-child {
+  border-top-right-radius: $innerRadius;
+}
+.view-table table thead + tbody tr:first-child *:last-child {
+  border-top-right-radius: 0;
+}
+.view-companyOverview table tr:last-child th:first-child,
+.view-table table :not(thead) tr:last-child *:first-child {
+  border-bottom-left-radius: $innerRadius;
+}
+.view-companyOverview table tr:last-child td:last-child,
+.view-table table :not(thead) tr:last-child *:last-child {
+  border-bottom-right-radius: $innerRadius;
+}
+
+.heading {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.preview .prev-mainArea-component [class^='view-']{
+ margin-bottom: 96px !important;
+}
+/* -----------------------フレンドリーデザイン----------------------- */
+ul.view-components.preview li.component.set-component {
+  background: none !important;
+}
+
+// メインエリア、コンバージョン以外
+.preview .view-listDisplay,
+.preview .view-oneLineNews,
+.preview .view-message,
+.preview .view-textWithTopImages,
+.preview .view-companyOverview,
+.preview .view-textWithLeftAndRightImages,
+.preview .view-map,
+.preview .layout-column-area,
+.view-components.preview > .single-component .single_component_content {
+  @include hiddenshadow();
+  >*{
+      position: relative;
+      z-index: 1;
+    }
+  // margin-bottom: 6px !important; //シャドウ隠し用マージン
+}
+// タイトル装飾
+.view-listDisplay,
+.view-oneLineNews,
+.view-message,
+.view-textWithTopImages,
+.view-companyOverview,
+.view-textWithLeftAndRightImages,
+.view-map,
+.view-step,
+.view-customer-voice {
+  .heading {
+    font-size: 34px;
+    line-height: 1.2;
+    position: relative;
+    padding: 20px 0 0 24px;
+    min-height: 90px;
+    z-index: 0;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 90px;
+      width: 90px;
+      border-radius: 100%;
+      z-index: -1;
+    }
+  }
+}
+// レイアウトパーツないシングルパーツスタイル削除
+.layout-column-area .view-components.preview > .single-component .single_component_content {
+  margin-bottom: 0 !important;
+  box-shadow: none;
+  &:after {
+    display: none;
+  }
+}
+
+/* セットパーツ:コンバージョン */
+.preview
+  .conversionComponent:not(.prev-footer-component):not(.prev-breadcrumb-component):not(.prev-oneLineNews-component) {
+  margin-bottom: 96px;
+}
+/* セットパーツ:地図 */
+.view-map {
+  iframe {
+    border-radius: $innerRadius;
+  }
+}
+
+/* セットパーツ:左右画像付きテキスト */
+.view-textWithLeftAndRightImages {
+  .contents {
+    .images {
+      border-radius: $innerRadius;
+    }
+  }
+}
+/* セットパーツ:一覧表示 */
+.view-listDisplay {
+  .style-image > div {
+    border-radius: $innerRadius;
+    overflow: hidden;
+  }
+}
+
+/* セットパーツ:メインエリア */
+.preview .mainAreaComponent.prev-oneLineNews-component {
+  margin-bottom: 0;
+}
+.preview .prev-mainArea-component .view-oneLineNews {
+  border-radius: 0 0 20px 20px !important;
+}
+.view-mainArea {
+  margin: 0 auto;
+  .parts-contents {
+    .heading-text {
+      .heading {
+        font-size: 45px;
+      }
+    }
+  }
+}
+.preview .view-mainArea {
+  .parts-contents {
+    .heading-text,
+    .text {
+      text-shadow: 0px 0px 6px #00000029;
+    }
+    .heading-text {
+      font-size: 66px;
+    }
+  }
+}
+.preview .prev-oneLineNews-component .view-mainArea,
+.preview .prev-breadcrumb-component .view-mainArea,
+.preview {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* セットパーツ:ワンラインニュース */
+.preview .view-oneLineNews {
+    border-radius: 0;
+}
+.next-header-component.oneLineNewsComponent .view-oneLineNews,
+.next-mainArea-component.oneLineNewsComponent .view-oneLineNews,
+.next-conversion-component.oneLineNewsComponent .view-oneLineNews,
+.prev-footer-component.oneLineNewsComponent .view-oneLineNews{
+  background-color: #fff !important;
+}
+
+.preview .prev-mainArea-component .view-oneLineNews,
+.preview .prev-mainArea-component .view-oneLineNews,
+.preview .next-mainArea-component .view-oneLineNews,
+.preview .prev-conversion-component .view-oneLineNews,
+.preview .next-conversion-component .view-oneLineNews {
+  border-radius: 0;
+  &:after {
+    display: none;
+  }
+}
+
+/* セットパーツ:パンくず */
+body .preview .view-breadcrumb {
+    border-radius: 0;
+}
+.next-header-component.breadcrumbComponent .view-breadcrumb,
+.next-mainArea-component.breadcrumbComponent .view-breadcrumb,
+.next-conversion-component.breadcrumbComponent .view-breadcrumb,
+.prev-footer-component.breadcrumbComponent .view-breadcrumb{
+  background-color: #fff !important;
+}
+
+/* セットパーツ:メッセージ */
+.view-message {
+  .heading {
+    font-size: 45px;
+    font-weight: bold;
+  }
+}
+
+
+.preview .next-mainArea-component .view-breadcrumb {
+  border-radius: 0 0 $outerRadius $outerRadius;
+}
+
+.preview .next-mainArea-component .view-oneLineNews {
+  border-radius: 0 0 $outerRadius $outerRadius;
+  &:after {
+    display: none;
+  }
+}
+/* セットパーツ:ヘッダー */
+.preview
+  .headerComponent:not(.prev-conversion-component):not(.prev-mainArea-component):not(.prev-breadcrumb-component):not(.prev-oneLineNews-component)
+  .view-header {
+  margin-bottom: $mainAreaMargin;
+}
+
+/* セットパーツ:ステップ */
+.view-step .step-contents {
+  .step-images span {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 500;
+  }
+  .step-context  h4 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 500;
+  }
+}
+
+/* セットパーツ:お客さまの声 */
+.view-customer-voice .context h4 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 500;
+}
+
+/* -----------------------シングルパーツ----------------------- */
+.view-components.preview > .single-component.next-conversion-component .single_component_content,
+.view-components.preview > .single-component.next-mainArea-component .single_component_content,
+.view-components.preview > .next-mainArea-component.breadcrumbComponent + .single-component .single_component_content,
+.view-components.preview
+  > .next-mainArea-component.oneLineNewsComponent
+  + .single-component
+  .single_component_content,
+.view-components.preview
+  > .next-conversion-component.breadcrumbComponent
+  + .single-component
+  .single_component_content,
+.view-components.preview
+  > .next-conversion-component.oneLineNewsComponent
+  + .single-component
+  .single_component_content {
+  border-radius: $outerRadius $outerRadius 0 0;
+  &:after {
+    display: none;
+  }
+}
+.oneLineNewsComponent.next-header-component .view-oneLineNews{
+  border-radius: 0;
+}
+
+/* シングルパーツ:タイトル */
+.view-heading1,
+.view-heading2,
+.view-heading3,
+.view-heading4,
+.view-textWithTopImages .title,
+.view-textWithLeftAndRightImages .title {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.view-heading1 {
+  letter-spacing: 4.5px;
+}
+.view-heading2 {
+  letter-spacing: 3.5px;
+}
+.view-heading3 {
+  letter-spacing: 2.8px;
+}
+.view-heading4 {
+  letter-spacing: 2.2px;
+}
+
+/* シングルパーツ:テキスト */
+.view-text {
+  letter-spacing: 1.6px;
+}
+
+/* シングルパーツ:注釈 */
+.view-annotation {
+  font-size: 13px;
+  letter-spacing: 1.3px;
+}
+/* シングルパーツ:リスト */
+.view-list {
+  letter-spacing: 1.6px;
+}
+/* シングルパーツ:表 */
+.view-table {
+  letter-spacing: 1.6px;
+}
+/* シングルパーツ:ボタン */
+.view-button .btn {
+  letter-spacing: 1.6px;
+}
+/* シングルパーツ:アコーディオン */
+.view-accordion {
+  .title {
+    letter-spacing: 1.8px;
+  }
+  .accordion-block {
+    letter-spacing: 1.6px;
+  }
+}
+

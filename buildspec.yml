@@ -1,0 +1,19 @@
+version: 0.2
+phases:
+  pre_build:
+    commands:
+      - yarn install
+  build:
+    commands:
+      - echo Build started on `date`
+      - yarn generate:${ENV}
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - (if [[ "$CODEBUILD_BUILD_SUCCEEDING" == "0" ]]; then exit 1; else exit 0; fi)		## ビルドフェーズで失敗したら以降を実行しない
+      - aws s3 sync ${ENV2} s3://${S3_BUCKET}/ --delete										## x-amz-meta-codebuild-buildarnを出力させないためCodeDeployは使用しない
+      - aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths "/*"
+      - echo build finish.
+cache:
+  paths:
+    - node_modules/**/*

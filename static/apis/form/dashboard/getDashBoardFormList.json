@@ -1,0 +1,139 @@
+{
+  "result": 0,
+  "searchResult": 1200,
+  "publishedFlag": 1,
+  "sumFormData": {
+    "inputNum": 500,
+    "inputNumAve": "134.5",
+    "confirmTransitionRate": "90.0%",
+    "confirmTransitionRateAve": "89.4%",
+    "confirmNum": 300,
+    "confirmNumAve": 134.5,
+    "cvTransitionRate": "38.3%",
+    "cvTransitionRateAve": "35.0%",
+    "cvNum": 500,
+    "cvNumAve": 62.4
+  },
+  "formList": [
+    {
+      "formId": 1101011,
+      "title": "お問い合わせお問い合わせお問い合わせ",
+      "inputNum": 100,
+      "inputNumRate": "20.0%",
+      "confirmTransitionRate": "90.0%",
+      "confirmNum": 260,
+      "confirmNumRate": "15.4%",
+      "cvTransitionRate": "35.0%",
+      "cvNum": 2323,
+      "cvNumRate": "13.3%"
+    },
+    {
+      "formId": 1101012,
+      "title": "お問い合わせお問い合わせお問い合わせ2",
+      "inputNum": 101,
+      "inputNumRate": "20.1%",
+      "confirmTransitionRate": "90.1%",
+      "confirmNum": 261,
+      "confirmNumRate": "15.5%",
+      "cvTransitionRate": "35.1%",
+      "cvNum": 2324,
+      "cvNumRate": "12.3%"
+    },
+    {
+      "formId": 1101013,
+      "title": "お問い合わせお問い合わせお問い合わせ3",
+      "inputNum": 102,
+      "inputNumRate": "20.2%",
+      "confirmTransitionRate": "90.2%",
+      "confirmNum": 262,
+      "confirmNumRate": "15.2%",
+      "cvTransitionRate": "34.2%",
+      "cvNum": 2432,
+      "cvNumRate": "13.3%"
+    },
+    {
+      "formId": 1101014,
+      "title": "お問い合わせお問い合わせお問い合わせ4",
+      "inputNum": 103,
+      "inputNumRate": "20.0%",
+      "confirmTransitionRate": "90.3%",
+      "confirmNum": 263,
+      "confirmNumRate": "15.4%",
+      "cvTransitionRate": "35.3%",
+      "cvNum": 2352,
+      "cvNumRate": "13.4%"
+    },
+    {
+      "formId": 1101015,
+      "title": "お問い合わせお問い合わせお問い合わせ5",
+      "inputNum": 155,
+      "inputNumRate": "25.0%",
+      "confirmTransitionRate": "50.0%",
+      "confirmNum": 265,
+      "confirmNumRate": "15.4%",
+      "cvTransitionRate": "35.0%",
+      "cvNum": 2523,
+      "cvNumRate": "16.3%"
+    },
+    {
+      "formId": 1101016,
+      "title": "お問い合わせお問い合わせお問い合わせ6",
+      "inputNum": 100,
+      "inputNumRate": "20.0%",
+      "confirmTransitionRate": "90.0%",
+      "confirmNum": 260,
+      "confirmNumRate": "15.4%",
+      "cvTransitionRate": "35.0%",
+      "cvNum": 2323,
+      "cvNumRate": "13.3%"
+    },
+    {
+      "formId": 1101017,
+      "title": "お問い合わせお問い合わせお問い合わせ7",
+      "inputNum": 100,
+      "inputNumRate": "20.0%",
+      "confirmTransitionRate": "90.0%",
+      "confirmNum": 260,
+      "confirmNumRate": "15.4%",
+      "cvTransitionRate": "35.0%",
+      "cvNum": 2323,
+      "cvNumRate": "13.3%"
+    },
+    {
+      "formId": 1101018,
+      "title": "お問い合わせお問い合わせお問い合わせ8",
+      "inputNum": 100,
+      "inputNumRate": "20.0%",
+      "confirmTransitionRate": "90.0%",
+      "confirmNum": 260,
+      "confirmNumRate": "15.4%",
+      "cvTransitionRate": "35.0%",
+      "cvNum": 4323,
+      "cvNumRate": "13.3%"
+    },
+    {
+      "formId": 1101019,
+      "title": "お問い合わせお問い合わせお問い合わせ9",
+      "inputNum": 100,
+      "inputNumRate": "20.0%",
+      "confirmTransitionRate": "90.0%",
+      "confirmNum": 260,
+      "confirmNumRate": "15.4%",
+      "cvTransitionRate": "35.0%",
+      "cvNum": 5323,
+      "cvNumRate": "13.3%"
+    },
+    {
+      "formId": 1101020,
+      "title": "お問い合わせお問い合わせお問い合わせ10",
+      "inputNum": 100,
+      "inputNumRate": "20.0%",
+      "confirmTransitionRate": "90.0%",
+      "confirmNum": 260,
+      "confirmNumRate": "15.4%",
+      "cvTransitionRate": "35.0%",
+      "cvNum": 623,
+      "cvNumRate": "13.3%"
+    }
+  ]
+}

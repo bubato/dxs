@@ -1,0 +1,78 @@
+{
+  "result": 0,
+  "detailData": {
+    "status": "1",
+    "availableFunctionList": [
+      {
+        "selectFlag": true,
+        "functionId": "01",
+        "recordVersion": 4567
+      },
+      {
+        "selectFlag": true,
+        "functionId": "03",
+        "recordVersion": 4567
+      },
+      {
+        "selectFlag": true,
+        "functionId": "05",
+        "recordVersion": 4567
+      },
+      {
+        "selectFlag": true,
+        "functionId": "06",
+        "recordVersion": 4567
+      },
+      {
+        "selectFlag": true,
+        "functionId": "09",
+        "recordVersion": 4567
+      },
+      {
+        "selectFlag": true,
+        "functionId": "10",
+        "recordVersion": 45362
+      }
+    ],
+    "activateStatus": false,
+    "mmiOption": true,
+    "cfmOption": false,
+    "corporateType": "20",
+    "reading": false,
+    "readingAdvisorList": [
+      {
+        "selectFlag": false,
+        "companyCode": "12345",
+        "tenantId": "443431",
+        "companyName": "赤坂株式会社",
+        "linkageId": "1224545",
+        "recordVersion": 123456
+      },
+      {
+        "selectFlag": true,
+        "companyCode": "12341",
+        "tenantId": "443434",
+        "companyName": "青山株式会社",
+        "linkageId": "1224545",
+        "recordVersion": 123456
+      },
+      {
+        "selectFlag": false,
+        "companyCode": "12342",
+        "tenantId": "443438",
+        "companyName": "桜坂株式会社",
+        "linkageId": "1224545",
+        "recordVersion": 123456
+      }
+    ],
+    "lastName": "渡来",
+    "firstName": "太郎",
+    "lastNameKana": "トライ",
+    "firstNameKana": "タロウ",
+    "mailAddress": "sample@tribeck.jp",
+    "managementFlag": 0,
+    "fullName": "渡来　太郎(管理者)",
+    "recordVersion": 12345,
+    "profileRecordVersion": 12345
+  }
+}

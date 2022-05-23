@@ -1,0 +1,39 @@
+{
+  "sideNaviItems": [
+    {
+      "name": "Webサイト",
+      "link": [
+        {
+          "name": "ダッシュボード",
+          "path": "/site/dashboard/"
+        },
+        {
+          "name": "基本設定",
+          "isOpen": true,
+          "childPath": [
+            {
+              "name": "基本情報",
+              "path": "/site/settings/basic/"
+            },
+            {
+              "name": "ドメイン",
+              "path": "/site/settings/domain/"
+            },
+            {
+              "name": "デザイン",
+              "path": "/site/settings/design/"
+            }
+          ]
+        },
+        {
+          "name": "ページ作成",
+          "path": "/site/pages/"
+        },
+        {
+          "name": "公開管理",
+          "path": "/site/publish/"
+        }
+      ]
+    }
+  ]
+}

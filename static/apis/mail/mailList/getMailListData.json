@@ -1,0 +1,127 @@
+{
+    "result": 0,
+    "allResult":  1000,
+    "searchResult": 0,
+    "mailList": [
+        {
+            "mailId": 111,
+            "mailTitle": "編集中 配信実行していないパターン​",
+            "mailType": "0",
+            "mailStatus": "0",
+            "sendDate": "",
+            "sendResult": 0
+        },
+        {
+            "mailId": 1112,
+            "mailTitle": "編集中 過去に配信実行したが配信エラーが発生して配信実績が0のパターン​​",
+            "mailType": "0",
+            "mailStatus": "0",
+            "sendDate": "2020/10/30 14:07",
+            "sendResult": 0
+        },
+        {
+            "mailId": 1113,
+            "mailTitle": "編集中 htmlメール過去に配信完了したメールで配信実績があるパターン​​​",
+            "mailType": "1",
+            "mailStatus": "0",
+            "sendDate": "2020/10/30 14:07",
+            "sendResult": 10
+        },
+        {
+            "mailId": 11133,
+            "mailTitle": "編集中 テキストメール 過去に配信完了したメールで配信実績があるパターン​​​",
+            "mailType": "0",
+            "mailStatus": "0",
+            "sendDate": "2020/10/30 14:07",
+            "sendResult": 10
+        },
+        {
+            "mailId": 222,
+            "mailTitle": "配信予約 配信実行していないパターン",
+            "mailType": "1",
+            "mailStatus": "1",
+            "sendDate": "2020/10/30 14:07",
+            "sendResult": 0
+        },
+        {
+            "mailId": 2222,
+            "mailTitle": "配信予約 配信実行していないパターン",
+            "mailType": "1",
+            "mailStatus": "1",
+            "sendDate": "2020/10/30 14:07",
+            "sendResult": 0
+        },
+        {
+            "mailId": 2223,
+            "mailTitle": "配信予約 過去に配信実行したが配信エラーが発生して配信実績が0のパターン​",
+            "mailType": "1",
+            "mailStatus": "1",
+            "sendDate": "2020/10/30 14:07",
+            "sendResult": 0
+        },
+        {
+            "mailId": 2224,
+            "mailTitle": "配信予約 過去に配信実行し、同じメールで再度送信予約したパターン​",
+            "mailType": "1",
+            "mailStatus": "1",
+            "sendDate": "2020/10/30 14:07",
+            "sendResult": 10
+        },
+        {
+            "mailId": 444,
+            "mailTitle": "配信済 配信完了したが、配信実績が0件のパターン​",
+            "mailType": "1",
+            "mailStatus": "3",
+            "sendDate": "2020/10/30 14:07",
+            "sendResult": 0
+        },
+        {
+            "mailId": 4442,
+            "mailTitle": "配信済 配信完了しているパターン。​​",
+            "mailType": "1",
+            "mailStatus": "3",
+            "sendDate": "2020/10/30 14:07",
+            "sendResult": 10
+        },
+        {
+            "mailId": 555,
+            "mailTitle": "配信エラー 初めて配信実行したが、システムトラブル等で配信エラーが発生し、1件も送信できていないパターン​",
+            "mailType": "0",
+            "mailStatus": "4",
+            "sendDate": "2020/10/30 14:07",
+            "sendResult": 0
+        },
+        {
+            "mailId": 5552,
+            "mailTitle": "配信エラー テキストメール初めて配信実行したが、システムトラブル等で配信エラーが発生し、1件も送信できていないパターン​",
+            "mailType": "0",
+            "mailStatus": "4",
+            "sendDate": "2020/10/30 14:07",
+            "sendResult": 10
+        },
+        {
+            "mailId": 55523,
+            "mailTitle": "配信エラー htmlメール初めて配信実行したが、システムトラブル等で配信エラーが発生し、1件も送信できていないパターン​",
+            "mailType": "1",
+            "mailStatus": "4",
+            "sendDate": "2020/10/30 14:07",
+            "sendResult": 10
+        },
+        {
+            "mailId": 666,
+            "mailTitle": "配信不可 バッチ実行時に配信可能UU数を超過しメール配信が実行されなかったパターン​",
+            "mailType": "1",
+            "mailStatus": "5",
+            "sendDate": "",
+            "sendResult": 0
+        },
+        {
+            "mailId": 333,
+            "mailTitle": "設定:配信中 メールタイトルテキスト",
+            "mailType": "0",
+            "mailStatus": "2",
+            "sendDate": "2020/10/30 14:07",
+            "sendResult": 123456
+        }
+    ]
+}

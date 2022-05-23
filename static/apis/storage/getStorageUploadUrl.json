@@ -1,0 +1,7 @@
+{
+    "result": 0,
+    "uploadURL": "http://storage.uploadUrl",
+    "filePath": "backFilePath",
+    "storageObjectId": 1,
+    "recordVersion": 1
+}

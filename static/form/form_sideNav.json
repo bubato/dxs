@@ -1,0 +1,21 @@
+{
+  "sideNaviItems": [
+    {
+      "name": "フォーム",
+      "link": [
+        {
+          "name": "ダッシュボード",
+          "path": "/form/dashboard/"
+        },
+        {
+          "name": "フォーム",
+          "path": "/form/list/"
+        },
+        {
+          "name": "基本設定",
+          "path": "/form/settings/"
+        }
+      ]
+    }
+  ]
+}

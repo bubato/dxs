@@ -1,0 +1,125 @@
+$template-color: #ffffff;
+$bgcolor: 0a03ac;
+$subColor: #1e1e1e;
+
+$classList: black,gray,gold,lightBlue,darkBlue,lightGreen,orange,red,pink,purple;
+$siteColor: #1e1e1e,#a0a0a0,#bca820,#437cfd,#0a03ac, #47ce6a, #ff831a, #f03333, #ffa6c9, #6120f6;
+
+$mainAreaMargin: 56px;
+$mainAreaInnerPadding: calc(((100% + #{$mainAreaMargin} * 2) / 12) - #{$mainAreaMargin} - 12px);
+
+// メインエリア、コンバージョン以外
+.view-components.preview {
+  .set-component
+    [class^="view-"]:not(.view-mainArea):not(.view-conversion):not(.view-breadcrumb):not(.view-oneLineNews):not(.view-header):not(.view-footer),
+  .layout-column-area,
+  .view-area >.layout-container> .view-components > .single-component .single_component_content,
+  .single-component .single_component_content,
+  .form-component .form_component_content {
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+}
+.layout-column-area .view-components.preview > .single-component .single_component_content {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* セットパーツ:フッター */
+.preview
+  .footerComponent:not(.next-conversion-component):not(.next-mainArea-component):not(.next-breadcrumb-component):not(.next-oneLineNews-component)
+  .view-footer {
+  margin-top: 56px;
+}
+/* セットパーツ:メインエリア */
+.preview .view-mainArea {
+  margin-right: $mainAreaMargin;
+  margin-left: $mainAreaMargin;
+  margin-top: $mainAreaMargin;
+  margin-bottom: 96px;
+  width: calc(100% - #{$mainAreaMargin} * 2) !important;
+  &.background {
+    .parts-contents {
+      padding-left: $mainAreaInnerPadding;
+      padding-right: $mainAreaInnerPadding;
+    }
+  }
+}
+/* セットパーツ:コンバージョン */
+.preview .view-conversion {
+  &.background {
+    &.background-image {
+      .contents-area {
+        padding-top: 83/1366 * 100%;
+        padding-bottom: 83/1366 * 100%;
+      }
+    }
+    .contents-area {
+      box-sizing: content-box;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+/* セットパーツ:パンくず */
+/* セットパーツ:ワンラインニュース */
+// mainAreaの前後は横幅調整
+.preview .next-mainArea-component .view-breadcrumb,
+.preview .next-mainArea-component .view-oneLineNews {
+  width: calc(100% - #{$mainAreaMargin} * 2) !important;
+  padding-left: $mainAreaInnerPadding;
+  padding-right: $mainAreaInnerPadding;
+}
+.prev-conversion-component .view-breadcrumb,
+.next-header-component .view-breadcrumb,
+.prev-footer-component .view-breadcrumb,
+.next-conversion-component .view-oneLineNews,
+.next-header-component .view-oneLineNews,
+.prev-footer-component .view-oneLineNews {
+  width: 100% !important;
+}
+
+
+/*========================================================
+　追加修正
+========================================================*/
+@import './templateHeader.scss';
+/* コンテンツエリア内パンくずリスト、ワンラインニュース */
+.view-oneLineNews,.view-breadcrumb{
+  &:after{
+    display: none;
+  }
+}
+#{$afterHeadContents}{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  width: 100% !important;
+  background-color: #fff !important;
+  padding-left: calc(100% / 12);
+  padding-right: calc(100% / 12);
+  box-shadow: none !important;
+}
+#{$afterHeadContentsLastContent}{
+  margin-bottom: 56px !important;
+}
+#{$afterMainAreaContents}{
+  width: calc(100% - #{$mainAreaMargin} * 2) !important;
+  margin-bottom: 0 !important;
+  padding-left: $mainAreaInnerPadding;
+  padding-right: $mainAreaInnerPadding;
+  background-color: #fff !important;
+  box-shadow: none !important;
+}
+
+#{$afterMainAreaContentsLastContent}{
+  margin-bottom: 96px !important;
+  [class*="view-"]{
+  }
+  + .component [class*="view-"]{
+     &:after{
+      display: none;
+    }
+  }
+}
+.prev-conversion-component .view-oneLineNews{
+  margin-bottom: 56px !important;
+}

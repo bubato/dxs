@@ -1,0 +1,41 @@
+/* チェックボックス */
+.xhm-checkbox {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.xhm-checkbox ul {
+  list-style: none;
+  padding: 0 1em;
+}
+
+.xhm-checkbox ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.xhm-checkbox.xhm-checkbox-break ul li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.xhm-checkbox.xhm-checkbox-break .xhm-grid {
+  display: block;
+}
+
+.xhm-checkbox.xhm-checkbox-no-break label {
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+/* layout */
+.xhm-checkbox .xhm-grid-cell {
+  -webkit-box-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  width: 100%;
+  margin-bottom: 8px;
+}

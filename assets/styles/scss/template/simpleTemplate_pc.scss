@@ -1,0 +1,77 @@
+$classList: black, gray, gold, lightBlue, darkBlue, lightGreen, orange, red, pink, purple;
+$siteColor: #1e1e1e, #a0a0a0, #bca820, #437cfd, #0a03ac, #47ce6a, #ff831a, #f03333, #ffa6c9, #6120f6;
+
+@mixin mainAreaInnerPadding() {
+  padding-left: calc(100% / 12);
+  padding-right: calc(100% / 12);
+}
+
+  /* セットパーツ:パンくず */
+  .preview .next-header-component .view-breadcrumb,
+  .preview .prev-mainArea-component .view-breadcrumb,
+  .preview .next-mainArea-component .view-breadcrumb,
+  .preview .next-mainArea-component.oneLineNewsComponent + .breadcrumbComponent .view-breadcrumb {
+    @include mainAreaInnerPadding();
+  }
+  /* セットパーツ:ワンラインニュース */
+  // mainAreaの前後は横幅調整
+  .preview .next-header-component .view-oneLineNews,
+  .preview .prev-mainArea-component .view-oneLineNews,
+  .preview .next-mainArea-component .view-oneLineNews,
+  .preview .next-mainArea-component.breadcrumbComponent + .oneLineNewsComponent .view-oneLineNews {
+    @include mainAreaInnerPadding();
+  }
+  /* セットパーツ:メインエリア */
+  .preview .view-mainArea {
+    // メインエリア背景調整
+    &.background {
+      .parts-contents {
+        @include mainAreaInnerPadding();
+      }
+    }
+  }
+  .next-oneLineNews-component.prev-mainArea-component + .mainAreaComponent .view-mainArea{
+    margin-top: 0;
+  }
+
+
+.view-breadcrumb,
+.view-oneLineNews{
+  width: 100/12 * 10%;
+  padding-left: calc(100% / 12);
+  padding-right: calc(100% / 12);
+}
+
+/*========================================================
+　追加修正
+========================================================*/
+@import './templateHeader.scss';
+/* コンテンツエリア内パンくずリスト、ワンラインニュース */
+#{$afterHeadContents}{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  width: 100% !important;
+  padding-left: calc(100% / 12);
+  padding-right: calc(100% / 12);
+  box-shadow: none !important;
+}
+#{$afterMainAreaContents}{
+  width: 100% !important;
+  margin-bottom: 0 !important;
+  @include mainAreaInnerPadding();
+  box-shadow: none !important;
+}
+
+#{$afterMainAreaContentsLastContent}{
+  margin-bottom: 123 - 96px !important;
+  + .component [class*="view-"]{
+    padding-top: 96px !important;
+  }
+}
+#{$afterConversionContents}{
+  padding-left: calc(100% / 12);
+  padding-right: calc(100% / 12);
+}
+.prev-conversion-component .view-oneLineNews{
+  margin-bottom: 56px !important;
+}

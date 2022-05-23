@@ -1,0 +1,116 @@
+{
+  "searchResultAll": 12345,
+  "searchResultFilter": 2035,
+  "list": [
+    {
+      "id": "101011",
+      "title": "お問い合わせお問い合わせお問い合わせ",
+      "type": "HTMLメール1",
+      "status": 1,
+      "deliveryReservationDate": "2021/10/11 10:12",
+      "deliveryDate": "2020/10/11 10:12",
+      "deliveryNum": 1234,
+      "deliveryErrorNum": 12,
+      "facilityEffect": 1
+    },
+    {
+      "id": "101012",
+      "title": "お問い合わせお問い合わせお問い合わせお問い合わせお問い合わせお問い合わせお問い合わせお問い合わせお問い合わせ",
+      "type": "HTMLメール2",
+      "status": 2,
+      "deliveryReservationDate": "2021/10/12 10:12",
+      "deliveryDate": "2020/10/12 10:12",
+      "deliveryNum": 2452,
+      "deliveryErrorNum": 3,
+      "facilityEffect": 1
+    },
+    {
+      "id": "101013",
+      "title": "メールタイトル3",
+      "type": "HTMLメール3",
+      "status": 3,
+      "deliveryReservationDate": "2021/10/13 10:12",
+      "deliveryDate": "2020/10/13 10:12",
+      "deliveryNum": 3523,
+      "deliveryErrorNum": 4,
+      "facilityEffect": 1
+    },
+    {
+      "id": "101014",
+      "title": "メールタイトル4",
+      "type": "HTMLメール4",
+      "status": 3,
+      "deliveryReservationDate": "2021/10/14 10:12",
+      "deliveryDate": "2020/10/14 10:12",
+      "deliveryNum": 4532,
+      "deliveryErrorNum": 1,
+      "facilityEffect": 0
+    },
+    {
+      "id": "5",
+      "title": "メールタイトル5",
+      "type": "HTMLメール5",
+      "status": 1,
+      "deliveryReservationDate": "2021/10/15 10:12",
+      "deliveryDate": "2020/10/15 10:12",
+      "deliveryNum": 5,
+      "deliveryErrorNum": 4,
+      "facilityEffect": 1
+    },
+    {
+      "id": "6",
+      "title": "メールタイトル6",
+      "type": "HTMLメール6",
+      "status": 1,
+      "deliveryReservationDate": "2021/10/16 10:12",
+      "deliveryDate": "2020/10/16 10:12",
+      "deliveryNum": 6,
+      "deliveryErrorNum": 3,
+      "facilityEffect": 1
+    },
+    {
+      "id": "7",
+      "title": "メールタイトル7",
+      "type": "HTMLメール7",
+      "status": 1,
+      "deliveryReservationDate": "2021/10/17 10:12",
+      "deliveryDate": "2020/10/17 10:12",
+      "deliveryNum": 7,
+      "deliveryErrorNum": 4,
+      "facilityEffect": 0
+    },
+    {
+      "id": "8",
+      "title": "メールタイトル8",
+      "type": "HTMLメール8",
+      "status": 2,
+      "deliveryReservationDate": "2021/10/18 10:12",
+      "deliveryDate": "2020/10/18 10:12",
+      "deliveryNum": 8,
+      "deliveryErrorNum": 8,
+      "facilityEffect": 0
+    },
+    {
+      "id": "9",
+      "title": "メールタイトル9",
+      "type": "HTMLメール9",
+      "status": 3,
+      "deliveryReservationDate": "2021/10/19 10:12",
+      "deliveryDate": "2020/10/19 10:12",
+      "deliveryNum": 9,
+      "deliveryErrorNum": 9,
+      "facilityEffect": 1
+    },
+    {
+      "id": "10",
+      "title": "メールタイトル10",
+      "type": "HTMLメール10",
+      "status": 1,
+      "deliveryReservationDate": "2021/10/20 10:12",
+      "deliveryDate": "2020/10/20 10:12",
+      "deliveryNum": 10,
+      "deliveryErrorNum": 10,
+      "facilityEffect": 0
+    }
+  ]
+}

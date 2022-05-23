@@ -1,0 +1,10 @@
+/* タイトル */
+.xhm-title {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-weight: bold;
+  color: #1e1e1e;
+  display: inline-flex;
+  flex-direction: row-reverse;
+}

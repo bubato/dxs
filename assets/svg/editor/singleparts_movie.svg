@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="93" height="66" viewBox="0 0 93 66">
+  <g id="グループ_28599" data-name="グループ 28599" transform="translate(-1527 22653)">
+    <g id="長方形_3116" data-name="長方形 3116" transform="translate(1527 -22653)" fill="#f7f8f9" stroke="#e5e5e5" stroke-width="1">
+      <rect width="93" height="66" stroke="none"/>
+      <rect x="0.5" y="0.5" width="92" height="65" fill="none"/>
+    </g>
+    <path id="play_circle_outline-24px" d="M14.32,21.46l6.538-4.9a.7.7,0,0,0,0-1.12l-6.538-4.9a.7.7,0,0,0-1.12.56v9.8A.7.7,0,0,0,14.32,21.46ZM16,2A14,14,0,1,0,30,16,14.005,14.005,0,0,0,16,2Zm0,25.2A11.2,11.2,0,1,1,27.2,16,11.215,11.215,0,0,1,16,27.2Z" transform="translate(1558 -22636)" fill="#c6c6c6"/>
+  </g>
+</svg>

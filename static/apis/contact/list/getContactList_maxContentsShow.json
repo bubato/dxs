@@ -1,0 +1,450 @@
+{
+  "result": 0,
+  "searchResult": 2,
+  "allResult": 1000,
+  "contactList": [
+    {
+      "contactId": 111,
+      "contactInformation": [
+        {
+          "dataItemDefinitionId": 1001,
+          "defaultDataItemDefinitionId": 3,
+          "contactItemData": ["山田 太郎", "山田 花子"]
+        },
+        {
+          "dataItemDefinitionId": 1002,
+          "defaultDataItemDefinitionId": 4,
+          "contactItemData": "サンプル物産株式会社"
+        },
+        {
+          "dataItemDefinitionId": 1003,
+          "defaultDataItemDefinitionId": 6,
+          "contactItemData": "課長"
+        },
+        {
+          "dataItemDefinitionId": 1004,
+          "defaultDataItemDefinitionId": 5,
+          "contactItemData": "部署名"
+        },
+        {
+          "dataItemDefinitionId": 1005,
+          "defaultDataItemDefinitionId": 7,
+          "contactItemData": "田中"
+        },
+        {
+          "dataItemDefinitionId": 1006,
+          "defaultDataItemDefinitionId": 8,
+          "contactItemData": "太郎"
+        },
+        {
+          "dataItemDefinitionId": 1007,
+          "defaultDataItemDefinitionId": 9,
+          "contactItemData": "タナカ"
+        },
+        {
+          "dataItemDefinitionId": 1008,
+          "defaultDataItemDefinitionId": 10,
+          "contactItemData": "タロウ"
+        },
+        {
+          "dataItemDefinitionId": 1009,
+          "defaultDataItemDefinitionId": 11,
+          "contactItemData": "tanaka@samplexxxxx.jp"
+        },
+        {
+          "dataItemDefinitionId": 1010,
+          "defaultDataItemDefinitionId": 13,
+          "contactItemData": "東京都"
+        },
+        {
+          "dataItemDefinitionId": 1011,
+          "defaultDataItemDefinitionId": 14,
+          "contactItemData": "港区赤坂"
+        },
+        {
+          "dataItemDefinitionId": 1012,
+          "defaultDataItemDefinitionId": 15,
+          "contactItemData": "1-1-1"
+        },
+        {
+          "dataItemDefinitionId": 1013,
+          "defaultDataItemDefinitionId": 16,
+          "contactItemData": "サンプルビル301"
+        },
+        {
+          "dataItemDefinitionId": 1014,
+          "defaultDataItemDefinitionId": 17,
+          "contactItemData": "0311111111"
+        },
+        {
+          "dataItemDefinitionId": 1015,
+          "defaultDataItemDefinitionId": 18,
+          "contactItemData": "09011111111"
+        },
+        {
+          "dataItemDefinitionId": 1016,
+          "defaultDataItemDefinitionId": 22,
+          "contactItemData": "サンプルメモです。"
+        },
+        {
+          "dataItemDefinitionId": 1017,
+          "defaultDataItemDefinitionId": 0,
+          "contactItemData": "サンプル追加情報です。"
+        },
+        {
+          "dataItemDefinitionId": 1018,
+          "defaultDataItemDefinitionId": 19,
+          "contactItemData": "サンプルメール配信許諾情報"
+        },
+        {
+          "dataItemDefinitionId": 1019,
+          "defaultDataItemDefinitionId": 20,
+          "contactItemData": "3"
+        },
+        {
+          "dataItemDefinitionId": 1020,
+          "defaultDataItemDefinitionId": 21,
+          "contactItemData": ["サンプルタグA", "サンプルタグB", "サンプルタグC"]
+        }
+      ],
+      "recordVersion": 1
+    },
+    {
+      "contactId": 112,
+      "contactInformation": [
+        {
+          "dataItemDefinitionId": 1001,
+          "defaultDataItemDefinitionId": 3,
+          "contactItemData": ["山田 太郎", "山田 花子"]
+        },
+        {
+          "dataItemDefinitionId": 1002,
+          "defaultDataItemDefinitionId": 4,
+          "contactItemData": "サンプル物産株式会社"
+        },
+        {
+          "dataItemDefinitionId": 1003,
+          "defaultDataItemDefinitionId": 6,
+          "contactItemData": "課長"
+        },
+        {
+          "dataItemDefinitionId": 1004,
+          "defaultDataItemDefinitionId": 5,
+          "contactItemData": "部署名"
+        },
+        {
+          "dataItemDefinitionId": 1005,
+          "defaultDataItemDefinitionId": 7,
+          "contactItemData": "田中"
+        },
+        {
+          "dataItemDefinitionId": 1006,
+          "defaultDataItemDefinitionId": 8,
+          "contactItemData": "太郎"
+        },
+        {
+          "dataItemDefinitionId": 1007,
+          "defaultDataItemDefinitionId": 9,
+          "contactItemData": "タナカ"
+        },
+        {
+          "dataItemDefinitionId": 1008,
+          "defaultDataItemDefinitionId": 10,
+          "contactItemData": "タロウ"
+        },
+        {
+          "dataItemDefinitionId": 1009,
+          "defaultDataItemDefinitionId": 11,
+          "contactItemData": "tanaka@samplexxxxx.jp"
+        },
+        {
+          "dataItemDefinitionId": 1010,
+          "defaultDataItemDefinitionId": 13,
+          "contactItemData": "東京都"
+        },
+        {
+          "dataItemDefinitionId": 1011,
+          "defaultDataItemDefinitionId": 14,
+          "contactItemData": "港区赤坂"
+        },
+        {
+          "dataItemDefinitionId": 1012,
+          "defaultDataItemDefinitionId": 15,
+          "contactItemData": "1-1-1"
+        },
+        {
+          "dataItemDefinitionId": 1013,
+          "defaultDataItemDefinitionId": 16,
+          "contactItemData": "サンプルビル301"
+        },
+        {
+          "dataItemDefinitionId": 1014,
+          "defaultDataItemDefinitionId": 17,
+          "contactItemData": "0311111111"
+        },
+        {
+          "dataItemDefinitionId": 1015,
+          "defaultDataItemDefinitionId": 18,
+          "contactItemData": "09011111111"
+        },
+        {
+          "dataItemDefinitionId": 1016,
+          "defaultDataItemDefinitionId": 22,
+          "contactItemData": "サンプルメモです。"
+        },
+        {
+          "dataItemDefinitionId": 1017,
+          "defaultDataItemDefinitionId": 0,
+          "contactItemData": "サンプル追加情報です。"
+        },
+        {
+          "dataItemDefinitionId": 1018,
+          "defaultDataItemDefinitionId": 19,
+          "contactItemData": "サンプルメール配信許諾情報"
+        },
+        {
+          "dataItemDefinitionId": 1019,
+          "defaultDataItemDefinitionId": 20,
+          "contactItemData": "3"
+        },
+        {
+          "dataItemDefinitionId": 1020,
+          "defaultDataItemDefinitionId": 21,
+          "contactItemData": ["サンプルタグA", "サンプルタグB", "サンプルタグC"]
+        }
+      ],
+      "recordVersion": 1
+    },
+    {
+      "contactId": 113,
+      "contactInformation": [
+        {
+          "dataItemDefinitionId": 1001,
+          "defaultDataItemDefinitionId": 3,
+          "contactItemData": ["山田 太郎", "山田 花子"]
+        },
+        {
+          "dataItemDefinitionId": 1002,
+          "defaultDataItemDefinitionId": 4,
+          "contactItemData": "サンプル物産株式会社"
+        },
+        {
+          "dataItemDefinitionId": 1003,
+          "defaultDataItemDefinitionId": 6,
+          "contactItemData": "課長"
+        },
+        {
+          "dataItemDefinitionId": 1004,
+          "defaultDataItemDefinitionId": 5,
+          "contactItemData": "部署名"
+        },
+        {
+          "dataItemDefinitionId": 1005,
+          "defaultDataItemDefinitionId": 7,
+          "contactItemData": "田中"
+        },
+        {
+          "dataItemDefinitionId": 1006,
+          "defaultDataItemDefinitionId": 8,
+          "contactItemData": "太郎"
+        },
+        {
+          "dataItemDefinitionId": 1007,
+          "defaultDataItemDefinitionId": 9,
+          "contactItemData": "タナカ"
+        },
+        {
+          "dataItemDefinitionId": 1008,
+          "defaultDataItemDefinitionId": 10,
+          "contactItemData": "タロウ"
+        },
+        {
+          "dataItemDefinitionId": 1009,
+          "defaultDataItemDefinitionId": 11,
+          "contactItemData": "tanaka@samplexxxxx.jp"
+        },
+        {
+          "dataItemDefinitionId": 1010,
+          "defaultDataItemDefinitionId": 13,
+          "contactItemData": "東京都"
+        },
+        {
+          "dataItemDefinitionId": 1011,
+          "defaultDataItemDefinitionId": 14,
+          "contactItemData": "港区赤坂"
+        },
+        {
+          "dataItemDefinitionId": 1012,
+          "defaultDataItemDefinitionId": 15,
+          "contactItemData": "1-1-1"
+        },
+        {
+          "dataItemDefinitionId": 1013,
+          "defaultDataItemDefinitionId": 16,
+          "contactItemData": "サンプルビル301"
+        },
+        {
+          "dataItemDefinitionId": 1014,
+          "defaultDataItemDefinitionId": 17,
+          "contactItemData": "0311111111"
+        },
+        {
+          "dataItemDefinitionId": 1015,
+          "defaultDataItemDefinitionId": 18,
+          "contactItemData": "09011111111"
+        },
+        {
+          "dataItemDefinitionId": 1016,
+          "defaultDataItemDefinitionId": 22,
+          "contactItemData": "サンプルメモです。"
+        },
+        {
+          "dataItemDefinitionId": 1017,
+          "defaultDataItemDefinitionId": 0,
+          "contactItemData": "サンプル追加情報です。"
+        },
+        {
+          "dataItemDefinitionId": 1018,
+          "defaultDataItemDefinitionId": 19,
+          "contactItemData": "サンプルメール配信許諾情報"
+        },
+        {
+          "dataItemDefinitionId": 1019,
+          "defaultDataItemDefinitionId": 20,
+          "contactItemData": "3"
+        },
+        {
+          "dataItemDefinitionId": 1020,
+          "defaultDataItemDefinitionId": 21,
+          "contactItemData": ["サンプルタグA", "サンプルタグB", "サンプルタグC"]
+        }
+      ],
+      "recordVersion": 1
+    }
+  ],
+  "displayItemSetting": {
+    "displayItemList": [
+      {
+        "dataItemDefinitionId": 1001,
+        "defaultDataItemDefinitionId": 3,
+        "title": "営業担当者",
+        "requiredFlag": false
+      },
+      {
+        "dataItemDefinitionId": 1002,
+        "defaultDataItemDefinitionId": 4,
+        "title": "企業名",
+        "requiredFlag": true
+      },
+      {
+        "dataItemDefinitionId": 1003,
+        "defaultDataItemDefinitionId": 6,
+        "title": "役職名",
+        "requiredFlag": false
+      },
+      {
+        "dataItemDefinitionId": 1004,
+        "defaultDataItemDefinitionId": 5,
+        "title": "部署名",
+        "requiredFlag": false
+      },
+      {
+        "dataItemDefinitionId": 1005,
+        "defaultDataItemDefinitionId": 7,
+        "title": "氏",
+        "requiredFlag": true
+      },
+      {
+        "dataItemDefinitionId": 1006,
+        "defaultDataItemDefinitionId": 8,
+        "title": "名",
+        "requiredFlag": true
+      },
+      {
+        "dataItemDefinitionId": 1007,
+        "defaultDataItemDefinitionId": 9,
+        "title": "シ",
+        "requiredFlag": false
+      },
+      {
+        "dataItemDefinitionId": 1008,
+        "defaultDataItemDefinitionId": 10,
+        "title": "メイ",
+        "requiredFlag": false
+      },
+      {
+        "dataItemDefinitionId": 1009,
+        "defaultDataItemDefinitionId": 11,
+        "title": "メールアドレス",
+        "requiredFlag": true
+      },
+      {
+        "dataItemDefinitionId": 1010,
+        "defaultDataItemDefinitionId": 13,
+        "title": "都道府県",
+        "requiredFlag": false
+      },
+      {
+        "dataItemDefinitionId": 1011,
+        "defaultDataItemDefinitionId": 14,
+        "title": "市区町村",
+        "requiredFlag": false
+      },
+      {
+        "dataItemDefinitionId": 1012,
+        "defaultDataItemDefinitionId": 15,
+        "title": "番地",
+        "requiredFlag": false
+      },
+      {
+        "dataItemDefinitionId": 1013,
+        "defaultDataItemDefinitionId": 16,
+        "title": "ビル・建物名",
+        "requiredFlag": false
+      },
+      {
+        "dataItemDefinitionId": 1014,
+        "defaultDataItemDefinitionId": 17,
+        "title": "電話番号1",
+        "requiredFlag": false
+      },
+      {
+        "dataItemDefinitionId": 1015,
+        "defaultDataItemDefinitionId": 18,
+        "title": "電話番号2",
+        "requiredFlag": false
+      },
+      {
+        "dataItemDefinitionId": 1016,
+        "defaultDataItemDefinitionId": 22,
+        "title": "メモ",
+        "requiredFlag": false
+      },
+      {
+        "dataItemDefinitionId": 1017,
+        "defaultDataItemDefinitionId": 0,
+        "title": "追加情報",
+        "requiredFlag": false
+      },
+      {
+        "dataItemDefinitionId": 1018,
+        "defaultDataItemDefinitionId": 19,
+        "title": "メール配信許諾",
+        "requiredFlag": true
+      },
+      {
+        "dataItemDefinitionId": 1019,
+        "defaultDataItemDefinitionId": 20,
+        "title": "配信エラー回数",
+        "requiredFlag": false
+      },
+      {
+        "dataItemDefinitionId": 1020,
+        "defaultDataItemDefinitionId": 21,
+        "title": "タグ",
+        "requiredFlag": false
+      }
+    ],
+    "notDisplayItemList": []
+  }
+}

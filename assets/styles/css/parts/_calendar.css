@@ -1,0 +1,109 @@
+/* カレンダー */
+.xhm-calendar {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.xhm-calendar-select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.xhm-calendar-select {
+  position: relative;
+}
+
+.xhm-calendar-select input {
+  min-width: 180px;
+  padding: 12px;
+  border: solid 1px #bfbfbf;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.xhm-calendar-select div.xhm-select {
+  margin: 0 0 0 15px;
+}
+
+.xhm-calendar-select div.xhm-select select {
+  min-width: 120px;
+  margin: 0;
+  padding: 10px;
+  border: solid 1px #bfbfbf;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.xhm-calendar-select div.xhm-select select::-ms-expand {
+  display: none;
+}
+
+.xhm-calendar-select div.xhm-select:after {
+  content: url(/form/img/arrow_down.png);
+  position: absolute;
+  top: 60%;
+  right: 10px;
+  color: #8c8c8c;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.xhm-datepicker {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 3px;
+  width: 34px;
+  height: auto;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .xhm-calendar-select {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: block;
+      flex-wrap: wrap;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+  }
+
+  .xhm-calendar-select input {
+      width: calc(100% - 71px);
+      padding: 12px;
+      border: solid 1px #bfbfbf;
+      border-radius: 5px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+  }
+
+  .xhm-calendar-select div.xhm-select {
+      width: 100%;
+      margin: 15px 15px 0 0;
+  }
+
+  .xhm-calendar-select div.xhm-select select {
+      margin: 0;
+      padding: 10px;
+      border: solid 1px #bfbfbf;
+      border-radius: 5px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+  }
+}

@@ -1,0 +1,15 @@
+/* メールアドレステキストフィールド */
+.xhm-mail-address {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* layout */
+.xhm-mail-address .xhm-grid-cell {
+  margin-bottom: 8px;
+}
+
+.xhm-mail-address .xhm-grid--cols-2 .xhm-grid-cell {
+  margin-bottom: 12px;
+}

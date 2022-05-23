@@ -1,0 +1,35 @@
+{
+  "result": 0,
+  "data": {
+    "backOfficeNews": [
+      {
+        "date": "2020/02/23",
+        "title": "タイトルが入ります1",
+        "text": "AWS環境での導通テスト中\n鋭意対応中\n代理ログインの仕組み確認中"
+      }
+    ],
+    "billingInformation": {
+      "planId": "3",
+      "recentBillingAmount": 10000,
+      "recentBillingFromDate": "2020/11/01",
+      "recentBillingToDate": "2020/11/30",
+      "paymentDueDate": 1,
+      "billingSource": "トライベック株式会社"
+    },
+    "usageDetails": {
+      "accountNum": {
+        "num": 1,
+        "sum": 21
+      },
+      "pageNum": {
+        "num": 2,
+        "sum": 5
+      },
+      "formNum": {
+        "num": 5,
+        "sum": 8
+      }
+    },
+    "lastLoginPossibleDate": "2021/10/20"
+  }
+}

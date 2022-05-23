@@ -1,0 +1,343 @@
+[
+  {
+    "componentKind": "setComponent",
+    "id": "header",
+    "name": "ヘッダー",
+    "logo": ""
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "mainArea",
+    "name": "メインエリア",
+    "title": { "align": "1", "context": "and DIGITAL" },
+    "text": {
+      "align": "1",
+      "context": "テクノロジーの力で企業のDXを推進します。"
+    },
+    "textColor": "4",
+    "backgroundImage": "https://images.@@images-domain@@/web-assets/common/web/8/46259162_20220309.png",
+    "buttons": [{ "text": "", "link": "", "linkType": 1 }]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "oneLineNews",
+    "name": "ワンラインニュース",
+    "date": "2022/04/01",
+    "title": "Webサイトをリニューアルしました",
+    "label": "お知らせ",
+    "link": ""
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "message",
+    "name": "メッセージ",
+    "title": { "align": "1", "context": "テクノロジー×マーケティング" },
+    "text": {
+      "align": "1",
+      "context": "私たちはテクノロジーとマーケティングの力で企業のDXを推進するリードカンパニーです。"
+    }
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "textWithTopImages",
+    "name": "上画像付きテキスト",
+    "heading": "トピックス",
+    "layoutType": "3",
+    "images": [
+      {
+        "title": "トピックスの記事タイトルを入力します。",
+        "text": "トピックスの記事概要を入力します。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/8/60235693_20220309.png",
+        "imageName": "",
+        "link": ""
+      },
+      {
+        "title": "トピックスの記事タイトルを入力します。",
+        "text": "トピックスの記事概要を入力します。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/8/73898473_20220309.png",
+        "imageName": "",
+        "link": ""
+      },
+      {
+        "title": "トピックスの記事タイトルを入力します。",
+        "text": "トピックスの記事概要を入力します。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/8/80184407_20220309.png",
+        "imageName": "",
+        "link": "",
+        "linkType": "0"
+      },
+      {
+        "title": "トピックスの記事タイトルを入力します。",
+        "text": "トピックスの記事概要を入力します。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/8/78357629_20220309.png",
+        "imageName": "",
+        "link": "",
+        "linkType": "0"
+      }
+    ]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "textWithTopImages",
+    "name": "上画像付きテキスト",
+    "heading": "サービス",
+    "layoutType": "2",
+    "images": [
+      {
+        "title": "市場調査",
+        "text": "市場調査の概要を入力します。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/8/31396689_20220309.png",
+        "imageName": "",
+        "link": ""
+      },
+      {
+        "title": "コンサルティング",
+        "text": "コンサルティングの概要を入力します。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/8/71151836_20220309.png",
+        "imageName": "",
+        "link": ""
+      },
+      {
+        "title": "テクノロジー",
+        "text": "テクノロジーの概要を入力します。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/8/84879875_20220309.png",
+        "imageName": "",
+        "link": "",
+        "linkType": "0"
+      },
+      {
+        "title": "メディア出稿",
+        "text": "メディア出稿の概要を入力します。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/8/84254054_20220309.png",
+        "imageName": "",
+        "link": "",
+        "linkType": "0"
+      }
+    ]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "textWithLeftAndRightImages",
+    "name": "左右画像付きテキスト",
+    "heading": "実績",
+    "layoutType": "2",
+    "images": [
+      {
+        "title": "某通信会社様",
+        "text": "某通信会社様の実績概要を入力します。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/8/84229205_20220309.png",
+        "imageName": "",
+        "imageAlign": "1",
+        "link": ""
+      },
+      {
+        "title": "某自治体様",
+        "text": "某自治体様の実績概要を入力します。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/8/37212152_20220309.png",
+        "imageName": "",
+        "imageAlign": "1",
+        "link": "",
+        "linkType": "0"
+      },
+      {
+        "title": "某クレジットカード会社様",
+        "text": "某クレジットカード会社様の実績概要を入力します。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/8/62678695_20220309.png",
+        "imageName": "",
+        "imageAlign": "1",
+        "link": "",
+        "linkType": "0"
+      },
+      {
+        "title": "某物流企業様",
+        "text": "某物流企業様の実績概要を入力します。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/8/50601803_20220309.png",
+        "imageName": "",
+        "imageAlign": "1",
+        "link": "",
+        "linkType": "0"
+      }
+    ]
+  },
+  {
+    "componentKind": "singleComponent",
+    "id": "heading2",
+    "name": "見出し2",
+    "context": "私たちについて",
+    "align": "1",
+    "link": "",
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    }
+  },
+  {
+    "componentKind": "layoutComponent",
+    "id": "layout-3",
+    "name": "3列",
+    "checkSameHeader": false,
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    },
+    "layoutNum": 3,
+    "layoutType": "1",
+    "componentList": [
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "image",
+          "name": "画像",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/8/70321552_20220309.png",
+          "imageName": "",
+          "align": "1",
+          "alternateText": "",
+          "width": "",
+          "height": "",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "企業情報",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ],
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "image",
+          "name": "画像",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/8/62347000_20220309.png",
+          "imageName": "",
+          "align": "1",
+          "alternateText": "",
+          "width": "",
+          "height": "",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "スタッフ紹介",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ],
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "image",
+          "name": "画像",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/8/60586476_20220309.png",
+          "imageName": "",
+          "align": "1",
+          "alternateText": "",
+          "width": "",
+          "height": "",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "採用情報",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "map",
+    "name": "地図",
+    "inputTag": "<iframe src=\\"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d51851.69908212983!2d139.78310180000003!3d35.6836203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1637540484748!5m2!1sja!2sjp\\" width=\\"1200\\" height=\\"450\\" style=\\"border:0;\\" allowfullscreen=\\"\\" loading=\\"lazy\\"></iframe>"
+  },
+  {
+    "componentKind": "singleComponent",
+    "id": "heading2",
+    "name": "見出し2",
+    "context": "お問い合わせ",
+    "align": "1",
+    "link": "",
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    }
+  },
+  {
+    "componentKind": "formComponent",
+    "id": "",
+    "name": "",
+    "previewSrc": ""
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "footer",
+    "name": "フッター"
+  }
+]

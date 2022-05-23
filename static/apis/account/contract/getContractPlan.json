@@ -1,0 +1,16 @@
+{
+  "result": 0,
+  "data": {
+    "planId": "3",
+    "startDateOfUse": "2021/02/01",
+    "dayOfUse": 149,
+    "options": [
+      {
+        "functionId": "1",
+        "optionId": 5,
+        "startAt": "",
+        "applyFlag": true
+      }
+    ]
+  }
+}

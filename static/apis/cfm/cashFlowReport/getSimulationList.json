@@ -1,0 +1,41 @@
+{
+  "result": 0,
+  "dataList": [
+    {
+      "simulationResultId": 111,
+      "simulationResultName": "シミュレーションA",
+      "simulationResultSaveDate": "2021/12/12",
+      "recordVersion": 1
+    },
+    {
+      "simulationResultId": 112,
+      "simulationResultName": "シミュレーションB",
+      "simulationResultSaveDate": "2021/12/13",
+      "recordVersion": 2
+    },
+    {
+      "simulationResultId": 113,
+      "simulationResultName": "シミュレーションC",
+      "simulationResultSaveDate": "2021/12/14",
+      "recordVersion": 3
+    },
+    {
+      "simulationResultId": 114,
+      "simulationResultName": "シミュレーションD",
+      "simulationResultSaveDate": "2021/12/15",
+      "recordVersion": 4
+    },
+    {
+      "simulationResultId": 115,
+      "simulationResultName": "シミュレーションE",
+      "simulationResultSaveDate": "2021/12/16",
+      "recordVersion": 5
+    },
+    {
+      "simulationResultId": 116,
+      "simulationResultName": "シミュレーションF",
+      "simulationResultSaveDate": "2021/12/17",
+      "recordVersion": 6
+    }
+  ]
+}

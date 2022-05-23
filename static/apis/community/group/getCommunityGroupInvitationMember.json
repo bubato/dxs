@@ -1,0 +1,34 @@
+{
+  "result": 0,
+  "allCount": 10,
+  "users": [
+    {
+      "profileMemberId": 1,
+      "userName": "田中太郎",
+      "userImageUrl": "",
+      "userCompany": "トライベック1",
+      "userPosition": "部長"
+    },
+    {
+      "profileMemberId": 2,
+      "userName": "鈴木次郎",
+      "userImageUrl": "",
+      "userCompany": "トライベック2",
+      "userPosition": "課長"
+    },
+    {
+      "profileMemberId": 3,
+      "userName": "佐藤琢磨",
+      "userImageUrl": "",
+      "userCompany": "トライベック3",
+      "userPosition": "係長"
+    },
+    {
+      "profileMemberId": 4,
+      "userName": "松平健",
+      "userImageUrl": "",
+      "userCompany": "トライベック4",
+      "userPosition": "リーダー"
+    }
+  ]
+}

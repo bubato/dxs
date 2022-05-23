@@ -1,0 +1,43 @@
+{
+  "result": 0,
+  "contactInformation": {
+    "registrationDate": "2022/12/13",
+    "salesPersonIdList": [1001, 1003],
+    "company": "株式会社田中商事",
+    "postcode": "1231234",
+    "addressState": "東京都",
+    "addressCity": "港区赤坂",
+    "addressLine1": "7-1-1",
+    "addressLine2": "青山安田ビル",
+    "position": "代表取締役",
+    "department": "営業部",
+    "lastName": "佐藤",
+    "firstName": "太郎",
+    "lastNameKana": "サトウ",
+    "firstNameKana": "タロウ",
+    "mail": "account@tanaka.co.jp",
+    "tel1": "0312345678",
+    "tel2": "0312345678",
+    "tagIdList": [2001, 2002],
+    "newTagList": ["サンプルタグ2001", "サンプルタグ2002"],
+    "memo": "メモメモメモメモメモメモメモメモメモメモメモメモメモメモメモメモメモメモメモ",
+    "additionalInformationList": [
+      {
+        "dataItemDefinitionId": 3004,
+        "data": "神奈川県"
+      },
+      {
+        "dataItemDefinitionId": 3005,
+        "data": "16"
+      },
+      {
+        "dataItemDefinitionId": 3006,
+        "data": "2020/01/01"
+      }
+    ],
+    "deliveryFlag": 1,
+    "bounceMailCount": 3,
+    "recordVersion": 5,
+    "profileImage": null
+  }
+}

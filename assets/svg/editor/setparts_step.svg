@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="93" height="66" viewBox="0 0 93 66">
+  <g id="グループ_28624" data-name="グループ 28624" transform="translate(-1472 22375)">
+    <g id="長方形_4" data-name="長方形 4" transform="translate(1472 -22375)" fill="#f7f8f9" stroke="#e5e5e5" stroke-width="1">
+      <rect width="93" height="66" stroke="none"/>
+      <rect x="0.5" y="0.5" width="92" height="65" fill="none"/>
+    </g>
+    <rect id="長方形_2547" data-name="長方形 2547" width="75" height="50" transform="translate(1481 -22367)" fill="#fff"/>
+    <g id="グループ_2354" data-name="グループ 2354" transform="translate(1500.768 -22362.396)">
+      <rect id="長方形_2656" data-name="長方形 2656" width="20" height="4" transform="translate(0.232 0.396)" fill="#dedede"/>
+      <rect id="長方形_3126" data-name="長方形 3126" width="20" height="4" transform="translate(0.232 15.396)" fill="#dedede"/>
+      <rect id="長方形_3128" data-name="長方形 3128" width="20" height="4" transform="translate(0.232 30.396)" fill="#dedede"/>
+      <rect id="長方形_2657" data-name="長方形 2657" width="50" height="4" transform="translate(0.232 7.396)" fill="#dedede"/>
+      <rect id="長方形_3127" data-name="長方形 3127" width="50" height="4" transform="translate(0.232 22.396)" fill="#dedede"/>
+      <rect id="長方形_3129" data-name="長方形 3129" width="50" height="4" transform="translate(0.232 37.396)" fill="#dedede"/>
+    </g>
+    <g id="グループ_28621" data-name="グループ 28621" transform="translate(1)">
+      <circle id="楕円形_800" data-name="楕円形 800" cx="6" cy="6" r="6" transform="translate(1485 -22363)" fill="#dbdbdb"/>
+      <path id="パス_82454" data-name="パス 82454" d="M-1.913.34H2.3V-.786H.982V-6.66H-.049a4.541,4.541,0,0,1-1.627.586v.861H-.408V-.786h-1.5Z" transform="translate(1490.912 -22353.84)" fill="#fff"/>
+    </g>
+    <g id="グループ_28622" data-name="グループ 28622" transform="translate(1 -2)">
+      <circle id="楕円形_801" data-name="楕円形 801" cx="6" cy="6" r="6" transform="translate(1485 -22346)" fill="#dbdbdb"/>
+      <path id="パス_82455" data-name="パス 82455" d="M-2.262.214h4.6V-.937H.849C.533-.937.078-.9-.265-.863.988-2.088,2.018-3.425,2.018-4.669A2.015,2.015,0,0,0-.145-6.786a2.786,2.786,0,0,0-2.182,1.04L-1.584-5A1.78,1.78,0,0,1-.321-5.709.986.986,0,0,1,.709-4.6c0,1.058-1.1,2.349-2.971,4.02Z" transform="translate(1491.127 -22336.715)" fill="#fff"/>
+    </g>
+    <g id="グループ_28623" data-name="グループ 28623" transform="translate(1 -3)">
+      <circle id="楕円形_802" data-name="楕円形 802" cx="6" cy="6" r="6" transform="translate(1485 -22330)" fill="#dbdbdb"/>
+      <path id="パス_82456" data-name="パス 82456" d="M-.156.214a2.106,2.106,0,0,0,2.37-1.96A1.686,1.686,0,0,0,.865-3.4V-3.45a1.6,1.6,0,0,0,1.13-1.54c0-1.158-.884-1.8-2.187-1.8a2.992,2.992,0,0,0-2.023.829l.684.82a1.925,1.925,0,0,1,1.276-.6.806.806,0,0,1,.9.848c0,.6-.4,1.03-1.641,1.03v.966c1.467,0,1.859.41,1.859,1.076,0,.6-.465.939-1.148.939a2.143,2.143,0,0,1-1.5-.693l-.629.848A2.867,2.867,0,0,0-.156.214Z" transform="translate(1491.217 -22320.715)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,87 @@
+{
+  "result": 0,
+  "isLastPage": 0,
+  "resultDataList": [
+    {
+      "checkBoxData": 0,
+      "tenantId": "AXXX",
+      "companyCode": "code1",
+      "companyName": "AAA株式会社",
+      "manager": "洲崎 晴嵐",
+      "businessYear": "2020/04/01～2021/03/31",
+      "linkageId": "111"
+    },
+    {
+      "checkBoxData": 0,
+      "tenantId": "BXXX",
+      "companyCode": "code2",
+      "companyName": "BB株式会社",
+      "manager": "瀬戸 秋月",
+      "businessYear": "2020/04/01～2021/03/31",
+      "linkageId": "222"
+    },
+    {
+      "checkBoxData": 0,
+      "tenantId": "CXXX",
+      "companyCode": "code3",
+      "companyName": "株式会社C",
+      "manager": "小泉 夜雨",
+      "businessYear": "2020/04/01～2021/03/31",
+      "linkageId": "333"
+    },
+    {
+      "checkBoxData": 0,
+      "tenantId": "DXXX",
+      "companyCode": "code4",
+      "companyName": "合同会社ABC",
+      "manager": "乙舳 帰帆",
+      "businessYear": "2020/04/01～2021/03/31",
+      "linkageId": "444"
+    },
+    {
+      "checkBoxData": 0,
+      "tenantId": "EXXX",
+      "companyCode": "code5",
+      "companyName": "学校法人BBB",
+      "manager": "平潟 落雁",
+      "businessYear": "2020/04/01～2021/03/31",
+      "linkageId": "555"
+    },
+    {
+      "checkBoxData": 0,
+      "tenantId": "FXXX",
+      "companyCode": "code6",
+      "companyName": "ABC Co.,Ltd",
+      "manager": "野島 夕照",
+      "businessYear": "2020/04/01～2021/03/31",
+      "linkageId": "666"
+    },
+    {
+      "checkBoxData": 1,
+      "tenantId": "GXXX",
+      "companyCode": "code7",
+      "companyName": "AB株式会社",
+      "manager": "内川 暮雪",
+      "businessYear": "2020/04/01～2021/03/31",
+      "linkageId": "777"
+    },
+    {
+      "checkBoxData": 1,
+      "tenantId": "HXXX",
+      "companyCode": "code8",
+      "companyName": "CCC株式会社",
+      "manager": "称名 晩鐘",
+      "businessYear": "",
+      "linkageId": "888"
+    },
+    {
+      "checkBoxData": 0,
+      "tenantId": "HXXX",
+      "companyCode": "code9",
+      "companyName": "株式会社C",
+      "manager": "",
+      "businessYear": "2020/04/01～2021/03/31",
+      "linkageId": "999"
+    }
+  ]
+}

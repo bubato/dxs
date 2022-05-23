@@ -1,0 +1,67 @@
+{
+  "result": 0,
+  "contactCondition": {
+    "contactInformation": [
+      {
+        "dataName": "氏名(セイ)",
+        "dataId": 1
+      },
+      {
+        "dataName": "氏名(メイ)",
+        "dataId": 2
+      },
+      {
+        "dataName": "フリガナ(セイ)",
+        "dataId": 3
+      },
+      {
+        "dataName": "フリガナ(メイ)",
+        "dataId": 4
+      }
+    ],
+    "tagInformation": [
+      {
+        "tagName": "タグA",
+        "tagId": 1
+      },
+      {
+        "tagName": "タグB",
+        "tagId": 2
+      },
+      {
+        "tagName": "タグC",
+        "tagId": 3
+      },
+      {
+        "tagName": "トライベックフォーム申し込み",
+        "tagId": 4
+      },
+      {
+        "tagName": "ビズオーシャン新規登録ユーザー",
+        "tagId": 5
+      }
+    ],
+    "targetInformation": [
+      {
+        "targetName": "ターゲットA",
+        "targetId": 10
+      },
+      {
+        "targetName": "ターゲットB",
+        "targetId": 11
+      },
+      {
+        "targetName": "ターゲットC",
+        "targetId": 12
+      },
+      {
+        "targetName": "トライベックフォーム申し込みZ",
+        "targetId": 13
+      },
+      {
+        "targetName": "ビズオーシャン新規登録ユーザーZ",
+        "targetId": 14
+      }
+    ]
+  }
+}

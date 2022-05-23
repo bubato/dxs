@@ -1,0 +1,127 @@
+$innerRadius: 12px;
+$outerRadius: 20px;
+$boxShadow: 1px 0 15px -4px rgba(0, 0, 0, 0.04), 1px 0 15px -4px rgba(0, 0, 0, 0.04);
+// $boxShadow: 0px 3px 12px rgba(0, 0, 0, 0.04);
+$mainAreaMargin: 56px;
+$mainAreaInnerPadding: calc(((100% + #{$mainAreaMargin} * 2) / 12) - #{$mainAreaMargin} - 12px);
+
+// PC
+.view-components.preview {
+  .set-component
+    [class^="view-"]:not(.view-mainArea):not(.view-conversion):not(.view-breadcrumb):not(.view-oneLineNews):not(.view-header):not(.view-footer),
+    .layout-column-area,  & > .single-component .single_component_content,  .form-component .form_component_content {
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+}
+
+.next-conversion-component .view-breadcrumb,
+.next-header-component .view-breadcrumb,
+.prev-footer-component .view-breadcrumb,
+.next-conversion-component .view-oneLineNews,
+.next-header-component .view-oneLineNews,
+.prev-footer-component .view-oneLineNews {
+  width: 100% !important;
+}
+.layout-column-area .view-components.preview > .single-component .single_component_content {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* セットパーツ:フッター */
+.preview
+  .footerComponent:not(.next-conversion-component):not(.next-mainArea-component):not(.next-breadcrumb-component):not(.next-oneLineNews-component)
+  .view-footer {
+  margin-top: $mainAreaMargin;
+}
+/* セットパーツ:メインエリア */
+.preview .view-mainArea {
+  width: calc(100% - #{$mainAreaMargin} * 2) !important;
+  margin-right: $mainAreaMargin;
+  margin-left: $mainAreaMargin;
+  margin-top: 96px;
+  margin-bottom: 96px;
+  &.background {
+    .parts-contents {
+      padding-left: $mainAreaInnerPadding;
+      padding-right: $mainAreaInnerPadding;
+    }
+  }
+}
+.preview .view-conversion {
+  margin-top: 96px;
+}
+
+/* セットパーツ:パンくず */
+.preview .next-mainArea-component .view-breadcrumb {
+  width: calc(100% - #{$mainAreaMargin} * 2) !important;
+  padding-left: $mainAreaInnerPadding;
+  padding-right: $mainAreaInnerPadding;
+}
+/* セットパーツ:ワンラインニュース */
+// mainAreaの前後は横幅調整
+.preview .next-mainArea-component .view-oneLineNews {
+  width: calc(100% - #{$mainAreaMargin} * 2) !important;
+  padding-left: $mainAreaInnerPadding;
+  padding-right: $mainAreaInnerPadding;
+}
+
+
+
+
+
+/*========================================================
+　追加修正
+========================================================*/
+@import './templateHeader.scss';
+/* コンテンツエリア内パンくずリスト、ワンラインニュース */
+.view-oneLineNews,.view-breadcrumb{
+  border-radius: 0;
+  box-shadow: none;
+  &:after{
+    display: none;
+  }
+}
+.preview .view-oneLineNews,
+.preview .view-breadcrumb{
+  margin-top: -10px;
+}
+#{$afterHeadContents}{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  width: 100% !important;
+  background-color: #fff !important;
+  padding-left: calc(100% / 12);
+  padding-right: calc(100% / 12);
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+#{$afterHeadContentsLastContent}{
+  margin-bottom: 56px !important;
+}
+#{$afterMainAreaContents}{
+  width: calc(100% - #{$mainAreaMargin} * 2) !important;
+  margin-bottom: 0 !important;
+  padding-left: $mainAreaInnerPadding;
+  padding-right: $mainAreaInnerPadding;
+  background-color: #fff !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+#{$afterMainAreaContentsLastContent}{
+  margin-bottom: 96px !important;
+  border-radius: 0 0 20px 20px !important;
+  [class*="view-"]{
+    border-radius: 0 0 20px 20px !important;
+  }
+  + .component [class*="view-"]{
+     border-radius: 20px 20px 0 0  !important;
+     &:after{
+      display: none;
+    }
+  }
+}
+.prev-conversion-component .view-oneLineNews{
+  margin-bottom: 56px !important;
+  border-radius: 0 0 20px 20px !important;
+}

@@ -1,0 +1,68 @@
+{
+  "result": 0,
+  "notificationList": [
+    {
+      "id": 1,
+      "date": "2021/02/01",
+      "noticeMessage": "東海太郎さんからつながり申請があります。",
+      "path": "/community/member/",
+      "recordVersion": 111
+    },
+    {
+      "id": 2,
+      "date": "2021/02/02",
+      "noticeMessage": "投稿にコメントがきました。",
+      "path": "/community/timeline/123",
+      "recordVersion": 222
+    },
+    {
+      "id": 3,
+      "date": "2021/02/03",
+      "noticeMessage": "投稿コメントにコメントがきました。",
+      "path": "/community/timeline/1234",
+      "recordVersion": 333
+    },
+    {
+      "id": 4,
+      "date": "2021/02/04",
+      "noticeMessage": "東海太郎からメッセージが届いています。",
+      "path": "/community/message/",
+      "recordVersion": 444
+    },
+    {
+      "id": 5,
+      "date": "2021/02/05",
+      "noticeMessage": "東海太郎さんからつながり申請があります。",
+      "path": "/community/member/",
+      "recordVersion": 111
+    },
+    {
+      "id": 6,
+      "date": "2021/02/06",
+      "noticeMessage": "投稿にコメントがきました。",
+      "path": "/community/timeline/123",
+      "recordVersion": 222
+    },
+    {
+      "id": 7,
+      "date": "2021/02/07",
+      "noticeMessage": "投稿コメントにコメントがきました。",
+      "path": "/community/timeline/1234",
+      "recordVersion": 333
+    },
+    {
+      "id": 8,
+      "date": "2021/02/08",
+      "noticeMessage": "東海太郎からメッセージが届いています。",
+      "path": "/community/message/",
+      "recordVersion": 444
+    },
+    {
+      "id": 8,
+      "date": "2021/02/09",
+      "noticeMessage": "リンクなしデータサンプル",
+      "path": "",
+      "recordVersion": 444
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "result": 0,
+  "dataItemDefinitionList": [
+    {
+      "dataItemDefinitionId": 3004,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5009],
+      "recordVersion": 2
+    },
+    {
+      "dataItemDefinitionId": 3005,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5010],
+      "recordVersion": 3
+    },
+    {
+      "dataItemDefinitionId": 3006,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5011],
+      "recordVersion": 4
+    },
+    {
+      "dataItemDefinitionId": 3007,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5012],
+      "recordVersion": 5
+    },
+    {
+      "dataItemDefinitionId": 3008,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5013],
+      "recordVersion": 6
+    },
+    {
+      "dataItemDefinitionId": 3009,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5014],
+      "recordVersion": 7
+    },
+    {
+      "dataItemDefinitionId": 3010,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5015],
+      "recordVersion": 8
+    },
+    {
+      "dataItemDefinitionId": 3011,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5016],
+      "recordVersion": 9
+    },
+    {
+      "dataItemDefinitionId": 3012,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5017],
+      "recordVersion": 10
+    },
+    {
+      "dataItemDefinitionId": 3013,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5018],
+      "recordVersion": 11
+    },
+    {
+      "dataItemDefinitionId": 3014,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5019],
+      "recordVersion": 12
+    },
+    {
+      "dataItemDefinitionId": 3015,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5020],
+      "recordVersion": 13
+    },
+    {
+      "dataItemDefinitionId": 3016,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5021],
+      "recordVersion": 14
+    },
+    {
+      "dataItemDefinitionId": 3017,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5022],
+      "recordVersion": 15
+    },
+    {
+      "dataItemDefinitionId": 3018,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5023],
+      "recordVersion": 16
+    },
+    {
+      "dataItemDefinitionId": 3019,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5024],
+      "recordVersion": 17
+    },
+    {
+      "dataItemDefinitionId": 3020,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5025],
+      "recordVersion": 18
+    },
+    {
+      "dataItemDefinitionId": 3021,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5026],
+      "recordVersion": 19
+    },
+    {
+      "dataItemDefinitionId": 3022,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5027],
+      "recordVersion": 20
+    },
+    {
+      "dataItemDefinitionId": 3023,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5028],
+      "recordVersion": 21
+    },
+    {
+      "dataItemDefinitionId": 3024,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5029],
+      "recordVersion": 22
+    },
+    {
+      "dataItemDefinitionId": 3025,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5030],
+      "recordVersion": 23
+    },
+    {
+      "dataItemDefinitionId": 3026,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5031],
+      "recordVersion": 24
+    },
+    {
+      "dataItemDefinitionId": 3027,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5032],
+      "recordVersion": 25
+    },
+    {
+      "dataItemDefinitionId": 3028,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5033],
+      "recordVersion": 26
+    },
+    {
+      "dataItemDefinitionId": 3029,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5034],
+      "recordVersion": 27
+    },
+    {
+      "dataItemDefinitionId": 3030,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5035],
+      "recordVersion": 28
+    },
+    {
+      "dataItemDefinitionId": 3031,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5036],
+      "recordVersion": 29
+    },
+    {
+      "dataItemDefinitionId": 3032,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5037],
+      "recordVersion": 30
+    },
+    {
+      "dataItemDefinitionId": 3033,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5038],
+      "recordVersion": 31
+    },
+    {
+      "dataItemDefinitionId": 3034,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5039],
+      "recordVersion": 32
+    },
+    {
+      "dataItemDefinitionId": 3035,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5040],
+      "recordVersion": 33
+    },
+    {
+      "dataItemDefinitionId": 3036,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5041],
+      "recordVersion": 34
+    },
+    {
+      "dataItemDefinitionId": 3037,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5042],
+      "recordVersion": 35
+    },
+    {
+      "dataItemDefinitionId": 3038,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5043],
+      "recordVersion": 36
+    },
+    {
+      "dataItemDefinitionId": 3039,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5044],
+      "recordVersion": 37
+    },
+    {
+      "dataItemDefinitionId": 3040,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5045],
+      "recordVersion": 38
+    },
+    {
+      "dataItemDefinitionId": 3041,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5046],
+      "recordVersion": 39
+    },
+    {
+      "dataItemDefinitionId": 3042,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5047],
+      "recordVersion": 40
+    },
+    {
+      "dataItemDefinitionId": 3043,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5048],
+      "recordVersion": 41
+    },
+    {
+      "dataItemDefinitionId": 3044,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5049],
+      "recordVersion": 42
+    },
+    {
+      "dataItemDefinitionId": 3045,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5050],
+      "recordVersion": 43
+    },
+    {
+      "dataItemDefinitionId": 3046,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5051],
+      "recordVersion": 44
+    },
+    {
+      "dataItemDefinitionId": 3047,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5052],
+      "recordVersion": 45
+    },
+    {
+      "dataItemDefinitionId": 3048,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5053],
+      "recordVersion": 46
+    },
+    {
+      "dataItemDefinitionId": 3049,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5054],
+      "recordVersion": 47
+    },
+    {
+      "dataItemDefinitionId": 3050,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5055],
+      "recordVersion": 48
+    },
+    {
+      "dataItemDefinitionId": 3051,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5056],
+      "recordVersion": 49
+    },
+    {
+      "dataItemDefinitionId": 3052,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5057],
+      "recordVersion": 50
+    },
+    {
+      "dataItemDefinitionId": 3053,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5058],
+      "recordVersion": 51
+    },
+    {
+      "dataItemDefinitionId": 3054,
+      "title": "出身地",
+      "dataItemType": 1,
+      "dataItemExplanation": "この項目の説明",
+      "formTitleList": [5001, 5059],
+      "recordVersion": 52
+    }
+  ]
+}

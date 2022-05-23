@@ -1,0 +1,140 @@
+{
+  "result": 0,
+  "countSearch": 1200,
+  "objects": [
+    {
+      "objectId": 1,
+      "objectType": 1,
+      "objectName": "{渡来原 三郎}と他メンバーとあああああああああｚｚｚｚｚｚｚｚｚｚｚｚｚｚｚ",
+      "modifiedUserName": "藤本太郎　喜左衛門将時能",
+      "shareFlag": 1,
+      "pinFlag": 0,
+      "modifiedAt": "2020/10/30 14:07",
+      "numberOfPeopleShared": 0,
+      "recordVersion": 1111,
+      "communityFlag": 0
+    },
+    {
+      "objectId": 2,
+      "objectType": 1,
+      "objectName": "20211215-企画書まとめ",
+      "modifiedUserName": "田中　太郎",
+      "shareFlag": 1,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/29 14:07",
+      "numberOfPeopleShared": 10,
+      "recordVersion": 1112,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 3,
+      "objectType": 1,
+      "objectName": "{渡来原 三郎}と他メンバー",
+      "modifiedUserName": "勘解由小路　三郎",
+      "shareFlag": 1,
+      "pinFlag": 0,
+      "modifiedAt": "2020/10/28 14:07",
+      "numberOfPeopleShared": 5,
+      "recordVersion": 1113,
+      "communityFlag": 0
+    },
+    {
+      "objectId": 4,
+      "objectType": 1,
+      "objectName": "20211215-企画書まとめ",
+      "modifiedUserName": "田中　太郎",
+      "shareFlag": 1,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/27 14:07",
+      "numberOfPeopleShared": 8,
+      "recordVersion": 1114,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 5,
+      "objectType": 1,
+      "objectName": "20211215-企画書まとめ",
+      "modifiedUserName": "藤本太郎　喜左衛門将時能",
+      "shareFlag": 1,
+      "pinFlag": 0,
+      "modifiedAt": "2020/10/26 14:07",
+      "numberOfPeopleShared": 3,
+      "recordVersion": 1115,
+      "communityFlag": 0
+    },
+    {
+      "objectId": 6,
+      "objectType": 1,
+      "objectName": "{渡来原 三郎}と他メンバーとあああああああああｚｚｚｚｚｚｚｚｚｚｚｚｚｚｚ",
+      "modifiedUserName": "田中　太郎",
+      "shareFlag": 1,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/25 14:07",
+      "numberOfPeopleShared": 7,
+      "recordVersion": 1116,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 7,
+      "objectType": 1,
+      "objectName": "20211215-企画書まとめ",
+      "modifiedUserName": "藤本太郎　喜左衛門将時能",
+      "shareFlag": 1,
+      "pinFlag": 0,
+      "modifiedAt": "2020/10/24 14:07",
+      "numberOfPeopleShared": 2,
+      "recordVersion": 1117,
+      "communityFlag": 0
+    },
+    {
+      "objectId": 8,
+      "objectType": 1,
+      "objectName": "{渡来原 三郎}と他メンバーとあああああああああｚｚｚｚｚｚｚｚｚｚｚｚｚｚｚ",
+      "modifiedUserName": "田中　太郎",
+      "shareFlag": 1,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/23 14:07",
+      "numberOfPeopleShared": 6,
+      "recordVersion": 1118,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 9,
+      "objectType": 1,
+      "objectName": "20211215-企画書まとめ",
+      "modifiedUserName": "藤本太郎　喜左衛門将時能",
+      "shareFlag": 1,
+      "pinFlag": 0,
+      "modifiedAt": "2020/10/22 14:07",
+      "numberOfPeopleShared": 1,
+      "recordVersion": 1119,
+      "communityFlag": 0
+    },
+    {
+      "objectId": 10,
+      "objectType": 1,
+      "objectName": "{渡来原 三郎}と他メンバーとあああああああああｚｚｚｚｚｚｚｚｚｚｚｚｚｚｚ",
+      "modifiedUserName": "田中　太郎",
+      "shareFlag": 1,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/21 14:07",
+      "numberOfPeopleShared": 5,
+      "recordVersion": 1120,
+      "communityFlag": 1
+    }
+  ],
+  "breadcrumbList": [
+    {
+      "objectId": null,
+      "folderName": "ストレージ"
+    },
+    {
+      "objectId": 1,
+      "folderName": "{渡来原 三郎}と他メンバーと(子フォルダ)"
+    },
+    {
+      "objectId": 111,
+      "folderName": "子フォルダ内設定フォルダ(孫フォルダ)"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+	"result": 0,
+	"errorInfo": {
+		"errorList": [
+			{
+				"errorCode": "mmi000",
+				"errorMessage": "bizskyID/PWが異なります。"
+			}
+		],
+		"itemErrorList": null
+	}
+}

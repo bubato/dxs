@@ -1,0 +1,24 @@
+<svg id="コンポーネント_219_1" data-name="コンポーネント 219 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="楕円形_689" data-name="楕円形 689" cx="14.5" cy="14.5" r="14.5" fill="none" stroke="#3a435c" stroke-width="3"/>
+    </clipPath>
+  </defs>
+  <g id="グループ_25551" data-name="グループ 25551" transform="translate(-738 -729)">
+    <rect id="長方形_21694" data-name="長方形 21694" width="64" height="64" transform="translate(738 729)" fill="none"/>
+    <g id="長方形_21354" data-name="長方形 21354" transform="translate(742 734)" fill="#fff" stroke="#3a435c" stroke-width="3.2">
+      <rect width="54" height="54" rx="4" stroke="none"/>
+      <rect x="1.6" y="1.6" width="50.8" height="50.8" rx="2.4" fill="none"/>
+    </g>
+    <g id="グループ_25511" data-name="グループ 25511" transform="translate(25257 12709.5)">
+      <rect id="長方形_21352" data-name="長方形 21352" width="36" height="3" rx="1" transform="translate(-24506 -11937)" fill="#4f7df0"/>
+      <rect id="長方形_21355" data-name="長方形 21355" width="28" height="3" rx="1" transform="translate(-24506 -11931)" fill="#4f7df0"/>
+    </g>
+    <g id="グループ_25558" data-name="グループ 25558" transform="translate(25199.5 12777)">
+      <circle id="楕円形_690" data-name="楕円形 690" cx="14" cy="14" r="14" transform="translate(-24444 -12036.5)" fill="none" stroke="#3a435c" stroke-width="3"/>
+      <g id="マスクグループ_187" data-name="マスクグループ 187" transform="translate(-24444.5 -12037)" clip-path="url(#clip-path)">
+        <path id="パス_81143" data-name="パス 81143" d="M14.505,11.505A5.253,5.253,0,1,0,9.253,6.253,5.251,5.251,0,0,0,14.505,11.505Zm0,4.686C11,16.191,4,17.951,4,21.444V24.07H25.011V21.444C25.011,17.951,18.012,16.191,14.505,16.191Z" transform="translate(0.001 4.93)" fill="none" stroke="#3a435c" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

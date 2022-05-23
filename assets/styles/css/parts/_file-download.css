@@ -1,0 +1,39 @@
+.xhm-file-download {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.xhm-file-download .dl-file-wrap {
+  list-style: none; /* デフォルトのアイコンを消す */
+  margin: 0; /* デフォルト指定上書き */
+  padding: 0; /* デフォルト指定上書き */
+}
+
+.xhm-file-download .dl-file:before {
+  content: ''; /* 空の要素作成 */
+  width: 32px; /* 幅指定 */
+  height: 32px; /* 高さ指定 */
+  display: inline-block; /* インラインブロックにする */
+  position: relative; /* アイコンの位置を調整 */
+  margin-right: 5px; /* 余白指定 */
+  background-image: url(/form/img/dl_file.png); /* アイコン指定 */
+  background-size: contain; /* アイコンの大きさ指定 */
+  background-repeat: no-repeat; /* アイコンをリピートしないようにする */
+  vertical-align: top; /* アイコンの位置を調整 */
+}
+
+.xhm-file-download .dl-file {
+  padding: 10px; /* 余白指定 */
+  margin-bottom: 5px; /* 要素と要素の間指定 */
+  font-size: 20px; /* 文字サイズ指定 */
+}
+
+.xhm-file-download .dl-file a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+}
+
+.xhm-file-download .dl-file a:hover {
+  color: #00b0f0;
+}

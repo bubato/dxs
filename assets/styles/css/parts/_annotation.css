@@ -1,0 +1,10 @@
+/* 注釈 */
+.xhm-annotation {
+  font-size: 15px;
+  margin: 0 0 8px;
+  color: #1e1e1e;
+}
+
+* + .xhm-annotation {
+  margin-top: 8px;
+}

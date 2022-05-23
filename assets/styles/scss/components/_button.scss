@@ -1,0 +1,135 @@
+// mixinもここに書く
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    &-short {
+        font-size: 13px;
+        height: 36px;
+        padding: 0 12px;
+    }
+    &-middle {
+        min-width: 120px;
+        font-size: 13px;
+        height: 40px;
+        padding: 0 16px;
+    }
+    &-middle-short {
+        min-width: 120px;
+        font-size: 13px;
+        height: 40px;
+        padding: 0 12px;
+    }
+    &-long {
+        min-width: 200px;
+        height: 48px;
+        padding: 0 24px;
+        font-size: 15px;
+    }
+    &-disabled {
+        pointer-events: none;
+        cursor: default;
+        &::after {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: -1;
+          background: #fff;
+          width: 100%;
+          height: 100%;
+          border-radius: 4px;
+        }
+        &::before {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 1;
+          background: rgba(#fff, 0.68);
+          width: 100%;
+          height: 100%;
+          border-radius: 4px;
+        }
+    }
+    &-primary {
+        color: #ffffff;
+        background: #ff831a;
+        background: -moz-linear-gradient(right, #fd7400, #ffb100); /* Firefox */
+        background: -webkit-linear-gradient(right, #fd7400, #ffb100); /* safari Chrome */
+        background: linear-gradient(to left, #fd7400, #ffb100); /* IE */
+        &:hover:not(.btn-disabled) {
+            background: #f57000;
+            background: -moz-linear-gradient(right, #e96a00, #eba300); /* Firefox */
+            background: -webkit-linear-gradient(right, #e96a00, #eba300); /* safari Chrome */
+            background: linear-gradient(to left, #e96a00, #eba300); /* IE */
+        }
+    }
+    &-basic {
+        color: #ffffff;
+        background: #4f7df0;
+        &:hover:not(.btn-disabled) {
+            background: #3268ed;
+        }
+    }
+    &-secondary {
+        color: #4f7df0;
+        background: #ffffff;
+        border: #4f7df0 1px solid;
+        overflow: initial;
+        &.btn-disabled {
+          &::before {
+            top: -1px;
+            left: -1px;
+            z-index: 1;
+            width: calc(100% + 2px);
+            height: calc(100% + 2px);
+          }
+        }
+        &:hover:not(.btn-disabled) {
+            background: #edf2fd;
+        }
+    }
+    &-cancel {
+        color: #ffffff;
+        background: #6C707E;
+        &:hover:not(.btn-disabled) {
+            background: #505565;
+        }
+    }
+    &-utility {
+        font-size: 13px;
+        padding: 0 12px;
+        height: 32px;
+        background: #ffffff;
+        border: 1px solid #e0e0e0;
+        overflow: initial;
+        &.btn-disabled {
+            color: rgba(30, 30, 30, 0.5);
+            border: 1px solid #E0E0E0;
+            &::before,
+            &::after {
+              display: none;
+            }
+        }
+    }
+    &-white {
+        color: #1e1e1e;
+        background: #ffffff;
+    }
+    &-lightGreen {
+        color: #ffffff;
+        background: #36babf;
+    }
+    &-warmRed {
+        color: #ffffff;
+        background: #fc655f;
+    }
+}

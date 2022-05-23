@@ -1,0 +1,10 @@
+/* 見出し２ */
+.xhm-heading-sub {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.xhm-heading-sub h2 {
+  font-size: 22px;
+  font-weight: bold;
+}

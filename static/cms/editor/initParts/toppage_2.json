@@ -1,0 +1,284 @@
+[
+  {
+    "componentKind": "setComponent",
+    "id": "header",
+    "name": "ヘッダー",
+    "logo": ""
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "mainArea",
+    "name": "メインエリア",
+    "title": {
+      "align": "1",
+      "context": "暮らしを豊かに、笑顔を育む場を創造。"
+    },
+    "text": {
+      "align": "1",
+      "context": "日々の暮らしを豊かにし、充実した時間を過ごす空間を創造するのが私たちの仕事です。"
+    },
+    "textColor": "4",
+    "backgroundImage": "https://images.@@images-domain@@/web-assets/common/web/2/69936778_20220309.png",
+    "buttons": [{ "text": "お問い合わせ", "link": "", "linkType": 1 }]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "oneLineNews",
+    "name": "ワンラインニュース",
+    "date": "2022/04/01",
+    "title": "Webサイトをリニューアルしました",
+    "label": "お知らせ",
+    "link": ""
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "message",
+    "name": "メッセージ",
+    "title": {
+      "align": "1",
+      "context": "〇〇〇株式会社はお客様と共に未来を描き夢をカタチにします。"
+    },
+    "text": {
+      "align": "1",
+      "context": "私どもは創業以来、〇〇〇市にて住宅設計・工事や店舗の内装工事を中心に住まう人たちの暮らしを豊かにする建築を作り続けています。"
+    }
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "textWithTopImages",
+    "name": "上画像付きテキスト",
+    "heading": "私たちの実績",
+    "layoutType": "3",
+    "images": [
+      {
+        "title": "住宅リフォーム工事の実績",
+        "text": "住宅リフォーム工事実績の概要を入力します。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/2/80545087_20220309.png",
+        "imageName": "",
+        "link": ""
+      },
+      {
+        "title": "住宅リノベーション工事の実績",
+        "text": "住宅リノベーション工事実績の概要を入力します。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/2/62431343_20220309.png",
+        "imageName": "",
+        "link": ""
+      },
+      {
+        "title": "店舗内装工事の実績",
+        "text": "店舗内装工事実績の概要を入力します。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/2/62556985_20220309.png",
+        "imageName": "",
+        "link": "",
+        "linkType": "0"
+      },
+      {
+        "title": "その他工事の実績",
+        "text": "その他工事実績の概要を入力します。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/2/66064370_20220309.png",
+        "imageName": "",
+        "link": "",
+        "linkType": "0"
+      }
+    ]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "customerVoice",
+    "name": "お客さまの声",
+    "heading": { "align": "1", "context": "お客様の声" },
+    "layoutDirection": "1",
+    "layoutType": "1",
+    "contents": [
+      {
+        "title": "理想の家を作っていただきました",
+        "text": "最初のご相談から完成まで親身に取り組んでいただき本当に理想の家を建てていただきました。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/2/81798815_20220309.png",
+        "link": ""
+      },
+      {
+        "title": "限られた予算の中でアイデア満載のリノベーション",
+        "text": "先に提示した予算に収めていただいたにも関わらず、随所に素晴らしいアイデアを散りばめた提案を頂きとても感謝しています。",
+        "image": "",
+        "link": ""
+      },
+      {
+        "title": "スタッフの方がとてもよかったです",
+        "text": "建築の素人である私たちの質問にも丁寧に答えていただきました。スタッフの方の人柄がとてもよく家が出来上がるまでの時間も楽しかったです。",
+        "image": "",
+        "link": ""
+      },
+      {
+        "title": "お得意様にも喜んでもらえる店舗に生まれ変わりました",
+        "text": "コンセプトをとても大切に考え長く通っていただいているお客様にもとても喜んでもらえたお店に生まれ変わりました。",
+        "image": "",
+        "imageName": "",
+        "imageAlign": "1",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "componentKind": "singleComponent",
+    "id": "heading2",
+    "name": "見出し2",
+    "context": "私たちについて",
+    "align": "1",
+    "link": "",
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    }
+  },
+  {
+    "componentKind": "layoutComponent",
+    "id": "layout-3",
+    "name": "3列",
+    "checkSameHeader": false,
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    },
+    "layoutNum": 3,
+    "layoutType": "1",
+    "componentList": [
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "image",
+          "name": "画像",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/2/54448399_20220309.png",
+          "imageName": "",
+          "align": "1",
+          "alternateText": "",
+          "width": "",
+          "height": "",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "企業情報",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ],
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "image",
+          "name": "画像",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/2/69255169_20220309.png",
+          "imageName": "",
+          "align": "1",
+          "alternateText": "",
+          "width": "",
+          "height": "",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "スタッフ紹介",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ],
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "image",
+          "name": "画像",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/2/81627403_20220309.png",
+          "imageName": "",
+          "align": "1",
+          "alternateText": "",
+          "width": "",
+          "height": "",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "採用情報",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "conversion",
+    "name": "コンバージョン",
+    "title": { "align": "1", "context": "お問い合わせ" },
+    "text": { "align": "1", "context": "お気軽にお問い合わせください。" },
+    "textColor": "4",
+    "backgroundImage": "https://images.@@images-domain@@/web-assets/common/web/2/69936778_20220309.png",
+    "buttons": [{ "text": "お問い合わせ", "link": "", "linkType": 1 }]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "footer",
+    "name": "フッター"
+  }
+]

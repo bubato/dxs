@@ -1,0 +1,20 @@
+{
+  "result": 0,
+  "domainInfo": [
+    {
+      "type": "0",
+      "url": "alphabet.bizsky.site",
+      "status": 3,
+      "date": "2022/01/01"
+    },
+    {
+      "type": "1",
+      "url": "alphabet.bizsky.site2",
+      "status": 2,
+      "date": "2022/01/02"
+    }
+  ],
+  "basicSettings": {
+    "baseSettingStatus": 4
+  }
+}

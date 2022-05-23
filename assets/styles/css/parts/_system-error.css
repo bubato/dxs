@@ -1,0 +1,12 @@
+.xhm-system-error {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #e60012;
+  background-color: #fff2f4;
+  overflow: hidden;
+}
+
+.xhm-system-error p {
+  margin: 1em;
+}

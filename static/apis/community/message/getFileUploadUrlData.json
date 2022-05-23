@@ -1,0 +1,45 @@
+{
+  "result": 0,
+  "customerList": [
+    {
+      "userId": 1,
+      "name": "渡来 太郎",
+      "image": "",
+      "date": "1日前",
+      "company": "トライベック1",
+      "position": "取締役1"
+    },
+    {
+      "userId": 2,
+      "name": "松田 隆",
+      "image": "",
+      "updateDate": "2日前",
+      "company": "トライベック2",
+      "position": "取締役2"
+    },
+    {
+      "userId": 3,
+      "name": "田辺 修一",
+      "image": "",
+      "updateDate": "3日前",
+      "company": "トライベック3",
+      "position": "取締役3"
+    },
+    {
+      "userId": 4,
+      "name": "夢野 舞 ",
+      "image": "",
+      "updateDate": "4日前",
+      "company": "トライベック4",
+      "position": "取締役4"
+    },
+    {
+      "userId": 5,
+      "name": "渡来 次郎",
+      "image": "",
+      "updateDate": "5日前",
+      "company": "トライベック5",
+      "position": "取締役5"
+    }
+  ]
+}

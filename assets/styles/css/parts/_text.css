@@ -1,0 +1,10 @@
+/* テキスト */
+.xhm-text {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.xhm-text p {
+  font-size: 15px;
+  line-height: 1.8;
+}

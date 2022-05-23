@@ -1,0 +1,97 @@
+/* 次へボタン */
+.xhm-btn-next {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.xhm-btn-next button {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 180px;
+  min-width: 120px;
+  height: 48px;
+  background: #3268ed;
+  color: #fff;
+  font-size: 13px;
+  padding: 0 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+.xhm-btn-next button:hover:not(:disabled) {
+  background: #3268ed;
+}
+
+.xhm-btn-next button:disabled {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.32;
+}
+
+/* 戻るボタン */
+.xhm-btn-back {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.xhm-btn-back button {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 180px;
+  min-width: 120px;
+  height: 48px;
+  background: #716c7e;
+  color: #fff;
+  font-size: 13px;
+  padding: 0 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+.xhm-btn-back button:hover:not(:disabled) {
+  background: #505565;
+}
+
+.xhm-btn-back button:disabled {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.32;
+}
+
+/* layout */
+.xhm-grid-cell .xhm-btn-back button {
+  margin: 0 0 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .xhm-grid-cell .xhm-btn-next button,
+  .xhm-grid-cell .xhm-btn-back button {
+    margin: 0 auto;
+  }
+}

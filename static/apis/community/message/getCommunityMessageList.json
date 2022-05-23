@@ -1,0 +1,186 @@
+{
+  "result": 0,
+  "chatMemberList": [
+    {
+      "userId": 1,
+      "image": "",
+      "name": "田中一郎",
+      "company": "会社A",
+      "position": "役職A",
+      "deleteFlag": 0
+    },
+    {
+      "userId": 2,
+      "image": "",
+      "name": "鈴木次郎",
+      "company": "会社B",
+      "position": "役職B",
+      "deleteFlag": 1
+    },
+    {
+      "userId": 3,
+      "image": "",
+      "name": "佐藤琢磨",
+      "company": "会社C",
+      "position": "役職C",
+      "deleteFlag": 0
+    },
+    {
+      "userId": 4,
+      "image": "",
+      "name": "柏木連",
+      "company": "会社D",
+      "position": "役職D",
+      "deleteFlag": 0
+    },
+    {
+      "userId": 5,
+      "image": "",
+      "name": "小林達也",
+      "company": "会社E",
+      "position": "役職E",
+      "deleteFlag": 0
+    }
+  ],
+  "allCount": 20,
+  "messageList": [
+    {
+      "id": 200,
+      "userId": 3,
+      "message": "トライベックのHPです。https://www.tribeck.jp/こちらです。",
+      "fileName": "ファイル11",
+      "fileStorageObjectId": 111,
+      "readUserId": "12",
+      "date": "2021/01/25 14:24",
+      "ogpInformation": [
+        {
+          "type": "webサイト",
+          "image": "https://www.xdata.jp/assets/images/logo-black.svg",
+          "title": "トライベックのHPです",
+          "description": "CXコンサルティング会社が開発したWebサイト活用から顧客との関係構築までの一元管理に特化した国産マーケティングプラットフォーム「HIRAMEKI XD（ヒラメキクロスディー）」。驚きの「シンプルさ」と「使いやすさ」を軸に、ライトに続けられるマーケティングオートメーションツールの提供を目指しています。",
+          "url": "https://www.xdata.jp/",
+          "inputUrl": "https://www.xdata.jp/"
+        }
+      ],
+      "recordVersion": 111,
+      "deleteFlag": true
+    },
+    {
+      "id": 199,
+      "userId": 4,
+      "message": "任天堂のHPです。https://www.nintendo.co.jp/",
+      "fileName": "",
+      "fileStorageObjectId": null,
+      "readUserId": "12",
+      "date": "2021/01/24 16:42",
+      "ogpInformation": [
+        {
+          "type": "webサイト",
+          "image": "https://www.xdata.jp/assets/images/logo-black.svg",
+          "title": "任天堂のHPです",
+          "description": "CXコンサルティング会社が開発したWebサイト活用から顧客との関係構築までの一元管理に特化した国産マーケティングプラットフォーム「HIRAMEKI XD（ヒラメキクロスディー）」。驚きの「シンプルさ」と「使いやすさ」を軸に、ライトに続けられるマーケティングオートメーションツールの提供を目指しています。",
+          "url": "https://www.xdata.jp/",
+          "inputUrl": "https://www.xdata2.jp/"
+        }
+      ],
+      "recordVersion": 222,
+      "deleteFlag": false
+    },
+    {
+      "id": 198,
+      "userId": 1,
+      "message": "https://www.google.co.jp/search?safe=off&q=豊洲市場&oq=豊洲市場",
+      "fileName": "ファイル1",
+      "fileStorageObjectId": 222,
+      "readUserId": "12",
+      "date": "2021/01/23 10:04",
+      "ogpInformation": [],
+      "recordVersion": 333,
+      "deleteFlag": true
+    },
+    {
+      "id": 197,
+      "userId": 12,
+      "message": "トライベックロゴ https://www.tribeck.jp/newsrelease/20200901_01.png \n https://www.atpress.ne.jp/releases/180068/img_180068_2.png\nhttps://tribeck01.sharepoint.com/sites/DXS692/Shared%20Documents/General/2021-08-13_10h23_16.mp4",
+      "fileName": "",
+      "fileStorageObjectId": null,
+      "readUserId": "12",
+      "date": "2021/01/23 10:02",
+      "ogpInformation": [],
+      "recordVersion": 444,
+      "deleteFlag": false
+    },
+    {
+      "id": 196,
+      "userId": 1,
+      "message": "https://tribeck01.sharepoint.com/sites/DXS692/Shared%20Documents/General/2021-08-13_10h23_16.mp4",
+      "fileName": "",
+      "fileStorageObjectId": null,
+      "readUserId": "12",
+      "date": "2021/01/22 23:57",
+      "ogpInformation": [],
+      "recordVersion": 555,
+      "deleteFlag": true
+    },
+    {
+      "id": 195,
+      "userId": 12,
+      "message": "わかりました",
+      "fileName": "",
+      "fileStorageObjectId": null,
+      "readUserId": "12",
+      "date": "2021/01/22 23:42",
+      "ogpInformation": [],
+      "recordVersion": 666,
+      "deleteFlag": true
+    },
+    {
+      "id": 194,
+      "userId": 1,
+      "message": "さようなら",
+      "fileName": "",
+      "fileStorageObjectId": null,
+      "readUserId": "12",
+      "date": "2021/01/22 22:32",
+      "ogpInformation": [],
+      "recordVersion": 777,
+      "deleteFlag": false
+    },
+    {
+      "id": 193,
+      "userId": 1,
+      "message": "メッセージです",
+      "fileName": "",
+      "fileStorageObjectId": null,
+      "readUserId": "12",
+      "date": "2021/01/22 19:51",
+      "ogpInformation": [],
+      "recordVersion": 888,
+      "deleteFlag": true
+    },
+    {
+      "id": 192,
+      "userId": 1,
+      "message": "わかりました",
+      "fileName": "test.png",
+      "fileStorageObjectId": 333,
+      "readUserId": "",
+      "date": "2021/01/22 15:52",
+      "ogpInformation": [],
+      "recordVersion": 999,
+      "deleteFlag": false
+    },
+    {
+      "id": 191,
+      "userId": 12,
+      "message": "はい",
+      "fileName": "",
+      "fileStorageObjectId": null,
+      "readUserId": "",
+      "date": "2021/01/22 13:12",
+      "ogpInformation": [],
+      "recordVersion": 123,
+      "deleteFlag": true
+    }
+  ]
+}

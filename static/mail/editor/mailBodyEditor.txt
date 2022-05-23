@@ -1,0 +1,393 @@
+<!doctype html>​
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <style type="text/css">
+      @charset "UTF-8";
+      ul.view-components {
+        height: 100%;
+      }
+
+      ul.view-components li.component {
+        position: relative;
+        min-height: 50px;
+      }
+
+      ul.view-components li.component.clone {
+        width: 100%;
+        height: 12px;
+        background: #d6eaff;
+      }
+
+      .siteEditPage ul.view-components li.component.clone {
+        position: relative;
+      }
+
+      .siteEditPage ul.view-components li.component.clone:before {
+        content: '';
+        background-image: linear-gradient(to right, #007aff, #007aff 5px, transparent 5px, transparent 9px), linear-gradient(to right, #007aff, #007aff 5px, transparent 5px, transparent 9px), linear-gradient(to bottom, #007aff, #007aff 5px, transparent 5px, transparent 9px), linear-gradient(to bottom, #007aff, #007aff 5px, transparent 5px, transparent 9px);
+        background-size: 9px 1px, 9px 1px, 1px 9px, 1px 9px;
+        background-position: left top, left bottom, left top, right top;
+        background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        pointer-events: none;
+      }
+
+      .siteEditPage ul.view-components li.component.clone.hover:before {
+        display: none;
+      }
+
+      ul.view-components li.component:not(:last-child) {
+        margin-bottom: 32px;
+      }
+
+      ul.view-components li.component.layout-component .layout-column-area {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+      }
+
+      ul.view-components li.component.layout-component .layout-column-area .layout-column {
+        margin: 0 auto;
+        border: 1px dashed #c6c6c6;
+        min-height: 40px;
+        padding: 10px 0;
+      }
+
+      ul.view-components li.component.layout-component .layout-column-area .layout-column:not(:first-child) {
+        margin-left: 16px;
+      }
+
+      ul.view-components li.component.layout-component .layout-column-area .layout-column.layout-25 {
+        width: calc(100% / 4);
+      }
+
+      ul.view-components li.component.layout-component .layout-column-area .layout-column.layout-33 {
+        width: calc(100% / 3);
+      }
+
+      ul.view-components li.component.layout-component .layout-column-area .layout-column.layout-50 {
+        width: 50%;
+      }
+
+      ul.view-components li.component.layout-component .layout-column-area .layout-column.layout-66 {
+        width: calc(100% / 3 * 2);
+      }
+
+      ul.view-components li.component.layout-component .layout-column-area .layout-column.layout-100 {
+        width: 100%;
+      }
+
+      ul.view-components li.component.layout-component .layout-column-area .layout-column:not(:last-child) {
+        margin-right: 0px;
+      }
+
+      ul.view-components li.component.layout-component .layout-column-area.hover .layout-column {
+        border: 1px solid #007aff;
+        -webkit-box-shadow: 0 0 4px rgba(0, 122, 255, 0.72);
+                box-shadow: 0 0 4px rgba(0, 122, 255, 0.72);
+      }
+
+      .siteEditPage ul.view-components li.component.single-component {
+        position: relative;
+      }
+
+      .siteEditPage ul.view-components li.component.single-component:before {
+        content: '';
+        background-image: linear-gradient(to right, #c6c6c6, #c6c6c6 5px, transparent 5px, transparent 9px), linear-gradient(to right, #c6c6c6, #c6c6c6 5px, transparent 5px, transparent 9px), linear-gradient(to bottom, #c6c6c6, #c6c6c6 5px, transparent 5px, transparent 9px), linear-gradient(to bottom, #c6c6c6, #c6c6c6 5px, transparent 5px, transparent 9px);
+        background-size: 9px 1px, 9px 1px, 1px 9px, 1px 9px;
+        background-position: left top, left bottom, left top, right top;
+        background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        pointer-events: none;
+      }
+
+      .siteEditPage ul.view-components li.component.single-component.hover:before {
+        display: none;
+      }
+
+      ul.view-components li.component.single-component.hover {
+        border: 1px solid #007aff;
+        -webkit-box-shadow: 0 0 4px rgba(0, 122, 255, 0.72);
+                box-shadow: 0 0 4px rgba(0, 122, 255, 0.72);
+      }
+
+      ul.view-components li.component .component-name {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        min-width: 120px;
+        height: 28px;
+        padding: 0 10px;
+        color: #ffffff;
+        font-size: 12px;
+        background: #6c707e;
+      }
+
+      ul.view-components li.component .buttons {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+      }
+
+      ul.view-components li.component .buttons button:not(:last-child) {
+        margin-right: 10px;
+      }
+
+      ul.view-components .menu_buttons {
+        overflow: hidden;
+        position: absolute;
+        top: 4px;
+        right: 7px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        z-index: 100;
+        border: 1px solid #e5e5e5;
+        border-radius: 4px;
+      }
+
+      ul.view-components .menu_buttons button {
+        overflow: hidden;
+        background: #ffffff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        cursor: pointer;
+        position: relative;
+        fill: #3a435c;
+        padding: 4px;
+      }
+
+      ul.view-components .menu_buttons button:not(:last-child):before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        content: '';
+        width: 1px;
+        background-color: #ffffff;
+      }
+
+      ul.view-components .menu_buttons button:not(:last-child):after {
+        position: absolute;
+        top: 1px;
+        right: 0;
+        height: calc(100% - 2px);
+        content: '';
+        width: 1px;
+        background-color: #e5e5e5;
+      }
+
+      ul.view-components .menu_buttons button.btn-disabled {
+        background: #cdced0;
+        fill: #b0b3be;
+      }
+
+      .view-components:not(.preview) .component a {
+        pointer-events: none;
+      }
+
+      .editor-area {
+        width: calc(100% - 332px);
+        margin-left: 12px;
+        border: 1px solid #e5e5e5;
+      }
+
+      .editor-area .rootContainer {
+        width: 100%;
+        height: 100%;
+        padding: 32px 50px;
+        position: relative;
+      }
+
+      .editor-area .rootContainer .view-components {
+        max-width: 600px;
+        margin: auto;
+      }
+
+      .editor-area .rootContainer .view-components .component:not(.clone) {
+        border: 1px dashed #c6c6c6;
+        padding: 32px;
+      }
+
+      .editor-area .rootContainer .view-components .component:not(.clone):not(:first-child) {
+        margin-top: 20px;
+      }
+
+      .editor-area .rootContainer .view-components .component:not(.clone):hover > .hover-elements {
+        display: block;
+      }
+
+      .editor-area .rootContainer .view-components .clone {
+        width: 100%;
+        height: 12px;
+        background: #d6eaff;
+        border: 1px dashed #007aff;
+      }
+
+      .editor-area .rootContainer .view-components .layout-column-area {
+        padding: 10px 0;
+      }
+
+      .editor-area .rootContainer .view-components .layout-column-area .view-components {
+        padding: 16px;
+      }
+
+      .editor-area .rootContainer .view-components .layout-column-area .view-components .child-component {
+        padding: 32px 16px;
+        border: 1px dashed #c6c6c6;
+        position: relative;
+      }
+
+      .editor-area .rootContainer .view-components .layout-column-area .view-components .child-component:not(:first-child) {
+        margin-top: 20px;
+      }
+
+      .editor-area .rootContainer .view-components .layout-column-area .view-components .child-component:hover > .hover-elements {
+        display: block;
+      }
+
+      /* シングルパーツ:見出し1,2,3 */
+      .view-heading1.link,
+      .view-heading2 .view-heading3.link {
+        color: #007aff;
+      }
+
+      .view-heading1.link:not(:hover),
+      .view-heading2 .view-heading3.link:not(:hover) {
+        text-decoration: underline;
+      }
+
+      /* シングルパーツ:テキスト */
+      .view-text.link {
+        color: #007aff;
+      }
+
+      .view-text.link:not(:hover) {
+        text-decoration: underline;
+      }
+
+      /* シングルパーツ:リスト */
+      .view-list li {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        font-size: 16px;
+      }
+
+      .view-list li span {
+        display: inline-block;
+        margin-right: 4px;
+      }
+
+      /* シングルパーツ:注釈 */
+      .view-annotation li {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        font-size: 13px;
+      }
+
+      .view-annotation li .symbol {
+        display: inline-block;
+        margin-right: 4px;
+      }
+
+      /* シングルパーツ:画像 */
+      .view-image {
+        max-width: 100%;
+      }
+
+      .view-image img {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      .view-image img.link {
+        cursor: pointer;
+      }
+
+      /* シングルパーツ:ボタン */
+      .view-button a {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        border-radius: 4px;
+        border: none;
+        position: relative;
+        overflow: hidden;
+        max-width: 100%;
+        cursor: pointer;
+      }
+
+      /* シングルパーツ:区切り線 */
+      .view-separator {
+        overflow: hidden;
+      }
+
+      .view-separator hr {
+        margin: 10px 0;
+      }
+
+      /* シングルパーツ:空白 */
+      .view-space.space-height-20 {
+        height: 20px;
+      }
+
+      .view-space.space-height-40 {
+        height: 40px;
+      }
+
+      .view-space.space-height-60 {
+        height: 60px;
+      }
+
+      .view-space.space-height-80 {
+        height: 80px;
+      }
+
+      .view-space.space-height-100 {
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+   {{ replaceBodyText }}
+  </body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "result": 0,
+  "tenantInfo": {
+    "recordVersion": 123
+  },
+  "basicSettings": {
+    "siteName": "",
+    "siteDescription": "",
+    "siteUrl": "",
+    "siteDomain": "1",
+    "siteLogo": "",
+    "copyRight": "",
+    "industry": "1",
+    "templateImageId": "1",
+    "colorId": "1",
+    "recordVersion": 1234
+  }
+}

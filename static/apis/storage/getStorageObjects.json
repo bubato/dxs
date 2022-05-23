@@ -1,0 +1,321 @@
+{
+  "result": 0,
+  "countSearch": 1200,
+  "objects": [
+    {
+      "objectId": 10111111,
+      "objectName": "共有なし&メッセージ連携なし",
+      "objectType": 1,
+      "modifiedUserName": "藤本太郎　喜左衛門将時能",
+      "shareFlag": 0,
+      "pinFlag": 0,
+      "modifiedAt": "2020/10/30 14:07",
+      "recordVersion": 1111,
+      "communityFlag": 0
+    },
+    {
+      "objectId": 2222222,
+      "objectName": "共有あり&メッセージ連携なし",
+      "objectType": 1,
+      "modifiedUserName": "田中　太郎",
+      "shareFlag": 1,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/29 14:07",
+      "recordVersion": 1112,
+      "communityFlag": 0
+    },
+    {
+      "objectId": 3333333,
+      "objectName": "共有あり&メッセージ連携あり",
+      "objectType": 1,
+      "modifiedUserName": "勘解由小路　三郎",
+      "shareFlag": 1,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/28 14:07",
+      "recordVersion": 1113,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 4,
+      "objectName": "フォルダ4 {渡来原 三郎}と他メンバーと(コミュニティ連携なし)",
+      "objectType": 1,
+      "modifiedUserName": "藤本太郎　喜左衛門将時能",
+      "shareFlag": 1,
+      "pinFlag": 0,
+      "modifiedAt": "2020/10/27 14:07",
+      "recordVersion": 1114,
+      "communityFlag": 0
+    },
+    {
+      "objectId": 5,
+      "objectName": " フォルダ5 {渡来原 三郎}と他メンバーとあああああああああｚｚｚｚｚｚｚｚｚｚｚｚｚｚｚ",
+      "objectType": 1,
+      "modifiedUserName": "勘解由小路　三郎",
+      "shareFlag": 0,
+      "pinFlag": 0,
+      "modifiedAt": "2020/10/26 14:07",
+      "recordVersion": 1115,
+      "communityFlag": 0
+    },
+    {
+      "objectId": 6666,
+      "objectName": "共有なし＆メッセージ連携なしファイル.doc",
+      "objectType": 2,
+      "modifiedUserName": "藤本太郎　喜左衛門将時能",
+      "shareFlag": 0,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/25 14:07",
+      "recordVersion": 1116,
+      "communityFlag": 0
+    },
+    {
+      "objectId": 6666,
+      "objectName": "共有あり＆メッセージ連携なしファイル.doc",
+      "objectType": 2,
+      "modifiedUserName": "藤本太郎　喜左衛門将時能",
+      "shareFlag": 1,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/25 14:07",
+      "recordVersion": 1116,
+      "communityFlag": 0
+    },
+    {
+      "objectId": 777,
+      "objectName": "共有あり＆メッセージ連携ありファイル.doc",
+      "objectType": 2,
+      "modifiedUserName": "藤本太郎　喜左衛門将時能",
+      "shareFlag": 1,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/25 14:07",
+      "recordVersion": 1116,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 6,
+      "objectName": "オフィス系アイコンWord(doc).doc",
+      "objectType": 2,
+      "modifiedUserName": "藤本太郎　喜左衛門将時能",
+      "shareFlag": 0,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/25 14:07",
+      "recordVersion": 1116,
+      "communityFlag": 0
+    },
+    {
+      "objectId": 7,
+      "objectName": "オフィス系アイコンWord(docx).docx",
+      "objectType": 2,
+      "modifiedUserName": "田中　太郎",
+      "shareFlag": 1,
+      "pinFlag": 0,
+      "modifiedAt": "2020/10/24 14:07",
+      "recordVersion": 1117,
+      "communityFlag": 0
+    },
+    {
+      "objectId": 8,
+      "objectName": "オフィス系アイコンExcel(xls).xls",
+      "objectType": 2,
+      "modifiedUserName": "藤本太郎　喜左衛門将時能",
+      "shareFlag": 1,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/23 14:07",
+      "recordVersion": 1118,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 9,
+      "objectName": "オフィス系アイコンExcel(xlsx).xlsx",
+      "objectType": 2,
+      "modifiedUserName": "田中　太郎",
+      "shareFlag": 0,
+      "pinFlag": 0,
+      "modifiedAt": "2020/10/22 14:07",
+      "recordVersion": 1119,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 10,
+      "objectName": "オフィス系アイコンPowerPoint(ppt).ppt",
+      "objectType": 2,
+      "modifiedUserName": "勘解由小路　三郎",
+      "shareFlag": 0,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/21 14:07",
+      "recordVersion": 1120,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 11,
+      "objectName": "オフィス系アイコンPowerPoint(pptx).pptx",
+      "objectType": 2,
+      "modifiedUserName": "勘解由小路　三郎",
+      "shareFlag": 0,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/21 14:07",
+      "recordVersion": 1120,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 12,
+      "objectName": "汎用アイコンpdf.pdf",
+      "objectType": 2,
+      "modifiedUserName": "勘解由小路　三郎",
+      "shareFlag": 0,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/21 14:07",
+      "recordVersion": 1120,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 13,
+      "objectName": "汎用アイコン(txt).txt",
+      "objectType": 2,
+      "modifiedUserName": "勘解由小路　三郎",
+      "shareFlag": 0,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/21 14:07",
+      "recordVersion": 1120,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 14,
+      "objectName": "汎用アイコン(zip).zip",
+      "objectType": 2,
+      "modifiedUserName": "勘解由小路　三郎",
+      "shareFlag": 0,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/21 14:07",
+      "recordVersion": 1120,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 15,
+      "objectName": "画像アイコン(jpg).jpg",
+      "objectType": 2,
+      "modifiedUserName": "勘解由小路　三郎",
+      "shareFlag": 0,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/21 14:07",
+      "recordVersion": 1120,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 16,
+      "objectName": "画像アイコン(jpeg).jpeg",
+      "objectType": 2,
+      "modifiedUserName": "勘解由小路　三郎",
+      "shareFlag": 0,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/21 14:07",
+      "recordVersion": 1120,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 17,
+      "objectName": "画像アイコン(gif).gif",
+      "objectType": 2,
+      "modifiedUserName": "勘解由小路　三郎",
+      "shareFlag": 0,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/21 14:07",
+      "recordVersion": 1120,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 18,
+      "objectName": "画像アイコン(png).png",
+      "objectType": 2,
+      "modifiedUserName": "勘解由小路　三郎",
+      "shareFlag": 0,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/21 14:07",
+      "recordVersion": 1120,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 19,
+      "objectName": "画像アイコン(svg).svg",
+      "objectType": 2,
+      "modifiedUserName": "勘解由小路　三郎",
+      "shareFlag": 0,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/21 14:07",
+      "recordVersion": 1120,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 20,
+      "objectName": "コード系アイコン(html).html",
+      "objectType": 2,
+      "modifiedUserName": "勘解由小路　三郎",
+      "shareFlag": 0,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/21 14:07",
+      "recordVersion": 1120,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 21,
+      "objectName": "コード系アイコン(json).json",
+      "objectType": 2,
+      "modifiedUserName": "勘解由小路　三郎",
+      "shareFlag": 0,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/21 14:07",
+      "recordVersion": 1120,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 22,
+      "objectName": "コード系アイコン(js).js",
+      "objectType": 2,
+      "modifiedUserName": "勘解由小路　三郎",
+      "shareFlag": 0,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/21 14:07",
+      "recordVersion": 1120,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 23,
+      "objectName": "コード系アイコン(css).css",
+      "objectType": 2,
+      "modifiedUserName": "勘解由小路　三郎",
+      "shareFlag": 0,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/21 14:07",
+      "recordVersion": 1120,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 24,
+      "objectName": "上記以外の拡張子(psd).psd",
+      "objectType": 2,
+      "modifiedUserName": "勘解由小路　三郎",
+      "shareFlag": 0,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/21 14:07",
+      "recordVersion": 1120,
+      "communityFlag": 1
+    }
+  ],
+  "breadcrumbList": [
+    {
+      "objectId": null,
+      "folderName": "ストレージ"
+    },
+    {
+      "objectId": 11,
+      "folderName": "{渡来原 三郎}と他メンバーと(子フォルダ)"
+    },
+    {
+      "objectId": 211,
+      "folderName": "子フォルダ内設定フォルダ(孫フォルダ)"
+    }
+  ],
+  "informationObject": {
+    "shareFlag": 0,
+    "communityFlag": 0
+  }
+}

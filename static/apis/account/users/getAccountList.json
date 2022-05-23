@@ -1,0 +1,42 @@
+{
+  "result": 0,
+  "limitAccountNum": 10,
+  "accountList": [
+    {
+      "tenantUserId": 11,
+      "status": "0",
+      "name": "渡来太郎",
+      "managementFlag": 0,
+      "mailAddress": "aaaa@example.com",
+      "recordVersion": 1234,
+      "inviteRecordVersion": 1234
+    },
+    {
+      "tenantUserId": 12,
+      "status": "1",
+      "name": "渡来伍郎",
+      "managementFlag": 1,
+      "mailAddress": "bbbb@example.com",
+      "recordVersion": 1234,
+      "inviteRecordVersion": 1234
+    },
+    {
+      "tenantUserId": 13,
+      "status": "2",
+      "name": "渡来四郎四",
+      "managementFlag": 0,
+      "mailAddress": "cccc@example.com",
+      "recordVersion": 1234,
+      "inviteRecordVersion": 1234
+    },
+    {
+      "tenantUserId": 14,
+      "status": "2",
+      "name": "渡来三郎",
+      "managementFlag": 0,
+      "mailAddress": "dddd@example.com",
+      "recordVersion": 1234,
+      "inviteRecordVersion": 1234
+    }
+  ]
+}

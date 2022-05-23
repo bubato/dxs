@@ -1,0 +1,60 @@
+{
+  "result": 0,
+  "searchResult": 324,
+  "publishedFlag": 1,
+  "totalPageInfo": {
+    "pvCount": 500,
+    "pvCountAve": "135.3",
+    "uuCount": 450,
+    "uuCountAve": "43.2",
+    "averageVisitedTime": "00:02:19",
+    "averageVisitedTimeAve": "00:01:09",
+    "browsingStarts": 500,
+    "browsingStartsAve": "232",
+    "bounceRate": "90.3%",
+    "bounceRateAve": "43.2%",
+    "cvCount": 100,
+    "cvCountAve": "34.2"
+  },
+  "pageList": [
+    {
+      "pageTitle": "トップページ",
+      "pvCount": 100,
+      "pvRatio": "20%",
+      "uuCount": 300,
+      "uuRatio": "20%",
+      "averageVisitedTime": "00:02:19",
+      "browsingStarts": 500,
+      "browsingRatio": "10%",
+      "bounceRate": "20%",
+      "cvCount": 100,
+      "cvRatio": "20%"
+    },
+    {
+      "pageTitle": "サービス紹介",
+      "pvCount": 101,
+      "pvRatio": "20%",
+      "uuCount": 301,
+      "uuRatio": "20%",
+      "averageVisitedTime": "00:02:20",
+      "browsingStarts": 501,
+      "browsingRatio": "10%",
+      "bounceRate": "91%",
+      "cvCount": 101,
+      "cvRatio": "20%"
+    },
+    {
+      "pageTitle": "アバウト",
+      "pvCount": 102,
+      "pvRatio": "20%",
+      "uuCount": 302,
+      "uuRatio": "20%",
+      "averageVisitedTime": "00:02:21",
+      "browsingStarts": 502,
+      "browsingRatio": "10%",
+      "bounceRate": "92%",
+      "cvCount": 102,
+      "cvRatio": "20%"
+    }
+  ]
+}

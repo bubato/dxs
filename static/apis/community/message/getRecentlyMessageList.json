@@ -1,0 +1,65 @@
+{
+  "result": 0,
+  "chatGroupList": [
+    {
+      "messageGroupId": 1,
+      "date": "2022/01/01",
+      "diffDate": "1時間前",
+      "unreadFlag": true,
+      "storageObjectId": 1,
+      "chatMemberList": [
+        {
+          "userId": 11,
+          "name": "渡来 太郎",
+          "image": "",
+          "company": "トライベック1",
+          "position": "取締役1"
+        },
+        {
+          "userId": 12,
+          "name": "渡来 次郎",
+          "image": "",
+          "company": "トライベック2",
+          "position": "取締役2"
+        }
+      ]
+    },
+    {
+      "messageGroupId": 2,
+      "date": "2022/01/02",
+      "diffDate": "2時間前",
+      "unreadFlag": false,
+      "storageObjectId": 2,
+      "chatMemberList": [
+        {
+          "userId": 111,
+          "name": "田中 一郎",
+          "image": "",
+          "company": "トライベック3",
+          "position": "取締役3"
+        },
+        {
+          "userId": 222,
+          "name": "田中 工事",
+          "image": "",
+          "company": "トライベック4",
+          "position": "取締役4"
+        },
+        {
+          "userId": 333,
+          "name": "渡来 次郎",
+          "image": "",
+          "company": "トライベック2",
+          "position": "取締役2"
+        },
+        {
+          "userId": 444,
+          "name": "渡来 次郎",
+          "image": "",
+          "company": "トライベック2",
+          "position": "取締役2"
+        }
+      ]
+    }
+  ]
+}

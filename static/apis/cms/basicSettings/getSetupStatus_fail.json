@@ -1,0 +1,18 @@
+{
+  "result": 1,
+  "errorInfo": {
+    "errorList": [
+      {
+        "errorCode": "cm4001",
+        "errorMessage": "ドメインチェックの処理に失敗しました。"
+      }
+    ],
+    "itemErrorList": [
+      {
+        "errorCode": "cm4001",
+        "errorMessage": "ドメインチェックの処理に失敗しました。",
+        "errorItem": "cm4001"
+      }
+    ]
+  }
+}

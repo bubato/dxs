@@ -1,0 +1,248 @@
+{
+  "result": 0,
+  "sumData": [
+    {
+      "name": "ページビュー数",
+      "value": "3,987",
+      "ratio": "1.06%",
+      "ratioStatus": "1"
+    },
+    {
+      "name": "訪問数",
+      "value": "2,646",
+      "ratio": "1.07%",
+      "ratioStatus": "2"
+    },
+    {
+      "name": "直帰率",
+      "value": "67.9%",
+      "ratio": "1.08%",
+      "ratioStatus": "2"
+    },
+    {
+      "name": "CVR",
+      "value": "1.45%",
+      "ratio": "1.09%",
+      "ratioStatus": "1"
+    },
+    {
+      "name": "平均滞在時間",
+      "value": "00:01:09",
+      "ratio": "1.10%",
+      "ratioStatus": "3"
+    },
+    {
+      "name": "新規ユーザー数",
+      "value": "523人",
+      "ratio": "1.10%",
+      "ratioStatus": "1"
+    }
+  ],
+  "aggregation": [
+    {
+      "name": "ページビュー数",
+      "data": [
+        {
+          "period": "2021/01/01",
+          "value": 30
+        },
+        {
+          "period": "2021/01/02",
+          "value": 40
+        },
+        {
+          "period": "2021/01/03",
+          "value": 50
+        },
+        {
+          "period": "2021/01/04",
+          "value": 60
+        },
+        {
+          "period": "2021/01/05",
+          "value": 70
+        },
+        {
+          "period": "2021/01/06",
+          "value": 80
+        },
+        {
+          "period": "2021/01/07",
+          "value": 90
+        }
+      ]
+    },
+    {
+      "name": "訪問数",
+      "data": [
+        {
+          "period": "2021/01/01",
+          "value": 80
+        },
+        {
+          "period": "2021/01/02",
+          "value": 20
+        },
+        {
+          "period": "2021/01/03",
+          "value": 30
+        },
+        {
+          "period": "2021/01/04",
+          "value": 40
+        },
+        {
+          "period": "2021/01/05",
+          "value": 50
+        },
+        {
+          "period": "2021/01/06",
+          "value": 60
+        },
+        {
+          "period": "2021/01/07",
+          "value": 70
+        }
+      ]
+    },
+    {
+      "name": "直帰率",
+      "data": [
+        {
+          "period": "2021/01/01",
+          "value": 30
+        },
+        {
+          "period": "2021/01/02",
+          "value": 70.02
+        },
+        {
+          "period": "2021/01/03",
+          "value": 30.04
+        },
+        {
+          "period": "2021/01/04",
+          "value": 40.3
+        },
+        {
+          "period": "2021/01/05",
+          "value": 50.53
+        },
+        {
+          "period": "2021/01/06",
+          "value": 30
+        },
+        {
+          "period": "2021/01/07",
+          "value": 40
+        }
+      ]
+    },
+    {
+      "name": "CVR",
+      "data": [
+        {
+          "period": "2021/01/01",
+          "value": 50
+        },
+        {
+          "period": "2021/01/02",
+          "value": 20
+        },
+        {
+          "period": "2021/01/03",
+          "value": 30
+        },
+        {
+          "period": "2021/01/04",
+          "value": 40
+        },
+        {
+          "period": "2021/01/05",
+          "value": 50
+        },
+        {
+          "period": "2021/01/06",
+          "value": 60
+        },
+        {
+          "period": "2021/01/07",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "name": "新規ユーザー数",
+      "data": [
+        {
+          "period": "2021/01/01",
+          "value": 10
+        },
+        {
+          "period": "2021/01/02",
+          "value": 20
+        },
+        {
+          "period": "2021/01/03",
+          "value": 30
+        },
+        {
+          "period": "2021/01/04",
+          "value": 40
+        },
+        {
+          "period": "2021/01/05",
+          "value": 50
+        },
+        {
+          "period": "2021/01/06",
+          "value": 60
+        },
+        {
+          "period": "2021/01/07",
+          "value": 120
+        }
+      ]
+    }
+  ],
+  "inflowSource": [
+    {
+      "name": "直接流入",
+      "value": 146
+    },
+    {
+      "name": "メール",
+      "value": 215
+    },
+    {
+      "name": "自然検索",
+      "value": 302
+    },
+    {
+      "name": "参照サイト",
+      "value": 91
+    },
+    {
+      "name": "広告",
+      "value": 400
+    },
+    {
+      "name": "ソーシャル",
+      "value": 146
+    }
+  ],
+  "deviceDataList": [
+    {
+      "name": "PC",
+      "value": 41.2
+    },
+    {
+      "name": "スマホ",
+      "value": 23.3
+    },
+    {
+      "name": "タブレット",
+      "value": 38.3
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+body,
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+h1 {
+  font-size: 34px;
+  font-weight: 500;
+}
+h2 {
+  font-size: 28px;
+  font-weight: 500;
+}
+h3 {
+  font-size: 22px;
+  font-weight: 500;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+h5 {
+  font-size: 17px;
+  font-weight: 500;
+}
+a {
+  cursor: pointer;
+  &.link {
+    color: #007aff;
+    &:not(:hover) {
+      text-decoration: underline;
+    }
+  }
+}
+.font-size-normal {
+  font-size: 15px;
+}
+.font-size-middle {
+  font-size: 13px;
+}
+.font-size-small {
+  font-size: 12px;
+}
+.font-weight-medium {
+  font-weight: 500;
+}
+.font-weight-bold {
+  font-weight: bold;
+}
+.link-text {
+  color: #007aff;
+  text-decoration: underline;
+  cursor: pointer;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.sub-link-text {
+  color: #007aff;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.link-color {
+  &-black {
+    color: #1e1e1e;
+  }
+  &-gray {
+    color: #8d8d8d;
+  }
+}
+
+// 行数指定「・・・」処理
+// IE背景色が白以外の場合に利用
+.linkClamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  &.one {
+    -webkit-line-clamp: 1;
+  }
+  &.two {
+    -webkit-line-clamp: 2;
+  }
+  &.three {
+    -webkit-line-clamp: 3;
+  }
+  &.four {
+    -webkit-line-clamp: 4;
+  }
+}
+/* IEハック */
+@media all and (-ms-high-contrast: none) {
+  .linkClamp {
+    overflow: hidden;
+    display: block;
+    &.one {
+      max-height: calc(1em * 1.5);
+    }
+    &.two {
+      max-height: calc(2em * 1.5);
+    }
+    &.three {
+      max-height: calc(3em * 1.5);
+    }
+    &.four {
+      max-height: calc(4em * 1.5);
+    }
+  }
+}
+
+// 行数指定「・・・」処理
+// IE背景色が白の場合に利用

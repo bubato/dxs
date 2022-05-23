@@ -1,0 +1,26 @@
+{
+  "result": 1,
+  "errorInfo": {
+    "errorList": [
+      {
+        "errorCode": "cm9001",
+        "errorMessage": "システムエラーが発生しました:cm9001"
+      },
+      {
+        "errorCode": "cm9002",
+        "errorMessage": "システムエラーが発生しました:cm9002"
+      },
+      {
+        "errorCode": "cm9003",
+        "errorMessage": "システムエラーが発生しました:cm9003"
+      }
+    ],
+    "itemErrorList": [
+      {
+        "errorCode": "tn2001",
+        "errorMessage": "他のユーザーとメールアドレスが重複しています。",
+        "errorItem": "mailAddress"
+      }
+    ]
+  }
+}

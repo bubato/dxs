@@ -1,0 +1,10 @@
+/* 見出し１ */
+.xhm-heading-main {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.xhm-heading-main h1 {
+  font-size: 28px;
+  font-weight: bold;
+}

@@ -1,0 +1,8 @@
+{
+  "result": 0,
+  "uuid": "1234",
+  "tenantRecordVersion": 1234,
+  "clientStatusRecordVersion": 5678,
+  "tenantConnectionRecordVersion": 9012,
+  "termsConsentHistoryRecordVersion": 3456
+}

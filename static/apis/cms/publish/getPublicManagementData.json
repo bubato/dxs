@@ -1,0 +1,12 @@
+{
+  "result": 0,
+  "releaseData": {
+    "authenticationFile": {
+      "fileName": "aiueo",
+      "fileContent": "ABCDE"
+    },
+    "sitemapPath": "/sitemap.xml",
+    "gaTag": "<!— Global site tag (gtag.js) - Google Analytics —>\n <script async src=“https://www.googletagmanager.com/gtag/js?id=UA-xxxxxxxx-\n x”></script>\n<script>\nwindow.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag(‘js’, new Date());\ngtag(‘config’, ‘UA-xxxxxxxx-x’);\n</script>",
+    "recordVersion": 12345
+  }
+}

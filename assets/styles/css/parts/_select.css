@@ -1,0 +1,42 @@
+/* セレクトボックス */
+.xhm-select {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.xhm-select-box {
+  position: relative;
+}
+
+.xhm-select-box::after {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-left: 2px solid #1e1e1e;
+  border-bottom: 2px solid #1e1e1e;
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  -webkit-transform: translateY(-50%) rotate(-45deg);
+  -ms-transform: translateY(-50%) rotate(-45deg);
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+.xhm-select select {
+  display: block;
+  width: 100%;
+}
+
+.xhm-select select::-ms-expand {
+  display: none;
+}
+
+/* layout */
+.xhm-select .xhm-grid-cell {
+  -webkit-box-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  width: 100%;
+  margin-bottom: 8px;
+}

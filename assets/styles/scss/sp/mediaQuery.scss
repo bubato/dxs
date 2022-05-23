@@ -1,0 +1,46 @@
+/* mediaQuery */
+$breakpoint-pc: 897px !default;
+$breakpoint-sp: 896px !default;
+$breakpoints: (
+  'pc': 'screen and (min-width: 897px)',
+  'sp': 'screen and (max-width: 896px)',
+) !default;
+@mixin mq($breakpoint: pc) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+@mixin spContentWidth {
+  @include mq(sp) {
+    width: calc(100% - 16px * 2);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@include mq(pc) {
+  .is-sp {
+    display: none;
+  }
+}
+@include mq(sp) {
+  .is-pc {
+    display: none;
+  }
+  .sp-nonFlexBlock {
+    display: block;
+  }
+  .sp-nonFlexInlineBlock {
+    display: inline-block;
+  }
+  .btn-long,
+  .btn-middle {
+    width: 100%;
+  }
+  .footer {
+    margin-bottom: 44px;
+  }
+}
+.spContentWidth {
+  @include spContentWidth();
+}
+/* /mediaQuery */

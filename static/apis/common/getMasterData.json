@@ -1,0 +1,494 @@
+{
+  "result": 0,
+  "tenantUserId": 11001,
+  "tenantId": 100001,
+  "lastName": "徳川",
+  "firstName": "家〜い",
+  "initialTourCompletedFlag": 1,
+  "managementFlag": 1,
+  "activateStatus": false,
+  "firmKind": "1",
+  "functionAuthority": [
+    { "id": "01", "authority": true },
+    { "id": "03", "authority": true },
+    { "id": "05", "authority": true },
+    { "id": "06", "authority": true },
+    { "id": "08", "authority": true },
+    { "id": "09", "authority": true },
+    { "id": "10", "authority": true }
+  ],
+  "messages": [
+    { "messageCode": "cm1001", "messageContent": "@@を保存しました。" },
+    { "messageCode": "cm1002", "messageContent": "@@を登録しました。" },
+    { "messageCode": "cm1003", "messageContent": "@@を更新しました。" },
+    { "messageCode": "cm1004", "messageContent": "@@を削除しました。" },
+    { "messageCode": "cm1005", "messageContent": "@@を中止しました。" },
+    { "messageCode": "cm1006", "messageContent": "@@の処理を完了しました。" },
+    {
+      "messageCode": "cm1007",
+      "messageContent": "作業中に他のユーザーがデータを更新したため設定内容を保存できませんでした。お手数ですが再度画面を読み込んでからお試しください。"
+    },
+    { "messageCode": "cm2001", "messageContent": "@@を選択してください。" },
+    { "messageCode": "cm2002", "messageContent": "@@は必須となります。" },
+    { "messageCode": "cm2003", "messageContent": "@@で入力してください。" },
+    { "messageCode": "cm2004", "messageContent": "入力は必須となります。" },
+    {
+      "messageCode": "cm2005",
+      "messageContent": "@@文字以内で入力してください。"
+    },
+    { "messageCode": "cm2006", "messageContent": "すでに@@が存在しています。" },
+    { "messageCode": "cm2007", "messageContent": "@@が不正です。" },
+    {
+      "messageCode": "cm2008",
+      "messageContent": "入力いただいた@@は既に登録されています。お手数ですが違う@@を入力ください。"
+    },
+    { "messageCode": "cm2009", "messageContent": "@@を保存してください。" },
+    {
+      "messageCode": "cm3001",
+      "messageContent": "@@を保存します。よろしいですか？"
+    },
+    {
+      "messageCode": "cm3002",
+      "messageContent": "@@を登録します。よろしいですか？"
+    },
+    {
+      "messageCode": "cm3003",
+      "messageContent": "@@を更新します。よろしいですか？"
+    },
+    {
+      "messageCode": "cm3004",
+      "messageContent": "@@を削除します。よろしいですか？"
+    },
+    {
+      "messageCode": "cm3005",
+      "messageContent": "@@を中止します。よろしいですか？"
+    },
+    { "messageCode": "cm4001", "messageContent": "@@の処理に失敗しました。" },
+    {
+      "messageCode": "cm9001",
+      "messageContent": "システムエラーが発生しました：cm9001"
+    },
+    {
+      "messageCode": "cm9002",
+      "messageContent": "システムエラーが発生しました：cm9002"
+    },
+    {
+      "messageCode": "cm9003",
+      "messageContent": "システムエラーが発生しました：cm9003"
+    },
+    {
+      "messageCode": "cm9004",
+      "messageContent": "システムエラーが発生しました：cm9004"
+    },
+    {
+      "messageCode": "cm9005",
+      "messageContent": "システムエラーが発生しました：cm9005"
+    },
+    {
+      "messageCode": "cm9006",
+      "messageContent": "システムエラーが発生しました：cm9006"
+    },
+    {
+      "messageCode": "cm9007",
+      "messageContent": "システムエラーが発生しました：cm9007"
+    },
+    {
+      "messageCode": "cm9008",
+      "messageContent": "システムエラーが発生しました：cm9008"
+    },
+    {
+      "messageCode": "tn1001",
+      "messageContent": "サイト基本情報の初期設定中です。再度画面を表示して、処理が完了するまでお待ちください。"
+    },
+    {
+      "messageCode": "tn2001",
+      "messageContent": "他のユーザーとメールアドレスが重複しています。"
+    },
+    {
+      "messageCode": "tn2002",
+      "messageContent": "@@は年・月の両方を入力してください。"
+    },
+    { "messageCode": "tn2003", "messageContent": "@@は入力できません。" },
+    {
+      "messageCode": "tn2004",
+      "messageContent": "@@文字以上で入力してください。"
+    },
+    {
+      "messageCode": "tn2005",
+      "messageContent": "Webサイトの基本設定が完了していません。"
+    },
+    { "messageCode": "tn2006", "messageContent": "@@が一致しません。" },
+    {
+      "messageCode": "tn2007",
+      "messageContent": "しばらく経ってから、実施してください。"
+    },
+    {
+      "messageCode": "tn1002",
+      "messageContent": "設定した条件に該当するデータが少ないため分析結果を表示できませんでした。"
+    },
+    {
+      "messageCode": "tn1003",
+      "messageContent": "設定した条件に該当するデータが少ないため一部の分析結果を表示できませんでした。"
+    },
+    { "messageCode": "tn4001", "messageContent": "bizskyID/PWが異なります。" },
+    {
+      "messageCode": "tn4002",
+      "messageContent": "データレイクから会社情報が連携されていません。データレイクにデータのアップロードはお済みですか？お済みの場合は明日までお待ちください。"
+    },
+    {
+      "messageCode": "tn4003",
+      "messageContent": "認証情報の登録に失敗しました。"
+    },
+    {
+      "messageCode": "tn2008",
+      "messageContent": "利用可能なアカウント数を超過しました。"
+    },
+    {
+      "messageCode": "tn2009",
+      "messageContent": "URLの有効期限が切れました。"
+    },
+    { "messageCode": "tn2010", "messageContent": "アカウントが無効です。" },
+    {
+      "messageCode": "tn2011",
+      "messageContent": "利用できない記号が含まれています。半角英語、半角数字または半角記号の[-._~!#$&'()*+,/:;=?@[]]が利用可能です。"
+    },
+    {
+      "messageCode": "tn2012",
+      "messageContent": "URLの形式で入力してください（http://またはhttps://から始めてください）"
+    },
+    {
+      "messageCode": "tn2013",
+      "messageContent": "数値の範囲が正しくありません。"
+    },
+    {
+      "messageCode": "cm3006",
+      "messageContent": "@@を却下します。よろしいですか？"
+    },
+    {
+      "messageCode": "tn2025",
+      "messageContent": "投稿・コメントに禁止語句が含まれています。"
+    },
+    {
+      "messageCode": "tn2026",
+      "messageContent": "オブジェクト名に禁止記号（　/　:　*　?　“　<　>　|）が存在しています。"
+    },
+    {
+      "messageCode": "tn2027",
+      "messageContent": "利用可能なストレージ容量を超過しました。"
+    },
+    { "messageCode": "tn2028", "messageContent": "親フォルダが存在しません。" },
+    {
+      "messageCode": "tn2029",
+      "messageContent": "共有リンクの有効期限が切れました。"
+    },
+    {
+      "messageCode": "tn2030",
+      "messageContent": "招待されたメンバーが存在しません。"
+    },
+    {
+      "messageCode": "tn4004",
+      "messageContent": "入力されたbizskyIdは、別のアカウントで設定されているため利用できません。"
+    },
+    {
+      "messageCode": "tn4005",
+      "messageContent": "規約同意時にエラーが発生しました。サポートに連絡してください。"
+    },
+    {
+      "messageCode": "tn2014",
+      "messageContent": "このメールアドレスはバックオフィスユーザーとして登録されているため招待できません。アドレスを変更して再度招待メールを送信ください。"
+    },
+    {
+      "messageCode": "tn2015",
+      "messageContent": "このメールアドレスはすでにbizskyDXアカウント申請中のため招待できません。アドレスを変更するか顧問先に有効なアドレスを確認ください。"
+    },
+    {
+      "messageCode": "tn2016",
+      "messageContent": "このメールアドレスはすでに別の顧問先招待に使われているため招待できません。アドレスを変更して再度招待メールを送信ください。"
+    },
+    {
+      "messageCode": "tn2017",
+      "messageContent": "このメールアドレスはアカウント登録されていますが、削除されたか有効な状態でないため招待できません。アドレスを変更して再度招待メールを送信ください。"
+    },
+    {
+      "messageCode": "tn2018",
+      "messageContent": "選択したメールアドレスはすでに他の会計事務所と連携しているため招待できません。顧問先へ確認ください。"
+    },
+    {
+      "messageCode": "tn2023",
+      "messageContent": "このメールアドレスは自分のテナントで登録されているメールアドレスのため招待できません。アドレスを変更して再度招待メールを送信ください。"
+    },
+    {
+      "messageCode": "tn2024",
+      "messageContent": "このメールアドレスはアカウント登録されていますが、解約状態のため招待できません。アドレスを変更して再度招待メールを送信ください。"
+    },
+    {
+      "messageCode": "tn2031",
+      "messageContent": "処理が実行できませんでした。お手数ですがサポートに連絡してください。"
+    },
+    {
+      "messageCode": "tn2032",
+      "messageContent": "投稿グループの数が上限に達しました。"
+    },
+    {
+      "messageCode": "tn2033",
+      "messageContent": "投稿グループのメンバー数が上限に達しました。"
+    },
+    {
+      "messageCode": "tn2034",
+      "messageContent": "オブジェクトに対する権限がありません。"
+    },
+    { "messageCode": "tn2035", "messageContent": "URLが無効です。" },
+    { "messageCode": "tn2036", "messageContent": "ファイルは削除されました。" },
+    {
+      "messageCode": "tn2037",
+      "messageContent": "この投稿・コメントは削除されております。"
+    }
+  ],
+  "versatileItems": [
+    {
+      "categoryNo": 1,
+      "categoryName": "業種",
+      "itemInformation": "{\"1\": {\"value\": \"士業\", \"viewOrder\": 1}, \"2\": {\"value\": \"建設業\", \"viewOrder\": 2}, \"3\": {\"value\": \"製造業\", \"viewOrder\": 3}, \"4\": {\"value\": \"運輸業、郵便業\", \"viewOrder\": 4}, \"5\": {\"value\": \"卸売業、小売業\", \"viewOrder\": 5}, \"6\": {\"value\": \"宿泊業、飲食サービス業\", \"viewOrder\": 6}, \"7\": {\"value\": \"生活関連サービス業、娯楽業\", \"viewOrder\": 7}, \"8\": {\"value\": \"情報通信業\", \"viewOrder\": 8}, \"9\": {\"value\": \"金融業、保険業\", \"viewOrder\": 9}, \"10\": {\"value\": \"不動産業、物品賃貸業\", \"viewOrder\": 10}, \"11\": {\"value\": \"教育、学習支援業\", \"viewOrder\": 11}, \"12\": {\"value\": \"医療、福祉\", \"viewOrder\": 12}, \"13\": {\"value\": \"その他\", \"viewOrder\": 13}}"
+    },
+    {
+      "categoryNo": 2,
+      "categoryName": "MDXで取得したドメイン情報",
+      "itemInformation": "{\"1\": {\"value\": \".mdx-webs-dev.com\", \"viewOrder\": 1}}"
+    },
+    {
+      "categoryNo": 3,
+      "categoryName": "ページタイプ",
+      "itemInformation": "{\"1\": {\"value\": \"トップページ\", \"pageId\": \"\", \"viewFlag\": 1, \"viewOrder\": 1}, \"2\": {\"value\": \"私たちについて\", \"pageId\": \"about-us\", \"viewFlag\": 1, \"viewOrder\": 2}, \"3\": {\"value\": \"サービス紹介\", \"pageId\": \"service\", \"viewFlag\": 1, \"viewOrder\": 3}, \"4\": {\"value\": \"サービス詳細\", \"pageId\": \"service-detail-\", \"viewFlag\": 1, \"viewOrder\": 4}, \"5\": {\"value\": \"会社概要\", \"pageId\": \"corporate\", \"viewFlag\": 1, \"viewOrder\": 5}, \"6\": {\"value\": \"事例\", \"pageId\": \"usecase\", \"viewFlag\": 1, \"viewOrder\": 6}, \"7\": {\"value\": \"事例詳細\", \"pageId\": \"usecase-detail-\", \"viewFlag\": 1, \"viewOrder\": 7}, \"8\": {\"value\": \"採用\", \"pageId\": \"recruit\", \"viewFlag\": 1, \"viewOrder\": 8}, \"9\": {\"value\": \"お知らせ\", \"pageId\": \"news\", \"viewFlag\": 1, \"viewOrder\": 9}, \"10\": {\"value\": \"お知らせ詳細\", \"pageId\": \"news-detail-\", \"viewFlag\": 1, \"viewOrder\": 10}, \"11\": {\"value\": \"よくある質問\", \"pageId\": \"faq\", \"viewFlag\": 1, \"viewOrder\": 11}, \"12\": {\"value\": \"プライバシーポリシー\", \"pageId\": \"privacy-policy\", \"viewFlag\": 1, \"viewOrder\": 12}, \"13\": {\"value\": \"キャンペーン（LP）\", \"pageId\": \"pr\", \"viewFlag\": 1, \"viewOrder\": 13}, \"14\": {\"value\": \"その他\", \"pageId\": \"\", \"viewFlag\": 1, \"viewOrder\": 14}, \"90\": {\"value\": \"配信停止\", \"pageId\": \"optout\", \"viewFlag\": 0, \"viewOrder\": 90}}"
+    },
+    {
+      "categoryNo": 4,
+      "categoryName": "法人種別",
+      "itemInformation": "{\"01\": {\"value\": \"独立事業者\", \"viewOrder\": 1}, \"10\": {\"value\": \"顧問先事業者\", \"viewOrder\": 2}, \"20\": {\"value\": \"会計事務所\", \"viewOrder\": 3}}"
+    },
+    {
+      "categoryNo": 5,
+      "categoryName": "お問い合わせ種別",
+      "itemInformation": "{\"1\": {\"value\": \"Enterpriseプランの申し込みについて\", \"viewOrder\": 1}, \"2\": {\"value\": \"機能について\", \"viewOrder\": 2}, \"3\": {\"value\": \"操作方法について\", \"viewOrder\": 3}, \"4\": {\"value\": \"請求金額について\", \"viewOrder\": 4}, \"5\": {\"value\": \"その他\", \"viewOrder\": 5}}"
+    },
+    {
+      "categoryNo": 6,
+      "categoryName": "解約理由",
+      "itemInformation": "{\"1\": {\"value\": \"機能が不足してる\", \"viewOrder\": 1}, \"2\": {\"value\": \"十分な運用ができない\", \"viewOrder\": 2}, \"3\": {\"value\": \"料金が高い\", \"viewOrder\": 3}, \"4\": {\"value\": \"サポートが不十分\", \"viewOrder\": 4}, \"5\": {\"value\": \"その他\", \"viewOrder\": 5}}"
+    },
+    {
+      "categoryNo": 7,
+      "categoryName": "通知区分",
+      "itemInformation": "{\"10\": {\"value\": \"つながり申請\", \"message\": \"新しいつながり申請があります\", \"targetUrl\": \"/xxxx/yyyy/index.html\"}, \"0501\": {\"value\": \"つながり申請\", \"message\": \"{@@t_tenant_users.last_name@@} {@@t_tenant_users.first_name@@}さんからつながり申請があります。\", \"targetUrl\": \"/community/member/\"}, \"0502\": {\"value\": \"投稿コメント\", \"message\": \"投稿にコメントがきました。\", \"targetUrl\": \"/community/timeline/{@@t_posts.id@@}\"}, \"0503\": {\"value\": \"投稿コメント返信\", \"message\": \"投稿コメントにコメントがきました。\", \"targetUrl\": \"/community/timeline/{@@t_posts.id@@}\"}, \"0504\": {\"value\": \"メッセージ通知\", \"message\": \"{@@t_tenant_users.last_name@@} {@@t_tenant_users.first_name@@}からメッセージが届いています。\", \"targetUrl\": \"/community/message/\"}}"
+    },
+    {
+      "categoryNo": 8,
+      "categoryName": "従業員規模",
+      "itemInformation": "{\"1\": {\"value\": \"9人以下\", \"viewOrder\": 1}, \"2\": {\"value\": \"10～49人\", \"viewOrder\": 2}, \"3\": {\"value\": \"50～99人\", \"viewOrder\": 3}, \"4\": {\"value\": \"100～299人\", \"viewOrder\": 4}, \"5\": {\"value\": \"300～999人\", \"viewOrder\": 5}, \"6\": {\"value\": \"1000～2999人\", \"viewOrder\": 6}, \"7\": {\"value\": \"3000人以上\", \"viewOrder\": 7}}"
+    },
+    {
+      "categoryNo": 9,
+      "categoryName": "支払期日",
+      "itemInformation": "{\"1\": {\"value\": \"翌月末支払\", \"viewOrder\": 1}, \"2\": {\"value\": \"翌々月末支払\", \"viewOrder\": 2}, \"3\": {\"value\": \"翌々月10日支払\", \"viewOrder\": 3}, \"4\": {\"value\": \"翌々月20日支払\", \"viewOrder\": 4}}"
+    },
+    {
+      "categoryNo": 10,
+      "categoryName": "上場区分",
+      "itemInformation": "{\"1\": {\"value\": \"東証一部\", \"viewOrder\": 1}, \"2\": {\"value\": \"東証二部\", \"viewOrder\": 2}, \"3\": {\"value\": \"東証マザーズ\", \"viewOrder\": 3}, \"4\": {\"value\": \"JASDAQスタンダード\", \"viewOrder\": 4}, \"5\": {\"value\": \"JASDAQグロース\", \"viewOrder\": 5}, \"6\": {\"value\": \"Tokyo Pro Market\", \"viewOrder\": 6}, \"7\": {\"value\": \"名証一部\", \"viewOrder\": 7}, \"8\": {\"value\": \"名証二部\", \"viewOrder\": 8}, \"9\": {\"value\": \"札幌証券取引所\", \"viewOrder\": 9}, \"10\": {\"value\": \"福岡証券取引所\", \"viewOrder\": 10}}"
+    },
+    {
+      "categoryNo": 11,
+      "categoryName": "契約ステータス",
+      "itemInformation": "{\"1\": {\"value\": \"トライアル契約\", \"viewOrder\": 1}, \"2\": {\"value\": \"トライアル解約\", \"viewOrder\": 2}, \"3\": {\"value\": \"本契約\", \"viewOrder\": 3}, \"4\": {\"value\": \"解約\", \"viewOrder\": 4}}"
+    },
+    {
+      "categoryNo": 12,
+      "categoryName": "プラン種別",
+      "itemInformation": "{\"0\": {\"value\": \"Trial\", \"viewOrder\": 1}, \"3\": {\"value\": \"Standard\", \"viewOrder\": 2}, \"5\": {\"value\": \"Pro\", \"viewOrder\": 3}, \"9\": {\"value\": \"Enterprise\", \"viewOrder\": 4}}"
+    },
+    {
+      "categoryNo": 13,
+      "categoryName": "お知らせ公開ステータス",
+      "itemInformation": "{\"0\": {\"value\": \"一時保存\", \"viewOrder\": 1}, \"1\": {\"value\": \"公開\", \"viewOrder\": 2}}"
+    },
+    {
+      "categoryNo": 14,
+      "categoryName": "掲載対象区分",
+      "itemInformation": "{\"01\": {\"value\": \"全テナント\", \"viewOrder\": 1}, \"02\": {\"value\": \"代理店\", \"viewOrder\": 2}}"
+    },
+    {
+      "categoryNo": 15,
+      "categoryName": "つながり状態",
+      "itemInformation": "{\"1\": {\"value\": \"つながり未申請\", \"viewOrder\": 1}, \"2\": {\"value\": \"つながり申請中\", \"viewOrder\": 2}, \"3\": {\"value\": \"つながり中\", \"viewOrder\": 3}, \"4\": {\"value\": \"つながり却下\", \"viewOrder\": 4}}"
+    },
+    {
+      "categoryNo": 16,
+      "categoryName": "フォロー状態",
+      "itemInformation": "{\"0\": {\"value\": \"フォロー停止\", \"viewOrder\": 1}, \"1\": {\"value\": \"フォロー\", \"viewOrder\": 2}}"
+    },
+    {
+      "categoryNo": 17,
+      "categoryName": "都道府県",
+      "itemInformation": "{\"01\": {\"value\": \"北海道\", \"viewOrder\": 1}, \"02\": {\"value\": \"青森県\", \"viewOrder\": 2}, \"03\": {\"value\": \"岩手県\", \"viewOrder\": 3}, \"04\": {\"value\": \"宮城県\", \"viewOrder\": 4}, \"05\": {\"value\": \"秋田県\", \"viewOrder\": 5}, \"06\": {\"value\": \"山形県\", \"viewOrder\": 6}, \"07\": {\"value\": \"福島県\", \"viewOrder\": 7}, \"08\": {\"value\": \"茨城県\", \"viewOrder\": 8}, \"09\": {\"value\": \"栃木県\", \"viewOrder\": 9}, \"10\": {\"value\": \"群馬県\", \"viewOrder\": 10}, \"11\": {\"value\": \"埼玉県\", \"viewOrder\": 11}, \"12\": {\"value\": \"千葉県\", \"viewOrder\": 12}, \"13\": {\"value\": \"東京都\", \"viewOrder\": 13}, \"14\": {\"value\": \"神奈川県\", \"viewOrder\": 14}, \"15\": {\"value\": \"新潟県\", \"viewOrder\": 15}, \"16\": {\"value\": \"富山県\", \"viewOrder\": 16}, \"17\": {\"value\": \"石川県\", \"viewOrder\": 17}, \"18\": {\"value\": \"福井県\", \"viewOrder\": 18}, \"19\": {\"value\": \"山梨県\", \"viewOrder\": 19}, \"20\": {\"value\": \"長野県\", \"viewOrder\": 20}, \"21\": {\"value\": \"岐阜県\", \"viewOrder\": 21}, \"22\": {\"value\": \"静岡県\", \"viewOrder\": 22}, \"23\": {\"value\": \"愛知県\", \"viewOrder\": 23}, \"24\": {\"value\": \"三重県\", \"viewOrder\": 24}, \"25\": {\"value\": \"滋賀県\", \"viewOrder\": 25}, \"26\": {\"value\": \"京都府\", \"viewOrder\": 26}, \"27\": {\"value\": \"大阪府\", \"viewOrder\": 27}, \"28\": {\"value\": \"兵庫県\", \"viewOrder\": 28}, \"29\": {\"value\": \"奈良県\", \"viewOrder\": 29}, \"30\": {\"value\": \"和歌山県\", \"viewOrder\": 30}, \"31\": {\"value\": \"鳥取県\", \"viewOrder\": 31}, \"32\": {\"value\": \"島根県\", \"viewOrder\": 32}, \"33\": {\"value\": \"岡山県\", \"viewOrder\": 33}, \"34\": {\"value\": \"広島県\", \"viewOrder\": 34}, \"35\": {\"value\": \"山口県\", \"viewOrder\": 35}, \"36\": {\"value\": \"徳島県\", \"viewOrder\": 36}, \"37\": {\"value\": \"香川県\", \"viewOrder\": 37}, \"38\": {\"value\": \"愛媛県\", \"viewOrder\": 38}, \"39\": {\"value\": \"高知県\", \"viewOrder\": 39}, \"40\": {\"value\": \"福岡県\", \"viewOrder\": 40}, \"41\": {\"value\": \"佐賀県\", \"viewOrder\": 41}, \"42\": {\"value\": \"長崎県\", \"viewOrder\": 42}, \"43\": {\"value\": \"熊本県\", \"viewOrder\": 43}, \"44\": {\"value\": \"大分県\", \"viewOrder\": 44}, \"45\": {\"value\": \"宮崎県\", \"viewOrder\": 45}, \"46\": {\"value\": \"鹿児島県\", \"viewOrder\": 46}, \"47\": {\"value\": \"沖縄県\", \"viewOrder\": 47}}"
+    },
+    {
+      "categoryNo": 18,
+      "categoryName": "料率",
+      "itemInformation": "{\"0\": {\"value\": 100, \"viewOrder\": 0}, \"1\": {\"value\": 85, \"viewOrder\": 1}, \"2\": {\"value\": 80, \"viewOrder\": 2}, \"3\": {\"value\": 75, \"viewOrder\": 3}, \"4\": {\"value\": 70, \"viewOrder\": 4}}"
+    },
+    {
+      "categoryNo": 19,
+      "categoryName": "支払いサイト",
+      "itemInformation": "{\"1\": {\"value\": \"翌月末支払\", \"viewOrder\": 0}, \"2\": {\"value\": \"翌々月末支払\", \"viewOrder\": 1}, \"3\": {\"value\": \"翌々月10日支払\", \"viewOrder\": 2}, \"4\": {\"value\": \"翌々月20日支払\", \"viewOrder\": 3}}"
+    },
+    {
+      "categoryNo": 20,
+      "categoryName": "機能ID",
+      "itemInformation": "{\"01\": {\"value\": \"Webサイト\", \"viewOrder\": 1}, \"02\": {\"value\": \"コミュニケーション\", \"viewOrder\": 2}, \"03\": {\"value\": \"フォーム\", \"viewOrder\": 3}, \"04\": {\"value\": \"CRM\", \"viewOrder\": 4}, \"05\": {\"value\": \"コミュニティ\", \"viewOrder\": 5}, \"06\": {\"value\": \"アカウント\", \"viewOrder\": 6}, \"07\": {\"value\": \"ログイン・その他\", \"viewOrder\": 7}, \"08\": {\"value\": \"キャッシュフローマネジメント\", \"viewOrder\": 8}, \"09\": {\"value\": \"MMI\", \"viewOrder\": 9}, \"10\": {\"value\": \"ストレージ\", \"viewOrder\": 10}, \"11\": {\"value\": \"コンタクト\", \"viewOrder\": 11}, \"12\": {\"value\": \"メール\", \"viewOrder\": 12}}"
+    },
+    {
+      "categoryNo": 21,
+      "categoryName": "システムドメイン情報",
+      "itemInformation": "\"mdx-dev.com\""
+    },
+    {
+      "categoryNo": 22,
+      "categoryName": "お問い合わせフォームURL",
+      "itemInformation": "\"https://www.mdx-dev.com/contact/\""
+    },
+    {
+      "categoryNo": 23,
+      "categoryName": "フォーム送信元メールアドレス",
+      "itemInformation": "\"no-reply@mdx-dev.com\""
+    },
+    {
+      "categoryNo": 24,
+      "categoryName": "ダッシュボードカード情報表示名称",
+      "itemInformation": "{\"0\": {\"value\": \"ページビュー数\", \"viewOrder\": 1}, \"1\": {\"value\": \"訪問数\", \"viewOrder\": 2}, \"2\": {\"value\": \"直帰率\", \"viewOrder\": 3}, \"3\": {\"value\": \"CVR\", \"viewOrder\": 4}, \"4\": {\"value\": \"平均滞在時間\", \"viewOrder\": 5}, \"5\": {\"value\": \"新規ユーザー数\", \"viewOrder\": 6}}"
+    },
+    {
+      "categoryNo": 25,
+      "categoryName": "ダッシュボード流入元表示名称",
+      "itemInformation": "{\"0\": {\"value\": \"直接流入\", \"viewOrder\": 1}, \"1\": {\"value\": \"メール\", \"viewOrder\": 2}, \"2\": {\"value\": \"自然検索\", \"viewOrder\": 3}, \"3\": {\"value\": \"参照サイト\", \"viewOrder\": 4}, \"4\": {\"value\": \"広告\", \"viewOrder\": 5}, \"5\": {\"value\": \"ソーシャル\", \"viewOrder\": 6}}"
+    },
+    {
+      "categoryNo": 26,
+      "categoryName": "ダッシュボードデバイス別訪問数表示名称",
+      "itemInformation": "{\"0\": {\"value\": \"PC\", \"viewOrder\": 1}, \"1\": {\"value\": \"スマホ\", \"viewOrder\": 2}, \"2\": {\"value\": \"タブレット\", \"viewOrder\": 3}, \"3\": {\"value\": \"その他\", \"viewOrder\": 4}}"
+    },
+    {
+      "categoryNo": 27,
+      "categoryName": "カラー情報",
+      "itemInformation": "{\"1\": {\"value\": \"#1e1e1e\", \"viewOrder\": 1}, \"2\": {\"value\": \"#404040\", \"viewOrder\": 2}, \"3\": {\"value\": \"#a0a0a0\", \"viewOrder\": 3}, \"4\": {\"value\": \"#437cfd\", \"viewOrder\": 4}, \"5\": {\"value\": \"#06cbdb\", \"viewOrder\": 5}, \"6\": {\"value\": \"#0a03ac\", \"viewOrder\": 6}, \"7\": {\"value\": \"#005b3a\", \"viewOrder\": 7}, \"8\": {\"value\": \"#009a22\", \"viewOrder\": 8}, \"9\": {\"value\": \"#47ce6a\", \"viewOrder\": 9}, \"10\": {\"value\": \"#b2db11\", \"viewOrder\": 10}, \"11\": {\"value\": \"#ff831a\", \"viewOrder\": 11}, \"12\": {\"value\": \"#f03333\", \"viewOrder\": 12}, \"13\": {\"value\": \"#f45384\", \"viewOrder\": 13}, \"14\": {\"value\": \"#830de8\", \"viewOrder\": 14}, \"15\": {\"value\": \"#6120f6\", \"viewOrder\": 15}, \"16\": {\"value\": \"#9Bdcf7\", \"viewOrder\": 16}, \"17\": {\"value\": \"#cd9ef6\", \"viewOrder\": 17}, \"18\": {\"value\": \"#ffa6c9\", \"viewOrder\": 18}, \"19\": {\"value\": \"#bca820\", \"viewOrder\": 19}, \"20\": {\"value\": \"#561631\", \"viewOrder\": 20}}"
+    },
+    {
+      "categoryNo": 28,
+      "categoryName": "フォーム使用デフォルトCSS",
+      "itemInformation": "{\"xhm-sex\": \"/* 性別ラジオボタン */\\n.xhm-sex {\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n.xhm-sex ul {\\n  list-style: none;\\n  padding: 0 1em;\\n}\\n\\n.xhm-sex ul li {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-align: center;\\n  -ms-flex-align: center;\\n  align-items: center;\\n}\\n\\n.xhm-sex.xhm-radio-break ul li:not(:last-child) {\\n  margin-bottom: 8px;\\n}\\n\\n.xhm-sex.xhm-radio-break .xhm-grid {\\n  display: block;\\n}\\n\\n.xhm-sex.xhm-sex-no-break input[type='radio'] {\\n  margin-left: 1em;\\n}\\n\\n.xhm-sex.xhm-sex-no-break label {\\n  margin-right: 1em;\\n}\\n\\n/* layout */\\n.xhm-sex .xhm-grid-cell {\\n  -webkit-box-flex: initial;\\n  -ms-flex: initial;\\n  flex: initial;\\n  width: 100%;\\n  margin-bottom: 8px;\\n}\", \"xhm-name\": \"/* お名前テキストフィールド */\\n.xhm-name {\\n  display: block;\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n/* layout */\\n.xhm-name .xhm-grid-grow--4 {\\n  -webkit-box-flex: initial;\\n  -ms-flex: initial;\\n  flex: initial;\\n  width: 100%;\\n}\\n\\n.xhm-name .xhm-grid-cell {\\n  margin-bottom: 8px;\\n}\", \"xhm-step\": \"/* ステップ */\\n.xhm-step nav {\\n  width: 100%;\\n  margin: 1em auto;\\n  overflow: hidden;\\n}\\n\\n.xhm-step ul {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-align: center;\\n  -ms-flex-align: center;\\n  align-items: center;\\n  position: relative;\\n  list-style: none;\\n  margin: 0 0 1em;\\n  padding: 0;\\n  text-align: center;\\n  width: 100%;\\n  overflow: hidden;\\n}\\n\\n.xhm-step li {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-align: center;\\n  -ms-flex-align: center;\\n  align-items: center;\\n  -webkit-box-pack: center;\\n  -ms-flex-pack: center;\\n  justify-content: center;\\n  position: relative;\\n  width: 33.333%;\\n  -webkit-box-flex: 1;\\n  -ms-flex: 1;\\n  flex: 1;\\n  height: 40px;\\n  padding: 0 24px 0 8px;\\n  color: #8d8d8d;\\n  background-color: #ebeced;\\n  -webkit-box-sizing: border-box;\\n  box-sizing: border-box;\\n}\\n\\n.xhm-step li:first-child {\\n  border-top-left-radius: 4px;\\n  border-bottom-left-radius: 4px;\\n}\\n\\n.xhm-step li:last-child {\\n  border-top-right-radius: 4px;\\n  border-bottom-right-radius: 4px;\\n}\\n\\n.xhm-step li:before,\\n.xhm-step li:after {\\n  position: absolute;\\n  left: -14px;\\n  display: block;\\n  content: '';\\n  background-color: #ebeced;\\n  border-left: 8px solid #fff;\\n  width: 20px;\\n  height: 20px;\\n}\\n\\n.xhm-step li:before {\\n  bottom: 0;\\n  -webkit-transform: skew(-30deg);\\n  -ms-transform: skew(-30deg);\\n  transform: skew(-30deg);\\n}\\n\\n.xhm-step li:after {\\n  top: 0;\\n  -webkit-transform: skew(30deg);\\n  -ms-transform: skew(30deg);\\n  transform: skew(30deg);\\n}\\n\\n.xhm-step li:first-child:before,\\n.xhm-step li:first-child:after {\\n  display: none;\\n}\\n\\n.xhm-step .current {\\n  color: #fff;\\n  background-color: #4f7df0;\\n}\\n\\n.xhm-step li:not(:first-child).current:before,\\n.xhm-step li:not(:first-child).current:after {\\n  background-color: #4f7df0;\\n}\\n\\n.xhm-step.step-2 li {\\n  width: 50%;\\n}\\n\", \"xhm-text\": \"/* テキスト */\\n.xhm-text {\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n.xhm-text p {\\n  font-size: 15px;\\n  line-height: 1.8;\\n}\", \"xhm-label\": \"/* ラジオボタンとチェックボックスのラベル */\\n.xhm-label {\\n  font-weight: bold;\\n}\", \"xhm-other\": \"/* その他 */\\n.xhm-other{\\n}\", \"xhm-radio\": \"/* ラジオボタン */\\n.xhm-radio {\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n.xhm-radio ul {\\n  list-style: none;\\n  padding: 0 1em;\\n}\\n\\n.xhm-radio ul li {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-align: center;\\n  -ms-flex-align: center;\\n  align-items: center;\\n}\\n\\n.xhm-radio.xhm-radio-break ul li:not(:last-child) {\\n  margin-bottom: 8px;\\n}\\n\\n.xhm-radio.xhm-radio-break .xhm-grid {\\n  display: block;\\n}\\n\\n.xhm-radio.xhm-radio-no-break label {\\n  margin-right: 1em;\\n  margin-left: 1em;\\n}\\n\\n/* layout */\\n.xhm-radio .xhm-grid-cell {\\n  -webkit-box-flex: initial;\\n  -ms-flex: initial;\\n  flex: initial;\\n  width: 100%;\\n  margin-bottom: 8px;\\n}\", \"xhm-style\": \"* {\\n  font-family: Roboto, 'Noto Sans JP', '游ゴシック', YuGothic, 'Yu Gothic',\\n    'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', Arial, 'メイリオ',\\n    Meiryo, sans-serif;\\n}\\n\\n.preview-area-card .card-body {\\n  -webkit-transition: z-index 0ms 5.28455ms;\\n  -o-transition: z-index 0ms 5.28455ms;\\n  transition: z-index 0ms 5.28455ms;\\n  color: #1e1e1e;\\n  background: #fff;\\n}\\n\\nsection {\\n  margin-left: 12px !important;\\n  margin-right: 12px !important;\\n}\\n\\nselect {\\n  height: 48px;\\n  background: #f7f8f9;\\n  border: 1px solid #e5e5e5;\\n  border-radius: 4px;\\n  color: #1e1e1e;\\n  padding: 13px 40px 13px 16px;\\n  outline: none;\\n  -webkit-appearance: none;\\n  -moz-appearance: none;\\n  appearance: none;\\n  position: relative;\\n}\\n\\nselect:focus {\\n  -webkit-box-shadow: 0px 0px 3px 1px #007aff;\\n  box-shadow: 0px 0px 3px 1px #007aff;\\n  border: 1px solid #007aff;\\n}\\n\\nselect option {\\n  color: #1e1e1e;\\n}\\n\\nselect::-ms-expand {\\n  display: none;\\n}\\n\\ninput[type='text'],\\ninput[type='number'],\\ninput[type='tel'],\\ninput[type='password'] {\\n  height: 48px;\\n  background: #f7f8f9;\\n  border: 1px solid #e5e5e5;\\n  border-radius: 4px;\\n  color: #1e1e1e;\\n  padding: 13px 16px;\\n  outline: none;\\n  -webkit-appearance: none;\\n  -moz-appearance: none;\\n  appearance: none;\\n  -webkit-box-sizing: border-box;\\n  box-sizing: border-box;\\n  width: 100%;\\n}\\n\\ninput[type='text']::placeholder,\\ninput[type='number']::placeholder,\\ninput[type='tel']::placeholder,\\ninput[type='password']::placeholder {\\n  color: #d2d2d2;\\n}\\n\\ninput[type='text']::-webkit-input-placeholder,\\ninput[type='number']::-webkit-input-placeholder,\\ninput[type='tel']::-webkit-input-placeholder,\\ninput[type='password']::-webkit-input-placeholder {\\n  color: #d2d2d2;\\n}\\n\\ninput[type='text']::-moz-placeholder,\\ninput[type='number']::-moz-placeholder,\\ninput[type='tel']::-moz-placeholder,\\ninput[type='password']::-moz-placeholder {\\n  color: #d2d2d2;\\n}\\n\\ninput[type='text']:-ms-input-placeholder,\\ninput[type='number']:-ms-input-placeholder,\\ninput[type='tel']:-ms-input-placeholder,\\ninput[type='password']:-ms-input-placeholder {\\n  color: #d2d2d2;\\n}\\n\\ninput[type='text']::-ms-input-placeholder,\\ninput[type='number']::-ms-input-placeholder,\\ninput[type='tel']::-ms-input-placeholder,\\ninput[type='password']::-ms-input-placeholder {\\n  color: #d2d2d2;\\n}\\n\\ninput[type='text']:not(:read-only):not(:disabled):focus,\\ninput[type='number']:focus,\\ninput[type='tel']:focus,\\ninput[type='password']:focus {\\n  -webkit-box-shadow: 0px 0px 3px 1px #007aff;\\n  box-shadow: 0px 0px 3px 1px #007aff;\\n  border: 1px solid #007aff;\\n}\\n\\ninput[type='radio'] {\\n  width: 18px;\\n  height: 18px;\\n  display: none;\\n}\\n\\ninput[type='radio'] + label {\\n  padding-left: 28px;\\n  position: relative;\\n  cursor: pointer;\\n}\\n\\ninput[type='radio'] + label::before {\\n  background: #f7f8f9;\\n  border: 1px solid #d3d3d3;\\n  border-radius: 50%;\\n  -webkit-box-sizing: border-box;\\n  box-sizing: border-box;\\n  content: '';\\n  display: block;\\n  height: 18px;\\n  left: 0;\\n  position: absolute;\\n  top: 50%;\\n  -webkit-transform: translateY(-50%);\\n  -ms-transform: translateY(-50%);\\n  transform: translateY(-50%);\\n  width: 18px;\\n}\\n\\ninput[type='radio']:checked + label::before {\\n  background: #fff;\\n  border: 5px solid #007aff;\\n  border-radius: 50%;\\n}\\n\\ninput[type='checkbox'] {\\n  display: none;\\n}\\n\\ninput[type='checkbox'] + label {\\n  padding-left: 30px;\\n  position: relative;\\n  cursor: pointer;\\n}\\n\\ninput[type='checkbox'] + label::before {\\n  content: '';\\n  background: #f7f8f9;\\n  border: #d3d3d3 1px solid;\\n  border-radius: 4px;\\n  display: block;\\n  height: 18px;\\n  top: 50%;\\n  -webkit-transform: translateY(-50%);\\n  -ms-transform: translateY(-50%);\\n  transform: translateY(-50%);\\n  left: 0;\\n  position: absolute;\\n  width: 18px;\\n}\\n\\ninput[type='checkbox'] + label::after {\\n  content: '';\\n  border-bottom: 2px solid #fff;\\n  border-left: 2px solid #fff;\\n  display: block;\\n  height: 7px;\\n  left: 3px;\\n  margin-top: -0.2em;\\n  opacity: 0;\\n  position: absolute;\\n  top: 12px;\\n  -webkit-transform: translateY(-50%) rotate(-45deg);\\n  -ms-transform: translateY(-50%) rotate(-45deg);\\n  transform: translateY(-50%) rotate(-45deg);\\n  width: 11px;\\n}\\n\\ninput[type='checkbox']:checked + label::before {\\n  background: #007aff;\\n  border: none;\\n}\\n\\ninput[type='checkbox']:checked + label::after {\\n  opacity: 1;\\n}\\n\\ntextarea {\\n  height: 100%;\\n  border: 1px solid #e5e5e5;\\n  background: #f7f8f9;\\n  border-radius: 4px;\\n  padding: 16px 0 0 16px;\\n  outline: none;\\n  -webkit-appearance: none;\\n  -moz-appearance: none;\\n  appearance: none;\\n  -webkit-box-sizing: border-box;\\n  box-sizing: border-box;\\n}\\n\\ntextarea::placeholder {\\n  color: #d2d2d2;\\n}\\n\\ntextarea::-webkit-input-placeholder {\\n  color: #d2d2d2;\\n}\\n\\ntextarea::-moz-placeholder {\\n  color: #d2d2d2;\\n}\\n\\ntextarea:-ms-input-placeholder {\\n  color: #d2d2d2;\\n}\\n\\ntextarea::-ms-input-placeholder {\\n  color: #d2d2d2;\\n}\\n\\ntextarea::placeholder {\\n  color: #d2d2d2;\\n}\\n\\ntextarea:not(:read-only):not(:disabled):focus {\\n  -webkit-box-shadow: 0px 0px 3px 1px #007aff;\\n  box-shadow: 0px 0px 3px 1px #007aff;\\n  border: 1px solid #007aff;\\n}\\n\\ntextarea:read-only,\\ntextarea:disabled {\\n  background: #cdced0;\\n  pointer-events: none;\\n}\\n\\n.preview-area .card-body input,\\n.preview-area .card-body textarea,\\n.preview-area .card-body button,\\n.preview-area .card-body select {\\n  font-size: 15px;\\n  outline: none;\\n  -webkit-appearance: none;\\n  -moz-appearance: none;\\n  appearance: none;\\n  -webkit-box-sizing: border-box;\\n  box-sizing: border-box;\\n}\\n\\n.container {\\n  width: 100%;\\n  margin: 0 auto;\\n  padding: 0;\\n}\\n\\n@media screen and (min-width: 560px) {\\n  .container {\\n    width: 100%;\\n  }\\n}\\n\\n@media screen and (min-width: 1024px) {\\n  .container {\\n    width: 1024px;\\n  }\\n}\\n\\n@media screen and (max-width: 767px) {\\n  [class^='xhm-'] input,\\n  [class^='xhm-'] textarea,\\n  [class^='xhm-'] select {\\n    font-size: 15px;\\n  }\\n}\\n\\n.xhm-grid {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-orient: horizontal;\\n  -webkit-box-direction: normal;\\n  -ms-flex-flow: row;\\n  flex-flow: row;\\n  -ms-flex-wrap: wrap;\\n  flex-wrap: wrap;\\n}\\n\\n.xhm-grid-cell {\\n  -webkit-box-flex: 1;\\n  -ms-flex: 1;\\n  flex: 1;\\n}\\n\\n@media screen and (max-width: 767px) {\\n  .xhm-grid-clear {\\n    display: block;\\n  }\\n}\\n\\n.xhm-grid-clear:after {\\n  content: '';\\n  display: block;\\n  margin: 0 0 10px 0;\\n}\\n\\n.xhm-grid--gutters {\\n  margin-left: -1em;\\n}\\n\\n.xhm-grid--gutters .xhm-grid-cell {\\n  padding-left: 1em;\\n}\\n\\n.xhm-grid--right {\\n  -webkit-box-pack: end;\\n  -ms-flex-pack: end;\\n  justify-content: flex-end;\\n}\\n\\n.xhm-grid--center {\\n  -webkit-box-pack: center;\\n  -ms-flex-pack: center;\\n  justify-content: center;\\n}\\n\\n.xhm-grid--top {\\n  -webkit-box-align: start;\\n  -ms-flex-align: start;\\n  align-items: flex-start;\\n}\\n\\n.xhm-grid--bottom {\\n  -webkit-box-align: end;\\n  -ms-flex-align: end;\\n  align-items: flex-end;\\n}\\n\\n.xhm-grid--center {\\n  -webkit-box-align: center;\\n  -ms-flex-align: center;\\n  align-items: center;\\n}\\n\\n.xhm-grid-cell--top {\\n  -ms-flex-item-align: start;\\n  align-self: flex-start;\\n}\\n\\n.xhm-grid-cell--bottom {\\n  -ms-flex-item-align: end;\\n  align-self: flex-end;\\n}\\n\\n.xhm-grid-cell--center {\\n  -ms-flex-item-align: center;\\n  -ms-grid-row-align: center;\\n  align-self: center;\\n}\\n\\n.xhm-grid-grow--4 {\\n  -webkit-box-flex: 4;\\n  -ms-flex-positive: 4;\\n  flex-grow: 4;\\n}\\n\\n.xhm-grid--cols-2 > .xhm-grid-cell {\\n  -webkit-box-flex: 0;\\n  -ms-flex: 0 0 100%;\\n  flex: 0 0 100%;\\n  margin: 0 0 1rem 0;\\n}\\n\\n.xhm-grid--cols-3 > .xhm-grid-cell {\\n  -webkit-box-flex: 0;\\n  -ms-flex: 0 0 100%;\\n  flex: 0 0 100%;\\n}\\n\\n.xhm-grid--cols-4 > .xhm-grid-cell {\\n  -webkit-box-flex: 0;\\n  -ms-flex: 0 0 100%;\\n  flex: 0 0 100%;\\n}\\n\\n.xhm-grid--cols-6 > .xhm-grid-cell {\\n  -webkit-box-flex: 0;\\n  -ms-flex: 0 0 calc(50% - 1em);\\n  flex: 0 0 calc(50% - 1em);\\n}\\n\\n.xhm-grid--cols-12 > .xhm-grid-cell {\\n  -webkit-box-flex: 0;\\n  -ms-flex: 0 0 calc(33.3333% - 1em);\\n  flex: 0 0 calc(33.3333% - 1em);\\n}\\n\\n.xhm-grid--holly-grail .aside,\\n.xhm-grid--holly-grail .main {\\n  -webkit-box-flex: 1;\\n  -ms-flex: 1 100%;\\n  flex: 1 100%;\\n}\\n\\n.xhm-grid--1of2 > .xhm-grid-cell,\\n.xhm-grid--1of4 > .xhm-grid-cell:first-of-type,\\n.xhm-grid--1of3 > .xhm-grid-cell:first-of-type {\\n  -webkit-box-flex: 0;\\n  -ms-flex: 0 0 100%;\\n  flex: 0 0 100%;\\n}\\n\\n.xhm-grid--1of6 > .xhm-grid-cell:first-of-type {\\n  -webkit-box-flex: 0;\\n  -ms-flex: 0 0 50%;\\n  flex: 0 0 50%;\\n}\\n\\n.xhm-grid--fit > .xhm-grid-cell {\\n  -webkit-box-flex: 1;\\n  -ms-flex: 1;\\n  flex: 1;\\n}\\n\\n.xhm-grid--full > .xhm-grid-cell {\\n  -webkit-box-flex: 0;\\n  -ms-flex: 0 0 100%;\\n  flex: 0 0 100%;\\n}\\n\\n@media (min-width: 30em) {\\n  .xhm-grid--cols-4 > .xhm-grid-cell {\\n    -webkit-box-flex: 0;\\n    -ms-flex: 0 0 calc(50% - 1em);\\n    flex: 0 0 calc(50% - 1em);\\n  }\\n\\n  .xhm-grid--cols-6 > .xhm-grid-cell {\\n    -webkit-box-flex: 0;\\n    -ms-flex: 0 0 calc(33.3333% - 1em);\\n    flex: 0 0 calc(33.3333% - 1em);\\n  }\\n\\n  .xhm-grid--cols-12 > .xhm-grid-cell {\\n    -webkit-box-flex: 0;\\n    -ms-flex: 0 0 calc(16.6666% - 1em);\\n    flex: 0 0 calc(16.6666% - 1em);\\n  }\\n\\n  .xhm-grid--holly-grail .aside {\\n    -webkit-box-flex: 1;\\n    -ms-flex: 1 calc(25% - 1em);\\n    flex: 1 calc(25% - 1em);\\n  }\\n\\n  .xhm-grid--1of2 > .xhm-grid-cell {\\n    -webkit-box-flex: 0;\\n    -ms-flex: 0 0 50%;\\n    flex: 0 0 50%;\\n  }\\n\\n  .xhm-grid--1of6 > .xhm-grid-cell:first-of-type {\\n    -webkit-box-flex: 0;\\n    -ms-flex: 0 0 30%;\\n    flex: 0 0 30%;\\n  }\\n\\n  .xhm-grid--1of4 > .xhm-grid-cell:first-of-type {\\n    -webkit-box-flex: 0;\\n    -ms-flex: 0 0 50%;\\n    flex: 0 0 50%;\\n  }\\n\\n  .xhm-grid--1of4-reverse > .xhm-grid-cell:last-of-type {\\n    -webkit-box-flex: 0;\\n    -ms-flex: 0 0 72%;\\n    flex: 0 0 72%;\\n  }\\n\\n  .xhm-grid--1of3 > .xhm-grid-cell:first-of-type {\\n    -webkit-box-flex: 0;\\n    -ms-flex: 0 0 100%;\\n    flex: 0 0 100%;\\n  }\\n}\\n\\n@media (min-width: 48em) {\\n  .xhm-grid--cols-2 > .xhm-grid-cell,\\n  .xhm-grid--cols-3 > .xhm-grid-cell,\\n  .xhm-grid--cols-4 > .xhm-grid-cell,\\n  .xhm-grid--cols-6 > .xhm-grid-cell,\\n  .xhm-grid--cols-12 > .xhm-grid-cell {\\n    -webkit-box-flex: 1;\\n    -ms-flex: 1;\\n    flex: 1;\\n  }\\n\\n  .xhm-grid--holly-grail .main {\\n    -webkit-box-flex: 2;\\n    -ms-flex: 2;\\n    flex: 2;\\n  }\\n\\n  .xhm-grid--holly-grail .aside {\\n    -webkit-box-flex: 1;\\n    -ms-flex: 1;\\n    flex: 1;\\n  }\\n\\n  .xhm-grid--holly-grail .aside-1 {\\n    -webkit-box-ordinal-group: 2;\\n    -ms-flex-order: 1;\\n    order: 1;\\n  }\\n\\n  .xhm-grid--holly-grail .main {\\n    -webkit-box-ordinal-group: 3;\\n    -ms-flex-order: 2;\\n    order: 2;\\n  }\\n\\n  .xhm-grid--holly-grail .aside-2 {\\n    -webkit-box-ordinal-group: 4;\\n    -ms-flex-order: 3;\\n    order: 3;\\n  }\\n\\n  .xhm-grid--1of2 > .xhm-grid-cell {\\n    -webkit-box-flex: 0;\\n    -ms-flex: 0 0 50%;\\n    flex: 0 0 50%;\\n  }\\n\\n  .xhm-grid--1of6 > .xhm-grid-cell:first-of-type {\\n    -webkit-box-flex: 0;\\n    -ms-flex: 0 0 16.6666%;\\n    flex: 0 0 16.6666%;\\n  }\\n\\n  .xhm-grid--1of4 > .xhm-grid-cell:first-of-type {\\n    -webkit-box-flex: 0;\\n    -ms-flex: 0 0 25%;\\n    flex: 0 0 25%;\\n  }\\n\\n  .xhm-grid--1of3 > .xhm-grid-cell:first-of-type {\\n    -webkit-box-flex: 0;\\n    -ms-flex: 0 0 30%;\\n    flex: 0 0 30%;\\n  }\\n}\\n\\n.xhm-mt-1 {\\n  margin-top: 1px;\\n}\\n\\n.xhm-mr-1 {\\n  margin-right: 1px;\\n}\\n\\n.xhm-mb-1 {\\n  margin-bottom: 1px;\\n}\\n\\n.xhm-ml-1 {\\n  margin-left: 1px;\\n}\\n\\n.xhm-mt-2 {\\n  margin-top: 2px;\\n}\\n\\n.xhm-mr-2 {\\n  margin-right: 2px;\\n}\\n\\n.xhm-mb-2 {\\n  margin-bottom: 2px;\\n}\\n\\n.xhm-ml-2 {\\n  margin-left: 2px;\\n}\\n\\n.xhm-mt-3 {\\n  margin-top: 3px;\\n}\\n\\n.xhm-mr-3 {\\n  margin-right: 3px;\\n}\\n\\n.xhm-mb-3 {\\n  margin-bottom: 3px;\\n}\\n\\n.xhm-ml-3 {\\n  margin-left: 3px;\\n}\\n\\n.xhm-mt-4 {\\n  margin-top: 4px;\\n}\\n\\n.xhm-mr-4 {\\n  margin-right: 4px;\\n}\\n\\n.xhm-mb-4 {\\n  margin-bottom: 4px;\\n}\\n\\n.xhm-ml-4 {\\n  margin-left: 4px;\\n}\\n\\n.xhm-mt-5 {\\n  margin-top: 5px;\\n}\\n\\n.xhm-mr-5 {\\n  margin-right: 5px;\\n}\\n\\n.xhm-mb-5 {\\n  margin-bottom: 5px;\\n}\\n\\n.xhm-ml-5 {\\n  margin-left: 5px;\\n}\\n\\n.xhm-mt-6 {\\n  margin-top: 6px;\\n}\\n\\n.xhm-mr-6 {\\n  margin-right: 6px;\\n}\\n\\n.xhm-mb-6 {\\n  margin-bottom: 6px;\\n}\\n\\n.xhm-ml-6 {\\n  margin-left: 6px;\\n}\\n\\n.xhm-mt-7 {\\n  margin-top: 7px;\\n}\\n\\n.xhm-mr-7 {\\n  margin-right: 7px;\\n}\\n\\n.xhm-mb-7 {\\n  margin-bottom: 7px;\\n}\\n\\n.xhm-ml-7 {\\n  margin-left: 7px;\\n}\\n\\n.xhm-mt-8 {\\n  margin-top: 8px;\\n}\\n\\n.xhm-mr-8 {\\n  margin-right: 8px;\\n}\\n\\n.xhm-mb-8 {\\n  margin-bottom: 8px;\\n}\\n\\n.xhm-ml-8 {\\n  margin-left: 8px;\\n}\\n\\n.xhm-mt-9 {\\n  margin-top: 9px;\\n}\\n\\n.xhm-mr-9 {\\n  margin-right: 9px;\\n}\\n\\n.xhm-mb-9 {\\n  margin-bottom: 9px;\\n}\\n\\n.xhm-ml-9 {\\n  margin-left: 9px;\\n}\\n\\n.xhm-mt-10 {\\n  margin-top: 10px;\\n}\\n\\n.xhm-mr-10 {\\n  margin-right: 10px;\\n}\\n\\n.xhm-mb-10 {\\n  margin-bottom: 10px;\\n}\\n\\n.xhm-ml-10 {\\n  margin-left: 10px;\\n}\\n\\n.xhm-mt-11 {\\n  margin-top: 11px;\\n}\\n\\n.xhm-mr-11 {\\n  margin-right: 11px;\\n}\\n\\n.xhm-mb-11 {\\n  margin-bottom: 11px;\\n}\\n\\n.xhm-ml-11 {\\n  margin-left: 11px;\\n}\\n\\n.xhm-mt-12 {\\n  margin-top: 12px;\\n}\\n\\n.xhm-mr-12 {\\n  margin-right: 12px;\\n}\\n\\n.xhm-mb-12 {\\n  margin-bottom: 12px;\\n}\\n\\n.xhm-ml-12 {\\n  margin-left: 12px;\\n}\\n\\n.xhm-mt-13 {\\n  margin-top: 13px;\\n}\\n\\n.xhm-mr-13 {\\n  margin-right: 13px;\\n}\\n\\n.xhm-mb-13 {\\n  margin-bottom: 13px;\\n}\\n\\n.xhm-ml-13 {\\n  margin-left: 13px;\\n}\\n\\n.xhm-mt-14 {\\n  margin-top: 14px;\\n}\\n\\n.xhm-mr-14 {\\n  margin-right: 14px;\\n}\\n\\n.xhm-mb-14 {\\n  margin-bottom: 14px;\\n}\\n\\n.xhm-ml-14 {\\n  margin-left: 14px;\\n}\\n\\n.xhm-mt-15 {\\n  margin-top: 15px;\\n}\\n\\n.xhm-mr-15 {\\n  margin-right: 15px;\\n}\\n\\n.xhm-mb-15 {\\n  margin-bottom: 15px;\\n}\\n\\n.xhm-ml-15 {\\n  margin-left: 15px;\\n}\\n\\n.xhm-mt-16 {\\n  margin-top: 16px;\\n}\\n\\n.xhm-mr-16 {\\n  margin-right: 16px;\\n}\\n\\n.xhm-mb-16 {\\n  margin-bottom: 16px;\\n}\\n\\n.xhm-ml-16 {\\n  margin-left: 16px;\\n}\\n\\n.xhm-mt-17 {\\n  margin-top: 17px;\\n}\\n\\n.xhm-mr-17 {\\n  margin-right: 17px;\\n}\\n\\n.xhm-mb-17 {\\n  margin-bottom: 17px;\\n}\\n\\n.xhm-ml-17 {\\n  margin-left: 17px;\\n}\\n\\n.xhm-mt-18 {\\n  margin-top: 18px;\\n}\\n\\n.xhm-mr-18 {\\n  margin-right: 18px;\\n}\\n\\n.xhm-mb-18 {\\n  margin-bottom: 18px;\\n}\\n\\n.xhm-ml-18 {\\n  margin-left: 18px;\\n}\\n\\n.xhm-mt-19 {\\n  margin-top: 19px;\\n}\\n\\n.xhm-mr-19 {\\n  margin-right: 19px;\\n}\\n\\n.xhm-mb-19 {\\n  margin-bottom: 19px;\\n}\\n\\n.xhm-ml-19 {\\n  margin-left: 19px;\\n}\\n\\n.xhm-mt-20 {\\n  margin-top: 20px;\\n}\\n\\n.xhm-mr-20 {\\n  margin-right: 20px;\\n}\\n\\n.xhm-mb-20 {\\n  margin-bottom: 20px;\\n}\\n\\n.xhm-ml-20 {\\n  margin-left: 20px;\\n}\\n\\n.xhm-pt-1 {\\n  padding-top: 1px;\\n}\\n\\n.xhm-pr-1 {\\n  padding-right: 1px;\\n}\\n\\n.xhm-pb-1 {\\n  padding-bottom: 1px;\\n}\\n\\n.xhm-pl-1 {\\n  padding-left: 1px;\\n}\\n\\n.xhm-pt-2 {\\n  padding-top: 2px;\\n}\\n\\n.xhm-pr-2 {\\n  padding-right: 2px;\\n}\\n\\n.xhm-pb-2 {\\n  padding-bottom: 2px;\\n}\\n\\n.xhm-pl-2 {\\n  padding-left: 2px;\\n}\\n\\n.xhm-pt-3 {\\n  padding-top: 3px;\\n}\\n\\n.xhm-pr-3 {\\n  padding-right: 3px;\\n}\\n\\n.xhm-pb-3 {\\n  padding-bottom: 3px;\\n}\\n\\n.xhm-pl-3 {\\n  padding-left: 3px;\\n}\\n\\n.xhm-pt-4 {\\n  padding-top: 4px;\\n}\\n\\n.xhm-pr-4 {\\n  padding-right: 4px;\\n}\\n\\n.xhm-pb-4 {\\n  padding-bottom: 4px;\\n}\\n\\n.xhm-pl-4 {\\n  padding-left: 4px;\\n}\\n\\n.xhm-pt-5 {\\n  padding-top: 5px;\\n}\\n\\n.xhm-pr-5 {\\n  padding-right: 5px;\\n}\\n\\n.xhm-pb-5 {\\n  padding-bottom: 5px;\\n}\\n\\n.xhm-pl-5 {\\n  padding-left: 5px;\\n}\\n\\n.xhm-pt-6 {\\n  padding-top: 6px;\\n}\\n\\n.xhm-pr-6 {\\n  padding-right: 6px;\\n}\\n\\n.xhm-pb-6 {\\n  padding-bottom: 6px;\\n}\\n\\n.xhm-pl-6 {\\n  padding-left: 6px;\\n}\\n\\n.xhm-pt-7 {\\n  padding-top: 7px;\\n}\\n\\n.xhm-pr-7 {\\n  padding-right: 7px;\\n}\\n\\n.xhm-pb-7 {\\n  padding-bottom: 7px;\\n}\\n\\n.xhm-pl-7 {\\n  padding-left: 7px;\\n}\\n\\n.xhm-pt-8 {\\n  padding-top: 8px;\\n}\\n\\n.xhm-pr-8 {\\n  padding-right: 8px;\\n}\\n\\n.xhm-pb-8 {\\n  padding-bottom: 8px;\\n}\\n\\n.xhm-pl-8 {\\n  padding-left: 8px;\\n}\\n\\n.xhm-pt-9 {\\n  padding-top: 9px;\\n}\\n\\n.xhm-pr-9 {\\n  padding-right: 9px;\\n}\\n\\n.xhm-pb-9 {\\n  padding-bottom: 9px;\\n}\\n\\n.xhm-pl-9 {\\n  padding-left: 9px;\\n}\\n\\n.xhm-pt-10 {\\n  padding-top: 10px;\\n}\\n\\n.xhm-pr-10 {\\n  padding-right: 10px;\\n}\\n\\n.xhm-pb-10 {\\n  padding-bottom: 10px;\\n}\\n\\n.xhm-pl-10 {\\n  padding-left: 10px;\\n}\\n\\n.xhm-pt-11 {\\n  padding-top: 11px;\\n}\\n\\n.xhm-pr-11 {\\n  padding-right: 11px;\\n}\\n\\n.xhm-pb-11 {\\n  padding-bottom: 11px;\\n}\\n\\n.xhm-pl-11 {\\n  padding-left: 11px;\\n}\\n\\n.xhm-pt-12 {\\n  padding-top: 12px;\\n}\\n\\n.xhm-pr-12 {\\n  padding-right: 12px;\\n}\\n\\n.xhm-pb-12 {\\n  padding-bottom: 12px;\\n}\\n\\n.xhm-pl-12 {\\n  padding-left: 12px;\\n}\\n\\n.xhm-pt-13 {\\n  padding-top: 13px;\\n}\\n\\n.xhm-pr-13 {\\n  padding-right: 13px;\\n}\\n\\n.xhm-pb-13 {\\n  padding-bottom: 13px;\\n}\\n\\n.xhm-pl-13 {\\n  padding-left: 13px;\\n}\\n\\n.xhm-pt-14 {\\n  padding-top: 14px;\\n}\\n\\n.xhm-pr-14 {\\n  padding-right: 14px;\\n}\\n\\n.xhm-pb-14 {\\n  padding-bottom: 14px;\\n}\\n\\n.xhm-pl-14 {\\n  padding-left: 14px;\\n}\\n\\n.xhm-pt-15 {\\n  padding-top: 15px;\\n}\\n\\n.xhm-pr-15 {\\n  padding-right: 15px;\\n}\\n\\n.xhm-pb-15 {\\n  padding-bottom: 15px;\\n}\\n\\n.xhm-pl-15 {\\n  padding-left: 15px;\\n}\\n\\n.xhm-pt-16 {\\n  padding-top: 16px;\\n}\\n\\n.xhm-pr-16 {\\n  padding-right: 16px;\\n}\\n\\n.xhm-pb-16 {\\n  padding-bottom: 16px;\\n}\\n\\n.xhm-pl-16 {\\n  padding-left: 16px;\\n}\\n\\n.xhm-pt-17 {\\n  padding-top: 17px;\\n}\\n\\n.xhm-pr-17 {\\n  padding-right: 17px;\\n}\\n\\n.xhm-pb-17 {\\n  padding-bottom: 17px;\\n}\\n\\n.xhm-pl-17 {\\n  padding-left: 17px;\\n}\\n\\n.xhm-pt-18 {\\n  padding-top: 18px;\\n}\\n\\n.xhm-pr-18 {\\n  padding-right: 18px;\\n}\\n\\n.xhm-pb-18 {\\n  padding-bottom: 18px;\\n}\\n\\n.xhm-pl-18 {\\n  padding-left: 18px;\\n}\\n\\n.xhm-pt-19 {\\n  padding-top: 19px;\\n}\\n\\n.xhm-pr-19 {\\n  padding-right: 19px;\\n}\\n\\n.xhm-pb-19 {\\n  padding-bottom: 19px;\\n}\\n\\n.xhm-pl-19 {\\n  padding-left: 19px;\\n}\\n\\n.xhm-pt-20 {\\n  padding-top: 20px;\\n}\\n\\n.xhm-pr-20 {\\n  padding-right: 20px;\\n}\\n\\n.xhm-pb-20 {\\n  padding-bottom: 20px;\\n}\\n\\n.xhm-pl-20 {\\n  padding-left: 20px;\\n}\\n\", \"xhm-terms\": \"/* 規約表示 */\\n.xhm-terms {\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n.xhm-terms.xhm-terms-no-break [type='checkbox'] + .xhm-terms-label {\\n  margin-right: 1em;\\n  margin-left: 1em;\\n  -ms-flex-item-align: center;\\n  -ms-grid-row-align: center;\\n  align-self: center;\\n}\\n\\n/* layout */\\n.xhm-terms .xhm-grid-cell {\\n  -webkit-box-flex: initial;\\n  -ms-flex: initial;\\n  flex: initial;\\n  width: 100%;\\n  margin-bottom: 8px;\\n}\", \"xhm-title\": \"/* タイトル */\\n.xhm-title {\\n  margin: 0;\\n  padding: 0;\\n  font-size: 15px;\\n  font-weight: bold;\\n  color: #1e1e1e;\\n  display: inline-flex;\\n  flex-direction: row-reverse;\\n}\", \"xhm-select\": \"/* セレクトボックス */\\n.xhm-select {\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n.xhm-select-box {\\n  position: relative;\\n}\\n\\n.xhm-select-box::after {\\n  content: '';\\n  display: block;\\n  width: 8px;\\n  height: 8px;\\n  border-left: 2px solid #1e1e1e;\\n  border-bottom: 2px solid #1e1e1e;\\n  position: absolute;\\n  top: 50%;\\n  right: 16px;\\n  -webkit-transform: translateY(-50%) rotate(-45deg);\\n  -ms-transform: translateY(-50%) rotate(-45deg);\\n  transform: translateY(-50%) rotate(-45deg);\\n}\\n\\n.xhm-select select {\\n  display: block;\\n  width: 100%;\\n}\\n\\n.xhm-select select::-ms-expand {\\n  display: none;\\n}\\n\\n/* layout */\\n.xhm-select .xhm-grid-cell {\\n  -webkit-box-flex: initial;\\n  -ms-flex: initial;\\n  flex: initial;\\n  width: 100%;\\n  margin-bottom: 8px;\\n}\\n\", \"xhm-address\": \"/* 住所 */\\n.xhm-address {\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n.xhm-address div {\\n  -webkit-box-align: center;\\n  -ms-flex-align: center;\\n  align-items: center;\\n}\\n\\n.xhm-address input {\\n  width: 100%;\\n}\\n\\n.xhm-address-select-box {\\n  position: relative;\\n}\\n\\n.xhm-address-select-box::after {\\n  content: '';\\n  display: block;\\n  width: 8px;\\n  height: 8px;\\n  border-left: 2px solid #1e1e1e;\\n  border-bottom: 2px solid #1e1e1e;\\n  position: absolute;\\n  top: 50%;\\n  right: 16px;\\n  -webkit-transform: translateY(-50%) rotate(-45deg);\\n  -ms-transform: translateY(-50%) rotate(-45deg);\\n  transform: translateY(-50%) rotate(-45deg);\\n}\\n\\n.xhm-address-select-box select {\\n  display: block;\\n  width: 100%;\\n}\\n\\n.xhm-address-select-box select::-ms-expand {\\n  display: none;\\n}\\n\\n/* layout */\\n.xhm-address > .xhm-grid-cell {\\n  -webkit-box-flex: initial;\\n  -ms-flex: initial;\\n  flex: initial;\\n  width: 100%;\\n  margin-bottom: 8px;\\n}\\n\\n.xhm-address .xhm-grid--1of6 > .xhm-grid-cell {\\n  -webkit-box-flex: initial;\\n  -ms-flex: initial;\\n  flex: initial;\\n  width: 100%;\\n  margin-bottom: 8px;\\n}\\n\\n.xhm-address .xhm-grid--1of6 > .xhm-grid-cell + .xhm-grid-cell {\\n  margin-bottom: 12px;\\n}\", \"xhm-birthday\": \"/* 生年月日 */\\n.xhm-birthday {\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n.xhm-birthday-select {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-align: center;\\n  -ms-flex-align: center;\\n  align-items: center;\\n  position: relative;\\n  margin: 0 0 15px 0;\\n}\\n\\n.xhm-birthday-select::after {\\n  content: '';\\n  display: block;\\n  width: 8px;\\n  height: 8px;\\n  border-left: 2px solid #1e1e1e;\\n  border-bottom: 2px solid #1e1e1e;\\n  position: absolute;\\n  top: 50%;\\n  right: calc(1em + 26px);\\n  -webkit-transform: translateY(-50%) rotate(-45deg);\\n  -ms-transform: translateY(-50%) rotate(-45deg);\\n  transform: translateY(-50%) rotate(-45deg);\\n}\\n\\n.xhm-birthday-select select {\\n  display: block;\\n  width: 100%;\\n}\\n\\n.xhm-birthday-select select::-ms-expand {\\n  display: none;\\n}\\n\\n.xhm-birthday-select label {\\n  margin: 0 0 0 10px;\\n}\\n\\n/* layout */\\n.xhm-birthday > .xhm-grid-cell {\\n  -webkit-box-flex: initial;\\n  -ms-flex: initial;\\n  flex: initial;\\n  width: 100%;\\n  margin-bottom: 8px;\\n}\", \"xhm-btn-next\": \"/* 次へボタン */\\n.xhm-btn-next {\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n.xhm-btn-next button {\\n  position: relative;\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-align: center;\\n  -ms-flex-align: center;\\n  align-items: center;\\n  -webkit-box-pack: center;\\n  -ms-flex-pack: center;\\n  justify-content: center;\\n  width: 180px;\\n  min-width: 120px;\\n  height: 48px;\\n  background: #3268ed;\\n  color: #fff;\\n  font-size: 13px;\\n  padding: 0 16px;\\n  border-radius: 4px;\\n  border: none;\\n  cursor: pointer;\\n  -webkit-appearance: none;\\n  -moz-appearance: none;\\n  appearance: none;\\n  outline: none;\\n}\\n\\n.xhm-btn-next button:hover:not(:disabled) {\\n  background: #3268ed;\\n}\\n\\n.xhm-btn-next button:disabled {\\n  pointer-events: none;\\n  cursor: default;\\n  opacity: 0.32;\\n}\\n\\n/* 戻るボタン */\\n.xhm-btn-back {\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n.xhm-btn-back button {\\n  position: relative;\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-align: center;\\n  -ms-flex-align: center;\\n  align-items: center;\\n  -webkit-box-pack: center;\\n  -ms-flex-pack: center;\\n  justify-content: center;\\n  width: 180px;\\n  min-width: 120px;\\n  height: 48px;\\n  background: #716c7e;\\n  color: #fff;\\n  font-size: 13px;\\n  padding: 0 16px;\\n  border-radius: 4px;\\n  border: none;\\n  cursor: pointer;\\n  -webkit-appearance: none;\\n  -moz-appearance: none;\\n  appearance: none;\\n  outline: none;\\n}\\n\\n.xhm-btn-back button:hover:not(:disabled) {\\n  background: #505565;\\n}\\n\\n.xhm-btn-back button:disabled {\\n  pointer-events: none;\\n  cursor: default;\\n  opacity: 0.32;\\n}\\n\\n/* layout */\\n.xhm-grid-cell .xhm-btn-back button {\\n  margin: 0 0 0 auto;\\n}\\n\\n@media screen and (max-width: 767px) {\\n  .xhm-grid-cell .xhm-btn-next button,\\n  .xhm-grid-cell .xhm-btn-back button {\\n    margin: 0 auto;\\n  }\\n}\", \"xhm-btn-prev\": \"/* 戻るボタン */\\n.xhm-btn-prev {\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n.xhm-btn-prev button {\\n  position: relative;\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-align: center;\\n  -ms-flex-align: center;\\n  align-items: center;\\n  -webkit-box-pack: center;\\n  -ms-flex-pack: center;\\n  justify-content: center;\\n  width: 180px;\\n  min-width: 120px;\\n  height: 48px;\\n  background: #716c7e;\\n  color: #fff;\\n  font-size: 13px;\\n  padding: 0 16px;\\n  border-radius: 4px;\\n  border: none;\\n  cursor: pointer;\\n  -webkit-appearance: none;\\n  -moz-appearance: none;\\n  appearance: none;\\n  outline: none;\\n}\\n\\n.xhm-btn-back button:hover:not(:disabled) {\\n  background: #505565;\\n}\\n\\n.xhm-btn-back button:disabled {\\n  pointer-events: none;\\n  cursor: default;\\n  opacity: 0.32;\\n}\", \"xhm-calendar\": \"/* カレンダー */\\n.xhm-calendar {\\n    margin-top: 20px;\\n    margin-bottom: 30px;\\n}\\n\\n.xhm-calendar-select {\\n    display: -webkit-box;\\n    display: -ms-flexbox;\\n    display: flex;\\n    -webkit-box-align: center;\\n    -ms-flex-align: center;\\n    align-items: center;\\n}\\n\\n.xhm-calendar-select {\\n    position: relative;\\n}\\n\\n.xhm-calendar-select input {\\n    min-width: 180px;\\n    padding: 12px;\\n    border: solid 1px #bfbfbf;\\n    border-radius: 5px;\\n    -webkit-appearance: none;\\n    -moz-appearance: none;\\n    appearance: none;\\n}\\n\\n.xhm-calendar-select div.xhm-select {\\n    margin: 0 0 0 15px;\\n}\\n\\n.xhm-calendar-select div.xhm-select select {\\n    min-width: 120px;\\n    margin: 0;\\n    padding: 13px 40px 13px 16px;\\n    border: solid 1px #bfbfbf;\\n    border-radius: 5px;\\n    -webkit-appearance: none;\\n    -moz-appearance: none;\\n    appearance: none;\\n}\\n\\n.xhm-calendar-select div.xhm-select select::-ms-expand {\\n    display: none;\\n}\\n\\n.xhm-calendar-select div.xhm-select:after {\\n\\tcontent: \\\"\\\";\\n    display: block;\\n    width: 8px;\\n    height: 8px;\\n    border-left: 2px solid #1e1e1e;\\n    border-bottom: 2px solid #1e1e1e;\\n    position: absolute;\\n    top: 50%;\\n    right: 16px;\\n    -webkit-transform: translateY(-50%) rotate(-45deg);\\n    -ms-transform: translateY(-50%) rotate(-45deg);\\n    transform: translateY(-50%) rotate(-45deg);\\n}\\n\\n.xhm-datepicker {\\n  display: inline-block;\\n  position: absolute;\\n  top: 0;\\n  bottom: 0;\\n  margin: auto;\\n  right: 3px;\\n  width: 34px;\\n  height: auto;\\n  vertical-align: middle;\\n  cursor: pointer;\\n}\\n\\n@media screen and (max-width: 767px) {\\n    .xhm-calendar-select {\\n        display: -webkit-box;\\n        display: -ms-flexbox;\\n        display: block;\\n        flex-wrap: wrap;\\n        -webkit-box-align: center;\\n        -ms-flex-align: center;\\n        align-items: center;\\n    }\\n\\n    .xhm-calendar-select input {\\n        width: calc(100% - 71px);\\n        padding: 12px;\\n        border: solid 1px #bfbfbf;\\n        border-radius: 5px;\\n        -webkit-appearance: none;\\n        -moz-appearance: none;\\n        appearance: none;\\n    }\\n\\n    .xhm-calendar-select div.xhm-select {\\n        width: 100%;\\n        margin: 15px 15px 0 0;\\n    }\\n\\n    .xhm-calendar-select div.xhm-select select {\\n        margin: 0;\\n        padding: 10px;\\n        border: solid 1px #bfbfbf;\\n        border-radius: 5px;\\n        -webkit-appearance: none;\\n        -moz-appearance: none;\\n        appearance: none;\\n    }\\n}\\n\", \"xhm-checkbox\": \"/* チェックボックス */\\n.xhm-checkbox {\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n.xhm-checkbox ul {\\n  list-style: none;\\n  padding: 0 1em;\\n}\\n\\n.xhm-checkbox ul li {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-align: center;\\n  -ms-flex-align: center;\\n  align-items: center;\\n}\\n\\n.xhm-checkbox.xhm-checkbox-break ul li:not(:last-child) {\\n  margin-bottom: 8px;\\n}\\n\\n.xhm-checkbox.xhm-checkbox-break .xhm-grid {\\n  display: block;\\n}\\n\\n.xhm-checkbox.xhm-checkbox-no-break label {\\n  margin-right: 1em;\\n  margin-left: 1em;\\n}\\n\\n/* layout */\\n.xhm-checkbox .xhm-grid-cell {\\n  -webkit-box-flex: initial;\\n  -ms-flex: initial;\\n  flex: initial;\\n  width: 100%;\\n  margin-bottom: 8px;\\n}\", \"xhm-required\": \"/* 必須アイコン */\\n.xhm-required {\\n  display: inline-block;\\n  width: 40px;\\n  font-size: 12px;\\n  line-height: 24px;\\n  margin-left: 12px;\\n  text-align: center;\\n  background-color: #ff453a;\\n  border: 1px solid #ff453a;\\n  color: #fff;\\n}\\n\\n/* 任意アイコン */\\n.xhm-optional {\\n  display: inline-block;\\n  width: 40px;\\n  font-size: 12px;\\n  line-height: 24px;\\n  margin-left: 12px;\\n  text-align: center;\\n  background-color: #fff;\\n  border: 1px solid #ff453a;\\n  color: #ff453a;\\n}\", \"xhm-parameter\": \"/* パラメータ */\\n.xhm-parameter {\\n  display: block;\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n.xhm-parameter input {\\n  width: 100%;\\n}\\n\\n@media screen and (min-width: 767px) {\\n  .xhm-parameter {\\n    display: -webkit-box;\\n    display: -ms-flexbox;\\n    display: flex;\\n  }\\n\\n  .xhm-parameter input {\\n    margin-top: 0;\\n  }\\n}\", \"xhm-separator\": \"/* 区切り線 */\\n.xhm-separator {\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n.xhm-separator hr {\\n  height: 1px;\\n  background-color: #d2d2d2;\\n  border: none;\\n}\", \"xhm-spacer-20\": \"/* スペーサー */\\n.xhm-spacer-20 {\\n  height: 20px;\\n  vertical-align: top;\\n}\", \"xhm-text-area\": \"/* テキストエリア */\\n.xhm-text-area {\\n  display: block;\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n.xhm-text-area textarea {\\n  height: 128px;\\n}\\n\\n/* layout */\\n.xhm-text-area .xhm-grid-cell {\\n  -webkit-box-sizing: border-box;\\n  box-sizing: border-box;\\n  -webkit-box-flex: initial;\\n  -ms-flex: initial;\\n  flex: initial;\\n  width: 100%;\\n  margin-bottom: 8px;\\n}\\n\", \"xhm-annotation\": \"/* 注釈 */\\n.xhm-annotation {\\n  font-size: 15px;\\n  margin: 0 0 8px;\\n  color: #1e1e1e;\\n}\\n\\n* + .xhm-annotation {\\n  margin-top: 8px;\\n}\", \"xhm-btn-submit\": \"/* サブミットボタン */\\n.xhm-btn-submit {\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n.xhm-btn-submit button {\\n  position: relative;\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-align: center;\\n  -ms-flex-align: center;\\n  align-items: center;\\n  -webkit-box-pack: center;\\n  -ms-flex-pack: center;\\n  justify-content: center;\\n  width: 180px;\\n  min-width: 120px;\\n  height: 48px;\\n  background: #716c7e;\\n  color: #fff;\\n  font-size: 13px;\\n  padding: 0 16px;\\n  border-radius: 4px;\\n  border: none;\\n  cursor: pointer;\\n  -webkit-appearance: none;\\n  -moz-appearance: none;\\n  appearance: none;\\n  outline: none;\\n}\\n\\n.xhm-btn-submit button:hover:not(:disabled) {\\n  background: #505565;\\n}\\n\\n.xhm-btn-submit button:disabled {\\n  pointer-events: none;\\n  cursor: default;\\n  opacity: 0.32;\\n}\", \"xhm-permission\": \"/* お知らせ許諾 */\\n.xhm-permission {\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n.xhm-permission ul li {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-align: center;\\n  -ms-flex-align: center;\\n  align-items: center;\\n}\\n\\n.xhm-permission.xhm-permission-break .xhm-grid {\\n  display: block;\\n}\\n\\n.xhm-permission.xhm-permission-break ul {\\n  list-style: none;\\n  padding: 0 1em;\\n}\\n\\n.xhm-permission.xhm-permission-break ul li:not(:last-child) {\\n  margin-bottom: 8px;\\n}\\n\\n.xhm-permission.xhm-permission-no-break label {\\n  margin-right: 1em;\\n  margin-left: 1em;\\n}\\n\\n/* layout */\\n.xhm-permission .xhm-grid-cell {\\n  -webkit-box-flex: initial;\\n  -ms-flex: initial;\\n  flex: initial;\\n  width: 100%;\\n  margin-bottom: 8px;\\n}\", \"xhm-text-field\": \"/* テキストフィールド */\\n.xhm-text-field {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n/* layout */\\n.xhm-text-field .xhm-grid-cell {\\n  -webkit-box-sizing: border-box;\\n  box-sizing: border-box;\\n  -webkit-box-flex: initial;\\n  -ms-flex: initial;\\n  flex: initial;\\n  width: 100%;\\n  margin-bottom: 8px;\\n}\\n\", \"xhm-heading-sub\": \"/* 見出し２ */\\n.xhm-heading-sub {\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n.xhm-heading-sub h2 {\\n  font-size: 22px;\\n  font-weight: bold;\\n}\\n\", \"xhm-prefectures\": \"/* 都道府県セレクトボックス */\\n.xhm-prefectures {\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n.xhm-prefectures-box {\\n  position: relative;\\n}\\n\\n.xhm-prefectures-box::after {\\n  content: '';\\n  display: block;\\n  width: 8px;\\n  height: 8px;\\n  border-left: 2px solid #1e1e1e;\\n  border-bottom: 2px solid #1e1e1e;\\n  position: absolute;\\n  top: 50%;\\n  right: 16px;\\n  -webkit-transform: translateY(-50%) rotate(-45deg);\\n  -ms-transform: translateY(-50%) rotate(-45deg);\\n  transform: translateY(-50%) rotate(-45deg);\\n}\\n\\n.xhm-prefectures select {\\n  display: block;\\n  width: 100%;\\n}\\n\\n.xhm-prefectures select::-ms-expand {\\n  display: none;\\n}\\n\\n/* layout */\\n.xhm-prefectures .xhm-grid-cell {\\n  -webkit-box-sizing: border-box;\\n  box-sizing: border-box;\\n  -webkit-box-flex: initial;\\n  -ms-flex: initial;\\n  flex: initial;\\n  width: 100%;\\n  margin-bottom: 8px;\\n}\\n\", \"xhm-heading-main\": \"/* 見出し１ */\\n.xhm-heading-main {\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n.xhm-heading-main h1 {\\n  font-size: 28px;\\n  font-weight: bold;\\n}\\n\", \"xhm-mail-address\": \"/* メールアドレステキストフィールド */\\n.xhm-mail-address {\\n  display: block;\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n/* layout */\\n.xhm-mail-address .xhm-grid-cell {\\n  margin-bottom: 8px;\\n}\\n\\n.xhm-mail-address .xhm-grid--cols-2 .xhm-grid-cell {\\n  margin-bottom: 12px;\\n}\", \"xhm-system-error\": \"/* システムエラー */\\n.xhm-system-error {\\n  width: 100%;\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n  border: 1px solid #e60012;\\n  background-color: #fff2f4;\\n  overflow: hidden;\\n}\\n\\n.xhm-system-error p {\\n  margin: 1em;\\n}\", \"xhm-file-download\": \"/* ファイルダウンロード */\\n.xhm-file-download {\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n.xhm-file-download .dl-file-wrap {\\n  list-style: none; /* デフォルトのアイコンを消す */\\n  margin: 0; /* デフォルト指定上書き */\\n  padding: 0; /* デフォルト指定上書き */\\n}\\n\\n.xhm-file-download .dl-file:before {\\n  content: ''; /* 空の要素作成 */\\n  width: 32px; /* 幅指定 */\\n  height: 32px; /* 高さ指定 */\\n  display: inline-block; /* インラインブロックにする */\\n  position: relative; /* アイコンの位置を調整 */\\n  margin-right: 5px; /* 余白指定 */\\n  background-image: url(/files/form/img/dl_file.png); /* アイコン指定 */\\n  background-size: contain; /* アイコンの大きさ指定 */\\n  background-repeat: no-repeat; /* アイコンをリピートしないようにする */\\n  vertical-align: top; /* アイコンの位置を調整 */\\n}\\n\\n.xhm-file-download .dl-file {\\n  padding: 10px; /* 余白指定 */\\n  margin-bottom: 5px; /* 要素と要素の間指定 */\\n  font-size: 20px; /* 文字サイズ指定 */\\n}\\n\\n.xhm-file-download .dl-file a {\\n  font-size: 18px;\\n  font-weight: bold;\\n  color: #555;\\n}\\n\\n.xhm-file-download .dl-file a:hover {\\n  color: #00b0f0;\\n}\", \"xhm-message-error\": \"/* エラーメッセージ */\\n.xhm-message-error {\\n  position: relative;\\n  display: inline-block;\\n  margin: 0 0 0.8rem 0;\\n  padding: 8px;\\n  min-width: 120px;\\n  max-width: 100%;\\n  color: #fff;\\n  font-size: 12px;\\n  background-color: #e60012;\\n}\\n\\n.xhm-message-error + input,\\n.xhm-message-error + select,\\n.xhm-message-error + textarea {\\n  border: 1px solid #e60012;\\n  background-color: #fff2f4;\\n}\\n\\n.xhm-message-error:before {\\n  content: '';\\n  position: absolute;\\n  top: 100%;\\n  left: 24px;\\n  margin-left: -10px;\\n  border: 8px solid transparent;\\n  border-top: 8px solid #e60012;\\n}\", \"xhm-attaching-file\": \"/* 添付 */\\n.xhm-attaching-file {\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n.xhm-attaching-file label {\\n  width: 138px;\\n  height: 36px;\\n  border-radius: 4px;\\n  font-size: 13px;\\n  color: #4f7df0;\\n  background: #ffffff;\\n  border: #4f7df0 1px solid;\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-align: center;\\n  -ms-flex-align: center;\\n  align-items: center;\\n  -webkit-box-pack: center;\\n  -ms-flex-pack: center;\\n  justify-content: center;\\n  border-radius: 4px;\\n  cursor: pointer;\\n}\\n\\n.xhm-attaching-file label:hover {\\n  background: #edf2fd;\\n}\\n\\n.xhm-attaching-file input[type='file'] {\\n  display: none;\\n}\\n\\n.size {\\n  display: none;\\n}\\n\\n/* layout */\\n.xhm-attaching-file .xhm-grid-cell {\\n  -webkit-box-flex: initial;\\n  -ms-flex: initial;\\n  flex: initial;\\n  width: 100%;\\n  margin-bottom: 8px;\\n}\", \"xhm-year-and-month\": \"/* 年月 */\\n.xhm-year-and-month {\\n  margin-top: 20px;\\n  margin-bottom: 30px;\\n}\\n\\n.xhm-year-and-month-select {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-align: center;\\n  -ms-flex-align: center;\\n  align-items: center;\\n  position: relative;\\n  margin: 0 0 15px 0;\\n}\\n\\n.xhm-year-and-month-select::after {\\n  content: '';\\n  display: block;\\n  width: 8px;\\n  height: 8px;\\n  border-left: 2px solid #1e1e1e;\\n  border-bottom: 2px solid #1e1e1e;\\n  position: absolute;\\n  top: 50%;\\n  right: calc(1em + 26px);\\n  -webkit-transform: translateY(-50%) rotate(-45deg);\\n  -ms-transform: translateY(-50%) rotate(-45deg);\\n  transform: translateY(-50%) rotate(-45deg);\\n}\\n\\n.xhm-year-and-month-select select {\\n  display: block;\\n  width: 100%;\\n}\\n\\n.xhm-year-and-month-select select::-ms-expand {\\n  display: none;\\n}\\n\\n.xhm-year-and-month-select label {\\n  margin: 0 0 0 10px;\\n}\\n\\n/* layout */\\n.xhm-year-and-month > .xhm-grid-cell {\\n  -webkit-box-sizing: border-box;\\n  box-sizing: border-box;\\n  -webkit-box-flex: initial;\\n  -ms-flex: initial;\\n  flex: initial;\\n  width: 100%;\\n  margin-bottom: 8px;\\n}\\n\", \"xhm-btn-post-search\": \"/* 郵便番号検索ボタン */\\n.xhm-btn-post-search {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-align: center;\\n  -ms-flex-align: center;\\n  align-items: center;\\n  -webkit-box-pack: center;\\n  -ms-flex-pack: center;\\n  justify-content: center;\\n  border-radius: 4px;\\n  border: none;\\n  cursor: pointer;\\n  min-width: 120px;\\n  font-size: 13px;\\n  height: 40px;\\n  padding: 0 16px;\\n  color: #4f7df0;\\n  background: #fff;\\n  border: #4f7df0 1px solid;\\n}\\n\\n.xhm-btn-post-search:hover {\\n  background: #edf2fd;\\n}\", \"xhm-message-complete\": \"/* 完了画面メッセージ */\\n.xhm-message-complete {\\n  width: 100%;\\n  margin-top: 20px;\\n  margin-bottom: 20px;\\n  border: 1px solid #fff;\\n  border-radius: 6px;\\n  background-color: #fff;\\n  overflow: hidden;\\n}\"}"
+    },
+    {
+      "categoryNo": 29,
+      "categoryName": "フォーム・新規フォームデフォルト値",
+      "itemInformation": "{\"formAdd\": {\"formSetting\": {\"completeScreenMessage\": \"<h2>ご回答ありがとうございます。</h2>\\n<p>ご回答ありがとうございました。<br>弊社担当者より連絡しますのでしばらくお待ちください。</p>\", \"completeScreenDisplayCategory\": \"1\", \"confirmationScreenDisplayFlag\": 1, \"inputScreenSendButtonCharacter\": \"次へ\", \"confirmationScreenSendButtonCharacter\": \"上記の内容で送信する\", \"completeScreenCompleteButtonDisplayFlag\": 0, \"confirmationScreenReturnButtonCharacter\": \"戻る\", \"completeScreenDownloadFileAttachmentFlag\": 0}, \"publicSetting\": {\"languageCode\": \"ja\", \"statusUseFlag\": \"0\", \"recaptchaUseFlag\": \"1\", \"receptionEndMessage\": \"<h3>本フォームの受付は終了しました。</h3>\", \"capacityCountSettingFlag\": 0, \"capacityExpirationMessage\": \"<h3>回答数が定員に達したのでフォームの受付を終了しました。</h3>\", \"receptionPeriodSettingFlag\": \"0\", \"receptionStartBeforeMessage\": \"<h3>本フォームは受付開始前です。今しばらくお待ちください。</h3>\"}}}"
+    },
+    {
+      "categoryNo": 30,
+      "categoryName": "パスワードリセット要求規制",
+      "itemInformation": "{\"ip\": {\"span\": 10, \"count\": 2}, \"mail\": {\"span\": 60, \"count\": 1}}"
+    },
+    {
+      "categoryNo": 31,
+      "categoryName": "ランチャーメニュー遷移先URL",
+      "itemInformation": "{\"01\": {\"01\": \"/site/dashboard/\"}, \"02\": {\"01\": \"\"}, \"03\": {\"01\": \"/form/dashboard/\"}, \"04\": {\"01\": \"\"}, \"05\": {\"01\": \"/community/timeline/\"}, \"06\": {\"01\": \"/account/dashboard/\"}, \"07\": {\"01\": \"\"}, \"08\": {\"01\": \"/account/connect/mjs-datalake/\", \"02\": \"/cashFlowManagement/advisoryCompany/\", \"03\": \"/cashFlowManagement/forecastReport/\"}, \"09\": {\"01\": \"/account/connect/mjs-datalake/\", \"02\": \"/mmi/companyReport/\", \"03\": \"/mmi/accountingFirm/\", \"04\": \"/mmi/advisoryCompany/\", \"11\": \"/mmi/advisoryCompany/\", \"12\": \"/mmi/companyReport/\", \"13\": \"/mmi/statisticsReport/term/\", \"14\": \"/mmi/statisticsReport/industry/\"}, \"10\": {\"01\": \"/storage/home/\"}}"
+    },
+    {
+      "categoryNo": 32,
+      "categoryName": "有効画像ファイル拡張子",
+      "itemInformation": "[\"jpg\", \"jpeg\", \"png\", \"gif\", \"svg\"]"
+    },
+    {
+      "categoryNo": 33,
+      "categoryName": "テナントユーザーステータス",
+      "itemInformation": "{\"0\": {\"value\": \"無効\", \"viewOrder\": 1}, \"1\": {\"value\": \"有効\", \"viewOrder\": 2}, \"2\": {\"value\": \"招待中\", \"viewOrder\": 3}, \"3\": {\"value\": \"招待期限切れ\", \"viewOrder\": 4}}"
+    },
+    {
+      "categoryNo": 34,
+      "categoryName": "メール有効期間(単位：分)",
+      "itemInformation": "{\"invitationPeriod\": 4320, \"passwordResetPeriod\": 30, \"clientInvitationPeriod\": 4320}"
+    },
+    {
+      "categoryNo": 35,
+      "categoryName": "添付ファイル無効拡張子",
+      "itemInformation": "[\"bat\", \"cmd\", \"com\", \"exe\", \"js\", \"jse\", \"pif\", \"scr\", \"vbe\", \"vbs\", \"wsf\", \"wsh\"]"
+    },
+    {
+      "categoryNo": 36,
+      "categoryName": "コンタクトデータ項目定義データ型",
+      "itemInformation": "{\"1\": {\"value\": \"テキスト\", \"viewOrder\": 1}, \"2\": {\"value\": \"数値\", \"viewOrder\": 2}, \"3\": {\"value\": \"日付\", \"viewOrder\": 3}}"
+    },
+    {
+      "categoryNo": 37,
+      "categoryName": "コミュニティ通報区分",
+      "itemInformation": "{\"01\": {\"value\": \"反社会的\", \"viewOrder\": 1}, \"02\": {\"value\": \"虚偽・詐欺\", \"viewOrder\": 2}, \"03\": {\"value\": \"性的いやがらせ・出会い目的\", \"viewOrder\": 3}, \"04\": {\"value\": \"攻撃的・暴力的\", \"viewOrder\": 4}, \"05\": {\"value\": \"政治的\", \"viewOrder\": 5}, \"06\": {\"value\": \"人種差別・侮辱\", \"viewOrder\": 6}, \"07\": {\"value\": \"薬物\", \"viewOrder\": 7}, \"99\": {\"value\": \"その他\", \"viewOrder\": 99}}"
+    },
+    {
+      "categoryNo": 38,
+      "categoryName": "ドメイン登録者の連絡先",
+      "itemInformation": "{\"city\": \"港区\", \"email\": \"service-support@bizsky.io\", \"zipCode\": \"107-0052\", \"lastName\": \"萩原\", \"firstName\": \"賢太郎\", \"countryCode\": \"JP\", \"phoneNumber\": \"+81.354142020\", \"addressLine1\": \"東京都港区赤坂7丁目1番1号\", \"addressLine2\": \"青山安田ビル3階\", \"organizationName\": \"トライベック株式会社\"}"
+    },
+    {
+      "categoryNo": 39,
+      "categoryName": "アララメッセージAPIのSPFレコード",
+      "itemInformation": "\"v=spf1 include:spf.repica.jp ~all\""
+    },
+    {
+      "categoryNo": 40,
+      "categoryName": "投稿グループ公開範囲",
+      "itemInformation": "{\"1\": \"全員に公開\", \"2\": \"参加メンバーまで\"}"
+    },
+    {
+      "categoryNo": 41,
+      "categoryName": "予測ステータス",
+      "itemInformation": "{\"0\": \"良好\", \"1\": \"危険\", \"9\": \"予測不可\"}"
+    },
+    {
+      "categoryNo": 42,
+      "categoryName": "数量管理",
+      "itemInformation": "{\"storage\": {\"uploadFileMaxSize\": 10485760}, \"communityGroup\": {\"groupMaxCount\": 10, \"memberMaxCount\": 100}}"
+    },
+    {
+      "categoryNo": 43,
+      "categoryName": "事業者区分",
+      "itemInformation": "{\"0\": \"一般事業者\", \"1\": \"MJS会計事務所\"}"
+    },
+    {
+      "categoryNo": 44,
+      "categoryName": "開発：データレイクAPI認証認可情報",
+      "itemInformation": "{\"referer\": \"https://app.mdx-dev.com\", \"clientId\": \"685cc3d5-6ed0-4278-9c95-e6ac97feb31c\", \"optionUrl\": \"api/v1/\", \"clientSecret\": \"FeCTkZ0XPL1PK7Qc8xh7G9dV64igN0svGJA0l2xGFocBUssF2E\", \"connectionUrl\": \"https://dx-datalake-api-dev.azurewebsites.net/\"}"
+    },
+    {
+      "categoryNo": 45,
+      "categoryName": "顧問先招待ステータス",
+      "itemInformation": "{\"0\": \"未招待\", \"1\": \"招待中\", \"2\": \"招待期限切れ\", \"3\": \"同意済\"}"
+    },
+    {
+      "categoryNo": 46,
+      "categoryName": "開発：独自ドメイン用TLD選択",
+      "itemInformation": "{\"01\": {\"tld\": \".com\", \"viewOrder\": 1, \"defaultSetting\": true}, \"02\": {\"tld\": \".jp\", \"viewOrder\": 2, \"defaultSetting\": false}, \"03\": {\"tld\": \".biz\", \"viewOrder\": 3, \"defaultSetting\": false}, \"99\": {\"tld\": \".click\", \"viewOrder\": 99, \"defaultSetting\": false}}"
+    },
+    {
+      "categoryNo": 47,
+      "categoryName": "開発：bizsky認証基盤認証認可情報",
+      "itemInformation": "{\"referer\": \"app.mdx-dev.com\", \"clientId\": \"97907c4a-3004-4b01-a03f-d1ecc0112be5\", \"optionUrl\": null, \"clientSecret\": \"4d1d9d96-f02d-4077-a1e0-251c6106dda0\", \"connectionUrl\": \"https://app-auth-bizsky-dev.azurewebsites.net/\"}"
+    },
+    {
+      "categoryNo": 48,
+      "categoryName": "開発：アララメッセージ認証認可情報",
+      "itemInformation": "{\"referer\": null, \"clientId\": \"5s104mkqm7959bsotmpt4su54a\", \"optionUrl\": null, \"clientSecret\": \"pvv6ljb8h21ophi9m5kmedksdmoj9b8prp5k4kr8uv8mv8nirug\", \"connectionUrl\": \"https://auth.ae001.redt.jp/\"}"
+    },
+    {
+      "categoryNo": 49,
+      "categoryName": "開発：PKSHA認証認可情報",
+      "itemInformation": "{\"referer\": null, \"clientId\": null, \"optionUrl\": null, \"clientSecret\": null, \"connectionUrl\": \"https://stg.cfm-api.com/alert\"}"
+    }
+  ]
+}

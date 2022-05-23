@@ -1,0 +1,127 @@
+.edit-area {
+  padding: 34px 24px;
+  .form-block {
+    &:not(:last-child) {
+      margin-bottom: 32px;
+    }
+    h5 {
+      margin-bottom: 32px;
+    }
+    .form-item {
+      &:not(:last-child) {
+        margin-bottom: 32px;
+      }
+      .title {
+        font-weight: 500;
+        margin-bottom: 12px;
+        &.main-text {
+          margin-bottom: 8px;
+        }
+      }
+      .sub-text {
+        font-size: 13px;
+        margin-bottom: 12px;
+      }
+      .width-middle {
+        width: 200px;
+      }
+      .width-semi-middle {
+        width: 150px;
+      }
+      .width-middle-short {
+        width: 120px;
+      }
+      .width-short {
+        width: 80px;
+      }
+      ::v-deep .custom-input-checkbox {
+        &.disp-time-checkbox {
+          label {
+            margin-right: 0;
+            margin-bottom: 8px;
+          }
+        }
+        &:not(.disp-time-checkbox) {
+          label:nth-child(-n + 4) {
+            margin-bottom: 12px;
+          }
+        }
+      }
+      .drag-list {
+        li {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #f7f8f9;
+          height: 65px;
+          &:not(:last-child) {
+            margin-bottom: 10px;
+          }
+          ::v-deep input {
+            background: #ffffff;
+            &.is-disabled {
+              background: #cdced0;
+              pointer-events: none;
+            }
+          }
+          .icon-block {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            min-width: 40px;
+            padding: 0 10px;
+            cursor: pointer;
+          }
+          span {
+            margin: 0 10px;
+          }
+        }
+      }
+      .add-item {
+        display: flex;
+        align-items: center;
+        margin-top: 16px;
+        &-link {
+          cursor: pointer;
+          .icon {
+            margin-right: 8px;
+          }
+          &:not(:last-child) {
+            margin-right: 10px;
+          }
+        }
+      }
+      .buttons {
+        margin-top: 24px;
+        justify-content: flex-start;
+      }
+    }
+    .margin {
+      &-t {
+        &-8 {
+          margin-top: 8px;
+        }
+        &-12 {
+          margin-top: 12px;
+        }
+        &-16 {
+          margin-top: 16px;
+        }
+        &-24 {
+          margin-top: 24px;
+        }
+      }
+      &-b {
+        &-32 {
+          margin-bottom: 32px;
+        }
+      }
+      &-l {
+        &-16 {
+          margin-left: 16px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+/* 必須アイコン */
+.xhm-required {
+  display: inline-block;
+  width: 40px;
+  font-size: 12px;
+  line-height: 24px;
+  margin-left: 12px;
+  text-align: center;
+  background-color: #ff453a;
+  border: 1px solid #ff453a;
+  color: #fff;
+}
+
+/* 任意アイコン */
+.xhm-optional {
+  display: inline-block;
+  width: 40px;
+  font-size: 12px;
+  line-height: 24px;
+  margin-left: 12px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ff453a;
+  color: #ff453a;
+}

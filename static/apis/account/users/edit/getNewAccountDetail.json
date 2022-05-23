@@ -1,0 +1,73 @@
+{
+  "result": 0,
+  "detailData": {
+    "availableFunctionList": [
+      {
+        "selectFlag": true,
+        "functionId": "01",
+        "recordVersion": 4567
+      },
+      {
+        "selectFlag": true,
+        "functionId": "03",
+        "recordVersion": 4568
+      },
+      {
+        "selectFlag": true,
+        "functionId": "05",
+        "recordVersion": 4569
+      },
+      {
+        "selectFlag": true,
+        "functionId": "06",
+        "recordVersion": 4562
+      },
+      {
+        "selectFlag": true,
+        "functionId": "08",
+        "recordVersion": 45362
+      },
+      {
+        "selectFlag": true,
+        "functionId": "10",
+        "recordVersion": 45362
+      }
+    ],
+    "activateStatus": false,
+    "mmiOption": true,
+    "cfmOption": true,
+    "corporateType": "20",
+    "reading": true,
+    "readingAdvisorList": [
+      {
+        "selectFlag": false,
+        "companyCode": "12345",
+        "tenantId": "443431",
+        "companyName": "赤坂株式会社",
+        "linkageId": "1224545",
+        "recordVersion": 123456
+      },
+      {
+        "selectFlag": false,
+        "companyCode": "12341",
+        "tenantId": "443434",
+        "companyName": "青山株式会社",
+        "linkageId": "1224545",
+        "recordVersion": 123456
+      },
+      {
+        "selectFlag": false,
+        "companyCode": "12342",
+        "tenantId": "443438",
+        "companyName": "桜坂株式会社",
+        "linkageId": "1224545",
+        "recordVersion": 123456
+      }
+    ],
+    "lastName": "",
+    "firstName": "",
+    "lastNameKana": "",
+    "firstNameKana": "",
+    "mailAddress": ""
+  }
+}

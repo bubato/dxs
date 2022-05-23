@@ -1,0 +1,65 @@
+{
+    "result": 0,
+    "sendReport": {
+        "mailTitle": "mailTitle設定テキスト",
+        "sendCount": 125000,
+        "sendSuccessCount": 51200,
+        "openCount": 33200,
+        "inputCount": 40000,
+        "cvCount": 14400,
+        "sendErrorCount": 25000,
+        "sendStopCount": 12500,
+        "linkClick": [
+            {
+                "linkTitle": "linkTitle設定テキスト1",
+                "clickCount": 1888,
+                "cvCount": 199
+            },
+            {
+                "linkTitle": "linkTitle設定テキスト2",
+                "clickCount": 2888,
+                "cvCount": 299
+            },
+            {
+                "linkTitle": "linkTitle設定テキスト3",
+                "clickCount": 3888,
+                "cvCount": 399
+            },
+            {
+                "linkTitle": "linkTitle設定テキスト4",
+                "clickCount": 4888,
+                "cvCount": 499
+            },
+            {
+                "linkTitle": "linkTitle設定テキスト5",
+                "clickCount": 5888,
+                "cvCount": 599
+            },
+            {
+                "linkTitle": "linkTitle設定テキスト6",
+                "clickCount": 6888,
+                "cvCount": 699
+            },
+            {
+                "linkTitle": "linkTitle設定テキスト7",
+                "clickCount": 7888,
+                "cvCount": 799
+            },
+            {
+                "linkTitle": "linkTitle設定テキスト8",
+                "clickCount": 8888,
+                "cvCount": 899
+            },
+            {
+                "linkTitle": "linkTitle設定テキスト9",
+                "clickCount": 9888,
+                "cvCount": 999
+            },
+            {
+                "linkTitle": "linkTitle設定テキスト10",
+                "clickCount": 10888,
+                "cvCount": 1099
+            }
+        ]
+    }
+}

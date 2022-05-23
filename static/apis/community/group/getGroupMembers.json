@@ -1,0 +1,62 @@
+{
+  "result": 0,
+  "allCount": 3,
+  "groupMembers": [
+    {
+      "profileMemberId": 1,
+      "memberName": "田中太郎",
+      "memberImageUrl": "",
+      "memberCompany": "会社A",
+      "memberPosition": "役職A",
+      "adminFlag": 0
+    },
+    {
+      "profileMemberId": 2,
+      "memberName": "鈴木一郎",
+      "memberImageUrl": "",
+      "memberCompany": "会社B",
+      "memberPosition": "役職B",
+      "adminFlag": 0
+    },
+    {
+      "profileMemberId": 3,
+      "memberName": "佐藤琢磨",
+      "memberImageUrl": "",
+      "memberCompany": "会社C",
+      "memberPosition": "役職C",
+      "adminFlag": 1
+    },
+    {
+      "profileMemberId": 4,
+      "memberName": "松田翔太",
+      "memberImageUrl": "",
+      "memberCompany": "会社D",
+      "memberPosition": "役職D",
+      "adminFlag": 0
+    },
+    {
+      "profileMemberId": 5,
+      "memberName": "恵比寿義一",
+      "memberImageUrl": "",
+      "memberCompany": "会社E",
+      "memberPosition": "役職E",
+      "adminFlag": 1
+    },
+    {
+      "profileMemberId": 6,
+      "memberName": "平清盛",
+      "memberImageUrl": "",
+      "memberCompany": "会社F",
+      "memberPosition": "役職F",
+      "adminFlag": 0
+    },
+    {
+      "profileMemberId": 7,
+      "memberName": "明智五郎",
+      "memberImageUrl": "",
+      "memberCompany": "会社G",
+      "memberPosition": "役職G",
+      "adminFlag": 1
+    }
+  ]
+}

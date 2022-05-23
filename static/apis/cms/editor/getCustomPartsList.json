@@ -1,0 +1,76 @@
+{
+  "result": 0,
+  "partsList": [
+    {
+      "partsId": 1,
+      "partsName": "カスタムメインエリア",
+      "partsJson": {
+        "componentKind": "setComponent",
+        "id": "mainArea",
+        "name": "メインエリア",
+        "title": {
+          "align": "1",
+          "context": "カスタムメインエリアのタイトル"
+        },
+        "text": {
+          "align": "1",
+          "context": "カスタムメインエリアの説明"
+        },
+        "textColor": "4",
+        "backgroundImage": "",
+        "imageName": "",
+        "buttons": [
+          {
+            "text": "お問い合わせ",
+            "link": ""
+          }
+        ]
+      },
+      "recordVersion": 1
+    },
+    {
+      "partsId": 2,
+      "partsName": "カスタムメッセージ",
+      "partsJson": {
+        "componentKind": "setComponent",
+        "id": "message",
+        "name": "メッセージ",
+        "title": {
+          "align": "1",
+          "context": "カスタムメッセージです"
+        },
+        "text": {
+          "align": "1",
+          "context": "カスタムメッセージの内容です"
+        }
+      },
+      "recordVersion": 2
+    },
+    {
+      "partsId": 3,
+      "partsName": "カスタムアコーディオン",
+      "partsJson": {
+        "componentKind": "singleComponent",
+        "id": "accordion",
+        "name": "アコーディオン",
+        "accordionList": [
+          {
+            "align": "1",
+            "title": "カスタムパーツで作りました",
+            "text": "カスタムパーツテキスト",
+            "initOpen": true
+          }
+        ],
+        "spaceInfo": {
+          "spaceKind": "1",
+          "space": "1",
+          "topSpace": "1",
+          "bottomSpace": "1",
+          "leftSpace": "1",
+          "rightSpace": "1"
+        }
+      },
+      "recordVersion": 2
+    }
+  ]
+}

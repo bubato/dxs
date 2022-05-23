@@ -1,0 +1,12 @@
+{
+  "result": 0,
+  "detailData": {
+    "lastName": "渡来",
+    "firstName": "太郎",
+    "lastNameKana": "トライ",
+    "firstNameKana": "タロウ",
+    "mailAddress": "sample@tribeck.jp",
+    "recordVersion": 12345,
+    "profileRecordVersion": 12345
+  }
+}

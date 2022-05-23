@@ -1,0 +1,473 @@
+[
+  {
+    "componentKind": "setComponent",
+    "id": "header",
+    "name": "ヘッダー",
+    "logo": ""
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "mainArea",
+    "name": "メインエリア",
+    "title": { "align": "1", "context": "自分と家族の安心のために" },
+    "text": {
+      "align": "1",
+      "context": "保険のプロがお客さまに本当に必要な保険をご提案します。"
+    },
+    "textColor": "4",
+    "backgroundImage": "https://images.@@images-domain@@/web-assets/common/web/9/54894035_20220309.png",
+    "buttons": [{ "text": "", "link": "", "linkType": 1 }]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "oneLineNews",
+    "name": "ワンラインニュース",
+    "date": "2022/04/01",
+    "title": "Webサイトをリニューアルしました",
+    "label": "お知らせ",
+    "link": ""
+  },
+  {
+    "componentKind": "singleComponent",
+    "id": "heading2",
+    "name": "見出し2",
+    "context": "保険商品",
+    "align": "1",
+    "link": "",
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    }
+  },
+  {
+    "componentKind": "layoutComponent",
+    "id": "layout-3",
+    "name": "3列",
+    "checkSameHeader": false,
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    },
+    "layoutNum": 3,
+    "layoutType": "1",
+    "componentList": [
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "image",
+          "name": "画像",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/9/41667301_20220309.png",
+          "imageName": "",
+          "align": "1",
+          "alternateText": "",
+          "width": "",
+          "height": "",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "heading3",
+          "name": "見出し3",
+          "context": "保険商品名を入力します。",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "保険商品概要を入力します。商品のアピールポイントや特長、対象とするお客さま像などを入力してください。",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "button",
+          "name": "ボタン",
+          "kind": "2",
+          "width": "224",
+          "height": "56",
+          "align": "1",
+          "text": "詳しくはこちら",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ],
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "heading3",
+          "name": "見出し3",
+          "context": "保険商品名を入力します。",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "保険商品概要を入力します。商品のアピールポイントや特長、対象とするお客さま像などを入力してください。",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "button",
+          "name": "ボタン",
+          "kind": "2",
+          "width": "224",
+          "height": "56",
+          "align": "1",
+          "text": "詳しくはこちら",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ],
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "heading3",
+          "name": "見出し3",
+          "context": "保険商品名を入力します。",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "保険商品概要を入力します。商品のアピールポイントや特長、対象とするお客さま像などを入力してください。",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "button",
+          "name": "ボタン",
+          "kind": "2",
+          "width": "224",
+          "height": "56",
+          "align": "1",
+          "text": "詳しくはこちら",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "message",
+    "name": "メッセージ",
+    "title": {
+      "align": "1",
+      "context": "お客さまの生涯のパートナーを目指して"
+    },
+    "text": {
+      "align": "1",
+      "context": "私たちはご家族みなさまの安心をお任せいただけるプロとして信頼いただけるサービスをご提供して参ります。"
+    }
+  },
+  {
+    "componentKind": "singleComponent",
+    "id": "heading2",
+    "name": "見出し2",
+    "context": "私たちについて",
+    "align": "1",
+    "link": "",
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    }
+  },
+  {
+    "componentKind": "layoutComponent",
+    "id": "layout-3",
+    "name": "3列",
+    "checkSameHeader": false,
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    },
+    "layoutNum": 3,
+    "layoutType": "1",
+    "componentList": [
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "image",
+          "name": "画像",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/9/79096188_20220309.png",
+          "imageName": "",
+          "align": "1",
+          "alternateText": "",
+          "width": "",
+          "height": "",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "企業情報",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ],
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "image",
+          "name": "画像",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/9/74059435_20220309.png",
+          "imageName": "",
+          "align": "1",
+          "alternateText": "",
+          "width": "",
+          "height": "",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "スタッフ紹介",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ],
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "image",
+          "name": "画像",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/9/62346545_20220309.png",
+          "imageName": "",
+          "align": "1",
+          "alternateText": "",
+          "width": "",
+          "height": "",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "採用情報",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "customerVoice",
+    "name": "お客さまの声",
+    "heading": { "align": "1", "context": "お客様の声" },
+    "layoutDirection": "1",
+    "layoutType": "1",
+    "contents": [
+      {
+        "title": "お客様の声タイトルを入力します",
+        "text": "保険を購入いただいたお客様の声を入力します。",
+        "image": "",
+        "link": ""
+      },
+      {
+        "title": "お客様の声タイトルを入力します",
+        "text": "保険を購入いただいたお客様の声を入力します。",
+        "image": "",
+        "link": ""
+      },
+      {
+        "title": "お客様の声タイトルを入力します",
+        "text": "保険を購入いただいたお客様の声を入力します。",
+        "image": "",
+        "link": ""
+      },
+      {
+        "title": "お客様の声タイトルを入力します",
+        "text": "保険を購入いただいたお客様の声を入力します。",
+        "image": "",
+        "imageName": "",
+        "imageAlign": "1",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "map",
+    "name": "地図",
+    "inputTag": "<iframe src=\\"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d51851.69908212983!2d139.78310180000003!3d35.6836203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1637540484748!5m2!1sja!2sjp\\" width=\\"1200\\" height=\\"450\\" style=\\"border:0;\\" allowfullscreen=\\"\\" loading=\\"lazy\\"></iframe>"
+  },
+  {
+    "componentKind": "singleComponent",
+    "id": "heading2",
+    "name": "見出し2",
+    "context": "お問い合わせ",
+    "align": "1",
+    "link": "",
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    }
+  },
+  {
+    "componentKind": "formComponent",
+    "id": "",
+    "name": "",
+    "previewSrc": ""
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "footer",
+    "name": "フッター"
+  }
+]

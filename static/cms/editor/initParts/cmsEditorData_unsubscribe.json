@@ -1,0 +1,18 @@
+[
+  {
+    "componentKind": "setComponent",
+    "id": "header",
+    "name": "ヘッダー",
+    "logo": ""
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "optOut",
+    "name": "配信停止"
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "footer",
+    "name": "フッター"
+  }
+]

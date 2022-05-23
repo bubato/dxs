@@ -1,0 +1,8 @@
+{
+    "result": 0,
+    "data": {
+        "checkLoginPermission": true,
+        "connectionIpAddress": "172.0.1.3\n172.0.1.4\n172.0.1.5",
+        "recordVersion": 12345
+    }
+}

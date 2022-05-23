@@ -1,0 +1,10 @@
+{
+  "result": 0,
+  "basicSettings": {
+    "title": "メールの件名が入ります",
+    "showName": "送信元表示名が入ります",
+    "sourceMailAddress": "sourceMailAddress@example.com",
+    "senderMailAddress": "senderMailAddress@example.com",
+    "recordVersion": 12345
+  }
+}

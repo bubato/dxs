@@ -1,0 +1,21 @@
+/* テキストエリア */
+.xhm-text-area {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.xhm-text-area textarea {
+  height: 128px;
+}
+
+/* layout */
+.xhm-text-area .xhm-grid-cell {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  width: 100%;
+  margin-bottom: 8px;
+}

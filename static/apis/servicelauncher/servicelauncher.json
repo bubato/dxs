@@ -1,0 +1,59 @@
+{
+  "result": 0,
+  "availableFunctionList": [
+    {
+      "functionId": "01",
+      "functionUrl": "/site/dashboard/",
+      "functionValidFlag": 1,
+      "functionErrorFlag": 0
+    },
+    {
+      "functionId": "03",
+      "functionUrl": "/form/dashboard/",
+      "functionValidFlag": 1,
+      "functionErrorFlag": 0
+    },
+    {
+      "functionId": "05",
+      "functionUrl": "/community/timeline/",
+      "functionValidFlag": 1,
+      "functionErrorFlag": 0
+    },
+    {
+      "functionId": "06",
+      "functionUrl": "/account/dashboard/",
+      "functionValidFlag": 1,
+      "functionErrorFlag": 0
+    },
+    {
+      "functionId": "08",
+      "functionUrl": "/cashFlowManagement/advisoryCompany/",
+      "functionValidFlag": 1,
+      "functionErrorFlag": 0
+    },
+    {
+      "functionId": "09",
+      "functionUrl": "/mmi/advisoryCompany/",
+      "functionValidFlag": 1,
+      "functionErrorFlag": 0
+    },
+    {
+      "functionId": "10",
+      "functionUrl": "/storage/home/",
+      "functionValidFlag": 1,
+      "functionErrorFlag": 0
+    },
+    {
+      "functionId": "11",
+      "functionUrl": "/contact/list/",
+      "functionValidFlag": 1,
+      "functionErrorFlag": 0
+    },
+    {
+      "functionId": "12",
+      "functionUrl": "/mail/list/",
+      "functionValidFlag": 1,
+      "functionErrorFlag": 0
+    }
+  ]
+}

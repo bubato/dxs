@@ -1,0 +1,31 @@
+{
+  "sideNaviItems": [
+    {
+      "name": "コミュニケーション",
+      "link": [
+        {
+          "name": "ダッシュボード",
+          "path": "/communication/dashboard/"
+        },
+        {
+          "name": "メール",
+          "isOpen": false,
+          "childPath": [
+            {
+              "name": "メール一覧",
+              "path": "/communication/mailList/"
+            },
+            {
+              "name": "新規作成",
+              "path": "/communication/createMail/"
+            }
+          ]
+        },
+        {
+          "name": "基本設定",
+          "path": "/communication/basicSettings/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+/* パラメータ */
+.xhm-parameter {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.xhm-parameter input {
+  width: 100%;
+}
+
+@media screen and (min-width: 767px) {
+  .xhm-parameter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .xhm-parameter input {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "result": 0,
+  "salesPersonList": [
+    {
+      "salesPersonId": 1001,
+      "name": "山田一郎"
+    },
+    {
+      "salesPersonId": 1002,
+      "name": "山田二郎"
+    },
+    {
+      "salesPersonId": 1003,
+      "name": "山田三郎"
+    }
+  ],
+  "tagDefinitionList": [
+    {
+      "tagDefinitionId": 2001,
+      "name": "サンプルタグ2001"
+    },
+    {
+      "tagDefinitionId": 2002,
+      "name": "サンプルタグ2002"
+    },
+    {
+      "tagDefinitionId": 2003,
+      "name": "サンプルタグ2003"
+    },
+    {
+      "tagDefinitionId": 2004,
+      "name": "サンプルタグ2004"
+    },
+    {
+      "tagDefinitionId": 2005,
+      "name": "サンプルタグ2005"
+    },
+    {
+      "tagDefinitionId": 2006,
+      "name": "サンプルタグ2006"
+    },
+    {
+      "tagDefinitionId": 2007,
+      "name": "サンプルタグ2007"
+    },
+    {
+      "tagDefinitionId": 2008,
+      "name": "サンプルタグ2008"
+    },
+    {
+      "tagDefinitionId": 2009,
+      "name": "サンプルタグ2009"
+    },
+    {
+      "tagDefinitionId": 2010,
+      "name": "サンプルタグ2010"
+    },
+    {
+      "tagDefinitionId": 2011,
+      "name": "サンプルタグ2011"
+    },
+    {
+      "tagDefinitionId": 2012,
+      "name": "サンプルタグ2012"
+    }
+  ],
+  "defaultDataItemDefinitionList": [
+    {
+      "dataItemDefinitionId": 3001,
+      "title": "氏",
+      "dataItemType": 1
+    },
+    {
+      "dataItemDefinitionId": 3002,
+      "title": "名",
+      "dataItemType": 1
+    },
+    {
+      "dataItemDefinitionId": 3003,
+      "title": "電話番号1",
+      "dataItemType": 2
+    }
+  ],
+  "dataItemDefinitionList": [
+    {
+      "dataItemDefinitionId": 3004,
+      "title": "出身地",
+      "dataItemType": 1
+    },
+    {
+      "dataItemDefinitionId": 3005,
+      "title": "年齢",
+      "dataItemType": 2
+    },
+    {
+      "dataItemDefinitionId": 3006,
+      "title": "生年月日",
+      "dataItemType": 3
+    }
+  ]
+}

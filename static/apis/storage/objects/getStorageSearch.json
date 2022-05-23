@@ -1,0 +1,136 @@
+{
+  "result": 0,
+  "countSearch": 0,
+  "objects": [
+    {
+      "objectId": 10111111,
+      "objectName": "共有なし＆メッセージ連携なし＆第一階層",
+      "objectType": 1,
+      "modifiedUserName": "藤本太郎　喜左衛門将時能",
+      "shareFlag": 0,
+      "pinFlag": 0,
+      "modifiedAt": "2020/10/30 14:07",
+      "recordVersion": 1111,
+      "communityFlag": 0,
+      "parentId": null
+    },
+    {
+      "objectId": 22222222,
+      "objectName": "共有あり＆メッセージ連携なし＆第一階層",
+      "objectType": 1,
+      "modifiedUserName": "藤本太郎　喜左衛門将時能",
+      "shareFlag": 1,
+      "pinFlag": 0,
+      "modifiedAt": "2020/10/30 14:07",
+      "recordVersion": 1111,
+      "communityFlag": 0,
+      "parentId": null
+    },
+    {
+      "objectId": 33333,
+      "objectName": "共有あり＆メッセージ連携あり＆第一階層",
+      "objectType": 1,
+      "modifiedUserName": "藤本太郎　喜左衛門将時能",
+      "shareFlag": 1,
+      "pinFlag": 0,
+      "modifiedAt": "2020/10/30 14:07",
+      "recordVersion": 1111,
+      "communityFlag": 1,
+      "parentId": null
+    },
+    {
+      "objectId": 444,
+      "objectName": "共有なし＆メッセージ連携なし＆第二階層",
+      "objectType": 1,
+      "modifiedUserName": "藤本太郎　喜左衛門将時能",
+      "shareFlag": 0,
+      "pinFlag": 0,
+      "modifiedAt": "2020/10/30 14:07",
+      "recordVersion": 1111,
+      "communityFlag": 0,
+      "parentId": 111
+    },
+    {
+      "objectId": 555,
+      "objectName": "共有あり＆メッセージ連携なし＆第二階層",
+      "objectType": 1,
+      "modifiedUserName": "藤本太郎　喜左衛門将時能",
+      "shareFlag": 1,
+      "pinFlag": 0,
+      "modifiedAt": "2020/10/30 14:07",
+      "recordVersion": 1111,
+      "communityFlag": 0,
+      "parentId": 111
+    },
+    {
+      "objectId": 666,
+      "objectName": "共有あり＆メッセージ連携あり＆第二階層",
+      "objectType": 1,
+      "modifiedUserName": "藤本太郎　喜左衛門将時能",
+      "shareFlag": 1,
+      "pinFlag": 0,
+      "modifiedAt": "2020/10/30 14:07",
+      "recordVersion": 1111,
+      "communityFlag": 1,
+      "parentId": 222
+    },
+    {
+      "objectId": 777,
+      "objectName": "共有なし＆メッセージ連携なし　ファイル.pptx",
+      "objectType": 2,
+      "modifiedUserName": "藤本太郎　喜左衛門将時能",
+      "shareFlag": 0,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/25 14:07",
+      "recordVersion": 1116,
+      "communityFlag": 0,
+      "parentId": 222
+    },
+    {
+      "objectId": 888,
+      "objectName": "共有あり＆メッセージ連携なし　ファイル.txt",
+      "objectType": 2,
+      "modifiedUserName": "藤本太郎　喜左衛門将時能",
+      "shareFlag": 1,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/25 14:07",
+      "recordVersion": 1116,
+      "communityFlag": 0,
+      "parentId": 222
+    },
+    {
+      "objectId": 999,
+      "objectName": "共有あり＆メッセージ連携あり　ファイル.txt",
+      "objectType": 2,
+      "modifiedUserName": "藤本太郎　喜左衛門将時能",
+      "shareFlag": 1,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/25 14:07",
+      "recordVersion": 1116,
+      "communityFlag": 1,
+      "parentId": 222
+    },
+    {
+      "objectId": 9,
+      "objectName": "2021/10/01-企画書(コミュニティ連携あり).xlsx",
+      "objectType": 2,
+      "modifiedUserName": "田中　太郎",
+      "shareFlag": 0,
+      "pinFlag": 0,
+      "modifiedAt": "2020/10/22 14:07",
+      "recordVersion": 1119,
+      "communityFlag": 1
+    },
+    {
+      "objectId": 10,
+      "objectName": "2021/10/01-企画書.pptx",
+      "objectType": 2,
+      "modifiedUserName": "勘解由小路　三郎",
+      "shareFlag": 0,
+      "pinFlag": 1,
+      "modifiedAt": "2020/10/21 14:07",
+      "recordVersion": 1120,
+      "communityFlag": 1
+    }
+  ]
+}

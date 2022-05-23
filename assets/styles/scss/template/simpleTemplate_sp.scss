@@ -1,0 +1,73 @@
+$classList: black, gray, gold, lightBlue, darkBlue, lightGreen, orange, red, pink, purple;
+$siteColor: #1e1e1e, #a0a0a0, #bca820, #437cfd, #0a03ac, #47ce6a, #ff831a, #f03333, #ffa6c9, #6120f6;
+
+@mixin mainAreaInnerPadding() {
+  padding-left: calc(100% / 12);
+  padding-right: calc(100% / 12);
+}
+
+/* セットパーツ:パンくず */
+.preview .next-mainArea-component .view-breadcrumb {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+/* セットパーツ:ワンラインニュース */
+.preview .next-mainArea-component .view-oneLineNews {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+/* セットパーツ:メッセージ */
+.preview .view-message {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/*========================================================
+　追加修正
+========================================================*/
+@import './templateHeader.scss';
+/* コンテンツエリア内パンくずリスト、ワンラインニュース */
+.view-oneLineNews,.view-breadcrumb{
+  margin-top: -10px;
+  box-shadow: none;
+  &:after{
+    display: none;
+  }
+}
+#{$afterHeadContents}{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+  width: 100% !important;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-shadow: none !important;
+}
+#{$afterHeadContentsLastContent}{
+  margin-bottom: 56px !important;
+}
+#{$afterMainAreaContents}{
+  margin-bottom: 0 !important;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-shadow: none !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+}
+
+#{$afterMainAreaContentsLastContent}{
+  margin-bottom: 123 - 96px !important;
+  + .component [class*="view-"]{
+    padding-top: 96px !important;
+  }
+}
+#{$afterConversionContents}{
+  width: 100% !important;
+}
+
+.next-conversion-component.prev-footer-component{
+  width: 100% !important;
+}
+.prev-conversion-component .view-oneLineNews{
+  margin-bottom: 56px !important;
+}

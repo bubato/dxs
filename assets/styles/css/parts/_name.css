@@ -1,0 +1,18 @@
+/* お名前テキストフィールド */
+.xhm-name {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* layout */
+.xhm-name .xhm-grid-grow--4 {
+  -webkit-box-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  width: 100%;
+}
+
+.xhm-name .xhm-grid-cell {
+  margin-bottom: 8px;
+}

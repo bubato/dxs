@@ -1,0 +1,165 @@
+{
+  "result": 0,
+  "allCount": 20,
+  "postList": [
+    {
+      "id": 1,
+      "userId": 12,
+      "image": "",
+      "contributor": "渡来　太郎",
+      "postedDate": "2021/01/04",
+      "company": "トライベック株式会社",
+      "position": "代表取締役",
+      "postGroupName": "グループA",
+      "postGroupCoverImageUrl": "",
+      "title": "求人募集",
+      "comment": "トライベックのHPは https://www.tribeck.jp/ です。\n任天堂のHPは https://www.nintendo.co.jp/ です。",
+      "imgFilePath": "https://www.tsuzukiblog.org/_wu/2020/03/shutterstock_1005938026.jpg",
+      "ogpInformation": [
+        {
+          "type": "website",
+          "title": "ECサイト・ネットショップを強化するMA×CRM HIRAMEKI XD（ヒラメキクロスディー）",
+          "description": "CXコンサルティング会社が開発したWebサイト活用から顧客との関係構築までの一元管理に特化した国産マーケティングプラットフォーム「HIRAMEKI XD（ヒラメキクロスディー）」。驚きの「シンプルさ」と「使いやすさ」を軸に、ライトに続けられるマーケティングオートメーションツールの提供を目指しています。",
+          "image": "https://www.xdata.jp/assets/images/logo-black.svg",
+          "url": "https://www.xdata.jp/",
+          "inputUrl": "https://www.xdata.jp/"
+        }
+      ],
+      "goodNum": 10,
+      "goodFlag": 1,
+      "policyViolationFlag": 0,
+      "replyCommentNum": 4,
+      "rangeStatus": "1",
+      "deleteFlag": false,
+      "recordVersion": 1,
+      "replyCommentList": [
+        {
+          "parentId": 1,
+          "id": 11,
+          "userId": 12,
+          "image": "",
+          "contributor": "鈴木　一郎",
+          "diffDate": "1時間前",
+          "comment": "トライベックのHPはhttps://www.tribeck.jp/です。\n任天堂のHPはhttps://www.nintendo.co.jp/です。",
+          "policyViolationFlag": 0,
+          "deleteFlag": false,
+          "recordVersion": 2,
+          "replysCommentList": [
+            {
+              "parentId": 11,
+              "userId": 12,
+              "id": 111,
+              "image": "",
+              "contributor": "佐藤　琢磨",
+              "diffDate": "1時間前",
+              "comment": "お久しぶりですね！https://www.amazon.co.jp/%E3%80%90Amazon-co-jp-%E9%99%90%E5%AE%9A%E3%80%91-%E3%82%AD%E3%83%AA%E3%83%B3-%E3%82%A2%E3%83%AB%E3%82%AB%E3%83%AA%E3%82%A4%E3%82%AA%E3%83%B3%E3%81%AE%E6%B0%B4-2L%C3%979%E6%9C%AC/dp/B01BEPNPF6/ref=zg_bs_food-beverage_1?_encoding=UTF8&psc=1&refRID=MHD6AZVC6709F5WYGXNBこちらの水おすすめです。また例の件、相談させてください。",
+              "policyViolationFlag": 0,
+              "deleteFlag": true,
+              "recordVersion": 3
+            },
+            {
+              "parentId": 11,
+              "userId": 12,
+              "id": 112,
+              "image": "",
+              "contributor": "竈門　炭治郎",
+              "diffDate": "1時間前",
+              "comment": "是非！渡来原さんも誘って、食事行きましょう\nああああああ\nいいいいい\nううううう\nえええええ\nおおおお\nかかかか",
+              "policyViolationFlag": 1,
+              "deleteFlag": false,
+              "recordVersion": 4
+            }
+          ]
+        },
+        {
+          "parentId": 1,
+          "id": 12,
+          "userId": 5,
+          "image": "",
+          "contributor": "渡来　花子",
+          "diffDate": "1時間前",
+          "comment": "よろしく！",
+          "recordVersion": 5,
+          "policyViolationFlag": 0,
+          "deleteFlag": false,
+          "replysCommentList": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 12,
+      "image": "",
+      "contributor": "渡来　次郎",
+      "postedDate": "2021/01/05",
+      "company": "トライベック株式会社",
+      "position": "代表取締役",
+      "postGroupName": "",
+      "postGroupCoverImageUrl": "",
+      "title": "求人募集2",
+      "comment": "トライベック2のHPは https://www.tribeck.jp/ です。\n任天堂のHPは https://www.nintendo.co.jp/ です。",
+      "imgFilePath": "https://www.tsuzukiblog.org/_wu/2020/03/shutterstock_1005938026.jpg",
+      "ogpInformation": [],
+      "goodNum": 20,
+      "goodFlag": 0,
+      "policyViolationFlag": 0,
+      "replyCommentNum": 4,
+      "rangeStatus": "1",
+      "deleteFlag": false,
+      "recordVersion": 1,
+      "replyCommentList": [
+        {
+          "parentId": 2,
+          "id": 21,
+          "userId": 12,
+          "image": "",
+          "contributor": "鈴木　一郎",
+          "diffDate": "1時間前",
+          "comment": "トライベックのHPはhttps://www.tribeck.jp/です。\n任天堂のHPはhttps://www.nintendo.co.jp/です。",
+          "policyViolationFlag": 0,
+          "deleteFlag": false,
+          "recordVersion": 2,
+          "replysCommentList": [
+            {
+              "parentId": 21,
+              "userId": 221,
+              "id": 111,
+              "image": "",
+              "contributor": "佐藤　琢磨",
+              "diffDate": "1時間前",
+              "comment": "お久しぶりですね！https://www.amazon.co.jp/%E3%80%90Amazon-co-jp-%E9%99%90%E5%AE%9A%E3%80%91-%E3%82%AD%E3%83%AA%E3%83%B3-%E3%82%A2%E3%83%AB%E3%82%AB%E3%83%AA%E3%82%A4%E3%82%AA%E3%83%B3%E3%81%AE%E6%B0%B4-2L%C3%979%E6%9C%AC/dp/B01BEPNPF6/ref=zg_bs_food-beverage_1?_encoding=UTF8&psc=1&refRID=MHD6AZVC6709F5WYGXNBこちらの水おすすめです。また例の件、相談させてください。",
+              "policyViolationFlag": 0,
+              "deleteFlag": false,
+              "recordVersion": 3
+            },
+            {
+              "parentId": 21,
+              "userId": 222,
+              "id": 112,
+              "image": "",
+              "contributor": "竈門　炭治郎",
+              "diffDate": "1時間前",
+              "comment": "是非！渡来原さんも誘って、食事行きましょう\nああああああ\nいいいいい\nううううう\nえええええ\nおおおお\nかかかか",
+              "policyViolationFlag": 1,
+              "deleteFlag": false,
+              "recordVersion": 4
+            }
+          ]
+        },
+        {
+          "parentId": 1,
+          "id": 22222,
+          "userId": 5,
+          "image": "",
+          "contributor": "渡来　花子",
+          "diffDate": "1時間前",
+          "comment": "よろしく！",
+          "policyViolationFlag": 0,
+          "deleteFlag": false,
+          "recordVersion": 5,
+          "replysCommentList": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+[
+  {
+    "componentKind": "setComponent",
+    "id": "header",
+    "name": "ヘッダー",
+    "logo": ""
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "mainArea",
+    "name": "メインエリア",
+    "title": {
+      "align": "1",
+      "context": "創業〇〇〇年。<br>継続が私たちの強みであり信頼です。"
+    },
+    "text": {
+      "align": "1",
+      "context": "長年の培った技術力・品質でお客様のあらゆるニーズにお応えします。"
+    },
+    "textColor": "4",
+    "backgroundImage": "https://images.@@images-domain@@/web-assets/common/web/3/66975836_20220309.png",
+    "buttons": [{ "text": "お問い合わせ", "link": "", "linkType": 1 }]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "oneLineNews",
+    "name": "ワンラインニュース",
+    "date": "2022/04/01",
+    "title": "Webサイトをリニューアルしました",
+    "label": "お知らせ",
+    "link": ""
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "message",
+    "name": "メッセージ",
+    "title": { "align": "1", "context": "こんなお悩みを抱えていませんか？" },
+    "text": {
+      "align": "1",
+      "context": "短納期で仕上げて欲しい\\n他社だと品質とコストで条件が合わない\\n製品を安定的に供給して欲しい\\n〇〇〇ができる会社を探している"
+    }
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "textWithTopImages",
+    "name": "上画像付きテキスト",
+    "heading": "〇〇〇は長年のノウハウと技術力・設備で様々なお悩みに対応します。",
+    "layoutType": "2",
+    "images": [
+      {
+        "title": "特長1.",
+        "text": "1つ目の特長が入ります。なるべく簡潔に特長を説明してください。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/3/45528033_20220309.png",
+        "imageName": "",
+        "link": ""
+      },
+      {
+        "title": "特長2.",
+        "text": "2つ目の特長が入ります。なるべく簡潔に特長を説明してください。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/3/26837435_20220309.png",
+        "imageName": "",
+        "link": ""
+      },
+      {
+        "title": "特長3.",
+        "text": "3つ目の特長を入力します。なるべく簡潔に特長を説明してください。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/3/38608749_20220309.png",
+        "imageName": "",
+        "link": "",
+        "linkType": "0"
+      }
+    ]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "step",
+    "name": "ステップ",
+    "heading": "ご発注までの流れ",
+    "layoutDirection": "1",
+    "contents": [
+      {
+        "title": "Webでのお問い合わせ",
+        "text": "Webサイトからお問い合わせいただいた内容について、現在の課題や具体的なイメージを詳しくヒアリングさせていただきます。基本的には弊社より質問をさせていただきますので、お気軽にご相談ください。"
+      },
+      {
+        "title": "ご提案・お見積り",
+        "text": "ヒアリング結果を踏まえ、具体的なご提案と費用、スケジュールをご提示します。条件に見合わない点や不明点があればお申し付けください。"
+      },
+      {
+        "title": "製造",
+        "text": "ご発注後、詳細設計書に基づき製造を開始します。\\n試作品が出来た段階で一度検品いただき、ご了承いただいた後に量産作業に着手します。"
+      },
+      {
+        "title": "出荷",
+        "text": "品質検査報告書とともに、製品をご指摘の宛先へ郵送します。納期に遅れることなくお届けしますのでご安心ください。"
+      }
+    ]
+  },
+  {
+    "componentKind": "singleComponent",
+    "id": "heading2",
+    "name": "見出し2",
+    "context": "私たちについて",
+    "align": "1",
+    "link": "",
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    }
+  },
+  {
+    "componentKind": "layoutComponent",
+    "id": "layout-3",
+    "name": "3列",
+    "checkSameHeader": false,
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    },
+    "layoutNum": 3,
+    "layoutType": "1",
+    "componentList": [
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "image",
+          "name": "画像",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/3/73113178_20220309.png",
+          "imageName": "",
+          "align": "1",
+          "alternateText": "",
+          "width": "",
+          "height": "",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "代表挨拶",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ],
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "image",
+          "name": "画像",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/3/71733265_20220309.png",
+          "imageName": "",
+          "align": "1",
+          "alternateText": "",
+          "width": "",
+          "height": "",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "企業情報",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ],
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "image",
+          "name": "画像",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/3/63958866_20220309.png",
+          "imageName": "",
+          "align": "1",
+          "alternateText": "",
+          "width": "",
+          "height": "",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "採用情報",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "conversion",
+    "name": "コンバージョン",
+    "title": { "align": "1", "context": "お問い合わせ" },
+    "text": { "align": "1", "context": "お気軽にお問い合わせください。" },
+    "textColor": "4",
+    "backgroundImage": "https://images.@@images-domain@@/web-assets/common/web/3/66975836_20220309.png",
+    "buttons": [{ "text": "お問い合わせ", "link": "", "linkType": 1 }]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "footer",
+    "name": "フッター"
+  }
+]

@@ -1,0 +1,13 @@
+.c-header-wrap,
+.l-aside,
+.l-aside-inner,
+.c-btmNav,
+.c-btm-hamburgerList,
+.c-btmsearchBox,
+.btn-pgTop,
+#sidemenu {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}

@@ -1,0 +1,89 @@
+{
+  "result": 0,
+  "client": [
+    {
+      "linkageId": "連携ID",
+      "companyCode": 123456,
+      "tenantId": "123456",
+      "companyName": "トライベック",
+      "dlkEmail": {
+        "representativeEmail": "sampleMail.representative.jp",
+        "comptrollerEmail": "sampleMail.comptroller.jp"
+      },
+      "invitationEmail": "",
+      "clientStatusRecordVersion": 123,
+      "inviteRecordVersion": 12345,
+      "status": 0
+    },
+    {
+      "linkageId": "連携ID2",
+      "companyCode": 223456,
+      "tenantId": "223456",
+      "companyName": "トライベック2",
+      "dlkEmail": {
+        "representativeEmail": "",
+        "comptrollerEmail": "sampleMail2.comptroller.jp"
+      },
+      "invitationEmail": "invitationEmail.jp",
+      "clientStatusRecordVersion": 123,
+      "inviteRecordVersion": 12345,
+      "status": 1
+    },
+    {
+      "linkageId": "連携ID22",
+      "companyCode": 223457,
+      "tenantId": "223456",
+      "companyName": "トライベック2",
+      "dlkEmail": {
+        "representativeEmail": "",
+        "comptrollerEmail": "sampleMail2.comptroller.jp"
+      },
+      "invitationEmail": "invitationEmail.jp",
+      "clientStatusRecordVersion": 123,
+      "inviteRecordVersion": 12345,
+      "status": 1
+    },
+    {
+      "linkageId": "連携ID3",
+      "companyCode": 323456,
+      "tenantId": "323456",
+      "companyName": "トライベック3",
+      "dlkEmail": {
+        "representativeEmail": "",
+        "comptrollerEmail": ""
+      },
+      "invitationEmail": "invitationEmail.jp",
+      "clientStatusRecordVersion": 123,
+      "inviteRecordVersion": 12345,
+      "status": 2
+    },
+    {
+      "linkageId": "連携ID4",
+      "companyCode": 423456,
+      "tenantId": "423456",
+      "companyName": "トライベック4",
+      "dlkEmail": {
+        "representativeEmail": "",
+        "comptrollerEmail": ""
+      },
+      "invitationEmail": "invitationEmail.jp",
+      "clientStatusRecordVersion": 123,
+      "inviteRecordVersion": 12345,
+      "status": 3
+    },
+    {
+      "linkageId": "連携ID5",
+      "companyCode": 523456,
+      "tenantId": "523456",
+      "companyName": "トライベック5",
+      "dlkEmail": {
+        "representativeEmail": "",
+        "comptrollerEmail": ""
+      },
+      "invitationEmail": "",
+      "clientStatusRecordVersion": 123,
+      "inviteRecordVersion": 12345,
+      "status": 4
+    }
+  ]
+}

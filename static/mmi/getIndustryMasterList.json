@@ -1,0 +1,3585 @@
+[
+  {
+    "industry": "農業, 林業",
+    "classCode": 1,
+    "industryChild": [
+      {
+        "industry": "農業,林業",
+        "industryType": "all",
+        "compareCode": "A00000",
+        "items": []
+      },
+      {
+        "industry": "農業",
+        "industryType": "1",
+        "compareCode": "A01000",
+        "items": [
+          {
+            "code": "010",
+            "compareCode": "A01010",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "011",
+            "compareCode": "A01011",
+            "label": "耕種農業"
+          },
+          {
+            "code": "012",
+            "compareCode": "A01012",
+            "label": "畜産農業"
+          },
+          {
+            "code": "013",
+            "compareCode": "A01013",
+            "label": "農業サービス業（園芸サービス業を除く）"
+          },
+          {
+            "code": "014",
+            "compareCode": "A01014",
+            "label": "園芸サービス業"
+          }
+        ]
+      },
+      {
+        "industry": "林業",
+        "industryType": "1",
+        "compareCode": "A02000",
+        "items": [
+          {
+            "code": "020",
+            "compareCode": "A02020",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "021",
+            "compareCode": "A02021",
+            "label": "育林業"
+          },
+          {
+            "code": "022",
+            "compareCode": "A02022",
+            "label": "素材生産業"
+          },
+          {
+            "code": "023",
+            "compareCode": "A02023",
+            "label": "特用林産物生産業（きのこ類の栽培を除く）"
+          },
+          {
+            "code": "024",
+            "compareCode": "A02024",
+            "label": "林業サービス業"
+          },
+          {
+            "code": "029",
+            "compareCode": "A02029",
+            "label": "その他の林業"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industry": "漁業",
+    "classCode": 2,
+    "industryChild": [
+      {
+        "industry": "漁業（水産養殖業を除く）,水産養殖業",
+        "industryType": "all",
+        "compareCode": "B00000",
+        "items": []
+      },
+      {
+        "industry": "漁業（水産養殖業を除く）",
+        "industryType": "1",
+        "compareCode": "B03000",
+        "items": [
+          {
+            "code": "030",
+            "compareCode": "B03030",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "031",
+            "compareCode": "B03031",
+            "label": "海面漁業"
+          },
+          {
+            "code": "032",
+            "compareCode": "B03032",
+            "label": "内水面漁業"
+          }
+        ]
+      },
+      {
+        "industry": "水産養殖業",
+        "industryType": "1",
+        "compareCode": "B04000",
+        "items": [
+          {
+            "code": "040",
+            "compareCode": "B04040",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "041",
+            "compareCode": "B04041",
+            "label": "海面養殖業"
+          },
+          {
+            "code": "042",
+            "compareCode": "B04042",
+            "label": "内水面養殖業"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industry": "鉱業，採石業，砂利採取業",
+    "classCode": 3,
+    "industryChild": [
+      {
+        "industry": "鉱業，採石業，砂利採取業",
+        "industryType": "all",
+        "compareCode": "C00000",
+        "items": []
+      },
+      {
+        "industry": "鉱業，採石業，砂利採取業",
+        "industryType": "1",
+        "compareCode": "C05000",
+        "items": [
+          {
+            "code": "050",
+            "compareCode": "C05050",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "051",
+            "compareCode": "C05051",
+            "label": "金属鉱業"
+          },
+          {
+            "code": "052",
+            "compareCode": "C05052",
+            "label": "石炭・亜炭鉱業"
+          },
+          {
+            "code": "053",
+            "compareCode": "C05053",
+            "label": "原油・天然ガス鉱業"
+          },
+          {
+            "code": "054",
+            "compareCode": "C05054",
+            "label": "採石業，砂・砂利・玉石採取業"
+          },
+          {
+            "code": "055",
+            "compareCode": "C05055",
+            "label": "窯業原料用鉱物鉱業（耐火物・陶磁器・ガラス・セメント原料用に限る）"
+          },
+          {
+            "code": "059",
+            "compareCode": "C05059",
+            "label": "その他の鉱業"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industry": "建設業",
+    "classCode": 4,
+    "industryChild": [
+      {
+        "industry": "総合工事業,職別工事業(設備工事業を除く),設備工事業",
+        "industryType": "all",
+        "compareCode": "D00000",
+        "items": []
+      },
+      {
+        "industry": "総合工事業",
+        "industryType": "1",
+        "compareCode": "D06000",
+        "items": [
+          {
+            "code": "060",
+            "compareCode": "D06060",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "061",
+            "compareCode": "D06061",
+            "label": "一般土木建築工事業"
+          },
+          {
+            "code": "062",
+            "compareCode": "D06062",
+            "label": "土木工事業（舗装工事業を除く）"
+          },
+          {
+            "code": "063",
+            "compareCode": "D06063",
+            "label": "舗装工事業"
+          },
+          {
+            "code": "064",
+            "compareCode": "D06064",
+            "label": "建築工事業(木造建築工事業を除く)"
+          },
+          {
+            "code": "065",
+            "compareCode": "D06065",
+            "label": "木造建築工事業"
+          },
+          {
+            "code": "066",
+            "compareCode": "D06066",
+            "label": "建築リフォーム工事業"
+          }
+        ]
+      },
+      {
+        "industry": "職別工事業(設備工事業を除く)",
+        "industryType": "1",
+        "compareCode": "D07000",
+        "items": [
+          {
+            "code": "070",
+            "compareCode": "D07070",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "071",
+            "compareCode": "D07071",
+            "label": "大工工事業"
+          },
+          {
+            "code": "072",
+            "compareCode": "D07072",
+            "label": "とび・土工・コンクリート工事業"
+          },
+          {
+            "code": "073",
+            "compareCode": "D07073",
+            "label": "鉄骨・鉄筋工事業"
+          },
+          {
+            "code": "074",
+            "compareCode": "D07074",
+            "label": "石工・れんが・タイル・ブロック工事業"
+          },
+          {
+            "code": "075",
+            "compareCode": "D07075",
+            "label": "左官工事業"
+          },
+          {
+            "code": "076",
+            "compareCode": "D07076",
+            "label": "板金・金物工事業"
+          },
+          {
+            "code": "077",
+            "compareCode": "D07077",
+            "label": "塗装工事業"
+          },
+          {
+            "code": "078",
+            "compareCode": "D07078",
+            "label": "床・内装工事業"
+          },
+          {
+            "code": "079",
+            "compareCode": "D07079",
+            "label": "その他の職別工事業"
+          }
+        ]
+      },
+      {
+        "industry": "設備工事業",
+        "industryType": "1",
+        "compareCode": "D08000",
+        "items": [
+          {
+            "code": "080",
+            "compareCode": "D08080",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "081",
+            "compareCode": "D08081",
+            "label": "電気工事業"
+          },
+          {
+            "code": "082",
+            "compareCode": "D08082",
+            "label": "電気通信・信号装置工事業"
+          },
+          {
+            "code": "083",
+            "compareCode": "D08083",
+            "label": "管工事業（さく井工事業を除く）"
+          },
+          {
+            "code": "084",
+            "compareCode": "D08084",
+            "label": "機械器具設置工事業"
+          },
+          {
+            "code": "089",
+            "compareCode": "D08089",
+            "label": "その他の設備工事業"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industry": "製造業",
+    "classCode": 5,
+    "industryChild": [
+      {
+        "industry": "食料品製造業,飲料・たばこ・飼料製造業,繊維工業,木材・木製品製造業（家具を除く）,家具・装備品製造業,パルプ・紙・紙加工品製造業,印刷・同関連業,化学工業,石油製品・石炭製品製造業,プラスチック製品製造業（別掲を除く）,ゴム製品製造業,なめし革・同製品・毛皮製造業,窯業・土石製品製造業,鉄鋼業,非鉄金属製造業,金属製品製造業,はん用機械器具製造業,生産用機械器具製造業,業務用機械器具製造業,電子部品・デバイス・電子回路製造業,電気機械器具製造業,情報通信機械器具製造業,輸送用機械器具製造業,その他の製造業",
+        "industryType": "all",
+        "compareCode": "E00000",
+        "items": []
+      },
+      {
+        "industry": "食料品製造業",
+        "industryType": "1",
+        "compareCode": "E09000",
+        "items": [
+          {
+            "code": "090",
+            "compareCode": "E09090",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "091",
+            "compareCode": "E09091",
+            "label": "畜産食料品製造業"
+          },
+          {
+            "code": "092",
+            "compareCode": "E09092",
+            "label": "水産食料品製造業"
+          },
+          {
+            "code": "093",
+            "compareCode": "E09093",
+            "label": "野菜缶詰・果実缶詰・農産保存食料品製造業"
+          },
+          {
+            "code": "094",
+            "compareCode": "E09094",
+            "label": "調味料製造業"
+          },
+          {
+            "code": "095",
+            "compareCode": "E09095",
+            "label": "糖類製造業"
+          },
+          {
+            "code": "096",
+            "compareCode": "E09096",
+            "label": "精穀・製粉業"
+          },
+          {
+            "code": "097",
+            "compareCode": "E09097",
+            "label": "パン・菓子製造業"
+          },
+          {
+            "code": "098",
+            "compareCode": "E09098",
+            "label": "動植物油脂製造業"
+          },
+          {
+            "code": "099",
+            "compareCode": "E09099",
+            "label": "その他の食料品製造業"
+          }
+        ]
+      },
+      {
+        "industry": "飲料・たばこ・飼料製造業",
+        "industryType": "1",
+        "compareCode": "E10000",
+        "items": [
+          {
+            "code": "100",
+            "compareCode": "E10100",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "101",
+            "compareCode": "E10101",
+            "label": "清涼飲料製造業"
+          },
+          {
+            "code": "102",
+            "compareCode": "E10102",
+            "label": "酒類製造業"
+          },
+          {
+            "code": "103",
+            "compareCode": "E10103",
+            "label": "茶・コーヒー製造業（清涼飲料を除く）"
+          },
+          {
+            "code": "104",
+            "compareCode": "E10104",
+            "label": "製氷業"
+          },
+          {
+            "code": "105",
+            "compareCode": "E10105",
+            "label": "たばこ製造業"
+          },
+          {
+            "code": "106",
+            "compareCode": "E10106",
+            "label": "飼料・有機質肥料製造業"
+          }
+        ]
+      },
+      {
+        "industry": "繊維工業",
+        "industryType": "1",
+        "compareCode": "E11000",
+        "items": [
+          {
+            "code": "110",
+            "compareCode": "E11110",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "111",
+            "compareCode": "E11111",
+            "label": "製糸業，紡績業，化学繊維・ねん糸等製造業"
+          },
+          {
+            "code": "112",
+            "compareCode": "E11112",
+            "label": "織物業"
+          },
+          {
+            "code": "113",
+            "compareCode": "E11113",
+            "label": "ニット生地製造業"
+          },
+          {
+            "code": "114",
+            "compareCode": "E11114",
+            "label": "染色整理業"
+          },
+          {
+            "code": "115",
+            "compareCode": "E11115",
+            "label": "綱・網・レース・繊維粗製品製造業"
+          },
+          {
+            "code": "116",
+            "compareCode": "E11116",
+            "label": "外衣・シャツ製造業（和式を除く）"
+          },
+          {
+            "code": "117",
+            "compareCode": "E11117",
+            "label": "下着類製造業"
+          },
+          {
+            "code": "118",
+            "compareCode": "E11118",
+            "label": "和装製品・その他の衣服・繊維製身の回り品製造業"
+          },
+          {
+            "code": "119",
+            "compareCode": "E11119",
+            "label": "その他の繊維製品製造業"
+          }
+        ]
+      },
+      {
+        "industry": "木材・木製品製造業（家具を除く）",
+        "industryType": "1",
+        "compareCode": "E12000",
+        "items": [
+          {
+            "code": "120",
+            "compareCode": "E12120",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "121",
+            "compareCode": "E12121",
+            "label": "製材業，木製品製造業"
+          },
+          {
+            "code": "122",
+            "compareCode": "E12122",
+            "label": "造作材・合板・建築用組立材料製造業"
+          },
+          {
+            "compareCode": "E12123",
+            "code": "123",
+            "label": "木製容器製造業（竹，とうを含む）"
+          },
+          {
+            "code": "129",
+            "compareCode": "E12129",
+            "label": "その他の木製品製造業(竹，とうを含む)"
+          }
+        ]
+      },
+      {
+        "industry": "家具・装備品製造業",
+        "industryType": "1",
+        "compareCode": "E13000",
+        "items": [
+          {
+            "code": "130",
+            "compareCode": "E13130",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "131",
+            "compareCode": "E13131",
+            "label": "家具製造業"
+          },
+          {
+            "code": "132",
+            "compareCode": "E13132",
+            "label": "宗教用具製造業"
+          },
+          {
+            "code": "133",
+            "compareCode": "E13133",
+            "label": "建具製造業"
+          },
+          {
+            "code": "139",
+            "compareCode": "E13139",
+            "label": "その他の家具・装備品製造業"
+          }
+        ]
+      },
+      {
+        "industry": "パルプ・紙・紙加工品製造業",
+        "industryType": "1",
+        "compareCode": "E14000",
+        "items": [
+          {
+            "code": "140",
+            "compareCode": "E14140",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "141",
+            "compareCode": "E14141",
+            "label": "パルプ製造業"
+          },
+          {
+            "code": "142",
+            "compareCode": "E14142",
+            "label": "紙製造業"
+          },
+          {
+            "code": "143",
+            "compareCode": "E14143",
+            "label": "加工紙製造業"
+          },
+          {
+            "code": "144",
+            "compareCode": "E14144",
+            "label": "紙製品製造業"
+          },
+          {
+            "code": "145",
+            "compareCode": "E14145",
+            "label": "紙製容器製造業"
+          },
+          {
+            "code": "149",
+            "compareCode": "E14149",
+            "label": "その他のパルプ・紙・紙加工品製造業"
+          }
+        ]
+      },
+      {
+        "industry": "印刷・同関連業",
+        "industryType": "1",
+        "compareCode": "E15000",
+        "items": [
+          {
+            "code": "150",
+            "compareCode": "E15150",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "151",
+            "compareCode": "E15151",
+            "label": "印刷業"
+          },
+          {
+            "code": "152",
+            "compareCode": "E15152",
+            "label": "製版業"
+          },
+          {
+            "code": "153",
+            "compareCode": "E15153",
+            "label": "製本業，印刷物加工業"
+          },
+          {
+            "code": "159",
+            "compareCode": "E15159",
+            "label": "印刷関連サービス業"
+          }
+        ]
+      },
+      {
+        "industry": "化学工業",
+        "industryType": "1",
+        "compareCode": "E16000",
+        "items": [
+          {
+            "code": "160",
+            "compareCode": "E16160",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "161",
+            "compareCode": "E16161",
+            "label": "化学肥料製造業"
+          },
+          {
+            "code": "162",
+            "compareCode": "E16162",
+            "label": "無機化学工業製品製造業"
+          },
+          {
+            "code": "163",
+            "compareCode": "E16163",
+            "label": "有機化学工業製品製造業"
+          },
+          {
+            "code": "164",
+            "compareCode": "E16164",
+            "label": "油脂加工製品・石けん・合成洗剤・界面活性剤・塗料製造業"
+          },
+          {
+            "code": "165",
+            "compareCode": "E16165",
+            "label": "医薬品製造業"
+          },
+          {
+            "code": "166",
+            "compareCode": "E16166",
+            "label": "化粧品・歯磨・その他の化粧用調整品製造業"
+          },
+          {
+            "code": "169",
+            "compareCode": "E16169",
+            "label": "その他の化学工業"
+          }
+        ]
+      },
+      {
+        "industry": "石油製品・石炭製品製造業",
+        "industryType": "1",
+        "compareCode": "E17000",
+        "items": [
+          {
+            "code": "170",
+            "compareCode": "E17170",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "171",
+            "compareCode": "E17171",
+            "label": "石油精製業"
+          },
+          {
+            "code": "172",
+            "compareCode": "E17172",
+            "label": "潤滑油・グリース製造業（石油精製業によらないもの）"
+          },
+          {
+            "code": "173",
+            "compareCode": "E17173",
+            "label": "コークス製造業"
+          },
+          {
+            "code": "174",
+            "compareCode": "E17174",
+            "label": "舗装材料製造業"
+          },
+          {
+            "code": "179",
+            "compareCode": "E17179",
+            "label": "その他の石油製品・石炭製品製造業"
+          }
+        ]
+      },
+      {
+        "industry": "プラスチック製品製造業（別掲を除く）",
+        "industryType": "1",
+        "compareCode": "E18000",
+        "items": [
+          {
+            "code": "180",
+            "compareCode": "E18180",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "181",
+            "compareCode": "E18181",
+            "label": "プラスチック板・棒・管・継手・異形押出製品製造業"
+          },
+          {
+            "code": "182",
+            "compareCode": "E18182",
+            "label": "プラスチックフィルム・シート・床材・合成皮革製造業"
+          },
+          {
+            "code": "183",
+            "compareCode": "E18183",
+            "label": "工業用プラスチック製品製造業"
+          },
+          {
+            "code": "184",
+            "compareCode": "E18184",
+            "label": "発泡・強化プラスチック製品製造業"
+          },
+          {
+            "code": "185",
+            "compareCode": "E18185",
+            "label": "プラスチック成形材料製造業（廃プラスチックを含む）"
+          },
+          {
+            "code": "189",
+            "compareCode": "E18189",
+            "label": "その他のプラスチック製品製造業"
+          }
+        ]
+      },
+      {
+        "industry": "ゴム製品製造業",
+        "industryType": "1",
+        "compareCode": "E19000",
+        "items": [
+          {
+            "code": "190",
+            "compareCode": "E19190",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "191",
+            "compareCode": "E19191",
+            "label": "タイヤ・チューブ製造業"
+          },
+          {
+            "code": "192",
+            "compareCode": "E19192",
+            "label": "ゴム製・プラスチック製履物・同附属品製造業"
+          },
+          {
+            "code": "193",
+            "compareCode": "E19193",
+            "label": "ゴムベルト・ゴムホース・工業用ゴム製品製造業"
+          },
+          {
+            "code": "199",
+            "compareCode": "E19199",
+            "label": "その他のゴム製品製造業"
+          }
+        ]
+      },
+      {
+        "industry": "なめし革・同製品・毛皮製造業",
+        "industryType": "1",
+        "compareCode": "E20000",
+        "items": [
+          {
+            "code": "200",
+            "compareCode": "E20200",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "201",
+            "compareCode": "E20201",
+            "label": "なめし革製造業"
+          },
+          {
+            "code": "202",
+            "compareCode": "E20202",
+            "label": "工業用革製品製造業（手袋を除く）"
+          },
+          {
+            "code": "203",
+            "compareCode": "E20203",
+            "label": "革製履物用材料・同附属品製造業"
+          },
+          {
+            "code": "204",
+            "compareCode": "E20204",
+            "label": "革製履物製造業"
+          },
+          {
+            "code": "205",
+            "compareCode": "E20205",
+            "label": "革製手袋製造業"
+          },
+          {
+            "code": "206",
+            "compareCode": "E20206",
+            "label": "かばん製造業"
+          },
+          {
+            "code": "207",
+            "compareCode": "E20207",
+            "label": "袋物製造業"
+          },
+          {
+            "code": "208",
+            "compareCode": "E20208",
+            "label": "毛皮製造業"
+          },
+          {
+            "code": "209",
+            "compareCode": "E20209",
+            "label": "その他のなめし革製品製造業"
+          }
+        ]
+      },
+      {
+        "industry": "窯業・土石製品製造業",
+        "industryType": "1",
+        "compareCode": "E21000",
+        "items": [
+          {
+            "code": "210",
+            "compareCode": "E21210",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "211",
+            "compareCode": "E21211",
+            "label": "ガラス・同製品製造業"
+          },
+          {
+            "code": "212",
+            "compareCode": "E21212",
+            "label": "セメント・同製品製造業"
+          },
+          {
+            "code": "213",
+            "compareCode": "E21213",
+            "label": "建設用粘土製品製造業（陶磁器製を除く)"
+          },
+          {
+            "code": "214",
+            "compareCode": "E21214",
+            "label": "陶磁器・同関連製品製造業"
+          },
+          {
+            "code": "215",
+            "compareCode": "E21215",
+            "label": "耐火物製造業"
+          },
+          {
+            "code": "216",
+            "compareCode": "E21216",
+            "label": "炭素・黒鉛製品製造業"
+          },
+          {
+            "code": "217",
+            "compareCode": "E21217",
+            "label": "研磨材・同製品製造業"
+          },
+          {
+            "code": "218",
+            "compareCode": "E21218",
+            "label": "骨材・石工品等製造業"
+          },
+          {
+            "code": "219",
+            "compareCode": "E21219",
+            "label": "その他の窯業・土石製品製造業"
+          }
+        ]
+      },
+      {
+        "industry": "鉄鋼業",
+        "industryType": "1",
+        "compareCode": "E22000",
+        "items": [
+          {
+            "code": "220",
+            "compareCode": "E22220",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "221",
+            "compareCode": "E22221",
+            "label": "製鉄業"
+          },
+          {
+            "code": "222",
+            "compareCode": "E22222",
+            "label": "製鋼・製鋼圧延業"
+          },
+          {
+            "code": "223",
+            "compareCode": "E22223",
+            "label": "製鋼を行わない鋼材製造業（表面処理鋼材を除く）"
+          },
+          {
+            "code": "224",
+            "compareCode": "E22224",
+            "label": "表面処理鋼材製造業"
+          },
+          {
+            "code": "225",
+            "compareCode": "E22225",
+            "label": "鉄素形材製造業"
+          },
+          {
+            "code": "229",
+            "compareCode": "E22229",
+            "label": "その他の鉄鋼業"
+          }
+        ]
+      },
+      {
+        "industry": "非鉄金属製造業",
+        "industryType": "1",
+        "compareCode": "E23000",
+        "items": [
+          {
+            "code": "230",
+            "compareCode": "E23230",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "231",
+            "compareCode": "E23231",
+            "label": "非鉄金属第1次製錬・精製業"
+          },
+          {
+            "code": "232",
+            "compareCode": "E23232",
+            "label": "非鉄金属第2次製錬・精製業（非鉄金属合金製造業を含む）"
+          },
+          {
+            "code": "233",
+            "compareCode": "E23233",
+            "label": "非鉄金属・同合金圧延業（抽伸，押出しを含む）"
+          },
+          {
+            "code": "234",
+            "compareCode": "E23234",
+            "label": "電線・ケーブル製造業"
+          },
+          {
+            "code": "235",
+            "compareCode": "E23235",
+            "label": "非鉄金属素形材製造業"
+          },
+          {
+            "code": "239",
+            "compareCode": "E23239",
+            "label": "その他の非鉄金属製造業"
+          }
+        ]
+      },
+      {
+        "industry": "金属製品製造業",
+        "industryType": "1",
+        "compareCode": "E24000",
+        "items": [
+          {
+            "code": "240",
+            "compareCode": "E24240",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "241",
+            "compareCode": "E24241",
+            "label": "ブリキ缶・その他のめっき板等製品製造業"
+          },
+          {
+            "code": "242",
+            "compareCode": "E24242",
+            "label": "洋食器・刃物・手道具・金物類製造業"
+          },
+          {
+            "code": "243",
+            "compareCode": "E24243",
+            "label": "暖房・調理等装置,配管工事用附属品製造業"
+          },
+          {
+            "code": "244",
+            "compareCode": "E24244",
+            "label": "建設用・建築用金属製品製造業（製缶板金業を含む)"
+          },
+          {
+            "code": "245",
+            "compareCode": "E24245",
+            "label": "金属素形材製品製造業"
+          },
+          {
+            "code": "246",
+            "compareCode": "E24246",
+            "label": "金属被覆・彫刻業，熱処理業（ほうろう鉄器を除く）"
+          },
+          {
+            "code": "247",
+            "compareCode": "E24247",
+            "label": "金属線製品製造業（ねじ類を除く)"
+          },
+          {
+            "code": "248",
+            "compareCode": "E24248",
+            "label": "ボルト・ナット・リベット・小ねじ・木ねじ等製造業"
+          },
+          {
+            "code": "249",
+            "compareCode": "E24249",
+            "label": "その他の金属製品製造業"
+          }
+        ]
+      },
+      {
+        "industry": "はん用機械器具製造業",
+        "industryType": "1",
+        "compareCode": "E25000",
+        "items": [
+          {
+            "code": "250",
+            "compareCode": "E25250",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "251",
+            "compareCode": "E25251",
+            "label": "ボイラ・原動機製造業"
+          },
+          {
+            "code": "252",
+            "compareCode": "E25252",
+            "label": "ポンプ・圧縮機器製造業"
+          },
+          {
+            "code": "253",
+            "compareCode": "E25253",
+            "label": "一般産業用機械・装置製造業"
+          },
+          {
+            "code": "259",
+            "compareCode": "E25259",
+            "label": "その他のはん用機械・同部分品製造業"
+          }
+        ]
+      },
+      {
+        "industry": "生産用機械器具製造業",
+        "industryType": "1",
+        "compareCode": "E26000",
+        "items": [
+          {
+            "code": "260",
+            "compareCode": "E26260",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "261",
+            "compareCode": "E26261",
+            "label": "農業用機械製造業（農業用器具を除く）"
+          },
+          {
+            "code": "262",
+            "compareCode": "E26262",
+            "label": "建設機械・鉱山機械製造業"
+          },
+          {
+            "code": "263",
+            "compareCode": "E26263",
+            "label": "繊維機械製造業"
+          },
+          {
+            "code": "264",
+            "compareCode": "E26264",
+            "label": "生活関連産業用機械製造業"
+          },
+          {
+            "code": "265",
+            "compareCode": "E26265",
+            "label": "基礎素材産業用機械製造業"
+          },
+          {
+            "code": "266",
+            "compareCode": "E26266",
+            "label": "金属加工機械製造業"
+          },
+          {
+            "code": "267",
+            "compareCode": "E26267",
+            "label": "半導体・フラットパネルディスプレイ製造装置製造業"
+          },
+          {
+            "code": "269",
+            "compareCode": "E26269",
+            "label": "その他の生産用機械・同部分品製造業"
+          }
+        ]
+      },
+      {
+        "industry": "業務用機械器具製造業",
+        "industryType": "1",
+        "compareCode": "E27000",
+        "items": [
+          {
+            "code": "270",
+            "compareCode": "E27270",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "271",
+            "compareCode": "E27271",
+            "label": "事務用機械器具製造業"
+          },
+          {
+            "code": "272",
+            "compareCode": "E27272",
+            "label": "サービス用・娯楽用機械器具製造業"
+          },
+          {
+            "code": "273",
+            "compareCode": "E27273",
+            "label": "計量器・測定器・分析機器・試験機・測量機械器具・理化学機械器具製造業"
+          },
+          {
+            "code": "274",
+            "compareCode": "E27274",
+            "label": "医療用機械器具・医療用品製造業"
+          },
+          {
+            "code": "275",
+            "compareCode": "E27275",
+            "label": "光学機械器具・レンズ製造業"
+          },
+          {
+            "code": "276",
+            "compareCode": "E27276",
+            "label": "武器製造業"
+          }
+        ]
+      },
+      {
+        "industry": "電子部品・デバイス・電子回路製造業",
+        "industryType": "1",
+        "compareCode": "E28000",
+        "items": [
+          {
+            "code": "280",
+            "compareCode": "E28280",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "281",
+            "compareCode": "E28281",
+            "label": "電子デバイス製造業"
+          },
+          {
+            "code": "282",
+            "compareCode": "E28282",
+            "label": "電子部品製造業"
+          },
+          {
+            "code": "283",
+            "compareCode": "E28283",
+            "label": "記録メディア製造業"
+          },
+          {
+            "code": "284",
+            "compareCode": "E28284",
+            "label": "電子回路製造業"
+          },
+          {
+            "code": "285",
+            "compareCode": "E28285",
+            "label": "ユニット部品製造業"
+          },
+          {
+            "code": "289",
+            "compareCode": "E28289",
+            "label": "その他の電子部品・デバイス・電子回路製造業"
+          }
+        ]
+      },
+      {
+        "industry": "電気機械器具製造業",
+        "industryType": "1",
+        "compareCode": "E29000",
+        "items": [
+          {
+            "code": "290",
+            "compareCode": "E29290",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "291",
+            "compareCode": "E29291",
+            "label": "発電用・送電用・配電用電気機械器具製造業"
+          },
+          {
+            "code": "292",
+            "compareCode": "E29292",
+            "label": "産業用電気機械器具製造業"
+          },
+          {
+            "code": "293",
+            "compareCode": "E29293",
+            "label": "民生用電気機械器具製造業"
+          },
+          {
+            "code": "294",
+            "compareCode": "E29294",
+            "label": "電球・電気照明器具製造業"
+          },
+          {
+            "code": "295",
+            "compareCode": "E29295",
+            "label": "電池製造業"
+          },
+          {
+            "code": "296",
+            "compareCode": "E29296",
+            "label": "電子応用装置製造業"
+          },
+          {
+            "code": "297",
+            "compareCode": "E29297",
+            "label": "電気計測器製造業"
+          },
+          {
+            "code": "299",
+            "compareCode": "E29299",
+            "label": "その他の電気機械器具製造業"
+          }
+        ]
+      },
+      {
+        "industry": "情報通信機械器具製造業",
+        "industryType": "1",
+        "compareCode": "E30000",
+        "items": [
+          {
+            "code": "300",
+            "compareCode": "E30300",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "301",
+            "compareCode": "E30301",
+            "label": "通信機械器具・同関連機械器具製造業"
+          },
+          {
+            "code": "302",
+            "compareCode": "E30302",
+            "label": "映像・音響機械器具製造業"
+          },
+          {
+            "code": "303",
+            "compareCode": "E30303",
+            "label": "電子計算機・同附属装置製造業"
+          }
+        ]
+      },
+      {
+        "industry": "輸送用機械器具製造業",
+        "industryType": "1",
+        "compareCode": "E31000",
+        "items": [
+          {
+            "code": "310",
+            "compareCode": "E31310",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "311",
+            "compareCode": "E31311",
+            "label": "自動車・同附属品製造業"
+          },
+          {
+            "code": "312",
+            "compareCode": "E31312",
+            "label": "鉄道車両・同部分品製造業"
+          },
+          {
+            "code": "313",
+            "compareCode": "E31313",
+            "label": "船舶製造・修理業，舶用機関製造業"
+          },
+          {
+            "code": "314",
+            "compareCode": "E31314",
+            "label": "航空機・同附属品製造業"
+          },
+          {
+            "code": "315",
+            "compareCode": "E31315",
+            "label": "産業用運搬車両・同部分品・附属品製造業"
+          },
+          {
+            "code": "319",
+            "compareCode": "E31319",
+            "label": "その他の輸送用機械器具製造業"
+          }
+        ]
+      },
+      {
+        "industry": "その他の製造業",
+        "industryType": "1",
+        "compareCode": "E32000",
+        "items": [
+          {
+            "code": "320",
+            "compareCode": "E32320",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "321",
+            "compareCode": "E32321",
+            "label": "貴金属・宝石製品製造業"
+          },
+          {
+            "code": "322",
+            "compareCode": "E32322",
+            "label": "装身具・装飾品・ボタン・同関連品製造業（貴金属・宝石製を除く）"
+          },
+          {
+            "code": "323",
+            "compareCode": "E32323",
+            "label": "時計・同部分品製造業"
+          },
+          {
+            "code": "324",
+            "compareCode": "E32324",
+            "label": "楽器製造業"
+          },
+          {
+            "code": "325",
+            "compareCode": "E32325",
+            "label": "がん具・運動用具製造業"
+          },
+          {
+            "code": "326",
+            "compareCode": "E32326",
+            "label": "ペン・鉛筆・絵画用品・その他の事務用品製造業"
+          },
+          {
+            "code": "327",
+            "compareCode": "E32327",
+            "label": "漆器製造業"
+          },
+          {
+            "code": "328",
+            "compareCode": "E32328",
+            "label": "畳等生活雑貨製品製造業"
+          },
+          {
+            "code": "329",
+            "compareCode": "E32329",
+            "label": "他に分類されない製造業"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industry": "電気・ガス・熱供給・水道業",
+    "classCode": 6,
+    "industryChild": [
+      {
+        "industry": "電気業,ガス業,熱供給業,水道業",
+        "industryType": "all",
+        "compareCode": "F00000",
+        "items": []
+      },
+      {
+        "industry": "電気業",
+        "industryType": "1",
+        "compareCode": "F33000",
+        "items": [
+          {
+            "code": "330",
+            "compareCode": "F33330",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "331",
+            "compareCode": "F33331",
+            "label": "電気業"
+          }
+        ]
+      },
+      {
+        "industry": "ガス業",
+        "industryType": "1",
+        "compareCode": "F34000",
+        "items": [
+          {
+            "code": "340",
+            "compareCode": "F34340",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "341",
+            "compareCode": "F34341",
+            "label": "ガス業"
+          }
+        ]
+      },
+      {
+        "industry": "熱供給業",
+        "industryType": "1",
+        "compareCode": "F35000",
+        "items": [
+          {
+            "code": "350",
+            "compareCode": "F35350",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "351",
+            "compareCode": "F35351",
+            "label": "熱供給業"
+          }
+        ]
+      },
+      {
+        "industry": "水道業",
+        "industryType": "1",
+        "compareCode": "F36000",
+        "items": [
+          {
+            "code": "360",
+            "compareCode": "F36360",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "361",
+            "compareCode": "F36361",
+            "label": "上水道業"
+          },
+          {
+            "code": "362",
+            "compareCode": "F36362",
+            "label": "工業用水道業"
+          },
+          {
+            "code": "363",
+            "compareCode": "F36363",
+            "label": "下水道業"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industry": "情報通信業",
+    "classCode": 7,
+    "industryChild": [
+      {
+        "industry": "通信業,放送業,情報サービス業,インターネット附随サービス業,映像・音声・文字情報制作業",
+        "industryType": "all",
+        "compareCode": "G00000",
+        "items": []
+      },
+      {
+        "industry": "通信業",
+        "industryType": "1",
+        "compareCode": "G37000",
+        "items": [
+          {
+            "code": "370",
+            "compareCode": "G37370",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "371",
+            "compareCode": "G37371",
+            "label": "固定電気通信業"
+          },
+          {
+            "code": "372",
+            "compareCode": "G37372",
+            "label": "移動電気通信業"
+          },
+          {
+            "code": "373",
+            "compareCode": "G37373",
+            "label": "電気通信に附帯するサービス業"
+          }
+        ]
+      },
+      {
+        "industry": "放送業",
+        "industryType": "1",
+        "compareCode": "G38000",
+        "items": [
+          {
+            "code": "380",
+            "compareCode": "G38380",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "381",
+            "compareCode": "G38381",
+            "label": "公共放送業（有線放送業を除く）"
+          },
+          {
+            "code": "382",
+            "compareCode": "G38382",
+            "label": "民間放送業（有線放送業を除く）"
+          },
+          {
+            "code": "383",
+            "compareCode": "G38383",
+            "label": "有線放送業"
+          }
+        ]
+      },
+      {
+        "industry": "情報サービス業",
+        "industryType": "1",
+        "compareCode": "G39000",
+        "items": [
+          {
+            "code": "390",
+            "compareCode": "G39390",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "391",
+            "compareCode": "G39391",
+            "label": "ソフトウェア業"
+          },
+          {
+            "code": "392",
+            "compareCode": "G39392",
+            "label": "情報処理・提供サービス業"
+          }
+        ]
+      },
+      {
+        "industry": "インターネット附随サービス業",
+        "industryType": "1",
+        "compareCode": "G41000",
+        "items": [
+          {
+            "code": "400",
+            "compareCode": "G40400",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "401",
+            "compareCode": "G40401",
+            "label": "ンターネット附随サービス業"
+          }
+        ]
+      },
+      {
+        "industry": "映像・音声・文字情報制作業",
+        "industryType": "1",
+        "compareCode": "G41000",
+        "items": [
+          {
+            "code": "410",
+            "compareCode": "G41410",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "411",
+            "compareCode": "G41411",
+            "label": "映像情報制作・配給業"
+          },
+          {
+            "code": "412",
+            "compareCode": "G41412",
+            "label": "音声情報制作業"
+          },
+          {
+            "code": "413",
+            "compareCode": "G41413",
+            "label": "新聞業"
+          },
+          {
+            "code": "414",
+            "compareCode": "G41414",
+            "label": "出版業"
+          },
+          {
+            "code": "415",
+            "compareCode": "G41415",
+            "label": "広告制作業"
+          },
+          {
+            "code": "416",
+            "compareCode": "G41416",
+            "label": "映像・音声・文字情報制作に附帯するサービス業"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industry": "運輸業，郵便業",
+    "classCode": 8,
+    "industryChild": [
+      {
+        "industry": "鉄道業,道路旅客運送業,道路貨物運送業,水運業,航空運輸業,倉庫業,運輸に附帯するサービス業,郵便業（信書便事業を含む）",
+        "industryType": "all",
+        "compareCode": "H00000",
+        "items": []
+      },
+      {
+        "industry": "鉄道業",
+        "industryType": "1",
+        "compareCode": "H42000",
+        "items": [
+          {
+            "code": "420",
+            "compareCode": "H42420",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "421",
+            "compareCode": "H42421",
+            "label": "鉄道業"
+          }
+        ]
+      },
+      {
+        "industry": "道路旅客運送業",
+        "industryType": "1",
+        "compareCode": "H43000",
+        "items": [
+          {
+            "code": "430",
+            "compareCode": "H43430",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "431",
+            "compareCode": "H43431",
+            "label": "一般乗合旅客自動車運送業"
+          },
+          {
+            "code": "432",
+            "compareCode": "H43432",
+            "label": "一般乗用旅客自動車運送業"
+          },
+          {
+            "code": "433",
+            "compareCode": "H43433",
+            "label": "一般貸切旅客自動車運送業"
+          },
+          {
+            "code": "439",
+            "compareCode": "H43439",
+            "label": "その他の道路旅客運送業"
+          }
+        ]
+      },
+      {
+        "industry": "道路貨物運送業",
+        "industryType": "1",
+        "compareCode": "H44000",
+        "items": [
+          {
+            "code": "440",
+            "compareCode": "H44440",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "441",
+            "compareCode": "H44441",
+            "label": "一般貨物自動車運送業"
+          },
+          {
+            "code": "442",
+            "compareCode": "H44442",
+            "label": "特定貨物自動車運送業"
+          },
+          {
+            "code": "443",
+            "compareCode": "H44443",
+            "label": "貨物軽自動車運送業"
+          },
+          {
+            "code": "444",
+            "compareCode": "H44444",
+            "label": "集配利用運送業"
+          },
+          {
+            "code": "449",
+            "compareCode": "H44449",
+            "label": "その他の道路貨物運送業"
+          }
+        ]
+      },
+      {
+        "industry": "水運業",
+        "industryType": "1",
+        "compareCode": "H45000",
+        "items": [
+          {
+            "code": "450",
+            "compareCode": "H45450",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "451",
+            "compareCode": "H45451",
+            "label": "外航海運業"
+          },
+          {
+            "code": "452",
+            "compareCode": "H45452",
+            "label": "沿海海運業"
+          },
+          {
+            "code": "453",
+            "compareCode": "H45453",
+            "label": "内陸水運業"
+          },
+          {
+            "code": "454",
+            "compareCode": "H45454",
+            "label": "船舶貸渡業"
+          }
+        ]
+      },
+      {
+        "industry": "航空運輸業",
+        "industryType": "1",
+        "compareCode": "H46000",
+        "items": [
+          {
+            "code": "460",
+            "compareCode": "H46460",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "461",
+            "compareCode": "H46461",
+            "label": "航空運送業"
+          },
+          {
+            "code": "462",
+            "compareCode": "H46462",
+            "label": "航空機使用業（航空運送業を除く）"
+          }
+        ]
+      },
+      {
+        "industry": "倉庫業",
+        "industryType": "1",
+        "compareCode": "H47000",
+        "items": [
+          {
+            "code": "470",
+            "compareCode": "H47470",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "471",
+            "compareCode": "H47471",
+            "label": "倉庫業（冷蔵倉庫業を除く）"
+          },
+          {
+            "code": "472",
+            "compareCode": "H47472",
+            "label": "冷蔵倉庫業"
+          }
+        ]
+      },
+      {
+        "industry": "運輸に附帯するサービス業",
+        "industryType": "1",
+        "compareCode": "H48000",
+        "items": [
+          {
+            "code": "480",
+            "compareCode": "H48480",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "481",
+            "compareCode": "H48481",
+            "label": "港湾運送業"
+          },
+          {
+            "code": "482",
+            "compareCode": "H48482",
+            "label": "貨物運送取扱業（集配利用運送業を除く）"
+          },
+          {
+            "code": "483",
+            "compareCode": "H48483",
+            "label": "運送代理店"
+          },
+          {
+            "code": "484",
+            "compareCode": "H48484",
+            "label": "こん包業"
+          },
+          {
+            "code": "485",
+            "compareCode": "H48485",
+            "label": "運輸施設提供業"
+          },
+          {
+            "code": "489",
+            "compareCode": "H48489",
+            "label": "その他の運輸に附帯するサービス業"
+          }
+        ]
+      },
+      {
+        "industry": "郵便業（信書便事業を含む）",
+        "industryType": "1",
+        "compareCode": "H49000",
+        "items": [
+          {
+            "code": "490",
+            "compareCode": "H49490",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "491",
+            "compareCode": "H49491",
+            "label": "郵便業（信書便事業を含む）"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industry": "卸売業，小売業",
+    "classCode": 9,
+    "industryChild": [
+      {
+        "industry": "各種商品卸売業,繊維・衣服等卸売業,飲食料品卸売業,建築材料，鉱物・金属材料等卸売業,機械器具卸売業,その他の卸売業,各種商品小売業,織物・衣服・身の回り品小売業,飲食料品小売業,機械器具小売業,その他の小売業,無店舗小売業",
+        "industryType": "all",
+        "compareCode": "I00000",
+        "items": []
+      },
+      {
+        "industry": "各種商品卸売業",
+        "industryType": "1",
+        "compareCode": "I50000",
+        "items": [
+          {
+            "code": "500",
+            "compareCode": "I50500",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "501",
+            "compareCode": "I50501",
+            "label": "各種商品卸売業"
+          }
+        ]
+      },
+      {
+        "industry": "繊維・衣服等卸売業",
+        "industryType": "1",
+        "compareCode": "I51000",
+        "items": [
+          {
+            "code": "510",
+            "compareCode": "I51510",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "511",
+            "compareCode": "I51511",
+            "label": "繊維品卸売業（衣服，身の回り品を除く）"
+          },
+          {
+            "code": "512",
+            "compareCode": "I51512",
+            "label": "衣服卸売業"
+          },
+          {
+            "code": "513",
+            "compareCode": "I51513",
+            "label": "身の回り品卸売業"
+          }
+        ]
+      },
+      {
+        "industry": "飲食料品卸売業",
+        "industryType": "1",
+        "compareCode": "I52000",
+        "items": [
+          {
+            "code": "520",
+            "compareCode": "I52520",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "521",
+            "compareCode": "I52521",
+            "label": "農畜産物・水産物卸売業"
+          },
+          {
+            "code": "522",
+            "compareCode": "I52522",
+            "label": "食料・飲料卸売業"
+          }
+        ]
+      },
+      {
+        "industry": "建築材料，鉱物・金属材料等卸売業",
+        "industryType": "1",
+        "compareCode": "I53000",
+        "items": [
+          {
+            "code": "530",
+            "compareCode": "I53530",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "531",
+            "compareCode": "I53531",
+            "label": "建築材料卸売業"
+          },
+          {
+            "code": "532",
+            "compareCode": "I53532",
+            "label": "化学製品卸売業"
+          },
+          {
+            "code": "533",
+            "compareCode": "I53533",
+            "label": "石油・鉱物卸売業"
+          },
+          {
+            "code": "534",
+            "compareCode": "I53534",
+            "label": "鉄鋼製品卸売業"
+          },
+          {
+            "code": "535",
+            "compareCode": "I53535",
+            "label": "非鉄金属卸売業"
+          },
+          {
+            "code": "536",
+            "compareCode": "I53536",
+            "label": "再生資源卸売業"
+          }
+        ]
+      },
+      {
+        "industry": "機械器具卸売業",
+        "industryType": "1",
+        "compareCode": "I54000",
+        "items": [
+          {
+            "code": "540",
+            "compareCode": "I54540",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "541",
+            "compareCode": "I54541",
+            "label": "産業機械器具卸売業"
+          },
+          {
+            "code": "542",
+            "compareCode": "I54542",
+            "label": "自動車卸売業"
+          },
+          {
+            "code": "543",
+            "compareCode": "I54543",
+            "label": "電気機械器具卸売業"
+          },
+          {
+            "code": "549",
+            "compareCode": "I54549",
+            "label": "その他の機械器具卸売業"
+          }
+        ]
+      },
+      {
+        "industry": "その他の卸売業",
+        "industryType": "1",
+        "compareCode": "I55000",
+        "items": [
+          {
+            "code": "550",
+            "compareCode": "I55550",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "551",
+            "compareCode": "I55551",
+            "label": "家具・建具・じゅう器等卸売業"
+          },
+          {
+            "code": "552",
+            "compareCode": "I55552",
+            "label": "医薬品・化粧品等卸売業"
+          },
+          {
+            "code": "553",
+            "compareCode": "I55553",
+            "label": "紙・紙製品卸売業"
+          },
+          {
+            "code": "559",
+            "compareCode": "I55559",
+            "label": "他に分類されない卸売業"
+          }
+        ]
+      },
+      {
+        "industry": "各種商品小売業",
+        "industryType": "1",
+        "compareCode": "I56000",
+        "items": [
+          {
+            "code": "560",
+            "compareCode": "I56560",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "561",
+            "compareCode": "I56561",
+            "label": "百貨店，総合スーパー"
+          },
+          {
+            "code": "569",
+            "compareCode": "I56569",
+            "label": "その他の各種商品小売業（従業者が常時50人未満のもの）"
+          }
+        ]
+      },
+      {
+        "industry": "織物・衣服・身の回り品小売業",
+        "industryType": "1",
+        "compareCode": "I57000",
+        "items": [
+          {
+            "code": "570",
+            "compareCode": "I57570",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "571",
+            "compareCode": "I57571",
+            "label": "呉服・服地・寝具小売業"
+          },
+          {
+            "code": "572",
+            "compareCode": "I57572",
+            "label": "男子服小売業"
+          },
+          {
+            "code": "573",
+            "compareCode": "I57573",
+            "label": "婦人・子供服小売業"
+          },
+          {
+            "code": "574",
+            "compareCode": "I57574",
+            "label": "靴・履物小売業"
+          },
+          {
+            "code": "579",
+            "compareCode": "I57579",
+            "label": "その他の織物・衣服・身の回り品小売業"
+          }
+        ]
+      },
+      {
+        "industry": "飲食料品小売業",
+        "industryType": "1",
+        "compareCode": "I58000",
+        "items": [
+          {
+            "code": "580",
+            "compareCode": "I58580",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "581",
+            "compareCode": "I58581",
+            "label": "各種食料品小売業"
+          },
+          {
+            "code": "582",
+            "compareCode": "I58582",
+            "label": "野菜・果実小売業"
+          },
+          {
+            "code": "583",
+            "compareCode": "I58583",
+            "label": "食肉小売業"
+          },
+          {
+            "code": "584",
+            "compareCode": "I58584",
+            "label": "鮮魚小売業"
+          },
+          {
+            "code": "585",
+            "compareCode": "I58585",
+            "label": "酒小売業"
+          },
+          {
+            "code": "586",
+            "compareCode": "I58586",
+            "label": "菓子・パン小売業"
+          },
+          {
+            "code": "589",
+            "compareCode": "I58589",
+            "label": "その他の飲食料品小売業"
+          }
+        ]
+      },
+      {
+        "industry": "機械器具小売業",
+        "industryType": "1",
+        "compareCode": "I59000",
+        "items": [
+          {
+            "code": "590",
+            "compareCode": "I59590",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "591",
+            "compareCode": "I59591",
+            "label": "自動車小売業"
+          },
+          {
+            "code": "592",
+            "compareCode": "I59592",
+            "label": "自転車小売業"
+          },
+          {
+            "code": "593",
+            "compareCode": "I59593",
+            "label": "機械器具小売業（自動車，自転車を除く）"
+          }
+        ]
+      },
+      {
+        "industry": "その他の小売業",
+        "industryType": "1",
+        "compareCode": "I60000",
+        "items": [
+          {
+            "code": "600",
+            "compareCode": "I60600",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "601",
+            "compareCode": "I60601",
+            "label": "家具・建具・畳小売業"
+          },
+          {
+            "code": "602",
+            "compareCode": "I60602",
+            "label": "じゅう器小売業"
+          },
+          {
+            "code": "603",
+            "compareCode": "I60603",
+            "label": "医薬品・化粧品小売業"
+          },
+          {
+            "code": "604",
+            "compareCode": "I60604",
+            "label": "農耕用品小売業"
+          },
+          {
+            "code": "605",
+            "compareCode": "I60605",
+            "label": "燃料小売業"
+          },
+          {
+            "code": "606",
+            "compareCode": "I60606",
+            "label": "書籍・文房具小売業"
+          },
+          {
+            "code": "607",
+            "compareCode": "I60607",
+            "label": "スポーツ用品・がん具・娯楽用品・楽器小売業"
+          },
+          {
+            "code": "608",
+            "compareCode": "I60608",
+            "label": "写真機・時計・眼鏡小売業"
+          },
+          {
+            "code": "609",
+            "compareCode": "I60609",
+            "label": "他に分類されない小売業"
+          }
+        ]
+      },
+      {
+        "industry": "無店舗小売業",
+        "industryType": "1",
+        "compareCode": "I61000",
+        "items": [
+          {
+            "code": "610",
+            "compareCode": "I61610",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "611",
+            "compareCode": "I61611",
+            "label": "通信販売・訪問販売小売業"
+          },
+          {
+            "code": "612",
+            "compareCode": "I61612",
+            "label": "自動販売機による小売業"
+          },
+          {
+            "code": "619",
+            "compareCode": "I61619",
+            "label": "その他の無店舗小売業"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industry": "金融業，保険業",
+    "classCode": 10,
+    "industryChild": [
+      {
+        "industry": "銀行業,協同組織金融業,貸金業，クレジットカード業等非預金信用機関,金融商品取引業，商品先物取引業,補助的金融業等,保険業（保険媒介代理業，保険サービス業を含む）",
+        "industryType": "all",
+        "compareCode": "J00000",
+        "items": []
+      },
+      {
+        "industry": "銀行業",
+        "industryType": "1",
+        "compareCode": "J62000",
+        "items": [
+          {
+            "code": "620",
+            "compareCode": "J62620",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "621",
+            "compareCode": "J62621",
+            "label": "中央銀行"
+          },
+          {
+            "code": "622",
+            "compareCode": "J62622",
+            "label": "銀行（中央銀行を除く）"
+          }
+        ]
+      },
+      {
+        "industry": "協同組織金融業",
+        "industryType": "1",
+        "compareCode": "J63000",
+        "items": [
+          {
+            "code": "630",
+            "compareCode": "J63630",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "631",
+            "compareCode": "J63631",
+            "label": "中小企業等金融業"
+          },
+          {
+            "code": "632",
+            "compareCode": "J63632",
+            "label": "農林水産金融業"
+          }
+        ]
+      },
+      {
+        "industry": "貸金業，クレジットカード業等非預金信用機関",
+        "industryType": "1",
+        "compareCode": "J64000",
+        "items": [
+          {
+            "code": "640",
+            "compareCode": "J64640",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "641",
+            "compareCode": "J64641",
+            "label": "貸金業"
+          },
+          {
+            "code": "642",
+            "compareCode": "J64642",
+            "label": "質屋"
+          },
+          {
+            "code": "643",
+            "compareCode": "J64643",
+            "label": "クレジットカード業，割賦金融業"
+          },
+          {
+            "code": "649",
+            "compareCode": "J64649",
+            "label": "その他の非預金信用機関"
+          }
+        ]
+      },
+      {
+        "industry": "金融商品取引業，商品先物取引業",
+        "industryType": "1",
+        "compareCode": "J65000",
+        "items": [
+          {
+            "code": "650",
+            "compareCode": "J65650",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "651",
+            "compareCode": "J65651",
+            "label": "金融商品取引業"
+          },
+          {
+            "code": "652",
+            "compareCode": "J65652",
+            "label": "商品先物取引業，商品投資顧問業"
+          }
+        ]
+      },
+      {
+        "industry": "補助的金融業等",
+        "industryType": "1",
+        "compareCode": "J66660",
+        "items": [
+          {
+            "code": "660",
+            "compareCode": "J66660",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "661",
+            "compareCode": "J66661",
+            "label": "補助的金融業，金融附帯業"
+          },
+          {
+            "code": "662",
+            "compareCode": "J66662",
+            "label": "信託業"
+          },
+          {
+            "code": "663",
+            "compareCode": "J66663",
+            "label": "金融代理業"
+          }
+        ]
+      },
+      {
+        "industry": "保険業（保険媒介代理業，保険サービス業を含む）",
+        "industryType": "1",
+        "compareCode": "J67000",
+        "items": [
+          {
+            "code": "670",
+            "compareCode": "J67670",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "671",
+            "compareCode": "J67671",
+            "label": "生命保険業"
+          },
+          {
+            "code": "672",
+            "compareCode": "J67672",
+            "label": "損害保険業"
+          },
+          {
+            "code": "673",
+            "compareCode": "J67673",
+            "label": "共済事業，少額短期保険業"
+          },
+          {
+            "code": "674",
+            "compareCode": "J67674",
+            "label": "保険媒介代理業"
+          },
+          {
+            "code": "675",
+            "compareCode": "J67675",
+            "label": "保険サービス業"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industry": "不動産業，物品賃貸業",
+    "classCode": 11,
+    "industryChild": [
+      {
+        "industry": "不動産取引業,不動産賃貸業・管理業,物品賃貸業",
+        "industryType": "all",
+        "compareCode": "K00000",
+        "items": []
+      },
+      {
+        "industry": "不動産取引業",
+        "industryType": "1",
+        "compareCode": "K68000",
+        "items": [
+          {
+            "code": "680",
+            "compareCode": "K68680",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "681",
+            "compareCode": "K68681",
+            "label": "建物売買業，土地売買業"
+          },
+          {
+            "code": "682",
+            "compareCode": "K68682",
+            "label": "不動産代理業・仲介業"
+          }
+        ]
+      },
+      {
+        "industry": "不動産賃貸業・管理業",
+        "industryType": "1",
+        "compareCode": "K69000",
+        "items": [
+          {
+            "code": "690",
+            "compareCode": "K69690",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "691",
+            "compareCode": "K69691",
+            "label": "不動産賃貸業（貸家業，貸間業を除く）"
+          },
+          {
+            "code": "692",
+            "compareCode": "K69692",
+            "label": "貸家業，貸間業"
+          },
+          {
+            "code": "693",
+            "compareCode": "K69693",
+            "label": "駐車場業"
+          },
+          {
+            "code": "694",
+            "compareCode": "K69694",
+            "label": "不動産管理業"
+          }
+        ]
+      },
+      {
+        "industry": "物品賃貸業",
+        "industryType": "1",
+        "compareCode": "K70000",
+        "items": [
+          {
+            "code": "700",
+            "compareCode": "K70700",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "701",
+            "compareCode": "K70701",
+            "label": "各種物品賃貸業"
+          },
+          {
+            "code": "702",
+            "compareCode": "K70702",
+            "label": "産業用機械器具賃貸業"
+          },
+          {
+            "code": "703",
+            "compareCode": "K70703",
+            "label": "事務用機械器具賃貸業"
+          },
+          {
+            "code": "704",
+            "compareCode": "K70704",
+            "label": "自動車賃貸業"
+          },
+          {
+            "code": "705",
+            "compareCode": "K70705",
+            "label": "スポーツ・娯楽用品賃貸業"
+          },
+          {
+            "code": "709",
+            "compareCode": "K70709",
+            "label": "その他の物品賃貸業"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industry": "学術研究，専門・技術サービス業",
+    "classCode": 12,
+    "industryChild": [
+      {
+        "industry": "学術・開発研究機関,専門サービス業（他に分類されないもの）,広告業,技術サービス業（他に分類されないもの）",
+        "industryType": "all",
+        "compareCode": "L00000",
+        "items": []
+      },
+      {
+        "industry": "学術・開発研究機関",
+        "industryType": "1",
+        "compareCode": "L71000",
+        "items": [
+          {
+            "code": "710",
+            "compareCode": "L71710",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "711",
+            "compareCode": "L71711",
+            "label": "自然科学研究所"
+          },
+          {
+            "code": "712",
+            "compareCode": "L71712",
+            "label": "人文・社会科学研究所"
+          }
+        ]
+      },
+      {
+        "industry": "専門サービス業（他に分類されないもの）",
+        "industryType": "1",
+        "compareCode": "L72000",
+        "items": [
+          {
+            "code": "720",
+            "compareCode": "L72720",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "721",
+            "compareCode": "L72721",
+            "label": "法律事務所，特許事務所"
+          },
+          {
+            "code": "722",
+            "compareCode": "L72722",
+            "label": "公証人役場，司法書士事務所，土地家屋調査士事務所"
+          },
+          {
+            "code": "723",
+            "compareCode": "L72723",
+            "label": "行政書士事務所"
+          },
+          {
+            "code": "724",
+            "compareCode": "L72724",
+            "label": "公認会計士事務所，税理士事務所"
+          },
+          {
+            "code": "725",
+            "compareCode": "L72725",
+            "label": "社会保険労務士事務所"
+          },
+          {
+            "code": "726",
+            "compareCode": "L72726",
+            "label": "デザイン業"
+          },
+          {
+            "code": "727",
+            "compareCode": "L72727",
+            "label": "著述・芸術家業"
+          },
+          {
+            "code": "728",
+            "compareCode": "L72728",
+            "label": "経営コンサルタント業，純粋持株会社"
+          },
+          {
+            "code": "729",
+            "compareCode": "L72729",
+            "label": "その他の専門サービス業"
+          }
+        ]
+      },
+      {
+        "industry": "広告業",
+        "industryType": "1",
+        "compareCode": "L73000",
+        "items": [
+          {
+            "code": "730",
+            "compareCode": "L73730",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "731",
+            "compareCode": "L73731",
+            "label": "広告業"
+          }
+        ]
+      },
+      {
+        "industry": "技術サービス業（他に分類されないもの）",
+        "industryType": "1",
+        "compareCode": "L74000",
+        "items": [
+          {
+            "code": "740",
+            "compareCode": "L74740",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "741",
+            "compareCode": "L74741",
+            "label": "獣医業"
+          },
+          {
+            "code": "742",
+            "compareCode": "L74742",
+            "label": "土木建築サービス業"
+          },
+          {
+            "code": "743",
+            "compareCode": "L74743",
+            "label": "機械設計業"
+          },
+          {
+            "code": "744",
+            "compareCode": "L74744",
+            "label": "商品・非破壊検査業"
+          },
+          {
+            "code": "745",
+            "compareCode": "L74745",
+            "label": "計量証明業"
+          },
+          {
+            "code": "746",
+            "compareCode": "L74746",
+            "label": "写真業"
+          },
+          {
+            "code": "749",
+            "compareCode": "L74749",
+            "label": "その他の技術サービス業"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industry": "宿泊業，飲食サービス業",
+    "classCode": 13,
+    "industryChild": [
+      {
+        "industry": "宿泊業,飲食店,持ち帰り・配達飲食サービス業",
+        "industryType": "all",
+        "compareCode": "M00000",
+        "items": []
+      },
+      {
+        "industry": "宿泊業",
+        "industryType": "1",
+        "compareCode": "M75000",
+        "items": [
+          {
+            "code": "750",
+            "compareCode": "M75750",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "751",
+            "compareCode": "M75751",
+            "label": "旅館，ホテル"
+          },
+          {
+            "code": "752",
+            "compareCode": "M75752",
+            "label": "簡易宿所"
+          },
+          {
+            "code": "753",
+            "compareCode": "M75753",
+            "label": "下宿業"
+          },
+          {
+            "code": "759",
+            "compareCode": "M75759",
+            "label": "その他の宿泊業"
+          }
+        ]
+      },
+      {
+        "industry": "飲食店",
+        "industryType": "1",
+        "compareCode": "M76000",
+        "items": [
+          {
+            "code": "760",
+            "compareCode": "M76760",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "761",
+            "compareCode": "M76761",
+            "label": "食堂，レストラン（専門料理店を除く）"
+          },
+          {
+            "code": "762",
+            "compareCode": "M76762",
+            "label": "専門料理店"
+          },
+          {
+            "code": "763",
+            "compareCode": "M76763",
+            "label": "そば・うどん店"
+          },
+          {
+            "code": "764",
+            "compareCode": "M76764",
+            "label": "すし店"
+          },
+          {
+            "code": "765",
+            "compareCode": "M76765",
+            "label": "酒場，ビヤホール"
+          },
+          {
+            "code": "766",
+            "compareCode": "M76766",
+            "label": "バー，キャバレー，ナイトクラブ"
+          },
+          {
+            "code": "767",
+            "compareCode": "M76767",
+            "label": "喫茶店"
+          },
+          {
+            "code": "769",
+            "compareCode": "M76769",
+            "label": "その他の飲食店"
+          }
+        ]
+      },
+      {
+        "industry": "持ち帰り・配達飲食サービス業",
+        "industryType": "1",
+        "compareCode": "M77000",
+        "items": [
+          {
+            "code": "770",
+            "compareCode": "M77770",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "771",
+            "compareCode": "M77771",
+            "label": "持ち帰り飲食サービス業"
+          },
+          {
+            "code": "772",
+            "compareCode": "M77772",
+            "label": "配達飲食サービス業"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industry": "生活関連サービス業，娯楽業 ",
+    "classCode": 14,
+    "industryChild": [
+      {
+        "industry": "洗濯・理容・美容・浴場業,その他の生活関連サービス業,娯楽業",
+        "industryType": "all",
+        "compareCode": "N00000",
+        "items": []
+      },
+      {
+        "industry": "洗濯・理容・美容・浴場業",
+        "industryType": "1",
+        "compareCode": "N78000",
+        "items": [
+          {
+            "code": "780",
+            "compareCode": "N78780",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "781",
+            "compareCode": "N78781",
+            "label": "洗濯業"
+          },
+          {
+            "code": "782",
+            "compareCode": "N78782",
+            "label": "理容業"
+          },
+          {
+            "code": "783",
+            "compareCode": "N78783",
+            "label": "美容業"
+          },
+          {
+            "code": "784",
+            "compareCode": "N78784",
+            "label": "一般公衆浴場業"
+          },
+          {
+            "code": "785",
+            "compareCode": "N78785",
+            "label": "その他の公衆浴場業"
+          },
+          {
+            "code": "789",
+            "compareCode": "N78789",
+            "label": "その他の洗濯・理容・美容・浴場業"
+          }
+        ]
+      },
+      {
+        "industry": "その他の生活関連サービス業",
+        "industryType": "1",
+        "compareCode": "N79000",
+        "items": [
+          {
+            "code": "790",
+            "compareCode": "N79790",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "791",
+            "compareCode": "N79791",
+            "label": "旅行業"
+          },
+          {
+            "code": "792",
+            "compareCode": "N79792",
+            "label": "家事サービス業"
+          },
+          {
+            "code": "793",
+            "compareCode": "N79793",
+            "label": "衣服裁縫修理業"
+          },
+          {
+            "code": "794",
+            "compareCode": "N79794",
+            "label": "物品預り業"
+          },
+          {
+            "code": "795",
+            "compareCode": "N79795",
+            "label": "火葬・墓地管理業"
+          },
+          {
+            "code": "796",
+            "compareCode": "N79796",
+            "label": "冠婚葬祭業"
+          },
+          {
+            "code": "799",
+            "compareCode": "N79799",
+            "label": "他に分類されない生活関連サービス業"
+          }
+        ]
+      },
+      {
+        "industry": "娯楽業",
+        "industryType": "1",
+        "compareCode": "N80000",
+        "items": [
+          {
+            "code": "800",
+            "compareCode": "N80800",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "801",
+            "compareCode": "N80801",
+            "label": "映画館"
+          },
+          {
+            "code": "802",
+            "compareCode": "N80802",
+            "label": "興行場（別掲を除く），興行団"
+          },
+          {
+            "code": "803",
+            "compareCode": "N80803",
+            "label": "競輪・競馬等の競走場，競技団"
+          },
+          {
+            "code": "804",
+            "compareCode": "N80804",
+            "label": "スポーツ施設提供業"
+          },
+          {
+            "code": "805",
+            "compareCode": "N80805",
+            "label": "公園，遊園地"
+          },
+          {
+            "code": "806",
+            "compareCode": "N80806",
+            "label": "遊戯場"
+          },
+          {
+            "code": "809",
+            "compareCode": "N80809",
+            "label": "その他の娯楽業"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industry": "教育，学習支援業",
+    "classCode": 15,
+    "industryChild": [
+      {
+        "industry": "学校教育,その他の教育，学習支援業",
+        "industryType": "all",
+        "compareCode": "O00000",
+        "items": []
+      },
+      {
+        "industry": "学校教育",
+        "industryType": "1",
+        "compareCode": "O81000",
+        "items": [
+          {
+            "code": "810",
+            "compareCode": "O81810",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "811",
+            "compareCode": "O81811",
+            "label": "幼稚園"
+          },
+          {
+            "code": "812",
+            "compareCode": "O81812",
+            "label": "小学校"
+          },
+          {
+            "code": "813",
+            "compareCode": "O81813",
+            "label": "中学校"
+          },
+          {
+            "code": "814",
+            "compareCode": "O81814",
+            "label": "高等学校，中等教育学校"
+          },
+          {
+            "code": "815",
+            "compareCode": "O81815",
+            "label": "特別支援学校"
+          },
+          {
+            "code": "816",
+            "compareCode": "O81816",
+            "label": "高等教育機関"
+          },
+          {
+            "code": "817",
+            "compareCode": "O81817",
+            "label": "専修学校，各種学校"
+          },
+          {
+            "code": "818",
+            "compareCode": "O81818",
+            "label": "学校教育支援機関"
+          },
+          {
+            "code": "819",
+            "compareCode": "O81819",
+            "label": "幼保連携型認定こども園"
+          }
+        ]
+      },
+      {
+        "industry": "その他の教育，学習支援業",
+        "industryType": "1",
+        "compareCode": "O82000",
+        "items": [
+          {
+            "code": "820",
+            "compareCode": "O82820",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "821",
+            "compareCode": "O82821",
+            "label": "社会教育"
+          },
+          {
+            "code": "822",
+            "compareCode": "O82822",
+            "label": "職業・教育支援施設"
+          },
+          {
+            "code": "823",
+            "compareCode": "O82823",
+            "label": "学習塾"
+          },
+          {
+            "code": "824",
+            "compareCode": "O82824",
+            "label": "教養・技能教授業"
+          },
+          {
+            "code": "829",
+            "compareCode": "O82829",
+            "label": "他に分類されない教育，学習支援業"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industry": "医療，福祉",
+    "classCode": 16,
+    "industryChild": [
+      {
+        "industry": "医療業,保健衛生,社会保険・社会福祉・介護事業",
+        "industryType": "all",
+        "compareCode": "P00000",
+        "items": []
+      },
+      {
+        "industry": "医療業",
+        "industryType": "1",
+        "compareCode": "P83000",
+        "items": [
+          {
+            "code": "830",
+            "compareCode": "P83830",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "831",
+            "compareCode": "P83831",
+            "label": "病院"
+          },
+          {
+            "code": "832",
+            "compareCode": "P83832",
+            "label": "一般診療所"
+          },
+          {
+            "code": "833",
+            "compareCode": "P83833",
+            "label": "歯科診療所"
+          },
+          {
+            "code": "834",
+            "compareCode": "P83834",
+            "label": "助産・看護業"
+          },
+          {
+            "code": "835",
+            "compareCode": "P83835",
+            "label": "療術業"
+          },
+          {
+            "code": "836",
+            "compareCode": "P83836",
+            "label": "医療に附帯するサービス業"
+          }
+        ]
+      },
+      {
+        "industry": "保健衛生",
+        "industryType": "1",
+        "compareCode": "P84000",
+        "items": [
+          {
+            "code": "840",
+            "compareCode": "P84840",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "841",
+            "compareCode": "P84841",
+            "label": "保健所"
+          },
+          {
+            "code": "842",
+            "compareCode": "P84842",
+            "label": "健康相談施設"
+          },
+          {
+            "code": "849",
+            "compareCode": "P84849",
+            "label": "その他の保健衛生"
+          }
+        ]
+      },
+      {
+        "industry": "社会保険・社会福祉・介護事業",
+        "industryType": "1",
+        "compareCode": "P85000",
+        "items": [
+          {
+            "code": "850",
+            "compareCode": "P85850",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "851",
+            "compareCode": "P85851",
+            "label": "社会保険事業団体"
+          },
+          {
+            "code": "852",
+            "compareCode": "P85852",
+            "label": "福祉事務所"
+          },
+          {
+            "code": "853",
+            "compareCode": "P85853",
+            "label": "児童福祉事業"
+          },
+          {
+            "code": "854",
+            "compareCode": "P85854",
+            "label": "老人福祉・介護事業"
+          },
+          {
+            "code": "855",
+            "compareCode": "P85855",
+            "label": "障害者福祉事業"
+          },
+          {
+            "code": "859",
+            "compareCode": "P85859",
+            "label": "その他の社会保険・社会福祉・介護事業"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industry": "複合サービス事業",
+    "classCode": 17,
+    "industryChild": [
+      {
+        "industry": "郵便局,協同組合（他に分類されないもの）",
+        "industryType": "all",
+        "compareCode": "Q00000",
+        "items": []
+      },
+      {
+        "industry": "郵便局",
+        "industryType": "1",
+        "compareCode": "Q86000",
+        "items": [
+          {
+            "code": "860",
+            "compareCode": "Q86860",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "861",
+            "compareCode": "Q86861",
+            "label": "郵便局"
+          },
+          {
+            "code": "862",
+            "compareCode": "Q86862",
+            "label": "郵便局受託業"
+          }
+        ]
+      },
+      {
+        "industry": "協同組合（他に分類されないもの）",
+        "industryType": "1",
+        "compareCode": "Q87000",
+        "items": [
+          {
+            "code": "870",
+            "compareCode": "Q87870",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "871",
+            "compareCode": "Q87871",
+            "label": "農林水産業協同組合（他に分類されないもの）"
+          },
+          {
+            "code": "872",
+            "compareCode": "Q87872",
+            "label": "事業協同組合（他に分類されないもの）"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industry": "サービス業（他に分類されないもの） ",
+    "classCode": 18,
+    "industryChild": [
+      {
+        "industry": "廃棄物処理業,自動車整備業,機械等修理業（別掲を除く）,職業紹介・労働者派遣業,その他の事業サービス業,政治・経済・文化団体,宗教,その他のサービス業,外国公務",
+        "industryType": "all",
+        "compareCode": "R00000",
+        "items": []
+      },
+      {
+        "industry": "廃棄物処理業",
+        "industryType": "1",
+        "compareCode": "R88000",
+        "items": [
+          {
+            "code": "880",
+            "compareCode": "R88880",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "881",
+            "compareCode": "R88881",
+            "label": "一般廃棄物処理業"
+          },
+          {
+            "code": "882",
+            "compareCode": "R88882",
+            "label": "産業廃棄物処理業"
+          },
+          {
+            "code": "889",
+            "compareCode": "R88889",
+            "label": "その他の廃棄物処理業"
+          }
+        ]
+      },
+      {
+        "industry": "自動車整備業",
+        "industryType": "1",
+        "compareCode": "R89000",
+        "items": [
+          {
+            "code": "890",
+            "compareCode": "R89890",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "891",
+            "compareCode": "R91911",
+            "label": "自動車整備業"
+          }
+        ]
+      },
+      {
+        "industry": "機械等修理業（別掲を除く）",
+        "industryType": "1",
+        "compareCode": "R90000",
+        "items": [
+          {
+            "code": "900",
+            "compareCode": "R90900",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "901",
+            "compareCode": "R90901",
+            "label": "機械修理業（電気機械器具を除く）"
+          },
+          {
+            "code": "902",
+            "compareCode": "R90902",
+            "label": "電気機械器具修理業"
+          },
+          {
+            "code": "903",
+            "compareCode": "R90903",
+            "label": "表具業"
+          },
+          {
+            "code": "909",
+            "compareCode": "R90909",
+            "label": "その他の修理業"
+          }
+        ]
+      },
+      {
+        "industry": "職業紹介・労働者派遣業",
+        "industryType": "1",
+        "compareCode": "R91000",
+        "items": [
+          {
+            "code": "910",
+            "compareCode": "R91910",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "911",
+            "compareCode": "R91911",
+            "label": "職業紹介業"
+          },
+          {
+            "code": "912",
+            "compareCode": "R91912",
+            "label": "労働者派遣業"
+          }
+        ]
+      },
+      {
+        "industry": "その他の事業サービス業",
+        "industryType": "1",
+        "compareCode": "R92000",
+        "items": [
+          {
+            "code": "920",
+            "compareCode": "R92920",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "921",
+            "compareCode": "R92921",
+            "label": "速記・ワープロ入力・複写業"
+          },
+          {
+            "code": "922",
+            "compareCode": "R92922",
+            "label": "建物サービス業"
+          },
+          {
+            "code": "923",
+            "compareCode": "R92923",
+            "label": "警備業"
+          },
+          {
+            "code": "929",
+            "compareCode": "R92929",
+            "label": "他に分類されない事業サービス業"
+          }
+        ]
+      },
+      {
+        "industry": "政治・経済・文化団体",
+        "industryType": "1",
+        "compareCode": "R93000",
+        "items": [
+          {
+            "code": "931",
+            "compareCode": "R93931",
+            "label": "経済団体"
+          },
+          {
+            "code": "932",
+            "compareCode": "R93932",
+            "label": "労働団体"
+          },
+          {
+            "code": "933",
+            "compareCode": "R93933",
+            "label": "学術・文化団体"
+          },
+          {
+            "code": "934",
+            "compareCode": "R93934",
+            "label": "政治団体"
+          },
+          {
+            "code": "939",
+            "compareCode": "R93939",
+            "label": "他に分類されない非営利的団体"
+          }
+        ]
+      },
+      {
+        "industry": "宗教",
+        "industryType": "1",
+        "compareCode": "R94000",
+        "items": [
+          {
+            "code": "941",
+            "compareCode": "R94941",
+            "label": "神道系宗教"
+          },
+          {
+            "code": "942",
+            "compareCode": "R94942",
+            "label": "仏教系宗教"
+          },
+          {
+            "code": "943",
+            "label": "キリスト教系宗教",
+            "compareCode": "R94943"
+          },
+          {
+            "code": "949",
+            "compareCode": "R94949",
+            "label": "その他の宗教"
+          }
+        ]
+      },
+      {
+        "industry": "その他のサービス業",
+        "industryType": "1",
+        "compareCode": "R95000",
+        "items": [
+          {
+            "code": "950",
+            "compareCode": "R95950",
+            "label": "管理，補助的経済活動を行う事業所"
+          },
+          {
+            "code": "951",
+            "compareCode": "R95951",
+            "label": "集会場"
+          },
+          {
+            "code": "952",
+            "compareCode": "R95952",
+            "label": "と畜場"
+          },
+          {
+            "code": "959",
+            "compareCode": "R95959",
+            "label": "他に分類されないサービス業"
+          }
+        ]
+      },
+      {
+        "industry": "外国公務",
+        "industryType": "1",
+        "compareCode": "R96000",
+        "items": [
+          {
+            "code": "961",
+            "compareCode": "R96961",
+            "label": "外国公館"
+          },
+          {
+            "code": "969",
+            "compareCode": "R96969",
+            "label": "その他の外国公務"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industry": "公務（他に分類されるものを除く）",
+    "classCode": 19,
+    "industryChild": [
+      {
+        "industry": "国家公務,地方公務",
+        "industryType": "all",
+        "compareCode": "S00000",
+        "items": []
+      },
+      {
+        "industry": "国家公務",
+        "industryType": "1",
+        "compareCode": "S97000",
+        "items": [
+          {
+            "code": "971",
+            "compareCode": "S97971",
+            "label": "立法機関"
+          },
+          {
+            "code": "972",
+            "compareCode": "S97972",
+            "label": "司法機関"
+          },
+          {
+            "code": "973",
+            "compareCode": "S97973",
+            "label": "行政機関"
+          }
+        ]
+      },
+      {
+        "industry": "地方公務",
+        "industryType": "1",
+        "compareCode": "S98000",
+        "items": [
+          {
+            "code": "981",
+            "compareCode": "S98981",
+            "label": "都道府県機関"
+          },
+          {
+            "code": "982",
+            "compareCode": "S98982",
+            "label": "市町村機関"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "industry": "分類不能の産業",
+    "classCode": 20,
+    "industryChild": [
+      {
+        "industry": "分類不能の産業",
+        "industryType": "all",
+        "compareCode": "T00000",
+        "items": []
+      },
+      {
+        "industry": "分類不能の産業",
+        "industryType": "1",
+        "compareCode": "T99000",
+        "items": [
+          {
+            "code": "999",
+            "compareCode": "T99999",
+            "label": "分類不能の産業"
+          }
+        ]
+      }
+    ]
+  }
+]

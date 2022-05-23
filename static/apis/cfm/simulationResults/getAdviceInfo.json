@@ -1,0 +1,21 @@
+{
+  "result": 0,
+  "alerts": [
+    {
+      "linkageId": "002",
+      "threshold": 5000,
+      "status": 1,
+      "displayRank": 1,
+      "messageCode": "売上債権",
+      "message": "message1"
+    },
+    {
+      "linkageId": "002",
+      "threshold": 5000,
+      "status": 1,
+      "displayRank": 2,
+      "messageCode": "地代・家賃",
+      "message": "message2"
+    }
+  ]
+}

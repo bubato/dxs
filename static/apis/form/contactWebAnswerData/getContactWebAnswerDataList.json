@@ -1,0 +1,143 @@
+{
+  "result": 0,
+  "searchResult": 234,
+  "statusList": [
+    {
+      "statusName": "未対応"
+    },
+    {
+      "statusName": "対応中"
+    },
+    {
+      "statusName": "対応済み"
+    }
+  ],
+  "answerHeaderList": [
+    {
+      "answerHeaderKey": "name",
+      "answerHeaderValue": "名前"
+    },
+    {
+      "answerHeaderKey": "mailAddress",
+      "answerHeaderValue": "メールアドレス"
+    },
+    {
+      "answerHeaderKey": "gender",
+      "answerHeaderValue": "性別"
+    }
+  ],
+  "answerDataList": [
+    {
+      "answerId": 1,
+      "registeredDate": "2020/10/01 14:07",
+      "memberId": "0000001",
+      "answerData": [
+        {
+          "answerDataKey": "name",
+          "answerDataDispValue": "渡来太郎",
+          "answerDataFileFlag": false
+        },
+        {
+          "answerDataKey": "mailAddress",
+          "answerDataDispValue": "test1@exmaple.com",
+          "answerDataFileFlag": true
+        },
+        {
+          "answerDataKey": "gender",
+          "answerDataDispValue": "男性",
+          "answerDataFileFlag": false
+        }
+      ],
+      "status": [
+        {
+          "statusName": "未対応",
+          "statusFlag": false
+        },
+        {
+          "statusName": "対応中",
+          "statusFlag": false
+        },
+        {
+          "statusName": "対応済み",
+          "statusFlag": false
+        }
+      ],
+      "recordVersion": 111
+    },
+    {
+      "answerId": 2,
+      "registeredDate": "2020/10/02 14:07",
+      "memberId": "0000002",
+      "answerData": [
+        {
+          "answerDataKey": "name",
+          "answerDataDispValue": "渡来次郎",
+          "answerDataFileFlag": false
+        },
+        {
+          "answerDataKey": "mailAddress",
+          "answerDataDispValue": "test2@exmaple.com",
+          "answerDataFileFlag": true
+        },
+        {
+          "answerDataKey": "gender",
+          "answerDataDispValue": "女性",
+          "answerDataFileFlag": true
+        }
+      ],
+      "status": [
+        {
+          "statusName": "未対応",
+          "statusFlag": true
+        },
+        {
+          "statusName": "対応中",
+          "statusFlag": false
+        },
+        {
+          "statusName": "対応済み",
+          "statusFlag": false
+        }
+      ],
+      "recordVersion": 222
+    },
+    {
+      "answerId": 3,
+      "registeredDate": "2020/10/03 14:07",
+      "memberId": "0000003",
+      "answerData": [
+        {
+          "answerDataKey": "name",
+          "answerDataDispValue": "渡来次郎",
+          "answerDataFileFlag": false
+        },
+        {
+          "answerDataKey": "mailAddress",
+          "answerDataDispValue": "test2@exmaple.com",
+          "answerDataFileFlag": true
+        },
+        {
+          "answerDataKey": "gender",
+          "answerDataDispValue": "女性",
+          "answerDataFileFlag": false
+        }
+      ],
+      "status": [
+        {
+          "statusName": "未対応",
+          "statusFlag": true
+        },
+        {
+          "statusName": "対応中",
+          "statusFlag": true
+        },
+        {
+          "statusName": "対応済み",
+          "statusFlag": false
+        }
+      ],
+      "recordVersion": 333
+    }
+  ],
+  "recordVersion": 12345
+}

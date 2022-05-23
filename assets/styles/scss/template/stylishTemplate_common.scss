@@ -1,0 +1,212 @@
+$template-color: #ffffff;
+$bgcolor: 0a03ac;
+$subColor: #1e1e1e;
+
+$classList: black, gray, gold, lightBlue, darkBlue, lightGreen, orange, red, pink, purple, darkGray, blueGreen, darkGreen, green, yellowGreen, darkPink, violet, paleBlue, palePurple, brown;
+$siteColor: #1e1e1e, #a0a0a0, #bca820, #437cfd, #0a03ac, #47ce6a, #ff831a, #f03333, #ffa6c9, #6120f6, #404040, #06cbdb, #005b3a, #009a22, #b2db11, #f45384, #830de8, #9Bdcf7, #cd9ef6, #561631;
+
+$mainAreaMargin: 56px;
+$mainAreaInnerPadding: calc(((100% + #{$mainAreaMargin} * 2) / 12) - #{$mainAreaMargin} - 12px);
+
+@each $class in $classList {
+  $index_key: index($classList, $class); //インデックスを取得
+  &.siteColor-#{$class} {
+    &.template-stylish .preview {
+      background-color: #f0f0f0;
+      $choiceColor: unquote(str-slice(quote(nth($siteColor, $index_key)), 2)); //#の削除
+      // IE11対策のため、SVGコードをURIエンコード
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1366' height='3037' viewBox='0 0 1366 3036.832'%3E%3Cpath fill='%23#{$choiceColor}' d='M0,272.679l223.687,31.826s298.67,41.975,298.67,41.975l185.293,26.041L1366,466.658v1009.828L0,1284.506V274.679z' %2F%3E%3Cpath fill='%23#{$choiceColor}' d='M1366,1795.018l-223.687,26.041L0,1986.997l0,1009.828l1366-191.979V1795.018z' %2F%3E%3C%2Fsvg%3E");
+      color: $choiceColor;
+      .view-conversion.background .contents-area {
+        background: rgba(nth($siteColor, $index_key), 0.64);
+      }
+    }
+    // タイトル装飾
+    .view-listDisplay,
+    .view-oneLineNews,
+    .view-message,
+    .view-textWithTopImages,
+    .view-companyOverview,
+    .view-textWithLeftAndRightImages,
+    .view-map,
+    .view-step,
+    .view-customer-voice {
+      .heading::before {
+        background-color: nth($siteColor, $index_key);
+      }
+    }
+    /* セットパーツ:ステップ */
+    .view-step {
+      .step-contents {
+        .step-images {
+          background: nth($siteColor, $index_key);
+        }
+      }
+    }
+  }
+}
+
+/* -----------------------スタイリッシュデザイン----------------------- */
+ul.view-components.preview li.component.set-component {
+  background: none !important;
+}
+.view-components {
+  .btn {
+    border-radius: 0;
+    font-weight: bold;
+    background-color: #1e1e1e;
+    &:hover:not(.btn-disabled) {
+      background-color: rgba(#1e1e1e, 0.85);
+    }
+  }
+}
+.preview.view-components {
+  font-family: "Noto sans JP Medium";
+  background-repeat: repeat;
+  background-size: 100% auto;
+}
+// タイトル装飾
+.view-listDisplay,
+.view-oneLineNews,
+.view-message,
+.view-textWithTopImages,
+.view-companyOverview,
+.view-textWithLeftAndRightImages,
+.view-map,
+.view-step,
+.view-customer-voice {
+  .heading {
+    font-size: 34px;
+    line-height: 1.2;
+    position: relative;
+    padding-top: 38px;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 14px;
+      left: 0;
+      height: 6px;
+      width: 56px;
+      transform: rotate(-30deg);
+    }
+  }
+}
+/* -----------------------セットパーツ----------------------- */
+/* セットパーツ:メインエリア */
+.preview .mainAreaComponent.prev-oneLineNews-component {
+  margin-bottom: 0;
+}
+.view-mainArea {
+  .parts-contents {
+    .heading-text {
+      .heading {
+        font-size: 45px;
+      }
+    }
+  }
+  &.background-image {
+    .buttons .btn {
+      background-color: #ffffff;
+      color: #1e1e1e;
+      &:hover:not(.btn-disabled) {
+        background-color: rgba(#ffffff, 0.85);
+      }
+    }
+  }
+}
+.view-components:not(.preview){
+  .view-mainArea {
+    &.background-image {
+      .buttons .btn {
+        &:hover:not(.btn-disabled) {
+          background-color: rgba(#ffffff, 1);
+        }
+      }
+    }
+  }
+}
+.preview .view-mainArea {
+  margin-right: $mainAreaMargin;
+  margin-left: $mainAreaMargin;
+  .heading {
+    text-align: left;
+  }
+}
+/* セットパーツ:コンバージョン */
+.preview
+  .conversionComponent:not(.prev-footer-component):not(.prev-breadcrumb-component):not(.prev-oneLineNews-component) {
+  margin-bottom: 96px;
+}
+.view-conversion {
+  &.background-image {
+    .buttons .btn {
+      background-color: #ffffff;
+      color: #1e1e1e;
+      &:hover:not(.btn-disabled) {
+        background-color: rgba(#ffffff, 0.85);
+      }
+    }
+  }
+}
+.view-components:not(.preview){
+  .view-conversion {
+    &.background-image {
+      .buttons .btn {
+        &:hover:not(.btn-disabled) {
+          background-color: rgba(#ffffff, 1);
+        }
+      }
+    }
+  }
+}
+
+/* セットパーツ:ワンラインニュース */
+.view-oneLineNews .news .label {
+  color: #ffffff;
+  background-color: #1e1e1e;
+}
+.next-header-component.oneLineNewsComponent .view-oneLineNews,
+.next-mainArea-component.oneLineNewsComponent .view-oneLineNews,
+.next-conversion-component.oneLineNewsComponent .view-oneLineNews,
+.prev-footer-component.oneLineNewsComponent .view-oneLineNews{
+  background-color: #fff !important;
+}
+/* セットパーツ:パンくず */
+.next-header-component.breadcrumbComponent .view-breadcrumb,
+.next-mainArea-component.breadcrumbComponent .view-breadcrumb,
+.prev-mainArea-component.breadcrumbComponent .view-breadcrumb,
+.next-conversion-component.breadcrumbComponent .view-breadcrumb,
+.prev-conversion-component.breadcrumbComponent .view-breadcrumb,
+.prev-footer-component.breadcrumbComponent .view-breadcrumb{
+  background-color: #fff !important;
+}
+
+
+/* セットパーツ:メッセージ */
+.view-message {
+  .heading {
+    font-size: 34px;
+    font-weight: bold;
+    &:before {
+      display: none;
+    }
+  }
+}
+.preview .view-message  {
+  text-align: center;
+  &:before {
+    display: none;
+  }
+}
+
+/*========================================================
+　追加修正
+========================================================*/
+
+/* セットパーツ:ヘッダー */
+.preview
+  .headerComponent:not(.prev-conversion-component):not(.prev-mainArea-component):not(.prev-breadcrumb-component):not(.prev-oneLineNews-component)
+  .view-header {
+  margin-bottom: $mainAreaMargin;
+}
+

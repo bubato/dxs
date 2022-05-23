@@ -1,0 +1,14 @@
+@import '../editor/editor.scss';
+@import './commonTemplate_common.scss';
+
+.is-pc {
+  @media screen and (min-width: 769px) {
+    @import './commonTemplate_pc.scss';
+  }
+}
+
+.is-sp {
+  @media screen and (max-width: 768px) {
+    @import './commonTemplate_sp.scss';
+  }
+}

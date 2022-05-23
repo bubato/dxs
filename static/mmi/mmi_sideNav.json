@@ -1,0 +1,36 @@
+{
+  "result": 0,
+  "sideNaviItems": [
+    {
+      "name": "MMI",
+      "link": [
+        {
+          "name": "顧問先一覧",
+          "path": "/mmi/advisoryCompany/"
+        },
+        {
+          "name": "自社分析",
+          "path": "/mmi/companyReport/"
+        },
+        {
+          "name": "統計分析",
+          "link": [
+            {
+              "name": "期間比較",
+              "path": "/mmi/statisticsReport/term/"
+            },
+            {
+              "name": "業種比較",
+              "path": "/mmi/statisticsReport/industry/"
+            }
+          ]
+        },
+        {
+          "name": "会計事務所一覧",
+          "path": "/mmi/accountingFirm/"
+        }
+      ]
+    }
+  ]
+}
+

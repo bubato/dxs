@@ -1,0 +1,87 @@
+{
+  "result": 0,
+  "searchResult": 242,
+  "resultDataList": [
+    {
+      "companyCode": "0001",
+      "tenantId": "0000001",
+      "companyName": "A会計事務所",
+      "managerName": "担当者A",
+      "linkageId": "001",
+      "predictiveStatus": "0",
+      "latestDate": "2020/10/01"
+    },
+    {
+      "companyCode": "0002",
+      "tenantId": "0000002",
+      "companyName": "B会計事務所",
+      "managerName": "担当者B",
+      "linkageId": "002",
+      "predictiveStatus": "1",
+      "latestDate": "2020/10/02"
+    },
+    {
+      "companyCode": "0003",
+      "tenantId": "0000003",
+      "companyName": "C会計事務所",
+      "managerName": "担当者C",
+      "linkageId": "003",
+      "predictiveStatus": "0",
+      "latestDate": "2020/10/03"
+    },
+    {
+      "companyCode": "0004",
+      "tenantId": "0000004",
+      "companyName": "D会計事務所",
+      "managerName": "担当者D",
+      "linkageId": "004",
+      "predictiveStatus": "1",
+      "latestDate": "2020/10/04"
+    },
+    {
+      "companyCode": "0005",
+      "tenantId": "0000005",
+      "companyName": "E会計事務所",
+      "managerName": "担当者E",
+      "linkageId": "005",
+      "predictiveStatus": "9",
+      "latestDate": "2020/10/05"
+    },
+    {
+      "companyCode": "0006",
+      "tenantId": "0000006",
+      "companyName": "F会計事務所",
+      "managerName": "担当者F",
+      "linkageId": "006",
+      "predictiveStatus": "0",
+      "latestDate": "2020/10/06"
+    },
+    {
+      "companyCode": "0007",
+      "tenantId": "0000007",
+      "companyName": "G会計事務所",
+      "managerName": "担当者G",
+      "linkageId": "007",
+      "predictiveStatus": "1",
+      "latestDate": "2020/10/07"
+    },
+    {
+      "companyCode": "0008",
+      "tenantId": "0000008",
+      "companyName": "H会計事務所",
+      "managerName": "担当者H",
+      "linkageId": "008",
+      "predictiveStatus": "1",
+      "latestDate": "2020/10/08"
+    },
+    {
+      "companyCode": "0009",
+      "tenantId": "0000009",
+      "companyName": "I会計事務所",
+      "managerName": "担当者I",
+      "linkageId": "009",
+      "predictiveStatus": "9",
+      "latestDate": "2020/10/09"
+    }
+  ]
+}

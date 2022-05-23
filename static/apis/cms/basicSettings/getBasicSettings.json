@@ -1,0 +1,19 @@
+{
+  "result": 0,
+  "tenantInfo": {
+    "recordVersion": 123
+  },
+  "basicSettings": {
+    "siteName": "tribeck",
+    "siteDescription": "デジタルマーケティング支援、マーケティングプラットフォームのトライベック株式会社です。サービスの内容や実績、コラム、イベント情報、会社情報、採用情報などを紹介しています。",
+    "siteUrl": "tribeck",
+    "siteDomain": "1",
+    "siteLogo": "https://www.tsuzukiblog.org/_wu/2020/03/shutterstock_1005938026.jpg",
+    "copyRight": "Copyright © Tribeck Inc. All Rights Reserved.",
+    "industry": "1",
+    "templateImageId": "403",
+    "colorId": "4",
+    "baseSettingStatus": 4,
+    "recordVersion": 1234
+  }
+}

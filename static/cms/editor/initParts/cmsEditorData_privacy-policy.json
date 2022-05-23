@@ -1,0 +1,130 @@
+[
+  {
+    "componentKind": "setComponent",
+    "id": "header",
+    "name": "ヘッダー",
+    "logo": ""
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "breadcrumb",
+    "name": "パンくず"
+  },
+  {
+    "componentKind": "singleComponent",
+    "id": "heading1",
+    "name": "見出し1",
+    "context": "プライバシーポリシー",
+    "align": "1",
+    "link": "",
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    }
+  },
+  {
+    "componentKind": "singleComponent",
+    "id": "heading2",
+    "name": "見出し2",
+    "context": "<条文の見出し>を入力してください",
+    "align": "1",
+    "link": "",
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    }
+  },
+  {
+    "componentKind": "singleComponent",
+    "id": "list",
+    "name": "リスト",
+    "context": "テキスト",
+    "symbolType": "2",
+    "list": [
+      {
+        "text": "<条文の詳細>を入力してください",
+        "link": "",
+        "linkType": "0"
+      }
+    ],
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    }
+  },
+  {
+    "componentKind": "singleComponent",
+    "id": "heading2",
+    "name": "見出し2",
+    "context": "<条文の見出し>を入力してください",
+    "align": "1",
+    "link": "",
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    }
+  },
+  {
+    "componentKind": "singleComponent",
+    "id": "text",
+    "name": "テキスト",
+    "context": "<条文の詳細>を入力してください",
+    "align": "1",
+    "link": "",
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    }
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "conversion",
+    "name": "コンバージョン",
+    "title": {
+      "align": "1",
+      "context": "お問い合わせ"
+    },
+    "text": {
+      "align": "1",
+      "context": "<お問い合わせメッセージ>を入力してください"
+    },
+    "textColor": "4",
+    "backgroundImage": "",
+    "buttons": [
+      {
+        "text": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "breadcrumb",
+    "name": "パンくず"
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "footer",
+    "name": "フッター"
+  }
+]

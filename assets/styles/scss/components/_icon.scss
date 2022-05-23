@@ -1,0 +1,13 @@
+[class*="icon-"]{
+    fill: #3a435c;
+}
+.icon-send,
+.icon-comment{
+    fill: #b0b3be;
+}
+$cursorPointer: cancel,close,deleteForever,delete,replay,star,starOutline,menu,keyBoardTab,unreadNotifications,apps,addCircle,help,visibilityOff,visibility;
+@each $iconName in $cursorPointer {
+    .icon-#{$iconName}{
+        cursor:pointer;
+    }
+}

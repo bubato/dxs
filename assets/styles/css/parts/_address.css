@@ -1,0 +1,64 @@
+/* 住所 */
+.xhm-address {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.xhm-address div {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.xhm-address input {
+  width: 100%;
+}
+
+.xhm-address-select-box {
+  position: relative;
+}
+
+.xhm-address-select-box::after {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-left: 2px solid #1e1e1e;
+  border-bottom: 2px solid #1e1e1e;
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  -webkit-transform: translateY(-50%) rotate(-45deg);
+  -ms-transform: translateY(-50%) rotate(-45deg);
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+.xhm-address-select-box select {
+  display: block;
+  width: 100%;
+}
+
+.xhm-address-select-box select::-ms-expand {
+  display: none;
+}
+
+/* layout */
+.xhm-address > .xhm-grid-cell {
+  -webkit-box-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.xhm-address .xhm-grid--1of6 > .xhm-grid-cell {
+  -webkit-box-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.xhm-address .xhm-grid--1of6 > .xhm-grid-cell + .xhm-grid-cell {
+  margin-bottom: 12px;
+}

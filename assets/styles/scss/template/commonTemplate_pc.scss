@@ -1,0 +1,464 @@
+$componentpacer: 96px;
+
+$sp_componentSpacer: 122px;
+$sp_topBottomSpacer: 72px;
+
+// $notSingleComporent:not(.view-heading1):not(.view-heading2):not(.view-heading3):not(.view-heading4):not(.view-text):not(.view-annotation):not(.view-list):not(.view-image):not(.view-movie):not(.view-table):not(.view-separator):not(.view-button):not(.view-space):not(.view-accordion);
+
+// PC
+  .spMenuList,
+  .spMenu {
+    display: none;
+  }
+  .layout-component .layout-column-area .layout-column {
+    margin-right: 24px !important;
+    &:last-child {
+      margin-right: 0 !important;
+    }
+  }
+  .preview {
+    // メインエリア、コンバージョン,シングルコンポーネント以外
+    .view-components
+      [class^='view-']:not(.view-mainArea):not(.view-conversion):not(.view-breadcrumb):not(.view-oneLineNews):not(.view-header):not(.view-footer):not(.view-components):not(.view-heading1):not(.view-heading2):not(.view-heading3):not(.view-heading4):not(.view-text):not(.view-annotation):not(.view-list):not(.view-image):not(.view-movie):not(.view-table):not(.view-separator):not(.view-button):not(.view-space):not(.view-accordion),
+    .form-component .form_component_content{
+      width: calc(100% / 12 * 10);
+      padding-top: $componentpacer;
+      padding-bottom: 144-$componentpacer;
+    }
+    .layout-column-area{
+      width: calc(100% / 12 * 10);
+    }
+    //シングルコンポーネント
+    .single-component
+      + .component
+      .view-components
+      [class^='view-']:not(.view-mainArea):not(.view-conversion):not(.view-breadcrumb):not(.view-oneLineNews):not(.view-header):not(.view-footer):not(.view-components):not(.view-heading1):not(.view-heading2):not(.view-heading3):not(.view-heading4):not(.view-text):not(.view-annotation):not(.view-list):not(.view-image):not(.view-movie):not(.view-table):not(.view-separator):not(.view-button):not(.view-space):not(.view-accordion),
+    {
+      padding-top: $componentpacer - 48;
+    }
+    .next-header-component.breadcrumbComponent
+      + .single-component
+      *[class^='view-'],
+    .next-header-component.oneLineNewsComponent
+      + .single-component
+      *[class^='view-'],
+    .next-header-component.single-component [class^='view-'] {
+      padding-top: $componentpacer !important;
+    }
+    .oneLineNewsComponent.next-header-component+.breadcrumbComponent .view-breadcrumb{
+      width: 100%;
+    }
+
+    .view-components
+      > .single-component
+      + .set-component
+      [class^='view-']:not(.view-mainArea):not(.view-conversion):not(.view-breadcrumb):not(.view-oneLineNews):not(.view-header):not(.view-footer):not(.view-components) {
+      padding-top: $componentpacer - 48;
+    }
+    .view-area>.layout-container
+      > .view-components
+      > .single-component
+      .single_component_content {
+      width: calc(100% / 12 * 10);
+    }
+    .view-components .single_component_content [class^='view-']:not(.view-image) {
+      width: 100% !important;
+      // padding: 0 !important;
+    }
+    ul.view-components li.component.form-component{
+      background-color: none;
+    }
+    .form-component .form_component_content{
+      background-color: #fff;
+    }
+  }
+  /* コンバージョン直上に来る場合は、上にマージンを設ける。
+  ただし、コンバージョン＋ワンライン+パンくずなど例外ケースが続く場合もある */
+  .preview
+    .prev-conversion-component:not(.next-header-component)
+    .view-breadcrumb,
+  .preview
+    .prev-conversion-component:not(.next-header-component)
+    .view-oneLineNews {
+    margin-top: $componentpacer !important;
+  }
+  // コンバージョン＋ワンライン+パンくずなど上マージンが不要な特例ケース　＊＊ワンラインニュースは連続で利用するケースもあるかと思うので、組み合わせケースには留意が必要そうです。
+  .preview .next-breadcrumb-component.prev-conversion-component:not(.next-header-component) .view-oneLineNews,
+  .preview .next-oneLineNews-component.prev-conversion-component:not(.next-header-component) .view-breadcrumb{
+    margin-top: 0 !important;
+  }
+
+  /* セットパーツ:ヘッダー */
+  .view-header .link-list {
+    padding-left: 25px;
+  }
+  /* セットパーツ:メインエリア */
+  .view-mainArea {
+    &.background {
+      padding-bottom: 0;
+      height: 0;
+      &.background-image {
+        width: 100%;
+        padding-top: 50% !important;
+      }
+      .parts-contents {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+      }
+    }
+  }
+  /* セットパーツ:メッセージ */
+  .view-message {
+    .text {
+      margin-top: 20px;
+    }
+    .preview & {
+      padding-left: calc(100% / 12) !important;
+      padding-right: calc(100% / 12) !important;
+    }
+  }
+  /* セットパーツ:上画像付きテキスト */
+  .view-textWithTopImages {
+    .contents {
+      padding-top: 48px;
+      .images {
+        margin-right: 24px;
+        position: relative;
+        &.layout-2 {
+          width: calc(100% / 2 - (24px / 2));
+          &:nth-child(2n) {
+            margin-right: 0;
+          }
+          &:nth-child(n + 3) {
+            margin-top: 24px;
+          }
+        }
+        &.layout-3 {
+          width: calc(100% / 3 - (24px * 2 / 3));
+          &:nth-child(3n) {
+            margin-right: 0;
+          }
+          &:nth-child(n + 4) {
+            margin-top: 24px;
+          }
+        }
+        &.layout-4 {
+          width: calc(100% / 4 - (24px * 3 / 4));
+          &:nth-child(4n) {
+            margin-right: 0;
+          }
+          &:nth-child(n + 5) {
+            margin-top: 24px;
+          }
+        }
+        .images-block {
+          border: 1px solid #e5e5e5;
+        }
+      }
+    }
+  }
+  /* セットパーツ:左右画像付きテキスト */
+  .view-textWithLeftAndRightImages {
+    .contents {
+      .images {
+        border: 1px solid #e5e5e5;
+        &.layout-1 {
+          &:not(:first-child) {
+            margin-top: 24px;
+          }
+        }
+        &.layout-2 {
+          &:nth-child(odd) {
+            margin-right: 24px;
+          }
+          &:nth-child(n + 3) {
+            margin-top: 24px;
+          }
+        }
+
+        .images-img {
+          width: 50%;
+          img {
+            width: 100%;
+          }
+        }
+        .image-title {
+          width: 50%;
+          padding: 24px 20px;
+        }
+      }
+    }
+  }
+  /* セットパーツ:会社概要 */
+  .view-companyOverview {
+    .contents {
+      table {
+        tr {
+          th {
+            width: 200px;
+          }
+        }
+      }
+    }
+  }
+  /* セットパーツ:コンバージョン */
+  .view-conversion {
+    .preview & {
+      &.background {
+        height: 0;
+        .contents-area {
+          height: 186px;
+          position: absolute;
+          top: calc(50% - 186px / 2);
+          left: 0;
+          display: flex;
+          align-items: center;
+          .parts-contents {
+            width: calc(100% / 12 * 10);
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+    .parts-contents {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  /* セットパーツ:パンくず */
+  .view-breadcrumb {
+    .preview & {
+      width: calc(100% / 12 * 10);
+      padding-left: 56px;
+      padding-right: 56px;
+    }
+  }
+  .view-breadcrumb {
+    // メインエリアの上のパンクズのみ横幅100%
+    .preview .view-area .prev-mainArea-component & {
+      padding-left: calc(100% / 12);
+      padding-right: calc(100% / 12);
+      padding-top: 16px !important;
+      padding-bottom: 16px !important;
+    }
+    .preview .view-area .prev-conversion-component &,
+    .preview .view-area .next-conversion-component &,
+    .preview .view-area .next-mainArea-component & {
+      padding-left: calc(((100% + 112px) / 12) - 56px);
+      padding-right: calc(((100% + 112px) / 12) - 56px);
+      padding-top: 16px !important;
+      padding-bottom: 16px !important;
+    }
+    .view-area .component.prev-conversion-component &,
+    .view-area .component.next-conversion-component &,
+    .view-area .component.prev-mainArea-component & {
+      margin-bottom: 0 !important;
+    }
+  }
+  /* セットパーツ:ワンラインニュース */
+  .view-oneLineNews {
+    .preview & {
+      padding: 6px 56px;
+    }
+  }
+
+/* セットパーツ:ステップ */
+.view-step {
+  .step-contents {
+    margin-top: 32px;
+    position: relative;
+    &.vertical {
+      li {
+        display: flex;
+        position: relative;
+        &:not(:first-child) {
+          margin-top: 40px;
+        }
+        &:first-child {
+          &::after {
+            position: absolute;
+            top: 40px;
+            left: 22px;
+            background: #e5e5e5;
+            width: 4px;
+            height: 100%;
+            content: '';
+          }
+        }
+        &:not(:last-child) {
+          &::after {
+            position: absolute;
+            top: 40px;
+            left: 22px;
+            background: #e5e5e5;
+            width: 4px;
+            height: 100%;
+            content: '';
+          }
+        }
+        &:last-child {
+          padding-right: 0;
+        }
+
+        .step-images {
+          margin: 0 auto;
+        }
+        .step-context {
+          flex: 1 0 0%;
+          margin-left: 24px;
+        }
+      }
+    }
+    &.horizon {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: -32px;
+      margin-right: -24px;
+      li {
+        position: relative;
+        margin-bottom: 32px;
+        margin-right: 24px;
+        width: calc(25% - 24px);
+        .step-context {
+          margin-top: 24px;
+        }
+        &::after {
+          position: absolute;
+          top: 22px;
+          left: -12px;
+          background: #e5e5e5;
+          height: 4px;
+          width: calc(100% + 24px);
+          content: '';
+        }
+        &:first-child {
+          &::after {
+            position: absolute;
+            top: 22px;
+            left: 50%;
+            background: #e5e5e5;
+            height: 4px;
+            width: calc(50% + 12px);
+            content: '';
+          }
+        }
+        &:last-child {
+          &::after {
+            position: absolute;
+            top: 22px;
+            right: 50%;
+            background: #e5e5e5;
+            height: 4px;
+            width: calc(50% + 12px);
+            content: '';
+          }
+        }
+        .step-images {
+          margin: auto;
+        }
+      }
+    }
+  }
+}
+
+/* セットパーツ:お客さまの声 */
+.view-customer-voice {
+  .contents {
+    margin-top: 32px;
+    position: relative;
+    &.vertical {
+      &.vertical-layout-1 {
+        li {
+          width: 100%;
+          &:not(:first-child) {
+            margin-top: 24px;
+          }
+        }
+      }
+      &.vertical-layout-2 {
+        li {
+          width: calc(50% - 12px);
+          &:nth-child(2n-1) {
+            margin-right: 24px;
+          }
+          &:nth-child(n+3) {
+            margin-top: 24px;
+          }
+        }
+      }
+    }
+    &.horizon {
+      &.horizon-layout-2 {
+        li {
+          width: calc(50% - 12px);
+          &:nth-child(-n+2) {
+            margin-top: 0;
+          }
+          &:nth-child(2n) {
+            margin-right: 0;
+          }
+        }
+      }
+      &.horizon-layout-3 {
+        li {
+          width: calc(33.3% - 16px);
+          &:nth-child(-n+3) {
+            margin-top: 0;
+          }
+          &:nth-child(3n) {
+            margin-right: 0;
+          }
+        }
+      }
+      &.horizon-layout-4 {
+        li {
+          width: calc(25% - 18px);
+          &:nth-child(-n+4) {
+            margin-top: 0;
+          }
+          &:nth-child(4n) {
+            margin-right: 0;
+          }
+        }
+      }
+      li {
+        margin-top: 24px;
+        margin-right: 24px;
+      }
+    }
+  }
+}
+  /* シングルパーツ:表組み */
+  .view-table {
+    th,
+    td {
+      min-width: 100px;
+    }
+    .preview & {
+      tr,
+      th,
+      td {
+        height: 72px;
+      }
+      th,
+      td {
+        padding-left: 30px;
+      }
+    }
+  }
+  /* シングルパーツ:アコーディオン */
+  .view-accordion {
+    li {
+      // .preview & {
+        label {
+          padding-left: 37px;
+        }
+      // }
+      .icon {
+        margin-left: 0px;
+      }
+    }
+  }

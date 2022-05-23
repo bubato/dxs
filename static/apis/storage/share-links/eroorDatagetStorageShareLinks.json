@@ -1,0 +1,11 @@
+{
+    "result": 1,
+    "errorInfo": {
+        "errorList": [
+            {
+                "errorCode": "tn2029",
+                "errorMessage": "共有リンクの有効期限が切れました。"
+            }
+        ]
+    }
+}

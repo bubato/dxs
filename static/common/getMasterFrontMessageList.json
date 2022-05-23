@@ -1,0 +1,236 @@
+{
+  "masterMessageList": [
+    {
+      "messageCode": "ErrorMsg_Required01",
+      "messageContent": "入力が必須の項目です。"
+    },
+    {
+      "messageCode": "ErrorMsg_Required02",
+      "messageContent": "選択が必須の項目です。"
+    },
+    {
+      "messageCode": "ErrorMsg_Required03",
+      "messageContent": "利用規約をお読みいただき同意にチェックください。"
+    },
+    {
+      "messageCode": "ErrorMsg_Count01",
+      "messageContent": "{X}文字以内で入力してください。"
+    },
+    {
+      "messageCode": "ErrorMsg_Count02",
+      "messageContent": "{X}文字以上で入力してください。"
+    },
+    {
+      "messageCode": "ErrorMsg_Upload01",
+      "messageContent": "ファイルサイズは{X}{Y}以下にしてください。"
+    },
+    {
+      "messageCode": "ErrorMsg_Upload02",
+      "messageContent": "ファイル形式は{X}のみ対応しています。"
+    },
+    {
+      "messageCode": "ErrorMsg_Upload03",
+      "messageContent": "非対応のファイル形式です。"
+    },
+    {
+      "messageCode": "ErrorMsg_Format01",
+      "messageContent": "利用できない文字が含まれています。半角英語、半角数字または半角記号で入力してください。"
+    },
+    {
+      "messageCode": "ErrorMsg_Format02",
+      "messageContent": "利用できない文字が含まれています。半角英語または半角数字で入力してください。"
+    },
+    {
+      "messageCode": "ErrorMsg_Format03",
+      "messageContent": "利用できない文字が含まれています。半角数字で入力してください。"
+    },
+    {
+      "messageCode": "ErrorMsg_Format04",
+      "messageContent": "利用できない文字が含まれています。全角カナで入力してください。"
+    },
+    {
+      "messageCode": "ErrorMsg_Format05",
+      "messageContent": "利用できない記号が含まれています。半角記号の「/:*?“<>|」は利用できません。"
+    },
+    {
+      "messageCode": "ErrorMsg_Format06",
+      "messageContent": "文字を2つ以上の「#」で挟むことはできません（メールが正常に配信できなくなります）。"
+    },
+    {
+      "messageCode": "ErrorMsg_Mail01",
+      "messageContent": "利用できない文字が含まれています。半角英語、半角数字または半角記号の「-_.@」が利用可能です。"
+    },
+    {
+      "messageCode": "ErrorMsg_Mail02",
+      "messageContent": "メールアドレスの形式で入力してください（@が無いか2つ以上ある、@より後に.がないなど形式に誤りがあります）。"
+    },
+    {
+      "messageCode": "ErrorMsg_Time01",
+      "messageContent": "終了日を開始日より前に設定はできません。"
+    },
+    {
+      "messageCode": "ErrorMsg_Time02",
+      "messageContent": "適切な年月日を入力してください。2021年1月1日は2021/01/01と入力してください。"
+    },
+    {
+      "messageCode": "ErrorMsg_Time03",
+      "messageContent": "適切な日時（時）を選択してください。"
+    },
+    {
+      "messageCode": "ErrorMsg_Time04",
+      "messageContent": "適切な日時（分）を選択してください。"
+    },
+    {
+      "messageCode": "ErrorMsg_Url01",
+      "messageContent": "利用できない記号が含まれています。半角英語、半角数字または半角記号の「-_」が利用可能です。"
+    },
+    {
+      "messageCode": "ErrorMsg_Url02",
+      "messageContent": "利用できない記号が含まれています。半角英語、半角数字または半角記号の「-_.;/?:@&=+$,%#」が利用可能です。"
+    },
+    {
+      "messageCode": "ErrorMsg_Url03",
+      "messageContent": "URLの形式で入力してください（http://またはhttps://から始めてください）"
+    },
+    {
+      "messageCode": "ErrorMsg_Url04",
+      "messageContent": "利用できない記号が含まれています。半角英語、半角数字または半角記号の「-」が利用可能です。"
+    },
+    {
+      "messageCode": "ErrorMsg_Url05",
+      "messageContent": "半角記号の「-」は先頭と末尾には利用できません。"
+    },
+    {
+      "messageCode": "ErrorMsg_Url06",
+      "messageContent": "3文字目と4文字目に連続して半角記号の「-」は利用できません。"
+    },
+    {
+      "messageCode": "ErrorMsg_Url07",
+      "messageContent": "1文字目に「#」を入力してください。"
+    },
+    {
+      "messageCode": "ErrorMsg_Mail03",
+      "messageContent": "複数登録できるメールアドレスは5件までです。"
+    },
+    {
+      "messageCode": "ErrorMsg_Password01",
+      "messageContent": "英語の大文字小文字、数字を1つ以上組み合わせたパスワードを入力してください。"
+    },
+    {
+      "messageCode": "ErrorMsg_Password02",
+      "messageContent": "パスワードが一致しません。お手数ですが再度パスワードを入力してください。"
+    },
+    {
+      "messageCode": "ErrorMsg_Password03",
+      "messageContent": "現在のパスワードと異なるパスワードを入力してください。"
+    },
+    {
+      "messageCode": "ErrorMsg_Ip01",
+      "messageContent": "利用できない文字が含まれています。半角数字または半角記号の「.*」が利用可能です。"
+    },
+    {
+      "messageCode": "ErrorMsg_Ip02",
+      "messageContent": "正しいIPアドレスの形式で入力してください。"
+    },
+    {
+      "messageCode": "ErrorMsg_CFM01",
+      "messageContent": "半角数字で入力。 "
+    },
+    {
+      "messageCode": "ErrorMsg_CFM02",
+      "messageContent": "入力必須。"
+    },
+    {
+      "messageCode": "ActionMsg_Gen01",
+      "messageContent": "設定を保存しました。"
+    },
+    {
+      "messageCode": "ActionMsg_Gen02",
+      "messageContent": "設定を元に戻しました。"
+    },
+    {
+      "messageCode": "ActionMsg_Gen03",
+      "messageContent": "{X}を削除しました。"
+    },
+    {
+      "messageCode": "ActionMsg_Gen04",
+      "messageContent": "{X}を作成しました。"
+    },
+    {
+      "messageCode": "ActionMsg_Gen05",
+      "messageContent": "ステータスを変更しました。"
+    },
+    {
+      "messageCode": "ActionMsg_Gen06",
+      "messageContent": "{X}を非公開にしました。"
+    },
+    {
+      "messageCode": "ActionMsg_Gen07",
+      "messageContent": "公開予約を取り消しました。"
+    },
+    {
+      "messageCode": "ActionMsg_Gen08",
+      "messageContent": "クリップボードにコードをコピーしました。"
+    },
+    {
+      "messageCode": "ActionMsg_Gen09",
+      "messageContent": "{X}をコピーしました。"
+    },
+    {
+      "messageCode": "ActionMsg_Gen10",
+      "messageContent": "{X}を更新しました。"
+    },
+    {
+      "messageCode": "ActionMsg_Gen11",
+      "messageContent": "メンバーを招待しました。"
+    },
+    {
+      "messageCode": "ActionMsg_Gen12",
+      "messageContent": "{X}を配信しました。"
+    },
+    {
+      "messageCode": "ActionMsg_Gen13",
+      "messageContent": "{X}をアップロードしました。"
+    },
+    {
+      "messageCode": "ActionMsg_Gen14",
+      "messageContent": "{X}を移動しました。"
+    },
+    {
+      "messageCode": "ActionMsg_Gen15",
+      "messageContent": "{X}へ移動しました。"
+    },
+    {
+      "messageCode": "ActionMsg_CFM01",
+      "messageContent": "シミュレーション結果を保存しました。"
+    },
+    {
+      "messageCode": "ActionMsg_CFM02",
+      "messageContent": "アクティベーションが有効化されました。"
+    },
+    {
+      "messageCode": "ActionMsg_Com01",
+      "messageContent": "つながりを申請しました。"
+    },
+    {
+      "messageCode": "ActionMsg_Com02",
+      "messageContent": "つながりを承認しました。"
+    },
+    {
+      "messageCode": "ActionMsg_CMS01",
+      "messageContent": "ページ公開または公開予約時にモーダルでメッセージを表示する"
+    },
+    {
+      "messageCode": "ActionMsg_Form01",
+      "messageContent": "フォーム公開または公開予約時にモーダルでメッセージを表示する"
+    },
+    {
+      "messageCode": "ErrorMsg_Mail04",
+      "messageContent": "入力したメールアドレスはすでに登録されています。"
+    },
+    {
+      "messageCode": "ErrorMsg_Amount01",
+      "messageContent": "売上規模下限を売上規模上限未満には設定できません。"
+    }
+  ]
+}

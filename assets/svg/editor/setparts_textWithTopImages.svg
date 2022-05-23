@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="93" height="66" viewBox="0 0 93 66">
+  <g id="グループ_3385" data-name="グループ 3385" transform="translate(-262 -296)">
+    <g id="長方形_4" data-name="長方形 4" transform="translate(262 296)" fill="#f7f8f9" stroke="#e5e5e5" stroke-width="1">
+      <rect width="93" height="66" stroke="none"/>
+      <rect x="0.5" y="0.5" width="92" height="65" fill="none"/>
+    </g>
+    <g id="グループ_2789" data-name="グループ 2789" transform="translate(95 48)">
+      <rect id="長方形_3122" data-name="長方形 3122" width="75" height="50" transform="translate(176 256)" fill="#fff"/>
+      <g id="グループ_2344" data-name="グループ 2344" transform="translate(186.256 257.001)">
+        <g id="グループ_2778" data-name="グループ 2778" transform="translate(-25 18)">
+          <rect id="長方形_2656" data-name="長方形 2656" width="29" height="4" transform="translate(21.744 9)" fill="#dedede"/>
+          <rect id="長方形_2657" data-name="長方形 2657" width="29" height="4" transform="translate(21.744 16)" fill="#dedede"/>
+          <rect id="長方形_3130" data-name="長方形 3130" width="29" height="4" transform="translate(21.744 23)" fill="#dedede"/>
+        </g>
+        <g id="グループ_2791" data-name="グループ 2791" transform="translate(8 18)">
+          <rect id="長方形_2656-2" data-name="長方形 2656" width="29" height="4" transform="translate(21.744 9)" fill="#dedede"/>
+          <rect id="長方形_2657-2" data-name="長方形 2657" width="29" height="4" transform="translate(21.744 16)" fill="#dedede"/>
+          <rect id="長方形_3130-2" data-name="長方形 3130" width="29" height="4" transform="translate(21.744 23)" fill="#dedede"/>
+        </g>
+        <path id="パス_625" data-name="パス 625" d="M22,19.889V5.111A2.117,2.117,0,0,0,19.889,3H5.111A2.117,2.117,0,0,0,3,5.111V19.889A2.117,2.117,0,0,0,5.111,22H19.889A2.117,2.117,0,0,0,22,19.889ZM9.228,14.59l2.217,2.671,3.272-4.212a.53.53,0,0,1,.844.011L19.266,18a.528.528,0,0,1-.422.844H6.188a.526.526,0,0,1-.412-.855L8.4,14.611A.521.521,0,0,1,9.228,14.59Z" transform="translate(-1.256 1)" fill="#dedede"/>
+        <path id="パス_865" data-name="パス 865" d="M22,19.889V5.111A2.117,2.117,0,0,0,19.889,3H5.111A2.117,2.117,0,0,0,3,5.111V19.889A2.117,2.117,0,0,0,5.111,22H19.889A2.117,2.117,0,0,0,22,19.889ZM9.228,14.59l2.217,2.671,3.272-4.212a.53.53,0,0,1,.844.011L19.266,18a.528.528,0,0,1-.422.844H6.188a.526.526,0,0,1-.412-.855L8.4,14.611A.521.521,0,0,1,9.228,14.59Z" transform="translate(31.744 1)" fill="#dedede"/>
+      </g>
+    </g>
+  </g>
+</svg>

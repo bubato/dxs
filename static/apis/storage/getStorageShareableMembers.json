@@ -1,0 +1,45 @@
+{
+    "result": 0,
+    "shareableMembers": [
+        {
+            "userId": 1001,
+            "firstName": "太郎",
+            "lastName": "渡来",
+            "profileImageURL": "",
+            "companyName": "トライベック株式会社",
+            "occupationName": "取締役"
+        },
+        {
+            "userId": 1002,
+            "firstName": "三郎",
+            "lastName": "勘解由小路",
+            "profileImageURL": "",
+            "companyName": "トライベック株式会社",
+            "occupationName": "本部長"
+        },
+        {
+            "userId": 1003,
+            "firstName": "喜左衛門将時能",
+            "lastName": "藤本",
+            "profileImageURL": "",
+            "companyName": "トライベック株式会社",
+            "occupationName": "課長"
+        },
+        {
+            "userId": 1004,
+            "firstName": "一郎",
+            "lastName": "鈴木",
+            "profileImageURL": "",
+            "companyName": "トライベック株式会社",
+            "occupationName": "リーダー"
+        },
+        {
+            "userId": 1005,
+            "firstName": "次郎",
+            "lastName": "田中",
+            "profileImageURL": "",
+            "companyName": "トライベック株式会社",
+            "occupationName": "取締役"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.l-article {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 20px;
+}
+h2 {
+  font-size: 17px;
+  margin-bottom: 8px !important;
+  font-weight: 500;
+}
+p {
+  font-size: 15px;
+}

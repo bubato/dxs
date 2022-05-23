@@ -1,0 +1,53 @@
+{
+  "result": 0,
+  "browsingHistory": [
+    {
+      "userId": 1,
+      "name": "田中太郎",
+      "image": "",
+      "diffDate": "2021/07/27 21:12",
+      "company": "トライベック株式会社",
+      "position": "取締役"
+    },
+    {
+      "userId": 2,
+      "name": "鈴木健太",
+      "image": "",
+      "diffDate": "2021/07/26 21:12",
+      "company": "トライベック株式会社",
+      "position": "本部長"
+    },
+    {
+      "userId": 3,
+      "name": "佐藤勇気",
+      "image": "",
+      "diffDate": "2021/07/30 10:12",
+      "company": "トライベック株式会社",
+      "position": "課長"
+    },
+    {
+      "userId": 4,
+      "name": "原口正平",
+      "image": "",
+      "diffDate": "2021/07/30 13:34",
+      "company": "トライベック株式会社",
+      "position": "リーダー"
+    },
+    {
+      "userId": 5,
+      "name": "宮迫大地",
+      "image": "",
+      "diffDate": "2020/02/04 03:34",
+      "company": "トライベック株式会社",
+      "position": "取締役"
+    },
+    {
+      "userId": 6,
+      "name": "堀口明正",
+      "image": "",
+      "diffDate": "2019/12/04 03:34",
+      "company": "トライベック株式会社",
+      "position": "取締役"
+    }
+  ]
+}

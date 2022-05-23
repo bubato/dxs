@@ -1,0 +1,85 @@
+{
+  "result": 0,
+  "companyResultList": [
+    {
+      "companyId": 1,
+      "image": "",
+      "name": "トライベック株式会社"
+    },
+    {
+      "companyId": 2,
+      "image": "",
+      "name": "パシフィックゴルフグループインターナショナルホールディングス株式会社"
+    },
+    {
+      "companyId": 3,
+      "image": "",
+      "name": "三越伊勢丹ホールディングス"
+    }
+  ],
+  "memberResultList": [
+    {
+      "userId": 111,
+      "name": "アレックス・ロドリゲス",
+      "image": "",
+      "company": "トライベック株式会社",
+      "position": "取締役"
+    },
+    {
+      "userId": 222,
+      "name": "マーク・マグワイア",
+      "image": "",
+      "company": "トライベック株式会社",
+      "position": "取締役"
+    },
+    {
+      "userId": 333,
+      "name": "ロベルト・ペタジーニ",
+      "image": "",
+      "company": "トライベック株式会社",
+      "position": "取締役"
+    },
+    {
+      "userId": 444,
+      "name": "アレックス・カブレラ",
+      "image": "",
+      "company": "トライベック株式会社",
+      "position": "取締役"
+    },
+    {
+      "userId": 555,
+      "name": "ランディ・バース",
+      "image": "",
+      "company": "トライベック株式会社",
+      "position": "取締役"
+    },
+    {
+      "userId": 666,
+      "name": "マーク・マグワイア",
+      "image": "",
+      "company": "トライベック株式会社",
+      "position": "取締役"
+    },
+    {
+      "userId": 777,
+      "name": "ロベルト・ペタジーニ",
+      "image": "",
+      "company": "トライベック株式会社",
+      "position": "取締役"
+    },
+    {
+      "userId": 888,
+      "name": "アレックス・カブレラ",
+      "image": "",
+      "company": "トライベック株式会社",
+      "position": "取締役"
+    },
+    {
+      "userId": 999,
+      "name": "ランディ・バース",
+      "image": "",
+      "company": "トライベック株式会社",
+      "position": "取締役"
+    }
+  ]
+}

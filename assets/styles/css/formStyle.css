@@ -1,0 +1,44 @@
+@import url('./parts/_base.css');
+@import url('./parts/_step.css');
+@import url('./parts/_heading1.css');
+@import url('./parts/_heading2.css');
+@import url('./parts/_text.css');
+@import url('./parts/_title.css');
+@import url('./parts/_annotation.css');
+@import url('./parts/_label.css');
+@import url('./parts/_separator.css');
+@import url('./parts/_text-field.css');
+@import url('./parts/_text-area.css');
+@import url('./parts/_checkbox.css');
+@import url('./parts/_radio.css');
+@import url('./parts/_select.css');
+@import url('./parts/_attaching-file.css');
+@import url('./parts/_permission.css');
+@import url('./parts/_terms.css');
+@import url('./parts/_mail-address.css');
+@import url('./parts/_name.css');
+@import url('./parts/_birthday.css');
+@import url('./parts/_sex.css');
+@import url('./parts/_address.css');
+@import url('./parts/_btn-post-search.css');
+@import url('./parts/_prefectures.css');
+@import url('./parts/_year-and-month.css');
+@import url('./parts/_calendar.css');
+@import url('./parts/_calendar.css');
+@import url('./parts/_icons.css');
+@import url('./parts/_message-error.css');
+@import url('./parts/_btn-submit.css');
+@import url('./parts/_btn-prev.css');
+@import url('./parts/_system-error.css');
+@import url('./parts/_message-complete.css');
+@import url('./parts/_file-download.css');
+@import url('./parts/_spacer-20.css');
+@import url('./parts/_btn-next.css');
+@import url('./parts/_parameter.css');
+
+.contents {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

@@ -1,0 +1,303 @@
+[
+  {
+    "componentKind": "setComponent",
+    "id": "header",
+    "name": "ヘッダー",
+    "logo": ""
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "mainArea",
+    "name": "メインエリア",
+    "title": { "align": "1", "context": "期待を超えるサービスを。" },
+    "text": {
+      "align": "1",
+      "context": "荷物を受け取るお客さまのため、私たちは全社員の育成と物流インフラ・システムの進化に取り組みます。"
+    },
+    "textColor": "4",
+    "backgroundImage": "https://images.@@images-domain@@/web-assets/common/web/4/28308238_20220309.png",
+    "buttons": [{ "text": "お問い合わせ", "link": "", "linkType": 1 }]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "oneLineNews",
+    "name": "ワンラインニュース",
+    "date": "2022/04/01",
+    "title": "Webサイトをリニューアルしました",
+    "label": "お知らせ",
+    "link": ""
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "message",
+    "name": "メッセージ",
+    "title": { "align": "1", "context": "こんなお悩みを抱えていませんか？" },
+    "text": {
+      "align": "1",
+      "context": "コロナ禍で配送量が増大してきた\\n配送業務が膨大で社員の本業を圧迫している\\nお客さまの満足度に直結するので信頼できる会社が分からない"
+    }
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "textWithTopImages",
+    "name": "上画像付きテキスト",
+    "heading": "〇〇〇は長年のノウハウと技術力・設備でお客さまの課題を解決します。",
+    "layoutType": "2",
+    "images": [
+      {
+        "title": "物流コストに見直しに貢献",
+        "text": "ヒアリングのうえ業務フローを見直すことで物流コストの削減をご提案します。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/4/31782270_20220309.png",
+        "imageName": "",
+        "link": ""
+      },
+      {
+        "title": "配送品質の向上",
+        "text": "出荷までのスピードや誤配送をなくし企業さま、お客さま双方の満足度を高めます。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/4/39404436_20220309.png",
+        "imageName": "",
+        "link": ""
+      },
+      {
+        "title": "物流業務を一手に引き受け人材不足を解消",
+        "text": "物流に係る業務を私たちが引き受け、スタッフの方が本業に専念できる体制を作ります。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/4/73051267_20220309.png",
+        "imageName": "",
+        "link": "",
+        "linkType": "0"
+      }
+    ]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "textWithTopImages",
+    "name": "上画像付きテキスト",
+    "heading": "サービス内容",
+    "layoutType": "2",
+    "images": [
+      {
+        "title": "梱包発送",
+        "text": "大量の製品でも封入から梱包・ラッピングまで対応します。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/4/70711495_20220309.png",
+        "imageName": "",
+        "link": ""
+      },
+      {
+        "title": "在庫管理",
+        "text": "国内倉庫で製品の保管・入出庫を正確に管理します。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/4/50598890_20220309.png",
+        "imageName": "",
+        "link": ""
+      },
+      {
+        "title": "倉庫サービス",
+        "text": "国内倉庫に専用スペースを確保しお客さまの保有在庫を分散・最適化します。",
+        "image": "https://images.@@images-domain@@/web-assets/common/web/4/29585922_20220309.png",
+        "imageName": "",
+        "link": "",
+        "linkType": "0"
+      }
+    ]
+  },
+  {
+    "componentKind": "singleComponent",
+    "id": "heading2",
+    "name": "見出し2",
+    "context": "私たちについて",
+    "align": "1",
+    "link": "",
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    }
+  },
+  {
+    "componentKind": "layoutComponent",
+    "id": "layout-4",
+    "name": "4列",
+    "checkSameHeader": false,
+    "spaceInfo": {
+      "spaceKind": "1",
+      "space": "1",
+      "topSpace": "1",
+      "bottomSpace": "1",
+      "leftSpace": "1",
+      "rightSpace": "1"
+    },
+    "layoutNum": 4,
+    "layoutType": "1",
+    "componentList": [
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "image",
+          "name": "画像",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/4/83804020_20220309.png",
+          "imageName": "",
+          "align": "1",
+          "alternateText": "",
+          "width": "",
+          "height": "",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "代表挨拶",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ],
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "image",
+          "name": "画像",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/4/73182018_20220309.png",
+          "imageName": "",
+          "align": "1",
+          "alternateText": "",
+          "width": "",
+          "height": "",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "企業情報",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ],
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "image",
+          "name": "画像",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/4/61351339_20220309.png",
+          "imageName": "",
+          "align": "1",
+          "alternateText": "",
+          "width": "",
+          "height": "",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "沿革",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ],
+      [
+        {
+          "componentKind": "singleComponent",
+          "id": "image",
+          "name": "画像",
+          "image": "https://images.@@images-domain@@/web-assets/common/web/4/75046883_20220309.png",
+          "imageName": "",
+          "align": "1",
+          "alternateText": "",
+          "width": "",
+          "height": "",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        },
+        {
+          "componentKind": "singleComponent",
+          "id": "text",
+          "name": "テキスト",
+          "context": "採用情報",
+          "align": "1",
+          "link": "",
+          "spaceInfo": {
+            "spaceKind": "1",
+            "space": "1",
+            "topSpace": "1",
+            "bottomSpace": "1",
+            "leftSpace": "1",
+            "rightSpace": "1"
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "conversion",
+    "name": "コンバージョン",
+    "title": { "align": "1", "context": "お問い合わせ" },
+    "text": { "align": "1", "context": "お気軽にお問い合わせください。" },
+    "textColor": "4",
+    "backgroundImage": "https://images.@@images-domain@@/web-assets/common/web/4/28308238_20220309.png",
+    "buttons": [{ "text": "お問い合わせ", "link": "", "linkType": 1 }]
+  },
+  {
+    "componentKind": "setComponent",
+    "id": "footer",
+    "name": "フッター"
+  }
+]

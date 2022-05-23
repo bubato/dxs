@@ -1,0 +1,141 @@
+{
+  "result": 0,
+  "sumData": [
+    {
+      "name": "入力数",
+      "value": "2000",
+      "ratio": "100.0%",
+      "compareRatio": "2.23%",
+      "ratioStatus": "1"
+    },
+    {
+      "name": "確認数",
+      "value": "1000",
+      "ratio": "52.4%",
+      "compareRatio": "4.29%",
+      "ratioStatus": "1"
+    },
+    {
+      "name": "コンバージョン数",
+      "value": "500",
+      "ratio": "30.2%",
+      "compareRatio": "1.02%",
+      "ratioStatus": "1"
+    },
+    {
+      "name": "入力からの離脱数",
+      "value": "2",
+      "ratio": "10.3%",
+      "compareRatio": "12.32%",
+      "ratioStatus": "2"
+    },
+    {
+      "name": "確認からの離脱数",
+      "value": "2",
+      "ratio": "43.6%",
+      "compareRatio": "32.22%",
+      "ratioStatus": "3"
+    }
+  ],
+  "aggregation": [
+    {
+      "name": "入力数",
+      "data": [
+        {
+          "period": "2021/01/01",
+          "value": 100
+        },
+        {
+          "period": "2021/01/02",
+          "value": 200
+        },
+        {
+          "period": "2021/01/03",
+          "value": 50
+        },
+        {
+          "period": "2021/01/04",
+          "value": 300
+        },
+        {
+          "period": "2021/01/05",
+          "value": 300
+        },
+        {
+          "period": "2021/01/06",
+          "value": 200
+        },
+        {
+          "period": "2021/01/07",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "name": "確認数",
+      "data": [
+        {
+          "period": "2021/01/01",
+          "value": 200
+        },
+        {
+          "period": "2021/01/02",
+          "value": 250
+        },
+        {
+          "period": "2021/01/03",
+          "value": 300
+        },
+        {
+          "period": "2021/01/04",
+          "value": 350
+        },
+        {
+          "period": "2021/01/05",
+          "value": 200
+        },
+        {
+          "period": "2021/01/06",
+          "value": 150
+        },
+        {
+          "period": "2021/01/07",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "name": "CV数",
+      "data": [
+        {
+          "period": "2021/01/01",
+          "value": 400
+        },
+        {
+          "period": "2021/01/02",
+          "value": 500
+        },
+        {
+          "period": "2021/01/03",
+          "value": 450
+        },
+        {
+          "period": "2021/01/04",
+          "value": 250
+        },
+        {
+          "period": "2021/01/05",
+          "value": 150
+        },
+        {
+          "period": "2021/01/06",
+          "value": 200
+        },
+        {
+          "period": "2021/01/07",
+          "value": 300
+        }
+      ]
+    }
+  ]
+}

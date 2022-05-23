@@ -1,0 +1,47 @@
+/* 添付 */
+.xhm-attaching-file {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.xhm-attaching-file label {
+  width: 138px;
+  height: 36px;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #4f7df0;
+  background: #ffffff;
+  border: #4f7df0 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.xhm-attaching-file label:hover {
+  background: #edf2fd;
+}
+
+.xhm-attaching-file input[type='file'] {
+  display: none;
+}
+
+.size {
+  display: none;
+}
+
+/* layout */
+.xhm-attaching-file .xhm-grid-cell {
+  -webkit-box-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  width: 100%;
+  margin-bottom: 8px;
+}

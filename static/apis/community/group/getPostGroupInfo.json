@@ -1,0 +1,14 @@
+{
+  "result": 0,
+  "postGroupName": "グループA",
+  "postGroupCoverImageUrl": "",
+  "postGroupType": "1",
+  "postGroupDescription": "グループAの説明です",
+  "postGroupRangeStatus": 1,
+  "adminProfileMemberId": 12,
+  "adminName": "管理者A",
+  "adminImageUrl": "",
+  "adminCompany": "管理者A会社",
+  "adminPosition": "部長",
+  "recordVersion": 1
+}
