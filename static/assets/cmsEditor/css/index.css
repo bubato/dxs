@@ -206,6 +206,12 @@ body {
           justify-content: space-between;
 }
 
+.flex-left {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: initial;
+}
+
 .text-align-left {
   text-align: left;
 }
@@ -1378,8 +1384,10 @@ li.component.layout-component
   margin: 0 auto;
   -webkit-box-shadow: none;
           box-shadow: none;
-  padding-left: calc( (100vw - 43px - 72px) / 12);
-  padding-right: calc( (100vw - 43px - 72px) / 12);
+  padding-left: calc(
+ (100vw - 43px - 72px) / 12);
+  padding-right: calc(
+ (100vw - 43px - 72px) / 12);
 }
 
 .siteEditPage .view-area > .layout-container > .view-components > .layout-component {
@@ -1410,8 +1418,10 @@ li.component.layout-component
 }
 
 .siteEditPage .view-mainArea.background .parts-contents {
-  padding-left: calc( (100vw - (43px + 72px)) / 12);
-  padding-right: calc( (100vw - (43px + 72px)) / 12);
+  padding-left: calc(
+ (100vw - (43px + 72px)) / 12);
+  padding-right: calc(
+ (100vw - (43px + 72px)) / 12);
 }
 
 .siteEditPage .view-textWithTopImages .contents {
@@ -1424,13 +1434,17 @@ li.component.layout-component
 > .single-component
 > .single_component_content,
 .siteEditPage .open .view-area > .layout-container > .view-components > .layout-component {
-  padding-left: calc( (100vw - 525px - 72px) / 12);
-  padding-right: calc( (100vw - 525px - 72px) / 12);
+  padding-left: calc(
+ (100vw - 525px - 72px) / 12);
+  padding-right: calc(
+ (100vw - 525px - 72px) / 12);
 }
 
 .siteEditPage .open .view-mainArea.background .parts-contents {
-  padding-left: calc( (100vw - (525px + 72px)) / 12);
-  padding-right: calc( (100vw - (525px + 72px)) / 12);
+  padding-left: calc(
+ (100vw - (525px + 72px)) / 12);
+  padding-right: calc(
+ (100vw - (525px + 72px)) / 12);
 }
 
 .view-components:not(.preview) .component a {

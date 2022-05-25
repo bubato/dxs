@@ -5,6 +5,10 @@
       "name": "MMI",
       "link": [
         {
+          "name": "ダッシュボード",
+          "path": "/mmi/dashboard/"
+        },
+        {
           "name": "顧問先一覧",
           "path": "/mmi/advisoryCompany/"
         },
