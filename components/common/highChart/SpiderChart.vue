@@ -20,7 +20,7 @@ export default {
         },
 
         pane: {
-            size: '80%'
+            size: '90%'
         },
 
         xAxis: {

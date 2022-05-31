@@ -235,6 +235,7 @@ module.exports = {
   putMmiActivateUrl: '/apis/mmi/activate.json',
   getMmiActivatedStateUrl: '/apis/mmi/activatedInfo.json',
   getMmiOwnCompanyUrl: '/apis/mmi/ownCompany.json',
+  getMmiCustomReportUrl: '/apis/mmi/customReport.json',
   getMmiIndustriesUrl: '/apis/mmi/staticIndustries.json',
   getMmiTermUrl: '/apis/mmi/staticTerm.json',
   getCompanyMasterDataUrl: '/apis/common/getCompanyMasterData.json',

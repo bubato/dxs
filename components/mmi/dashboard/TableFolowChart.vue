@@ -1,7 +1,7 @@
 <template>
-  <div class="table-area">
+  <div class="">
     <div class="table-scroll">
-      <table class="max-content">
+      <table class="max-content table-folow-chart">
         <thead>
           <tr>
             <th class="cell-space">
@@ -19,6 +19,18 @@
           </tr>
         </thead>
         <tbody>
+          <tr class="head-td">
+            <div>収益性</div>
+          </tr>
+          <tr v-for="(d, index) in list" :key="index">
+            <td class="cell-space">{{ d.name }}</td>
+            <td class="cell-code">{{ d.companyCode }}</td>
+            <td class="cell-code">{{ d.companyCode }}</td>
+            <td class="cell-code">{{ d.companyCode }}</td>
+          </tr>
+          <tr class="head-td">
+            <div>収益性</div>
+          </tr>
           <tr v-for="(d, index) in list" :key="index">
             <td class="cell-space">{{ d.name }}</td>
             <td class="cell-code">{{ d.companyCode }}</td>
@@ -108,5 +120,18 @@ export default {
 }
 .cell-space {
     width: 50%;
+}
+.table-folow-chart tbody {
+  max-height: 350px;
+  tr {
+    background: white;
+  }
+}
+.head-td {
+  background: #f4f4f4!important;
+  div {
+    padding: 12px;
+    color: #1e1e1e
+  }
 }
 </style>
