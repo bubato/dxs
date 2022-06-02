@@ -1,144 +1,128 @@
 <template>
   <div>
-    <div class="title-header flex flex-between">
-      <h1>ダッシュボード</h1>
-    </div>
-    <div class="row-first flex">
-      <div class="col-4 left-contents">
-        <CustomInputSelect
-          v-model="termType"
-          :options="termOptions"
-          @change="onTermTabSelected($event)"
-        />
-      </div>
-      <div class="col-right-fix right-contents float-right">
-        <SelectSaveConditions
-          screen-id="SC-DXT09030101"
-          :company-info="currentCompany"
-          :client-info="clientCompany"
-          @update="getCompanyInfo()"
-        />
-      </div>
-    </div>
-
-    <div class="table-area">
-      <div class="row">
-        <div class="row-first flex flex-left bb-1">
-          <div class="left-contents flex">
+    <div class="table-area pt-0">
+      <a class="link-text"><KeyboardArrowLeftSVG class="icon-keyboardArrowLeft" /> テキストが入ります。</a>
+      <div class="row mt-2">
+        <div class="row-first flex flex-between">
+          <div class="left-contents">
             <TabButtons
-              label="比較手法"
-              class="table-state-button"
-              :tabs="averageTabs1"
-              @selected="onAverageTabSelected($event)"
-            />
-            <TabButtons
-              label=""
-              class="table-state-button ml-15"
-              :tabs="averageTabs1"
-              @selected="onAverageTabSelected($event)"
-            />
-          </div>
-          <div class="right-contents ml-50">
-            <TabButtons
-              label="分析指標"
               class="table-state-button"
               :tabs="balanceTabs"
               @selected="onBalanceTabSelected($event)"
             />
           </div>
+          <div class="right-contents">
+            <TabButtons
+              class="table-state-button"
+              :tabs="averageTabs"
+              @selected="onAverageTabSelected($event)"
+            />
+          </div>
+        </div>
+        <div class="row-second col-4">
+          <CustomInputSelect
+            v-model="selectedCompanyLinkageId"
+            :options="advisorOptions"
+            :validation="[]"
+            @change="onCompanySelectChanged()"
+          />
         </div>
       </div>
-      <FinancialReport v-if="analysisIndicator == 0" />
-      <ManagementIndex v-if="analysisIndicator == 1" />
-      <CustomReports v-if="analysisIndicator == 2" />
+      <CompanyInfoTable
+        class="company-info-table"
+        :table-info="tableData"
+        :is-own-company="true"
+        :balance-type="balanceType"
+        :table-type="tableType"
+        :own-company-name="ownCompanyName"
+      />
     </div>
-    <CommonFooter />
   </div>
 </template>
 
 <script>
 import { mapState, mapMutations } from 'vuex'
+import CollapseTransition from '~/components/mmi/companyInfoTable/CollapseTransition'
+import companyInfoUtilityMixin from '~/mixin/mmi/companyInfoUtility.js'
 import mmiFilterUtilityMixin from '~/mixin/mmi/mmiFilterUtility.js'
-import companyInfoUtility from '~/mixin/mmi/companyInfoUtility.js'
 import TabButtons from '~/components/mmi/TabButtons.vue'
+import FilterButtons from '~/components/mmi/FilterButtons.vue'
+import CompanyInfoTable from '~/components/mmi/companyInfoTable/CompanyInfoTable.vue'
 import CommonFooter from '~/components/common/CommonFooter.vue'
-import FinancialReport from '../../components/mmi/dashboard/FinancialReport.vue'
+import CsvDownloadButton from '~/components/mmi/CsvDownloadButton.vue'
+import CategoryFilterModal from '~/components/mmi/modal/CategoryFilterModal.vue'
+import EarningsFilterModal from '~/components/mmi/modal/EarningsFilterModal.vue'
+import LocationFilterModal from '~/components/mmi/modal/LocationFilterModal.vue'
+import ReportStateMessageModal from '~/components/mmi/modal/ReportStateMessageModal.vue'
 
 export default {
   layout: 'mmiLayout',
   components: {
     TabButtons,
+    FilterButtons,
+    CompanyInfoTable,
     CommonFooter,
-    FinancialReport
-},
-  mixins: [mmiFilterUtilityMixin, companyInfoUtility],
+    CsvDownloadButton,
+    CategoryFilterModal,
+    EarningsFilterModal,
+    LocationFilterModal,
+    ReportStateMessageModal,
+    CollapseTransition,
+  },
+  mixins: [companyInfoUtilityMixin, mmiFilterUtilityMixin],
   data() {
     return {
-      showCreateNewFormModalFlg: false,
-      isShowModal: false,
+      isShowFilter: true,
+      balanceTabIndex: 0,
+      averageTabsIndex: 0,
       isShowCategoryModal: false,
       isShowLocationModal: false,
       isShowEarningsModal: false,
       isShowReportStateModal: false,
-      isShowFilter: true,
-      isShowFilter1: true,
-      tableType: 'corporate',
-      analysisIndicator: 0,
       balanceTabs: [
-        { title: '財務諸表' },
-        { title: '経営指標' },
-        { title: 'カスタムレポート' },
-      ],
-      averageTabs1: [
-        { title: '期間比較' },
-        { title: '業種比較' },
-      ],
-      averageTabs2: [
-        { title: '自社分析' },
-        { title: '統計分析' },
-      ],
-      termType: 1, // 期数
-      termOptions: [
-        {
-          code: 1,
-          label: '青山商事',
-        },
+        { title: '総資本' },
+        { title: '営業利益' },
       ],
       balanceType: '0',
+      averageTabs: [
+        { title: '1企業あたり平均' },
+      ],
+      selectedCompanyLinkageId: '',
+      advisorOptions: [{
+          label: "総資本営業利益率",
+          code: ""
+      }],
+      advisorList: [],
+      inputSearchText: '',
       tableData: {},
-      termTableData: {},
+      tableType: 'corporate',
+      ownCompanyName: '',
     }
   },
   computed: {
-    ...mapState('mmi/filterConditions', ['selectSaveCondition']),
-    ...mapState('mmi/companyReport', ['companyMasterInfo']),
-    currentCompany() {
-      if (!this.companyMasterInfo.dataList) {
-        return null
-      }
-      if (!this.companyMasterInfo.dataList.length) {
-        return null
-      }
-      return this.companyMasterInfo.dataList[0]
-    },
-    clientCompany() {
-      if (!this.advisorList || !this.advisorList.length) {
-        return {}
-      }
-
-      const selectedCompany = this.advisorList.find((c) => {
-        if (c.linkageId === this.selectedCompanyLinkageId) {
-          return true
-        }
-      })
-      return selectedCompany || {}
-    },
+    ...mapState('mmi/companyReport', [
+      'currentCompanyLinkageId',
+      'companyMasterInfo',
+      'accountingFirmFlg',
+    ]),
+    ...mapState('mmi/filterConditions', ['selectSaveCondition'], 'mmi/companyReport', ['companyMasterInfo']),
     csvFilename() {
-      return this.getCompanyInfoFilename(
-        '統計分析_期間比較',
-        this.balanceType,
-        this.termType
-      )
+      let baseFilename = '自社分析'
+      if (this.$common.checkArrayValue(this.companyMasterInfo.dataList)) {
+        if (!this.accountingFirmFlg) {
+          baseFilename =
+            this.companyMasterInfo.dataList[0].companyName || baseFilename
+        } else {
+          this.advisorOptions.find((companyOption) => {
+            if (companyOption.code === this.selectedCompanyLinkageId) {
+              baseFilename = companyOption.label
+              return true
+            }
+          })
+        }
+      }
+      console.log('baseFilename', baseFilename)
+      return this.getCompanyInfoFilename(baseFilename, this.balanceType)
     },
     lackInfo() {
       const lackOfInformation = this.tableData.lackOfInformation
@@ -153,7 +137,6 @@ export default {
       if (this.tableType === 'employee') {
         cmpEmpDiv = '2'
       }
-
       const info = lackOfInformation.find((e) => {
         return e.cmpEmpDiv === cmpEmpDiv
       })
@@ -218,65 +201,56 @@ export default {
       }
       return this.companyMasterInfo.dataList[0]
     },
+    clientCompany() {
+      if (!this.advisorList || !this.advisorList.length) {
+        return {}
+      }
+
+      const selectedCompany = this.advisorList.find((c) => {
+        if (c.linkageId === this.selectedCompanyLinkageId) {
+          return true
+        }
+      })
+      return selectedCompany || {}
+    },
   },
   created() {
-    this.output('統計分析：期間比較画面 表示開始')
-    this.resetSelectSaveCondition()
-    this.getCompanyInfo() // 統計分析(期間比較)PL_BS取得
+    this.output('自社分析画面 表示開始')
+    this.resetSelectSaveCondition() // 保存条件のリセット
   },
-  mounted() {},
+  mounted() {
+    this.initFunc() // 初期表示処理
+  },
   methods: {
+    ...mapMutations('mmi/companyReport', ['setCurrentCompanyLinkageId']),
     ...mapMutations('mmi/filterConditions', ['resetSelectSaveCondition']),
-    setTerm(term) {
-      if (!this.tableData) {
-        return
-      }
-
-      if (!this.tableData[this.tableType]) {
-        return
-      }
-
-      const termTable = JSON.parse(JSON.stringify(this.tableData))
-      termTable.corporate = this.getTermFilteredCompanyInfo(
-        termTable.corporate,
-        term
-      )
-
-      termTable.employee = this.getTermFilteredCompanyInfo(
-        termTable.employee,
-        term
-      )
-
-      this.termTableData = termTable
-    },
-
     /**
-     * 分析情報の状態チェック
+     * 初期表示処理
      */
-    checkCompanyInfoState() {
-      if (this.isFiltered()) {
-        if (this.isEmptyDataTable(this.termTableData, this.tableType)) {
-          this.isShowReportStateModal = true
-        }
+    initFunc() {
+      // 会計事務所チェック
+      if (this.accountingFirmFlg) {
+        this.getAdvisorList() // 顧問先一覧の取得
+      } else {
+        this.ownCompanyName = this.companyMasterInfo.dataList[0].companyName
+        this.getCompanyInfo() // 自社分析PL_BSの取得
       }
     },
-
     /**
-     * 統計分析(期間比較)PL_BS取得
+     * 顧問先一覧の取得
      */
-    getCompanyInfo() {
-      const paramData = this.getCompanyInfoParam() // 1期: 統計分析(期間比較)PL_BS取得APIのリクエストパラメータの取得
+    getAdvisorList() {
+      const paramData = {}
+
       this.$common.addCallApiNum()
-      this.output('API 統計分析(期間比較)PL_BS取得 開始')
+      this.output('API 顧問先取得 開始')
       this.$api
-        .getMmiStaticTerm(paramData)
+        .getAdvisorInfo(paramData)
         .then((res) => {
-          this.output('API 統計分析(期間比較)PL_BS取得 終了')
+          this.output('API 顧問先取得 終了')
           if (res.data.result === 0) {
-            this.tableData = res.data
-            this.setTerm(this.termType)
-
-            this.checkCompanyInfoState()
+            this.advisorList = res.data.resultDataList
+            this.getCompanyInfo() // 自社分析PL_BSの取得
           } else {
             this.$common.showCommonError(res.data.errorInfo)
           }
@@ -284,7 +258,59 @@ export default {
           this.$common.subCallApiNum()
         })
         .catch((error) => {
-          this.output('API 統計分析(期間比較)PL_BS取得 エラー')
+          this.output('API 顧問先取得 エラー')
+          this.$common.apiErrorFunc(error)
+        })
+    },
+    /**
+     * 顧問先一覧のプルダウン設定
+     *
+     * @param {object[]} 顧問先一覧のリスト
+     */
+    /**
+     * 分析情報の状態チェック
+     */
+    checkCompanyInfoState() {
+      if (!this.isFiltered()) {
+        if (
+          this.isEmptyDataTableColLine(this.tableData, this.tableType, 0, true)
+        ) {
+          this.isShowReportStateModal = true
+        }
+      } else if (
+        this.isEmptyDataTableColLineOther(
+          this.tableData,
+          this.tableType,
+          0,
+          true
+        )
+      ) {
+        this.isShowReportStateModal = true
+      }
+    },
+    /**
+     * 自社分析PL_BSの取得
+     */
+    getCompanyInfo() {
+      const paramData = this.getCompanyInfoParam() // 自社分析PL_BS取得APIのリクエストパラメータの取得
+
+      this.$common.addCallApiNum()
+      this.output('API 自社分析PL_BS取得 開始')
+      this.$api
+        .getMmiCustomReport(paramData)
+        .then((res) => {
+          this.output('API 自社分析PL_BS取得 終了')
+          if (res.data.result === 0) {
+            this.tableData = res.data
+          } else {
+            this.$common.showCommonError(res.data.errorInfo)
+          }
+
+          this.checkCompanyInfoState()
+          this.$common.subCallApiNum()
+        })
+        .catch((error) => {
+          this.output('API 自社分析PL_BS取得 エラー', error)
           // const response = error.response
           // if (response && response.status >= 500) {
           //   console.log('Error FALLBACK', response)
@@ -295,18 +321,30 @@ export default {
         })
     },
     /**
-     * 統計分析(期間比較)PL_BS取得APIのリクエストパラメータの取得
+     * 自社分析PL_BS取得APIのリクエストパラメータの取得
      *
-     * @param {number} term '0':１期 / '1':３期
-     * @return {object[]} 統計分析(期間比較)PL_BS取得APIのリクエストパラメータ
+     * @return {object[]} 自社分析PL_BS取得APIのリクエストパラメータ
      */
     getCompanyInfoParam() {
       const paramData = {}
 
-      const term = '1' // 3期
+      // 会社事務所チェック
+      if (this.accountingFirmFlg) {
+        // 顧問先一覧からの遷移
+        if (this.selectedCompanyLinkageId) {
+          if (this.selectedCompanyLinkageId !== '') {
+            paramData.linkageId = this.selectedCompanyLinkageId
+          }
+        } else if (this.advisorList.length > 0) {
+          paramData.linkageId = this.advisorList[0].linkageId
+        }
+      } else if (
+        this.$common.checkArrayValue(this.companyMasterInfo.dataList)
+      ) {
+        paramData.linkageId = this.companyMasterInfo.dataList[0].linkageId
+      }
 
-      paramData.term = term || '0' // 期
-      paramData.plbsDiv = this.balanceType // PL/BS区分
+      paramData.plbsDiv = this.balanceType
 
       // 業種の設定 全項目が設定されている場合は、keyは送らない
       if (
@@ -314,18 +352,19 @@ export default {
           'すべての業種'
         )
       ) {
-        paramData.industryCodes = this.selectSaveCondition.items.industryCodes // 業種
+        paramData.industryCodes = this.selectSaveCondition.items.industryCodes
       }
 
       // 所在地の設定 全項目が設定されている場合は、keyは送らない
       if (!this.selectSaveCondition.items.prefectureCategory.includes('all')) {
-        paramData.prefectureCodes = this.selectSaveCondition.items.prefectureCodes // 所在地
+        paramData.prefectureCodes = this.selectSaveCondition.items.prefectureCodes
       }
 
-      paramData.salesScaleCode = this.selectSaveCondition.items.salesScaleCode // 売上規模コード
+      paramData.salesScaleCode = this.selectSaveCondition.items.salesScaleCode
+
       if (paramData.salesScaleCode === '0') {
-        paramData.salesScaleLower = this.selectSaveCondition.items.salesScaleLower // 売上規模下限
-        paramData.salesScaleUpper = this.selectSaveCondition.items.salesScaleUpper // 売上規模上限
+        paramData.salesScaleLower = this.selectSaveCondition.items.salesScaleLower
+        paramData.salesScaleUpper = this.selectSaveCondition.items.salesScaleUpper
       }
 
       return paramData
@@ -347,31 +386,31 @@ export default {
         return true
       }
 
-      // 売上規模コード
       if (this.selectSaveCondition.items.salesScaleCode !== '1') {
         return true
       }
+
       return false
     },
 
+    /**
+     * 顧問先セレクトボックス変更時
+     */
+    onCompanySelectChanged() {
+      this.resetSelectSaveCondition() // 保存条件のリセット
+      this.balanceTabIndex = 0 // BS/PSの選択をリセット
+      this.averageTabsIndex = 0 // 企業/従業員の選択をリセット
+
+      this.getCompanyInfo() // 自社分析PL_BSの取得
+    },
     /**
      * PL/BS区分の選択
      *
      * @param {number} tab PL/BS区分 0:PL 1:BS
      */
     onBalanceTabSelected(tab) {
-      this.analysisIndicator = tab
       this.balanceType = String(tab)
-      this.getCompanyInfo() // 統計分析(期間比較)PL_BS取得
-    },
-    /**
-     * 期の切り替え
-     *
-     * @param {number} tab 1:1期 3:3期
-     */
-    onTermTabSelected() {
-      this.setTerm(this.termType)
-      this.checkCompanyInfoState()
+      this.getCompanyInfo() // 自社分析PL_BSの取得
     },
     /**
      * テーブル表示タイプの切り替え
@@ -379,10 +418,10 @@ export default {
      * @param {number} tab 切り替えタブの値
      */
     onAverageTabSelected(tab) {
-      console.log(tab)
       if (tab === 0) {
         this.tableType = 'corporate'
-      } else {
+      }
+      if (tab === 1) {
         this.tableType = 'employee'
       }
 
@@ -394,13 +433,10 @@ export default {
     onFilterShowStateChanged() {
       this.isShowFilter = !this.isShowFilter
     },
-    onFilter1ShowStateChanged() {
-      this.isShowFilter1 = !this.isShowFilter1
-    },
   },
   head() {
     return {
-      title: '統計分析（期間比較）｜MMI｜bizskyDX',
+      title: '自社分析｜MMI｜bizskyDX',
     }
   },
 }
@@ -409,20 +445,15 @@ export default {
 <style lang="scss" scoped>
 .title-header {
   margin-top: 40px;
-  margin-bottom: 32px;
 }
 
 .icon {
-  margin-right: 10px;
+  margin: 4px;
 }
 
 .pane {
   padding: 16px;
   position: relative;
-}
-
-div.header {
-  margin-bottom: 32px;
 }
 
 div.header-select-container {
@@ -471,7 +502,6 @@ div.header-select {
 .company-info-table {
   margin-top: 17px;
 }
-
 ::v-deep {
   .unit-select {
     margin: 0px 4px;
@@ -514,11 +544,11 @@ div.header-select {
     font-weight: 500;
   }
   .filter-select-container {
-    padding: 16px 20px;
+    padding: 16px 24px;
     background: #f7f8f9;
     margin: 16px 0px;
     .filter-select {
-      display: block;
+      display: flex;
       align-items: flex-end;
       justify-content: space-between;
       &-edit {
@@ -551,89 +581,24 @@ div.header-select {
   }
 }
 .btn-fold {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   background: #f8f9fa;
-  float: right;
+  top: 118px;
+  left: 118px;
   cursor: pointer;
   :hover {
     fill: #bfc2ca;
   }
 }
 .col-4 {
-  width: 33%;
+    width: 25%;
 }
-.col-3 {
-  width: 25%
+.pt-0 {
+    padding-top: 0px
 }
-.d-inline-flex {
-  display: inline;
-}
-.ml-15 {
-  margin-left: 15px;
-}
-.ml-50 {
-  margin-left: 50px;
-}
-.max-content {
-  width: max-content;
-}
-.flex-start {
-  align-items: flex-start;
-}
-.filter-content {
-  width: 200px;
-}
-.main-content {
-  width: calc(100% - 200px);
-  padding-left: 25px;
-}
-.toggle-heading {
-  cursor: pointer;
-  background: #f8f9fa;
-  padding: 20px 0px 20px 20px;
-  margin-top: 20px;
-  border-radius: 4px;
-}
-.toggle-body {
-  margin-top: -4px;
-  border-radius: 4px; 
-}
-.mt-1 {
-  margin-top: 10px
-}
-.mt-3 {
-  margin-top: 30px
-}
-.bb-1 {
-  border-bottom: 1px solid #e5e5e5;
-}
-.ml-2 {
-  margin-left: 20px
-}
-.bt-none {
-  border-top: none !important;
-}
-.chart-container {
-  width: 50%;
-  padding-right: 10px;
-}
-.table-container {
-  width: 50%;
-  padding-left: 10px;
-}
-.chart-information {
-  display: flex;
-}
-.float-right {
-  align-items: flex-end;
-}
-.flex {
-  justify-content: space-between;
-}
-.col-right-fix {
-  width: 212px;
-}
-.inline-flex {
-  display: inline-flex;
-  align-items: center
+.mt-2 {
+    margin-top: 20px
 }
 </style>

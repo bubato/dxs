@@ -10,10 +10,9 @@ export default {
       chartOptions: {
         chart: {
             polar: true,
-            type: 'line'
+            type: 'line',
+            marginRight: 2,
         },
-
-        spacing: [10, 10, 10, 10],
 
         title: {
             text: '',
@@ -24,15 +23,21 @@ export default {
         },
 
         xAxis: {
-            categories: ['総資本経常利益率','売上高経常利益率','売上高営業利益率','総資産回転率','受取勘定回転期間','財務レバレッジ'],
+            categories: ['総資本経常利益率','売上高経常利益率','売上高営業利益率','総資産回転率','総資産回転率','総資産回転率', '財務レバレッジ', '自己資本比率', '固定長期適合率', '1人当り売上高', '労働分配率', '1人当り粗付加価値'],
             tickmarkPlacement: 'on',
-            lineWidth: 0
+            lineWidth: 0,       
         },
 
         yAxis: {
             gridLineInterpolation: 'polygon',
             lineWidth: 0,
-            min: 0
+            min: 0,
+            title: {
+                text: '',
+                align: 'high',
+                reserveSpace: true
+            },
+            tickInterval: 20
         },
 
         tooltip: {
@@ -46,14 +51,20 @@ export default {
             layout: 'horizontal'
         },
 
+        credits: {
+            enabled: false
+        },
+
         series: [{
-            name: '2021',
+            name: '青山商事',
             type: 'area',
-            data: [20, 10, 45, 33, 67, 80],
+            data: [20, 10, 45, 33, 67, 80, 20, 10, 45, 33, 67, 80],
+            color: '#b9cbf9'
         }, {
-            name: '2020',
-            type: 'area',
-            data: [50, 39, 23, 5, 77, 90],
+            name: '農業',
+            type: 'line',
+            data: [50, 39, 23, 5, 77, 90, 20, 10, 45, 33, 67, 80],
+            color: '#56b971'
         }],
 
         responsive: {

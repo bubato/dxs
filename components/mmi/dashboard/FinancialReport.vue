@@ -1,123 +1,89 @@
 <template>
 <div class="flex flex-start">
     <div class="filter-content">
-        <div class="row-second bt-none">
-        <CsvDownloadButton
-            :filename="csvFilename"
-            :is-own-company="true"
-            :table-info="tableData"
-            :table-type="tableType"
-            :balance-type="balanceType"
-            :filter-info="csvFilterInfo"
-            :own-company-name="ownCompanyName"
-        />
-        </div>
-        <div class="row filter-heading toggle-heading" @click="onFilterShowStateChanged">
-        比較期間
+        <div class="row filter-heading toggle-heading" @click="onFilter3ShowStateChanged">
+        比較業種
         <button class="btn-fold">
-            <ExpandLessSVG v-if="isShowFilter" class="icon icon-expandLess" />
-            <ExpandMoreSVG v-if="!isShowFilter" class="icon icon-expandMore" />
+            <ExpandLessSVG v-if="isShowFilter3" class="icon icon-expandLess" />
+            <ExpandMoreSVG v-if="!isShowFilter3" class="icon icon-expandMore" />
         </button>
         </div>
         <CollapseTransition>
-        <div v-if="isShowFilter" class="row filter-select-container toggle-body">
+        <div v-if="isShowFilter3" class="row filter-select-container toggle-body">
             <div class="row filter-select">
             <div class="form-item">
-                <CustomInputCheckbox
-                v-model="selectStyle"
-                name="selectStyle"
-                layout-type="vertical"
-                :options="styleOptions"
+                <FilterButtonsVertical
+                  :number="1"
+                  class="filter"
+                  title=""
+                  placeholder="業種を選択してください"
+                  :select-data="selectSaveCondition.items.industryCodes"
+                  :filter-type="1"
+                  @click="isShowCategoryModal  = true"
                 />
             </div>
+            </div>
+            <div class="row filter-select mt-1">
+            </div>
+            <div class="row filter-select mt-1">
             </div>
         </div>
         </CollapseTransition>
-        <div class="row filter-heading toggle-heading" @click="onFilter1ShowStateChanged">
-        比較期間
+        <div class="row filter-heading toggle-heading" @click="onFilter4ShowStateChanged">
+        絞込条件
         <button class="btn-fold">
-            <ExpandLessSVG v-if="isShowFilter1" class="icon icon-expandLess" />
-            <ExpandMoreSVG v-if="!isShowFilter1" class="icon icon-expandMore" />
+            <ExpandLessSVG v-if="isShowFilter4" class="icon icon-expandLess" />
+            <ExpandMoreSVG v-if="!isShowFilter4" class="icon icon-expandMore" />
         </button>
         </div>
         <CollapseTransition>
-        <div v-if="isShowFilter1" class="row filter-select-container toggle-body">
+        <div v-if="isShowFilter4" class="row filter-select-container toggle-body">
             <div class="row filter-select">
             <div class="form-item">
                 <FilterButtonsVertical
-                class="filter"
-                title="業種"
-                placeholder="業種を選択してください"
-                :select-data="selectSaveCondition.items.industryCodes"
-                :filter-type="1"
-                @click="isShowCategoryModal = true"
+                  :number="1"
+                  class="filter"
+                  title="所在地"
+                  placeholder="業種を選択してください"
+                  :select-data="selectSaveCondition.items.industryCodes"
+                  :filter-type="1"
+                  @click="isShowCategoryModal  = true"
+                />
+            </div>
+            <div class="form-item">
+                <FilterButtonsVertical
+                  :number="1"
+                  class="filter"
+                  title="売上規模"
+                  placeholder="業種を選択してください"
+                  :select-data="selectSaveCondition.items.industryCodes"
+                  :filter-type="1"
+                  @click="isShowCategoryModal  = true"
                 />
             </div>
             </div>
             <div class="row filter-select mt-1">
-            <div class="form-item">
-                <FilterButtonsVertical
-                class="filter"
-                title="業種"
-                placeholder="業種を選択してください"
-                :select-data="selectSaveCondition.items.industryCodes"
-                :filter-type="1"
-                @click="isShowCategoryModal = true"
-                />
-            </div>
             </div>
             <div class="row filter-select mt-1">
-            <div class="form-item">
-                <FilterButtonsVertical
-                class="filter"
-                title="業種"
-                placeholder="業種を選択してください"
-                :select-data="selectSaveCondition.items.industryCodes"
-                :filter-type="1"
-                @click="isShowCategoryModal = true"
-                />
             </div>
-            </div>
-            <div class="row filter-select mt-1">
-            <div class="form-item">
-                <FilterButtonsVertical
-                class="filter"
-                title="業種"
-                placeholder="業種を選択してください"
-                :select-data="selectSaveCondition.items.industryCodes"
-                :filter-type="1"
-                @click="isShowCategoryModal = true"
-                />
-            </div>
-            </div>
-            <div class="title mt-1">業種</div>
-            <button class="btn btn-basic btn-middle mt-1">保存して閉じる</button>
         </div>
         </CollapseTransition>
     </div>
     <div class="main-content">
         <div class="chart-information mt-3">
         <div class="chart-container">
-            <label>レーダーチャート</label>
-            <SpiderChart />
+            <label>貸借対照表</label>
+            <StockedBarChart class="mt-3" />
         </div>
         <div class="table-container">
-            <label>財務分析前期比較</label>
+            <label></label>
             <TableFolowChart :value="listForChart" />
         </div>
         </div>
-        <div class="col-4 mt-3 inline-flex">
-        <CustomInputSelect
-            v-model="termType"
-            :options="optionList"
-            @change="onTermTabSelected($event)"
-        />
-        <label class="ml-2">の内訳を表示</label>
-        </div>
         <div class="chart-information mt-3">
         <div class="chart-container">
-            <label>総資本</label>
-            <SpiderChart />
+            <label>損益計算書</label>
+            <StockedBarChart class="mt-3"/>
         </div>
         <div class="table-container">
             <label> </label>
@@ -126,8 +92,28 @@
         </div>
         <div class="chart-information mt-3">
         <div class="chart-container">
-            <label>営業利益</label>
-            <SpiderChart />
+            <label>変動損益計算書</label>
+            <StockedBarChart isPercent class="mt-3"/>
+        </div>
+        <div class="table-container">
+            <label> </label>
+            <TableFolowChart :value="listForChart" />
+        </div>
+        </div>
+        <div class="chart-information mt-3">
+        <div class="chart-container">
+            <label>変動費内訳</label>
+            <ColumnStackedPercent class="mt-3" />
+        </div>
+        <div class="table-container">
+            <label> </label>
+            <TableFolowChart :value="listForChart" />
+        </div>
+        </div>
+        <div class="chart-information mt-3">
+        <div class="chart-container">
+            <label>固定費内訳</label>
+            <ColumnStackedPercent class="mt-3"/>
         </div>
         <div class="table-container">
             <label> </label>
@@ -163,6 +149,8 @@ export default {
       isShowReportStateModal: false,
       isShowFilter: true,
       isShowFilter1: true,
+      isShowFilter3: true,
+      isShowFilter4: true,
       tableType: 'corporate',
       termType: 1, // 期数
       termOptions: [
@@ -504,6 +492,12 @@ export default {
     onFilter1ShowStateChanged() {
       this.isShowFilter1 = !this.isShowFilter1
     },
+    onFilter3ShowStateChanged() {
+      this.isShowFilter3 = !this.isShowFilter3
+    },
+    onFilter4ShowStateChanged() {
+      this.isShowFilter4 = !this.isShowFilter4
+    },
   },
   head() {
     return {
@@ -701,7 +695,7 @@ div.header-select {
   border-radius: 4px;
 }
 .toggle-body {
-  margin-top: -4px;
+  margin-top: -4px !important;
   border-radius: 4px; 
 }
 .mt-1 {

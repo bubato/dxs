@@ -12,8 +12,8 @@
       <template v-else>
         <div class="select-condition">
           <div class="select-condition-label">{{ getConvertName() }}</div>
-          <div class="select-condition-label">{{ getConvertName() }}</div>
-          <div class="select-condition-label">{{ getConvertName() }}</div>
+          <div v-if="number == 3" class="select-condition-label">{{ getConvertName() }}</div>
+          <div v-if="number == 3" class="select-condition-label">{{ getConvertName() }}</div>
         </div>
       </template>
     </button>
@@ -49,6 +49,10 @@ export default {
       type: Number,
       default: 0,
     },
+    number: {
+      type: Number,
+      default: 3
+    }
   },
   data() {
     return {

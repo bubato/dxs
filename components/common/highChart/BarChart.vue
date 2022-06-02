@@ -9,29 +9,37 @@ export default {
     return {
       chartOptions: {
         chart: {
-            type: 'bar'
+            type: 'bar',
         },
         title: {
-            text: 'Historic World Population by Region'
-        },
-        subtitle: {
-            text: 'Source: <a href="https://en.wikipedia.org/wiki/World_population">Wikipedia.org</a>'
+            text: ''
         },
         xAxis: {
-            categories: ['Africa', 'America', 'Asia', 'Europe', 'Oceania'],
+            categories: ['負債', '流動負債', '買掛金および 支払手形', 'その他の流動負債', '固定負債', '純資産', '自己資本', '少数株主持分など'],
             title: {
-                text: null
-            }
-        },
-        yAxis: {
-            min: 0,
-            title: {
-                text: 'Population (millions)',
-                align: 'high'
+                enabled: false
             },
             labels: {
-                overflow: 'justify'
-            }
+                overflow: 'justify',
+                enabled: true,
+                style:{
+                    width:'30px',
+                },
+            },
+        },
+        yAxis: {
+            min: -70,
+            labels: {
+                overflow: 'justify',
+                enabled: true,
+                formatter: function () {
+                    return this.value + '';
+                }
+            },
+            title: {
+                text: '',
+                align: 'high'
+            },
         },
         tooltip: {
             valueSuffix: ' millions'
@@ -39,37 +47,31 @@ export default {
         plotOptions: {
             bar: {
                 dataLabels: {
-                    enabled: true
-                }
-            }
+                    enabled: false
+                },
+                pointWidth: 10
+            },
         },
         legend: {
-            layout: 'vertical',
-            align: 'right',
-            verticalAlign: 'top',
+            layout: 'horizontal',
+            align: 'center',
+            verticalAlign: 'bottom',
             x: -40,
-            y: 80,
+            y: 20,
             floating: true,
-            borderWidth: 1,
-            backgroundColor:
-                Highcharts.defaultOptions.legend.backgroundColor || '#FFFFFF',
-            shadow: true
+            backgroundColor: '#FFFFFF',
         },
         credits: {
             enabled: false
         },
         series: [{
-            name: 'Year 1800',
-            data: [107, 31, 635, 203, 2]
+            name: '青山商事',
+            data: [133, 156, 947, 408, 60, 100, 300, 100],
+            color: '#56b971'
         }, {
-            name: 'Year 1900',
-            data: [133, 156, 947, 408, 6]
-        }, {
-            name: 'Year 2000',
-            data: [814, 841, 3714, 727, 31]
-        }, {
-            name: 'Year 2016',
-            data: [1216, 1001, 4436, 738, 40]
+            name: '農業',
+            data: [814, 841, 3714, 727, -31, -65, -450, 910],
+            color: '#4f7df0'
         }]
       },
     }

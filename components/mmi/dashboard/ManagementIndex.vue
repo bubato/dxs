@@ -1,107 +1,207 @@
 <template>
-  <div>
-    <div class="title-header flex flex-between">
-      <h1>ダッシュボード</h1>
-    </div>
-    <div class="row-first flex">
-      <div class="col-4 left-contents">
-        <CustomInputSelect
-          v-model="termType"
-          :options="termOptions"
-          @change="onTermTabSelected($event)"
-        />
-      </div>
-      <div class="col-right-fix right-contents float-right">
-        <SelectSaveConditions
-          screen-id="SC-DXT09030101"
-          :company-info="currentCompany"
-          :client-info="clientCompany"
-          @update="getCompanyInfo()"
-        />
-      </div>
-    </div>
-
-    <div class="table-area">
-      <div class="row">
-        <div class="row-first flex flex-left bb-1">
-          <div class="left-contents flex">
-            <TabButtons
-              label="比較手法"
-              class="table-state-button"
-              :tabs="averageTabs1"
-              @selected="onAverageTabSelected($event)"
-            />
-            <TabButtons
-              label=""
-              class="table-state-button ml-15"
-              :tabs="averageTabs1"
-              @selected="onAverageTabSelected($event)"
-            />
-          </div>
-          <div class="right-contents ml-50">
-            <TabButtons
-              label="分析指標"
-              class="table-state-button"
-              :tabs="balanceTabs"
-              @selected="onBalanceTabSelected($event)"
-            />
-          </div>
+<div class="flex flex-start">
+    <div class="filter-content">
+        <div class="row filter-heading toggle-heading" @click="onFilter3ShowStateChanged">
+        比較業種
+        <button class="btn-fold">
+            <ExpandLessSVG v-if="isShowFilter3" class="icon icon-expandLess" />
+            <ExpandMoreSVG v-if="!isShowFilter3" class="icon icon-expandMore" />
+        </button>
         </div>
-      </div>
-      <FinancialReport v-if="analysisIndicator == 0" />
-      <ManagementIndex v-if="analysisIndicator == 1" />
-      <CustomReports v-if="analysisIndicator == 2" />
+        <CollapseTransition>
+        <div v-if="isShowFilter3" class="row filter-select-container toggle-body">
+            <div class="row filter-select">
+            <div class="form-item">
+                <FilterButtonsVertical
+                  :number="1"
+                  class="filter"
+                  title="業種"
+                  placeholder="業種を選択してください"
+                  :select-data="selectSaveCondition.items.industryCodes"
+                  :filter-type="1"
+                  @click="isShowCategoryModal  = true"
+                />
+            </div>
+            </div>
+            <div class="row filter-select mt-1">
+            </div>
+            <div class="row filter-select mt-1">
+            </div>
+        </div>
+        </CollapseTransition>
+        <div class="row filter-heading toggle-heading" @click="onFilterShowStateChanged">
+        比較期間
+        <button class="btn-fold">
+            <ExpandLessSVG v-if="isShowFilter" class="icon icon-expandLess" />
+            <ExpandMoreSVG v-if="!isShowFilter" class="icon icon-expandMore" />
+        </button>
+        </div>
+        <CollapseTransition>
+        <div v-if="isShowFilter" class="row filter-select-container toggle-body">
+            <div class="row filter-select">
+            <div class="form-item">
+                <CustomInputCheckbox
+                v-model="selectStyle"
+                name="selectStyle"
+                layout-type="vertical"
+                :options="styleOptions"
+                />
+            </div>
+            </div>
+        </div>
+        </CollapseTransition>
+        <div class="row filter-heading toggle-heading" @click="onFilter1ShowStateChanged">
+        絞込条件
+        <button class="btn-fold">
+            <ExpandLessSVG v-if="isShowFilter1" class="icon icon-expandLess" />
+            <ExpandMoreSVG v-if="!isShowFilter1" class="icon icon-expandMore" />
+        </button>
+        </div>
+        <CollapseTransition>
+        <div v-if="isShowFilter1" class="row filter-select-container toggle-body">
+            <div class="row filter-select">
+            <div class="form-item">
+                <FilterButtonsVertical
+                  :number="1"
+                  class="filter"
+                  title="業種"
+                  placeholder="業種を選択してください"
+                  :select-data="selectSaveCondition.items.industryCodes"
+                  :filter-type="1"
+                  @click="isShowCategoryModal  = true"
+                />
+            </div>
+            </div>
+            <div class="row filter-select mt-1">
+            <div class="form-item">
+                <FilterButtonsVertical
+                  :number="1"
+                  class="filter"
+                  title="業種"
+                  placeholder="業種を選択してください"
+                  :select-data="selectSaveCondition.items.industryCodes"
+                  :filter-type="1"
+                  @click="isShowCategoryModal = true"
+                />
+            </div>
+            </div>
+            <div class="row filter-select mt-1">
+            </div>
+            <div class="row filter-select mt-1">
+            </div>
+        </div>
+        </CollapseTransition>
     </div>
-    <CommonFooter />
-  </div>
+    <div class="main-content">
+        <div class="row-second bt-none">
+          <ExcelDownloadButton
+              :filename="csvFilename"
+              :is-own-company="true"
+              :table-info="tableData"
+              :table-type="tableType"
+              :balance-type="balanceType"
+              :filter-info="csvFilterInfo"
+              :own-company-name="ownCompanyName"
+          />
+        </div>
+        <div class="chart-information mt-3">
+        <div class="chart-container">
+            <label>収益性</label>
+            <BarChartCustom :type="1"/>
+        </div>
+        <div class="table-container">
+            <label>効率性</label>
+            <BarChartCustom :type="2" />
+        </div>
+        </div>
+        <div class="chart-information mt-3">
+        <div class="chart-container">
+            <label>安全性</label>
+            <BarChartCustom :type="2"/>
+        </div>
+        <div class="table-container">
+            <label>生産性</label>
+            <BarChartCustom  :type="3"/>
+        </div>
+        </div>
+    </div>
+    </div>
 </template>
 
 <script>
 import { mapState, mapMutations } from 'vuex'
 import mmiFilterUtilityMixin from '~/mixin/mmi/mmiFilterUtility.js'
 import companyInfoUtility from '~/mixin/mmi/companyInfoUtility.js'
-import TabButtons from '~/components/mmi/TabButtons.vue'
-import CommonFooter from '~/components/common/CommonFooter.vue'
-import FinancialReport from '../../components/mmi/dashboard/FinancialReport.vue'
+import CsvDownloadButton from '~/components/mmi/CsvDownloadButton.vue'
+import CompanyInfoTable from '~/components/mmi/companyInfoTable/CompanyInfoTable.vue'
+import CollapseTransition from '~/components/mmi/companyInfoTable/CollapseTransition'
 
 export default {
   layout: 'mmiLayout',
-  components: {
-    TabButtons,
-    CommonFooter,
-    FinancialReport
-},
   mixins: [mmiFilterUtilityMixin, companyInfoUtility],
+  components: {
+    CompanyInfoTable,
+    CsvDownloadButton,
+    CollapseTransition
+  },
   data() {
     return {
       showCreateNewFormModalFlg: false,
       isShowModal: false,
       isShowCategoryModal: false,
-      isShowLocationModal: false,
       isShowEarningsModal: false,
       isShowReportStateModal: false,
       isShowFilter: true,
       isShowFilter1: true,
+      isShowFilter3: true,
       tableType: 'corporate',
-      analysisIndicator: 0,
-      balanceTabs: [
-        { title: '財務諸表' },
-        { title: '経営指標' },
-        { title: 'カスタムレポート' },
-      ],
-      averageTabs1: [
-        { title: '期間比較' },
-        { title: '業種比較' },
-      ],
-      averageTabs2: [
-        { title: '自社分析' },
-        { title: '統計分析' },
-      ],
       termType: 1, // 期数
       termOptions: [
         {
           code: 1,
           label: '青山商事',
+        },
+      ],
+      optionList: [
+        {
+          code: 1,
+          label: '総資本経常利益率',
+        },
+      ],
+      styleOptions: [
+        {
+          value: 'simple',
+          label: '2021年',
+        },
+        {
+          value: 'stylish',
+          label: '2020年',
+        },
+        {
+          value: 'friendly',
+          label: '2019年',
+        },
+        {
+          value: 'stylish',
+          label: '2018年',
+        },
+        {
+          value: 'friendly',
+          label: '2017年',
+        },
+      ],
+      listForChart: [
+        {
+          name: "総資本経常利益率",
+          companyCode: "3.5%"
+        },
+        {
+          name: "総資本経常利益率",
+          companyCode: "3.5%"
+        },
+        {
+          name: "総資本経常利益率",
+          companyCode: "3.5%"
         },
       ],
       balanceType: '0',
@@ -360,7 +460,6 @@ export default {
      * @param {number} tab PL/BS区分 0:PL 1:BS
      */
     onBalanceTabSelected(tab) {
-      this.analysisIndicator = tab
       this.balanceType = String(tab)
       this.getCompanyInfo() // 統計分析(期間比較)PL_BS取得
     },
@@ -379,7 +478,6 @@ export default {
      * @param {number} tab 切り替えタブの値
      */
     onAverageTabSelected(tab) {
-      console.log(tab)
       if (tab === 0) {
         this.tableType = 'corporate'
       } else {
@@ -397,6 +495,9 @@ export default {
     onFilter1ShowStateChanged() {
       this.isShowFilter1 = !this.isShowFilter1
     },
+    onFilter3ShowStateChanged() {
+      this.isShowFilter3 = !this.isShowFilter3
+    }
   },
   head() {
     return {
