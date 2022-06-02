@@ -19,14 +19,17 @@ export default {
       chartOptions: {
         chart: {
             type: 'bar',
-            height: this.data.height || 90,
+            height: this.data.height || 110,
             marginBottom: 50
         },
         title: {
             text: ''
         },
+        labels: {
+            style: {"color": "#111111"}
+        },
         yAxis: {
-            min: 0,
+            min: this.data.min || 0,
             title: {
                 text: '',
                 align: 'high'
@@ -35,8 +38,9 @@ export default {
                 overflow: 'justify',
                 formatter: function() {
                     return this.value;
-                }
-            }
+                },
+            },
+            tickInterval: this.data.tickInterval
         },
         tooltip: {
             valueSuffix: ' millions'

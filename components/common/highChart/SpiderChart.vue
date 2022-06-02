@@ -56,15 +56,20 @@ export default {
         },
 
         series: [{
-            name: '青山商事',
+            name: '2020',
             type: 'area',
             data: [20, 10, 45, 33, 67, 80, 20, 10, 45, 33, 67, 80],
             color: '#b9cbf9'
         }, {
-            name: '農業',
+            name: '2019',
             type: 'line',
             data: [50, 39, 23, 5, 77, 90, 20, 10, 45, 33, 67, 80],
             color: '#56b971'
+        }, {
+            name: '2018',
+            type: 'line',
+            data: [77, 90, 70, 76, 77, 90, 9, 88, 99, 88, 77, 66],
+            color: '#f0ac4f'
         }],
 
         responsive: {
