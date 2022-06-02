@@ -49,7 +49,7 @@ export default {
                 dataLabels: {
                     enabled: false
                 },
-                pointWidth: 10
+                pointWidth: 7
             },
         },
         legend: {

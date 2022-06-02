@@ -15,13 +15,6 @@ export default {
   ssr: false,
   env: envSet,
 
-  // mode deploy github no commit
-  mode: 'static',
-  router: {
-    base: 'dxs'
- },
-  // mode deploy github no commit
-
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'bizskyDX',
