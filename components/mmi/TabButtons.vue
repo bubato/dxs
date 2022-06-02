@@ -1,15 +1,20 @@
 <template>
-  <span class="tab-buttons-container">
-    <button
-      v-for="(t, index) in tabs"
-      :key="index"
-      class="tab-button"
-      :class="{ active: index === selected }"
-      @click="onSelected(index)"
-    >
-      {{ t.title }}
-    </button>
-  </span>
+  <div>
+    <div v-if="label != null" class="search-caption mb-1 h-21">
+      <span>{{label}}</span>
+    </div>
+    <span class="tab-buttons-container">
+      <button
+        v-for="(t, index) in tabs"
+        :key="index"
+        class="tab-button"
+        :class="{ active: index === selected }"
+        @click="onSelected(index)"
+      >
+        {{ t.title }}
+      </button>
+    </span>
+  </div>
 </template>
 
 <script>
@@ -28,6 +33,10 @@ export default {
       type: Number,
       default: 0,
     },
+    label: {
+      type: String,
+      default: null
+    }
   },
   data() {
     return {
@@ -80,5 +89,11 @@ export default {
       border-right: 1px solid #e0e0e0;
     }
   }
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.h-21 {
+  height: 21px
 }
 </style>

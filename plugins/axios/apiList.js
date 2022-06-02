@@ -3676,6 +3676,20 @@ export default function ({ app }, inject) {
       return axios(options)
     },
 
+    async getMmiCustomReport(requestData) {
+      const options = {
+        method: getMethod('POST'),
+        url: axiosBaseUrl() + process.env.getMmiCustomReportUrl,
+        headers: await getHeader(),
+      }
+
+      options[
+        getMethod('POST') === 'GET' ? 'params' : 'data'
+      ] = getRequestParaTrim(requestData)
+
+      return axios(options)
+    },
+
     /**
      * 統計分析(業種比較)PL_BS取得API
      *

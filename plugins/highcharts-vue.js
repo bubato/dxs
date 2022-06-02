@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Highcharts from 'highcharts'
 import HighchartsVue, { Chart } from 'highcharts-vue'
+import HighchartsMore from 'highcharts-more'
 
 import funnelInit from 'highcharts/modules/funnel'
 import paretoInit from 'highcharts/modules/pareto'
@@ -13,6 +14,7 @@ Highcharts.setOptions({
   },
 })
 
+HighchartsMore(Highcharts)
 Vue.use(HighchartsVue)
 
 // コンポーネントとして扱う

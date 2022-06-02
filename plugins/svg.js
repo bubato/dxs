@@ -52,6 +52,7 @@ import CreateSVG from '~/assets/svg/create-24px.svg'
 import CheckCircleSVG from '~/assets/svg/check_circle-24px.svg'
 import RemoveCircleSVG from '~/assets/svg/remove_circle-24px.svg'
 import KeyboardArrowRightSVG from '~/assets/svg/keyboard_arrow_right-24px.svg'
+import KeyboardArrowLeftSVG from '~/assets/svg/keyboard_arrow_left-24px.svg'
 import OpenInNewSVG from '~/assets/svg/open_in_new-24px.svg'
 import DehazeSVG from '~/assets/svg/dehaze-24px.svg'
 import SearchSVG from '~/assets/svg/search-24px.svg'
@@ -142,6 +143,7 @@ Vue.component('LaunchSVG', LaunchSVG)
 Vue.component('CheckCircleSVG', CheckCircleSVG)
 Vue.component('RemoveCircleSVG', RemoveCircleSVG)
 Vue.component('KeyboardArrowRightSVG', KeyboardArrowRightSVG)
+Vue.component('KeyboardArrowLeftSVG', KeyboardArrowLeftSVG)
 Vue.component('OpenInNewSVG', OpenInNewSVG)
 Vue.component('DehazeSVG', DehazeSVG)
 Vue.component('SearchSVG', SearchSVG)
