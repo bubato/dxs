@@ -21,7 +21,7 @@ export default {
         text: ''
     },
     xAxis: {
-        categories: ['青山商事', '農業']
+        categories: ['2021', '2020', '2019']
     },
     yAxis: {
         min: 0,
@@ -44,19 +44,19 @@ export default {
     },
     series: [{
         name: '期首棚卸高',
-        data: [5, 3]
+        data: [5, 3, 7]
     }, {
         name: '商品仕入',
-        data: [2, 2]
+        data: [2, 2, 0]
     }, {
         name: '材料費（変動）',
-        data: [3, 4]
+        data: [3, 4, 4]
     },{
         name: '外注費（変動）',
-        data: [2, 2]
+        data: [2, 2, 9]
     }, {
         name: '期末棚卸高',
-        data: [3, 4]
+        data: [3, 4, 6]
     }]
       },
     }

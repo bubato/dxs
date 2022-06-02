@@ -193,15 +193,15 @@ export default {
       listForChart: [
         {
           name: "総資本経常利益率",
-          companyCode: "3.5%"
+          companyCode: "1,000,000"
         },
         {
-          name: "総資本経常利益率",
-          companyCode: "3.5%"
+          name: "当座預金",
+          companyCode: "4,500,000"
         },
         {
-          name: "総資本経常利益率",
-          companyCode: "3.5%"
+          name: "現金",
+          companyCode: "3,000,000"
         },
       ],
       balanceType: '0',

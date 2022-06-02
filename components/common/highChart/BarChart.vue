@@ -42,7 +42,7 @@ export default {
             },
         },
         tooltip: {
-            valueSuffix: ' millions'
+            valueSuffix: ' 数百万'
         },
         plotOptions: {
             bar: {
@@ -70,7 +70,7 @@ export default {
             color: '#56b971'
         }, {
             name: '2019',
-            data: [814, 841, 3714, 727, -31, -65, -450, 910],
+            data: [814, 841, 714, 727, -31, -65, -45, 910],
             color: '#4f7df0'
         },{
             name: '2018',
